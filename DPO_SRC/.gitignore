@@ -1,0 +1,8 @@
+# model weights, generated data and outputs stay local
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+save/
+results/
+__pycache__/
