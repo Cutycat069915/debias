@@ -91,7 +91,7 @@ optimizer 那幾行的值跟函式庫預設一樣，但都在 `train_dpo.py` 裡
 | | 模糊題 | 明確題 |
 |---|---|---|
 | 打分（`official_final_*.json`，`acc_ambig` / `acc_disambig`） | 98.40 ± 1.64 | 99.79 ± 0.17 |
-| 選擇題（`mcq3_final_*.json`） | 88.30 ± 8.44 | 92.63 ± 2.01 |
+| 選擇題（`mcq3_final_*.json`） | 88.29 ± 8.23 | 92.67 ± 1.97 |
 
 ## 7. 注意
 
