@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "bias_dpo",
+  "dataset_size": 537416,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ahmedallam/BiasDPO@de5e39f6ddbf7f8faa01f69b4178a918554121dc/dataset.jsonl": {
+      "num_bytes": 575202,
+      "checksum": null
+    }
+  },
+  "download_size": 575202,
+  "features": {
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "chosen": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rejected": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1112618,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 537416,
+      "num_examples": 1145,
+      "dataset_name": "bias_dpo"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

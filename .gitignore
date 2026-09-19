@@ -1,0 +1,11 @@
+train_src/models
+train_src/save
+train_src/logs
+train_src/tmp
+train_src/__pycache__
+!train_src/__pycache__/.gitkeep
+!train_src/models/.gitkeep
+!train_src/save/.gitkeep
+!train_src/logs/.gitkeep
+!train_src/tmp/.gitkeep
+
