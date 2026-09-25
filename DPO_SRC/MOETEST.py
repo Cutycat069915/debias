@@ -1,10 +1,11 @@
 ﻿import os
-
-
+from glob import glob
+import yaml
 
 import gc
 import json
 import torch
+from pathlib import Path
 
 from datasets import Dataset
 from transformers import (
@@ -13,22 +14,23 @@ from transformers import (
 )
 
 import transformers.utils.hub
-
+from transformers import MllamaForConditionalGeneration
 
 from peft import (
     LoraConfig,
     get_peft_model,
 )
 
+
 from trl import DPOConfig, DPOTrainer
 from huggingface_hub import login
-
-
+from utils import *
+from dataclass import load_dpo_dataset
 # ==========================================
 # 🌟 全局測試與優化開關
 # ==========================================
-TEST_MODE = False
-
+TEST_MODE = True
+SEEDS = [15, 22, 23, 32, 432]
 # 💡 強烈建議：DPO 顯存消耗極大，若出現 OOM，請改為 True
 USE_GRADIENT_CHECKPOINTING = False 
 
@@ -40,6 +42,9 @@ if torch.cuda.is_available():
     torch.cuda.empty_cache()
 
 
+CONFIG_DIR = "./DPO_SRC/configs"
+DATASET_DIR = "./split_dataset"
+SAVE_DIR = "./save"
 
 # ==========================================
 # 1. 模型與輸出路徑設定
@@ -105,28 +110,6 @@ def load_tokenizer(model_id_or_path):
     return tokenizer
 
 
-def load_bf16_model(model_id_or_path, for_training=True):
-    model = AutoModelForCausalLM.from_pretrained(
-        model_id_or_path,
-        device_map="auto",
-        dtype=DTYPE,
-        trust_remote_code=True,
-    )
-
-    if for_training:
-        if hasattr(model, "config"):
-            model.config.use_cache = False
-        
-        if USE_GRADIENT_CHECKPOINTING:
-            if hasattr(model, "gradient_checkpointing_enable"):
-                model.gradient_checkpointing_enable(
-                    gradient_checkpointing_kwargs={"use_reentrant": False}
-                )
-        if hasattr(model, "enable_input_require_grads"):
-            model.enable_input_require_grads()
-
-    return model
-
 
 def maybe_print_device_map(model):
     if hasattr(model, "hf_device_map"):
@@ -161,18 +144,28 @@ def build_gemma4_lora_targets(model):
     return targets
 
 
-def get_lora_config(model):
-    target_modules = build_gemma4_lora_targets(model)
+def get_lora_config(config, model):
+
+    rank = config["lora"]["rank"]
+    alpha = config["lora"]["alpha"]
+    dropout = config["lora"]["dropout"]
+
     return LoraConfig(
-        r=16,
-        lora_alpha=32,
-        target_modules=target_modules,
-        lora_dropout=0.05,
+        r=rank,
+        lora_alpha=alpha,
+        lora_dropout=dropout,
         bias="none",
         task_type="CAUSAL_LM",
+        target_modules=[
+    	"q_proj",
+    	"k_proj",
+    	"v_proj",
+    	"o_proj",
+    	"gate_proj",
+    	"up_proj",
+    	"down_proj",
+		],
     )
-
-
 def print_trainable(model, title="LoRA 可訓練參數"):
     print(f"\n📌 {title}:")
     try:
@@ -194,143 +187,178 @@ class TextOnlyDPOTrainer(DPOTrainer):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.is_vision_model = False
+def load_bf16_model_v1(model_id_or_path, for_training=True):
+    model = MllamaForConditionalGeneration.from_pretrained(
+        model_id_or_path,
+        device_map="auto",
+        torch_dtype=DTYPE,
+        trust_remote_code=True,
+    )
 
+    if for_training:
+        model.config.use_cache = False
 
-# ==========================================
-# 🚀 主訓練階段：DPO
-# ==========================================
-def run_dpo_phase():
-    print("\n" + "=" * 60)
-    print("🚀 啟動 Gemma 4 26B A4B-it BF16 LoRA DPO 訓練")
-    print("=" * 60)
+        if USE_GRADIENT_CHECKPOINTING:
+            model.gradient_checkpointing_enable(
+                gradient_checkpointing_kwargs={
+                    "use_reentrant": False
+                }
+            )
+
+        if hasattr(model, "enable_input_require_grads"):
+            model.enable_input_require_grads()
+
+    return model
+
+def run_dpo_phase_v1(config,seed,testcase_name):
+    base_model_id = config["base_model_id"]
+    output_dir = config["output_dir"]
+
+    beta = config["dpo"]["beta"]
+    epochs = config["dpo"]["epochs"]
+    learning_rate = float(config["dpo"]["learning_rate"])
+    max_length = config["dpo"]["max_length"]
+    max_prompt_length = config["dpo"]["max_prompt_length"]
+    
+    batch_size = config["training"]["batch_size"]
+    gradient_accumulation_steps = config["training"]["gradient_accumulation_steps"]
+    gradient_checkpointing = config["training"]["gradient_checkpointing"]
+    
+    train_path = os.path.join(
+        "./split_dataset",
+        f"train_{seed}.json"
+    )
+    output_dir = os.path.join(
+        "./save",
+        testcase_name,
+        f"seed_{seed}"
+    )
+    os.makedirs(output_dir, exist_ok=True)
 
     print_gpu_info()
     free_memory()
-    print_vram("DPO 開始前")
-
-    print(f"✅ 將直接從基礎模型進行 DPO: {base_model_id}")
+    #load_model
     tokenizer = load_tokenizer(base_model_id)
-    model = load_bf16_model(base_model_id, for_training=True)
+    model = load_bf16_model_v1(base_model_id,  for_training=True)
+    lora_config = get_lora_config(config,  model)
+    model =  get_peft_model(model,  lora_config)
 
-    maybe_print_device_map(model)
-    print_vram("DPO 模型載入完成")
+    print_trainable(model,  "DPO 階段 LoRA 可訓練參數")
+   
 
-    lora_config = get_lora_config(model)
-    model = get_peft_model(model, lora_config)
-    print_trainable(model, "DPO 階段 LoRA 可訓練參數")
-    print_vram("DPO LoRA 注入完成")
-
-    # ------------------------------------------
-    # 處理 DPO 資料集
-    # ------------------------------------------
-    dpo_data = []
-    with open("bbq_cross_dpo_zh.jsonl", "r", encoding="utf-8") as f:
-        for line in f:
-            if line.strip():
-                dpo_data.append(json.loads(line))
-
-    if TEST_MODE:
-        dpo_data = dpo_data[:4]
-        print(f"🔬 DPO 測試資料量：{len(dpo_data)} 筆")
-    else:
-        print(f"📚 DPO 資料量：{len(dpo_data)} 筆")
-
-    dataset = Dataset.from_list(dpo_data)
-
-    def format_dpo(example):
-        messages = [
-            {"role": "system", "content": "你是一個客觀且不具偏見的 AI 助手。"},
-            {"role": "user", "content": example["prompt"]},
-        ]
-
-        prompt_text = tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True,
-        )
-
-        chosen = example["chosen"]
-        rejected = example["rejected"]
-
-        if tokenizer.eos_token is not None:
-            chosen = chosen + tokenizer.eos_token
-            rejected = rejected + tokenizer.eos_token
-
-        return {
-            "prompt": prompt_text,
-            "chosen": chosen,
-            "rejected": rejected,
-        }
-
-    dpo_dataset = dataset.map(
-        format_dpo,
-        remove_columns=dataset.column_names,
-    )
-    
-    keep_cols = {"prompt", "chosen", "rejected"}
-    remove_cols = [c for c in dpo_dataset.column_names if c not in keep_cols]
-    if len(remove_cols) > 0:
-        dpo_dataset = dpo_dataset.remove_columns(remove_cols)
-
-    # ------------------------------------------
-    # DPO 訓練設定
-    # ------------------------------------------
+    #load dataset
+    dpo_dataset = load_dpo_dataset(train_path,  tokenizer, TEST_MODE)
     dpo_config = DPOConfig(
-        output_dir=dpo_final_path,
-        beta=0.1,
-        max_length=768,
-        max_prompt_length=384,
+        output_dir=output_dir,
 
-        per_device_train_batch_size=1 if TEST_MODE else 2,
-        gradient_accumulation_steps=1 if TEST_MODE else 8,
+        beta=beta,
+        max_length=max_length,
+        max_prompt_length=max_prompt_length,
 
-        learning_rate=5e-6,
+        per_device_train_batch_size=(
+            1 if TEST_MODE else batch_size
+        ),
+
+        gradient_accumulation_steps=(
+            1
+            if TEST_MODE
+            else gradient_accumulation_steps
+        ),
+
+        learning_rate=learning_rate,
+
+        num_train_epochs=(
+            1 if TEST_MODE else epochs
+        ),
+
         optim="adamw_torch",
         lr_scheduler_type="cosine",
-        warmup_steps=1 if TEST_MODE else 20,
-        num_train_epochs=1 if TEST_MODE else 2,
+
+        warmup_steps=(
+            1 if TEST_MODE else 20
+        ),
 
         bf16=True,
         fp16=False,
 
-        logging_steps=1 if TEST_MODE else 10,
+        logging_steps=(
+            1 if TEST_MODE else 10
+        ),
+
         report_to="none",
         save_strategy="epoch",
 
-        # 這裡會吃 USE_GRADIENT_CHECKPOINTING 的全域設定
-        gradient_checkpointing=USE_GRADIENT_CHECKPOINTING,
-        gradient_checkpointing_kwargs={"use_reentrant": False} if USE_GRADIENT_CHECKPOINTING else None,
+        seed=seed,
+        data_seed=seed,
+
+        gradient_checkpointing=(
+            gradient_checkpointing
+        ),
+
+        gradient_checkpointing_kwargs=(
+            {"use_reentrant": False}
+            if gradient_checkpointing
+            else None
+        ),
 
         remove_unused_columns=False,
     )
-
     if not hasattr(model, "warnings_issued"):
         model.warnings_issued = {}
-
     trainer = TextOnlyDPOTrainer(
         model=model,
-        ref_model=None, # PEFT 模式下設為 None 是標準做法
+        ref_model=None,
         train_dataset=dpo_dataset,
         args=dpo_config,
         processing_class=tokenizer,
     )
 
-    print("🔥 開始 DPO 訓練...")
     trainer.train()
 
-    print(f"💾 儲存最終 DPO LoRA 權重至 {dpo_final_path}")
-    trainer.save_model(dpo_final_path)
-    tokenizer.save_pretrained(dpo_final_path)
-
+    trainer.save_model(output_dir)
+    tokenizer.save_pretrained(output_dir)
     print_vram("DPO 訓練結束後")
+    del trainer
+    del model
+    del dpo_dataset
 
-    del trainer, model
     free_memory()
 
-    print("🎉 純 DPO 對齊訓練完成！")
-    print(f"✅ 最終 DPO LoRA adapter 儲存於: {dpo_final_path}")
+    print(
+        f"✅ Finished testcase={testcase_name}, "
+        f"seed={seed}"
+    )
+def run_testcase(config_path):
+    config = get_config(config_path)
+    testcase_name = Path(config_path).stem
+    print("\n" + "#" * 80)
+    print(f"Starting testcase: {testcase_name}")
+    print("#" * 80)
+    for seed in SEEDS:
+        try:
+            run_dpo_phase_v1(
+                config=config,
+                seed=seed,
+                testcase_name=testcase_name,
+            )
 
+        except Exception as e:
+            print(
+                f"❌ Failed testcase={testcase_name}, "
+                f"seed={seed}"
+            )
+            print(e)
 
+        finally:
+            free_memory()
+def run_all_experiments():
+    config_files = sorted(
+        glob("./DPO_SRC/configs/*.yaml")
+    )
+
+    print(f"Found {len(config_files)} testcases")
+
+    for config_path in config_files:
+        run_testcase(config_path)    
 if __name__ == "__main__":
-    free_memory()
-    run_dpo_phase()
+    run_all_experiments()
