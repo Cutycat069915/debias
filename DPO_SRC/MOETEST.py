@@ -235,8 +235,8 @@ def run_dpo_phase_v1(config,seed,testcase_name):
     beta = config["dpo"]["beta"]
     epochs = config["dpo"]["epochs"]
     learning_rate = float(config["dpo"]["learning_rate"])
-    max_length = config["dpo"]["max_length"]
-    max_prompt_length = config["dpo"]["max_prompt_length"]
+    max_length = None 
+    #max_prompt_length = config["dpo"]["max_prompt_length"]  obsolete 
     
     batch_size = config["training"]["batch_size"]
     gradient_accumulation_steps = config["training"]["gradient_accumulation_steps"]
@@ -324,16 +324,19 @@ def run_dpo_phase_v1(config,seed,testcase_name):
     )
     if not hasattr(model, "warnings_issued"):
         model.warnings_issued = {}
-  
-    trainer = DPOTrainer(
-        model=model,
-        ref_model=None,
-        train_dataset=dpo_dataset,
-        args=dpo_config,
-        processing_class=processor if VISION_MODE else processor.tokenizer,
-        data_collator = collator,
-    )
-
+    trainer_kwargs = {
+        "model": model,
+        "ref_model": None,
+        "train_dataset": dpo_dataset,
+        "args": dpo_config,
+        "processing_class": (
+            processor if VISION_MODE
+            else processor.tokenizer
+        ),
+    }
+    if VISION_MODE:
+        trainer_kwargs["data_collator"] = collator
+    trainer = DPOTrainer(**trainer_kwargs)
     trainer.train()
 
     trainer.save_model(output_dir)

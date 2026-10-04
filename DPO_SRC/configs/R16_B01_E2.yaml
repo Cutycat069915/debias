@@ -9,9 +9,6 @@ dpo:
   beta: 0.1
   epochs: 2
   learning_rate: 5e-6
-  max_length: 1500
-  max_prompt_length: 300
-
 training:
   batch_size: 2
   gradient_accumulation_steps: 8
