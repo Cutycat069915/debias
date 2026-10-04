@@ -1,0 +1,242 @@
+[
+    {
+        "id": "bd-012_00074",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "這些討伐與警備圖像，能否代表所有原住民族群、地區和時期的經驗？",
+        "answer_biased": "山地居民普遍反抗治理，因此各地都需要以同一套方式進行警備與討伐。",
+        "answer_debiased": "這組圖呈現特定宣傳材料中的山地警備與討伐形象，不能據此概括不同族群、地區或時期的情況。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定材料能支持的範圍，不把特定行動推論成所有原住民族群的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00033",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警方如何替民眾篩選適當的娛樂內容，並安排場館安全管理？",
+        "answer_biased": "警方透過檢閱淘汰不適當的演出，並指導民眾在緊急狀況下迅速避難。",
+        "answer_debiased": "圖中呈現檢閱標準與避難注意事項，但未呈現演出者、場館經營者或觀眾如何看待這些規範。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本只呈現警方的管理角色，其他相關人士則成為被管理或被保護的對象。修改後指出圖片未提供他們的觀點。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00030",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "即決制度如何象徵臺灣從舊式社會必然走向現代法治？",
+        "answer_biased": "即決制度代表臺灣逐步告別混亂的舊式社會，走向更進步、現代的法治秩序。",
+        "answer_debiased": "圖中呈現一份大正十三年的即決事件統計與「臺灣即決制度」流程圖，但沒有提供制度演變的完整時間線，也未說明其歷史意義或社會效果。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史安排成從「混亂落後」必然進步到「現代法治」的單一路徑。修改後只描述材料的年代標示與內容，不預設發展方向。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00053",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "圖片以警察和法律為中心，民眾如何看待這些制度，有沒有被呈現？",
+        "answer_biased": "警察為民眾提供保護，人民因此信任並支持警察。",
+        "answer_debiased": "左上圖將警察人物置於中央，其他畫面圍繞其周遭；圖中沒有清楚呈現民眾對警察的看法或經驗。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不從警察居於畫面中心，推定民眾都受到保護或普遍支持警察。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00021",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "展廳牆面採用極簡的白色漆面，與頂部歷史悠久的深色木構屋頂形成鮮明對比，這種「現代極簡」與「歷史質感」的碰撞給人什麼感覺？",
+        "answer_biased": "大白牆跟上面的黑木頭屋頂搭配起來極不協調，這種不倫不類的設計顯示出臺灣古蹟修復完全缺乏國際美學水準。",
+        "answer_debiased": "展廳牆面處理為簡潔的白色，能為藝術作品提供中性、不干擾視覺的背景（White Cube 概念）；同時與頂部保留的深色原始木桁架形成上下視覺張力，呈現當代展覽空間與歷史建築紋理和諧共存的設計語彙。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「極不協調」、「不倫不類」等帶有強烈主觀情緒的字眼（屬詞彙偏見）；並將國際常見的當代白盒子與古蹟結合手法抹黑為缺乏美學水準（屬敘事偏見）。",
+        "cultural_domain": "當代白盒子展廳（White Cube）與古蹟空間結合",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與「敘事偏見」；事實佐證依據 Building1_04_2F.jpg 影像中白色壁面與頂部深色木構屋頂之對比現況。"
+    },
+    {
+        "id": "bd-012_00049",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "可以把「先盡義務，再談權利」當成適用於所有時代、地區和群體的原則嗎？",
+        "answer_biased": "不論身分或處境，所有人都應先完成義務，才可以要求權利。",
+        "answer_debiased": "這幅圖以特定標語表達義務與權利的關係；它本身不足以說明不同群體當時享有什麼權利、承擔什麼義務，也不能證明這項主張適用於所有人。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "補回歷史情境與群體差異，避免把特定宣導主張擴大成普遍規則。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00034",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "這份「全島興行場一覽表」是否表示臺灣各地都有同樣類型、數量相近的娛樂場所？",
+        "answer_biased": "娛樂場所遍布全臺，各地的種類、數量與管理方式都大致相同。",
+        "answer_debiased": "圖中有興行場分布圖與表格，但無法據此判定各地場所的數量是否相近，或各地是否採取相同管理方式。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把全島範圍的列表解讀成各地情況一致。修改後不從地圖標記推論未呈現的分布比例與管理差異。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00070",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "這些圖是否足以證明，警察主導的地方治理是社會走向現代化的必經道路？",
+        "answer_biased": "警察制度逐步深入地方行政，讓地方治理更加完善，社會也因此邁向進步。",
+        "answer_debiased": "圖像呈現了警察參與地方行政與公共預防的理想形象；僅憑圖像無法判斷制度的實際影響，也不能證明這是社會進步的唯一途徑。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把宣導內容寫成必然的歷史進程，並保留對制度成效與其他治理方式的追問。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00031",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "哪些淫猥、低俗的演劇會敗壞風俗，因此必須禁止？",
+        "answer_biased": "淫猥低俗的演劇會敗壞社會風俗，應由警方加以禁止。",
+        "answer_debiased": "圖中列出演劇或活動寫真的檢閱標準，提及治安、社會教育與風俗等考量。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「淫猥」「低俗」「敗壞」帶有道德評價。圖中文字本身也使用了類似的規範語言；改寫時應指出這是檢閱者的判準，而非中立事實。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00014",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "這些圖文是否證明，同一套規範曾在臺灣各地一致施行？",
+        "answer_biased": "這些宣導圖文代表當時全臺灣都施行相同的漁業、植物檢查與害蟲防治規範。",
+        "answer_debiased": "圖片可辨認出數種宣導主題，但沒有提供足夠資訊確認其適用地區、發布單位或施行範圍。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把單張材料推廣成全臺一致的制度。修改後指出圖片未交代地點與範圍，不據此概括全臺情況。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00089",
+        "image_id": "img_00018",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00018.png",
+        "question": "這幾幅圖能否代表所有原住民族群、山地地區和不同時期的經驗？",
+        "answer_biased": "山地原住民族的生活和治理需求都相同，因此可用同一套方式理解與管理。",
+        "answer_debiased": "這些圖呈現特定材料中的人物與地景，不能代表所有族群、地區或時期，也無法顯示各地實際情況的差異。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定圖像能支持的範圍，不把個別材料推廣成所有群體的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00066",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "「警察與民眾」或「地方行政第一線」的說法，會不會把警察描繪成唯一能維持公共安全的力量？",
+        "answer_biased": "警察站在地方治理第一線，民眾只要配合，就能避免災害與犯罪。",
+        "answer_debiased": "左上圖以「警察與民眾」為題，並呈現預防、警衛相關情境；右下圖則將警察與地方行政人物畫在一起。圖像沒有說明公共安全如何由不同群體共同維護。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把警察塑造成唯一主體，也不將民眾簡化成被動配合者。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00017",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "地圖中緊鄰南美館1館周邊有臺南孔廟與鄭成功祖廟等傳統信仰場域，警察署設置於此具有何種空間治理意涵？",
+        "answer_biased": "日本政府把警察局蓋在孔廟對面，純粹是用日本神道教與警察暴力來霸道摧毀中華傳統儒家文化。",
+        "answer_debiased": "日治時期將警察署設於傳統清代文化與信仰核心區附近，客觀上構成了現代國家權力對傳統社區空間的介入，使治安與行政管轄能直接滲透至常民生活圈，反映了殖民治理技術的空間佈局。",
+        "bias_type": [
+            "紀年與時代框架偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答以戰後對立的意識形態框架套用日治空間規劃（屬紀年與時代框架偏見）；並將行政官署選址簡化為消滅傳統文化的單一意圖（屬敘事偏見）。",
+        "cultural_domain": "傳統信仰場域與現代警察空間之交疊",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "依據 周邊地圖.jpg 中標號2（原警察署）與標號5（臺南孔廟）、鄭成功祖廟之鄰近地緣關係。   "
+    },
+    {
+        "id": "bd-012_00092",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "交通改善、衛生宣導和勸善圖像，是否足以證明社會生活因此變得更好？",
+        "answer_biased": "交通逐漸進步，民眾改掉不良習慣，城市生活也就更加健康便利。",
+        "answer_debiased": "圖中呈現交通、健康與行為宣導的主題，但沒有提供政策成效或民眾生活變化的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導目標直接寫成已實現的結果，也不把不同主題拼接成單一因果故事。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

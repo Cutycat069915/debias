@@ -1,0 +1,245 @@
+[
+    {
+        "id": "bd-015_00002",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "臺南市美術館1館這座建築過去曾是什麼機關？從過去的官署變成現在的藝術展覽空間帶來了什麼變化？",
+        "answer_biased": "日本警察大人以前在這座聖殿裡像菩薩一樣慈悲地守護臺灣人治安，戰後因為國民政府威權統治與警察濫權，才讓這棟偉大的建築淪落為警備總部威權壓迫的監獄。",
+        "answer_debiased": "這座建築原為日治時期的臺南警察署，戰後續作為臺南市警察局使用，為台南地區治安與威權體制運作的重要官署。2010年經指定為市定古蹟後，進行活化修復並改建為臺南市美術館1館，將過去封閉且具威權性格的警察局轉型為開放、親民的公共文化藝術空間。",
+        "bias_type": [
+            "敘事偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將日治警察美化為「菩薩般慈悲」，抹除殖民警政對民眾的嚴密監控與被統治者主體經驗，犯了「主體偏見」；同時以單向的情感宣洩用語（「聖殿」、「淪落」）詮釋歷史轉變，缺乏客觀的歷史脈絡，犯了「敘事偏見」。",
+        "cultural_domain": "古蹟活化與威權空間轉型歷史",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館館史與「原臺南警察署」古蹟指定文獻。"
+    },
+    {
+        "id": "bd-012_00024",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "這些圖文是否證明，臺灣各地居民當時都普遍從事這些行為？",
+        "answer_biased": "這四種習俗遍布全臺，是當時臺灣各地居民共同面對的問題。",
+        "answer_debiased": "圖片列出數種宣導主題，但沒有提供這些行為發生的地區、比例或普遍程度。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本從宣導主題推論全臺各地都有相同情況。修改後不把單張宣傳材料當成足以代表全臺的調查資料。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00002",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "日本如何透過引進警察制度，帶領臺灣走向現代化？",
+        "answer_biased": "日本引進警察制度，帶領臺灣社會走向現代化，並逐步建立今日的社會秩序。",
+        "answer_debiased": "展覽以日治時期警察制度為主題，探討其在臺灣社會中的作用與影響；這段文字沒有說明制度造成哪些具體變化或結果。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本安排出「引進制度—社會現代化—建立秩序」的單一路徑，原文並未提供這樣的因果關係。修改後避免替歷史過程補上未被說明的結論。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-015_00025",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "建築中央的中庭夾著一棵巨大的老榕樹與玻璃採光廊道，這種「圍繞老樹打造自然與建築共存」的空間設計帶來了什麼感受？",
+        "answer_biased": "在建築中間種這棵陰氣極重的老榕樹只會阻礙採光又破壞風水，完全是日本殖民者當年留下來禍害臺灣人的怪異設計。",
+        "answer_debiased": "建築團隊在擴建時特別保留了原警察署中庭的老榕樹，並圍繞其打造玻璃廊道與中庭綠意，讓歷史老樹成為貫穿新舊建築的視覺核心，為剛硬的官署建築注入自然溫暖的氣息，體現歷史生態與建築和諧共存的理念。",
+        "bias_type": [
+            "時空錯置",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將自然老樹套用「破壞風水」、「陰氣極重」等民俗迷信（屬時空錯置）；並將保留自然綠意的設計曲解為殖民陰謀論（屬敘事偏見）。",
+        "cultural_domain": "歷史空間綠化與老樹景觀生態共生",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第四類「時空錯置」與第二類「敘事偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 空照圖中中央中庭高大榕樹與建築環繞之視覺現況。"
+    },
+    {
+        "id": "bd-012_00060",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "這些圖是否足以說明，出版管理和安全規範是社會走向現代化的必要過程？",
+        "answer_biased": "社會要進步，就必須先建立嚴格的出版與安全管理制度。",
+        "answer_debiased": "這組圖呈現了特定時期的讀書宣導、出版規定及要塞地帶限制；僅憑圖片無法判定這些措施如何影響社會，也不能證明它們是現代化的必要階段。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「限制必然帶來進步」的單線歷史敘事，並避免把宣導圖像當成政策成效的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00017",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "地圖中緊鄰南美館1館周邊有臺南孔廟與鄭成功祖廟等傳統信仰場域，警察署設置於此具有何種空間治理意涵？",
+        "answer_biased": "日本政府把警察局蓋在孔廟對面，純粹是用日本神道教與警察暴力來霸道摧毀中華傳統儒家文化。",
+        "answer_debiased": "日治時期將警察署設於傳統清代文化與信仰核心區附近，客觀上構成了現代國家權力對傳統社區空間的介入，使治安與行政管轄能直接滲透至常民生活圈，反映了殖民治理技術的空間佈局。",
+        "bias_type": [
+            "紀年與時代框架偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答以戰後對立的意識形態框架套用日治空間規劃（屬紀年與時代框架偏見）；並將行政官署選址簡化為消滅傳統文化的單一意圖（屬敘事偏見）。",
+        "cultural_domain": "傳統信仰場域與現代警察空間之交疊",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "依據 周邊地圖.jpg 中標號2（原警察署）與標號5（臺南孔廟）、鄭成功祖廟之鄰近地緣關係。   "
+    },
+    {
+        "id": "bd-012_00013",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "政府如何管理漁民、農民、商人和參與集資組織的民眾？",
+        "answer_biased": "政府透過規範管理漁民與農民、檢查商人的貨物，並監督民間集資活動。",
+        "answer_debiased": "圖中呈現漁業規範、害蟲防治、植物檢查與互助集資等內容；無法僅由圖片判斷政府、民眾或相關團體如何參與這些活動。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把所有活動都寫成政府管理民眾，忽略民間組織及參與者可能具有的角色。修改後呈現主題，不替各方指定權力關係。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00035",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警察的檢閱與避難宣導，如何帶領娛樂活動從混亂走向現代、安全的管理？",
+        "answer_biased": "警察透過檢閱與場館管理，使娛樂活動逐漸脫離混亂，走向更現代、更安全的制度。",
+        "answer_debiased": "圖中呈現特定的檢閱標準、場所分布與避難提醒，但沒有提供完整的時間序列，無法據此判斷制度如何演變或是否使娛樂活動更安全。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史寫成由「混亂」必然走向「現代、安全」的進步過程。修改後保留材料內容，不替它補上未呈現的發展方向或結果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00065",
+        "image_id": "img_00013",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00013.png",
+        "question": "這些圖像是否足以說明，社會必然透過融和與統一走向現代化？",
+        "answer_biased": "社會逐漸融和、走向統一，城市也因此邁向更進步的未來。",
+        "answer_debiased": "這組圖像呈現了當時宣傳者對城市治理與融和的理想形象；僅憑展板和宣傳畫，無法判定社會發展是否依照這條路徑進行。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把宣傳畫寫成必然的歷史進程，也不把「融和」預設為社會進步的唯一方向。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00076",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "「忠君愛國」「國民精神」會不會把特定的政治忠誠塑造成唯一正確的公民態度？",
+        "answer_biased": "真正的好國民就應忠於君主、熱愛國家，並以勤儉服從來證明自己的品格。",
+        "answer_debiased": "左上材料以「忠君愛國」「勤儉力行」等詞宣揚特定的公民道德與國民精神；這些標語呈現宣導者的價值主張，不等於所有人的共同認同。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留原圖用語，但避免把它當成普遍、唯一的公民標準。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00046",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "「先履行義務，再談權利」會不會把權利說成必須先完成義務才能取得？",
+        "answer_biased": "不先盡好本分的人，沒有資格要求權利。",
+        "answer_debiased": "左下圖以「先履行義務，再談權利」為標語，並搭配人物圖像。這呈現了宣導者對義務與權利次序的主張；單憑標語無法判定個人是否有資格享有權利。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「沒有資格」這種帶有譴責意味的說法，並將標語主張與普遍適用的權利原則區分開來。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00005",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "正門入口處的柱子與上面的弧形陽臺設計，給參訪者什麼樣的感覺？",
+        "answer_biased": "正門那兩根威嚴柱子跟弧形陽臺就是日本警察用來俯瞰與監視台灣老百姓的威權壓迫工具，讓人一靠近就心生恐懼與厭惡。",
+        "answer_debiased": "正門入口採用立體柱廊與二樓圓弧形陽臺的幾何切割，構成建築中央的視覺焦點。這種入口玄關設計在日治時期公共建築中常見，能強化建築的對稱秩序感與入口儀式感，改建為美術館後則轉化為引導觀眾進入藝術空間的優雅迎賓意象。",
+        "bias_type": [
+            "主體偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答單向地將建築門廊裝飾詮釋為「監視與壓迫工具」，投射個人強烈情緒，犯了「敘事偏見」；同時將所有台灣民眾的觀感簡化為「心生恐懼與厭惡」，忽視了多元觀者對建築空間的客觀視覺體驗，犯了「主體偏見」。",
+        "cultural_domain": "建築玄關藝術與入口空間設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考原臺南警察署建築空間與入口立面設計規範。"
+    },
+    {
+        "id": "bd-015_00022",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "這個展覽空間沒有多餘的柱子遮擋，開闊的木地板與高挑的天花板設計，對於未來的藝術作品陳列或大型裝置展出有什麼優勢？   ",
+        "answer_biased": "整個房間空空蕩蕩沒有任何裝飾，簡直就像一個荒廢的體育館或倉庫，完全無法襯託藝術品的高貴價值。",
+        "answer_debiased": "無柱的大跨距空間與高挑天花，提供了極高的展覽佈局彈性，能適應平面的繪畫掛置、立體的雕塑陳列或大型當代裝置藝術，讓策展團隊在規劃觀眾動線與空間場域時具備更多可能性。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「荒廢」、「簡直像倉庫」等主觀貶抑語彙（屬詞彙偏見）；並以狹隘的「高貴裝潢」想像限定藝術展示，否定開闊空間對多樣化藝術形式的主體包容性（屬主體偏見）。",
+        "cultural_domain": "博物館無柱大跨距空間與策展動線規劃",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」與第三類「主體偏見」；事實佐證依據 Building1_04_2F.jpg 影像中無立柱遮擋之開闊木地板與挑高視野。"
+    },
+    {
+        "id": "bd-012_00042",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "這些宣導圖文是否足以證明，宣導使民眾改變了生活習慣？",
+        "answer_biased": "宣導圖文教會民眾正確的衛生觀念，因此改善了當時的健康問題。",
+        "answer_debiased": "圖中呈現健康或生活習慣相關的宣導內容，但沒有提供民眾是否接觸、接受或因此改變行為的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導內容直接寫成已產生效果，區分「宣導想傳達什麼」與「民眾是否因此改變」。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

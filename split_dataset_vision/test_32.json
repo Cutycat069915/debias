@@ -1,0 +1,244 @@
+[
+    {
+        "id": "bd-012_00075",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "這些圖是否暗示，討伐與警察管理是山地社會走向「進步」的必經過程？",
+        "answer_biased": "警察與軍隊逐步治理山地，帶領當地社會走向文明與現代化。",
+        "answer_debiased": "這些圖呈現當時宣傳者如何描繪警備、討伐與治理；它們本身不足以證明這些行動帶來進步，也未呈現當地社會的觀點與代價。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免將殖民治理包裝成單線的文明進程，並把被省略的居民觀點與行動後果納入提問。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00010",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "這些宣導材料如何象徵社會從舊式生活走向現代化管理？",
+        "answer_biased": "這些材料標誌著社會告別舊式生活，逐步邁向更進步、更現代的公共管理。",
+        "answer_debiased": "圖中呈現安全注意事項與戶口申報資訊，但沒有提供足以說明制度如何演變，或社會是否由某種「舊式生活」轉向「現代化管理」的時間線索。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把材料放進由落後走向進步的單線歷史框架。修改後不預設時代發展方向，只說明圖片呈現的主題與其資訊限制。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00033",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警方如何替民眾篩選適當的娛樂內容，並安排場館安全管理？",
+        "answer_biased": "警方透過檢閱淘汰不適當的演出，並指導民眾在緊急狀況下迅速避難。",
+        "answer_debiased": "圖中呈現檢閱標準與避難注意事項，但未呈現演出者、場館經營者或觀眾如何看待這些規範。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本只呈現警方的管理角色，其他相關人士則成為被管理或被保護的對象。修改後指出圖片未提供他們的觀點。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00009",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "圖中的戶口申報流程，是否就是今日民眾辦理戶籍申報的方式？",
+        "answer_biased": "圖中展示的戶口申報流程，至今仍是民眾辦理戶籍事務的標準方式。",
+        "answer_debiased": "圖中可看到「戶口屆出」相關圖文，但僅憑這張圖片無法確認其年代、適用地區，或與今日戶籍申報制度的關係。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史材料直接套用到今日，假設流程延續至今。修改後區分材料所屬時空與現行制度，避免未經查證便認定兩者相同。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00013",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00003.jpg",
+        "question": "從原臺南警察署轉型為當代美術館的過程中，設計團隊如何在保留大廳階梯與古蹟構件的前提下滿足現代展覽需求？",
+        "answer_biased": "現代建築師在古蹟裡安裝冷氣和現代燈具完全破壞了原本純正的日本皇國美學，顯示臺灣當代設計界根本不尊重古蹟保存。",
+        "answer_debiased": "古蹟活化過程中，團隊採用「最小干預」與「可逆性」原則，將現代空調管道與照明設備隱藏於木構件與天花邊緣，既保護了大廳主階梯與洗石子柱身等歷史本體，又滿足了美術館營運所需的環境控制。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答誤將警察署指稱為「皇國美學」，並使用「完全破壞」、「根本不尊重」等極端貶抑詞彙（屬詞彙偏見與敘事偏見），忽視了國際古蹟修復規範中兼顧歷史保存與功能再利用的專業考量。",
+        "cultural_domain": "歷史建築修復再利用與當代博物館設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館1館古蹟修復與再利用工程總體規劃報告。"
+    },
+    {
+        "id": "bd-015_00005",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "正門入口處的柱子與上面的弧形陽臺設計，給參訪者什麼樣的感覺？",
+        "answer_biased": "正門那兩根威嚴柱子跟弧形陽臺就是日本警察用來俯瞰與監視台灣老百姓的威權壓迫工具，讓人一靠近就心生恐懼與厭惡。",
+        "answer_debiased": "正門入口採用立體柱廊與二樓圓弧形陽臺的幾何切割，構成建築中央的視覺焦點。這種入口玄關設計在日治時期公共建築中常見，能強化建築的對稱秩序感與入口儀式感，改建為美術館後則轉化為引導觀眾進入藝術空間的優雅迎賓意象。",
+        "bias_type": [
+            "主體偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答單向地將建築門廊裝飾詮釋為「監視與壓迫工具」，投射個人強烈情緒，犯了「敘事偏見」；同時將所有台灣民眾的觀感簡化為「心生恐懼與厭惡」，忽視了多元觀者對建築空間的客觀視覺體驗，犯了「主體偏見」。",
+        "cultural_domain": "建築玄關藝術與入口空間設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考原臺南警察署建築空間與入口立面設計規範。"
+    },
+    {
+        "id": "bd-012_00060",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "這些圖是否足以說明，出版管理和安全規範是社會走向現代化的必要過程？",
+        "answer_biased": "社會要進步，就必須先建立嚴格的出版與安全管理制度。",
+        "answer_debiased": "這組圖呈現了特定時期的讀書宣導、出版規定及要塞地帶限制；僅憑圖片無法判定這些措施如何影響社會，也不能證明它們是現代化的必要階段。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「限制必然帶來進步」的單線歷史敘事，並避免把宣導圖像當成政策成效的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00004",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "這座建築融合了哪些近代建築裝飾風格（例如折衷主義或 Art Deco 風格）的元素？",
+        "answer_biased": "這棟日本政府興建的帝國官署完全拷貝西方古典裝飾，毫無本土文化素養，只是日本帝國主義用來炫耀與恫嚇台灣人的誇大不實樣板建築。",
+        "answer_debiased": "臺南市美術館1館（原臺南警察署）由臺南州技師梅澤捨次郎設計，於1931年落成，為典型的折衷主義裝飾藝術式樣（Art Deco）風格建築。其建築呈現對稱幾何線條，中央山牆帶有簡化勳章飾與階梯狀下降裝飾，展現了1930年代東亞近代建築吸收西洋現代裝飾藝術並轉化的風格特徵。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用了帶有情緒與價值批判的詞彙（如「誇大不實樣板」），犯了「詞彙偏見」；將1930年代全球流行的 Art Deco 建築風潮簡化為日本對台的政治威嚇，忽略了建築史上的風格演變脈絡，犯了「敘事偏見」。",
+        "cultural_domain": "近代建築史與裝飾藝術風格（Art Deco）",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考修復報告書第七章對原臺南警察署建築樣式之記載，由梅澤捨次郎設計，屬折衷主義裝飾藝術式樣。"
+    },
+    {
+        "id": "bd-012_00095",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "圖中「今昔」的對比，是否把歷史發展描繪成從落後到進步的單一路徑？",
+        "answer_biased": "過去的交通和生活習慣較落後，隨著現代制度與宣導推進，社會自然變得更文明。",
+        "answer_debiased": "圖像以今昔比較或勸善訊息呈現特定時期的理想觀點；它不足以說明整體社會如何變遷，也不能證明發展只有一種方向。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「過去落後、現在進步」的單線敘事，並將宣導內容與實際歷史變化區分。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00028",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "警察如何透過統計與處罰，管理並處置違法者？",
+        "answer_biased": "警察依照即決制度迅速判定案件，並以拘留、罰金等方式有效處置違法者。",
+        "answer_debiased": "流程圖列出不同的處置方式，但圖片沒有呈現當事人如何經歷程序、如何申辯，或警察與其他機關如何分工。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本只從執法機關的角度描述制度，將當事人呈現為被處置的對象。修改後保留程序資訊，也指出圖中未呈現的經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00045",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "這些圖是否足以說明社會從「落後」走向「現代」的歷史進程？",
+        "answer_biased": "這些宣導帶領臺灣擺脫舊習，逐步走向現代文明。",
+        "answer_debiased": "這組圖呈現了特定的宣導主題與視覺表現；單憑圖像無法判斷其歷史影響，也不足以證明社會沿著單一路徑進步。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「落後到文明」的單線進步敘事，避免把圖像當成整個時代轉變的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00005",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "日治時期的警察制度如何一路進步，發展成今日的警政制度？",
+        "answer_biased": "日治時期警察制度是臺灣現代警政的必然起點，制度一路進步，最終發展成今日的警察制度。",
+        "answer_debiased": "展覽以制度演變及警察生活變遷為觀察方向；這段文字沒有將變遷描述為單線進步，也沒有指出日治時期制度與今日警政之間的必然關係。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史寫成必然、持續進步的發展線，並把過去直接連到今日。修改後保留「演變」與「變遷」的主題，但不預設演變方向或結果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-012_00022",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "宣導者如何帶領臺灣社會擺脫舊習，邁向文明生活？",
+        "answer_biased": "宣導者透過改革教育使民眾放棄舊習，成功帶領臺灣走向文明生活。",
+        "answer_debiased": "這些圖文呈現宣導者針對若干習俗與行為提出的改革訴求；圖片沒有說明宣導是否改變了民眾的生活。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把「提出宣導」寫成「成功改變社會」，並預設社會發展的方向。修改後區分宣導目的和實際影響。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00020",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "展廳兩側牆面設有大面積的格狀高窗，自然光線如何透過這些窗戶灑落室內，影響展覽空間的明亮感與光影變化？",
+        "answer_biased": "展場開這麼多大窗戶讓陽光直射進來，完全是設計師欠缺博物館專業知識，只會破壞畫作與展品的低劣設計。",
+        "answer_debiased": "牆面兩側保留的大面積格狀高窗能引進充足的自然光，使展廳視覺更為開闊明亮；在實際展覽時，亦可透過窗簾或遮光調控，平衡自然採光的視覺舒適度與藝術品維護的需求。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「欠缺專業知識」、「低劣設計」等貶抑詞彙（屬詞彙偏見）；並全盤否定建築原始開窗採光設計與當代展覽光線調控的可行性（屬敘事偏見）。",
+        "cultural_domain": "近代建築開窗工藝與展覽空間採光設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與「敘事偏見」；事實佐證依據 Building1_04_2F.jpg 影像中兩側高窗引導自然光線均勻散佈於展廳木地板之視覺呈現。"
+    }
+]

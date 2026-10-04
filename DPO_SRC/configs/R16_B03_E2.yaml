@@ -8,7 +8,7 @@ dpo:
   beta: 0.3
   epochs: 2
   learning_rate: 5e-6
-  max_length: 60
+  max_length: 1500
   max_prompt_length: 384
 
 tranining:
@@ -16,6 +16,5 @@ tranining:
   gradient_accumulation_steps: 8
   gradient_checkpointing: false
 
-output_dir: "./save/R16_B03_E2"
   
 

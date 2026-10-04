@@ -1,10 +1,12 @@
 import json 
 from datasets import Dataset
-def format_dpo(example,tokenizer):
+from PIL import Image
+def format_dpo(example, processor):
+        tokenizer =  processor.tokenizer
         messages = [
             {
                 "role": "user",
-                "content": example["prompt"]
+                "content": example["question"]
             }
         ]
 
@@ -14,8 +16,8 @@ def format_dpo(example,tokenizer):
             add_generation_prompt=True,
         )
 
-        chosen = example["chosen"]
-        rejected = example["rejected"]
+        chosen = example["answer_debiased"]
+        rejected = example["answer_biased"]
 
         if tokenizer.eos_token is not None:
             chosen += tokenizer.eos_token
@@ -26,7 +28,35 @@ def format_dpo(example,tokenizer):
             "chosen": chosen,
             "rejected": rejected,
         }
-def load_dpo_dataset(train_path, tokenizer, TEST_MODE):
+def format_dpo_vision(example,  processor):
+    messages = [
+
+        {
+            "role" :"user",
+            "content" : [
+                {"type" : "image"},
+                {
+                 "type" : "text",
+                 "text" : example["question"]
+                }
+        
+            ]
+        }
+    ]
+    prompt_text = processor.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+    )
+    chosen = example["answer_debiased"]
+    rejected = example["answer_biased"]
+    return {
+        "prompt" : prompt_text,
+        "chosen" : chosen,
+        "rejected" :  rejected,
+        "images" : [Image.open(example["image_path"]).convert("RGB")]
+    }
+def load_dpo_dataset(train_path, processor,formatter ,TEST_MODE):
     with open(train_path, "r", encoding="utf-8") as f:
         dpo_data = json.load(f)
 
@@ -36,7 +66,8 @@ def load_dpo_dataset(train_path, tokenizer, TEST_MODE):
     dataset = Dataset.from_list(dpo_data)
 
     return dataset.map(
-        format_dpo,
-        fn_kwargs={"tokenizer": tokenizer},
+        formatter,
+        fn_kwargs={"processor": processor},
         remove_columns=dataset.column_names,
     )
+

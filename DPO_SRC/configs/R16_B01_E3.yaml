@@ -9,12 +9,12 @@ dpo:
   beta: 0.1
   epochs: 3
   learning_rate: 5e-6
-  max_length: 60
-  max_prompt_length: 384
+  max_length: 1500
+  max_prompt_length: 300
 
 training:
   batch_size: 2
   gradient_accumulation_steps: 8
   gradient_checkpointing: false
 
-output_dir: "./dpo_runs/R16_B01_E2"
+

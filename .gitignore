@@ -4,6 +4,10 @@ save/*
 !save/.gitkeep
 __pycache__/
 **/__pycache__/
+text_save/*
+!text_save/.gitkeep
+vision_save/*
+!vision_save/.gitkeep
 
 
 

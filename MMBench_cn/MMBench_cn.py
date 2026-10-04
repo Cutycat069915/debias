@@ -10,12 +10,13 @@ import transformers.utils.hub
 from peft import PeftModel
 from tqdm import tqdm
 from huggingface_hub import login
-
+from MCQ_LOGITS import MCQLogitsProcessor
+from transformers import LogitsProcessor, LogitsProcessorList
 # ==========================================
 # 0. 環境設定
 # ==========================================
 
-base_model_id = "google/gemma-4-26B-A4B-it"
+base_model_id = "./models/Llama-3.2-11B-Vision-Instruct"
 #base_model_id = "/work/yian0529/gemma-4-26B-A4B-it-sft-merged-bf16"
 processor_model_id = "google/gemma-4-26B-A4B-it"
 lora_model_path = "./gemma-4-26B-A4B-it-dpo-final-BBQ"
@@ -73,7 +74,7 @@ def generate_mmbench_answer(image, question_text, options_text, model, processor
             ],
         },
     ]
-
+    mcq_logits_processor =  LogitsProcessorList([MCQLogitsProcessor(processor.tokenizer)])
     # Gemma 4 multimodal chat template
     try:
         inputs = processor.apply_chat_template(
@@ -106,10 +107,11 @@ def generate_mmbench_answer(image, question_text, options_text, model, processor
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
-            max_new_tokens=10,
+            max_new_tokens=1,
             do_sample=False,
             pad_token_id=processor.tokenizer.eos_token_id,
             use_cache=True,
+            logits_processor=mcq_logits_processor
         )
 
     if torch.cuda.is_available():
@@ -151,6 +153,7 @@ def generate_mmbench_answer(image, question_text, options_text, model, processor
 # ==========================================
 def main():
     print(f"🚀 載入模型 {base_model_id} ...")
+    #add logits processor
 
     base_model = AutoModelForImageTextToText.from_pretrained(
         base_model_id,
@@ -174,12 +177,12 @@ def main():
         processor_model_id,
         trust_remote_code=True,
     )
-
+    
     if processor.tokenizer.pad_token is None:
         processor.tokenizer.pad_token = processor.tokenizer.eos_token
 
     model.eval()
-
+    
     if hasattr(model, "hf_device_map"):
         print("\n🧭 hf_device_map:")
         print(model.hf_device_map)

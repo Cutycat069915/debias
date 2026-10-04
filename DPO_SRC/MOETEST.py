@@ -11,6 +11,7 @@ from datasets import Dataset
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
+    AutoProcessor
 )
 
 import transformers.utils.hub
@@ -21,15 +22,19 @@ from peft import (
     get_peft_model,
 )
 
-
+import argparse
 from trl import DPOConfig, DPOTrainer
 from huggingface_hub import login
 from utils import *
-from dataclass import load_dpo_dataset
+from dataclass import *
+from peft import PeftModel
+from PIL import Image
+from data_collator import *
 # ==========================================
 # 🌟 全局測試與優化開關
 # ==========================================
-TEST_MODE = True
+TEST_MODE = False
+VISION_MODE = False
 SEEDS = [15, 22, 23, 32, 432]
 # 💡 強烈建議：DPO 顯存消耗極大，若出現 OOM，請改為 True
 USE_GRADIENT_CHECKPOINTING = False 
@@ -44,6 +49,7 @@ if torch.cuda.is_available():
 
 CONFIG_DIR = "./DPO_SRC/configs"
 DATASET_DIR = "./split_dataset"
+VISION_DATASET_DIR = "./split_dataset_vision"
 SAVE_DIR = "./save"
 
 # ==========================================
@@ -109,6 +115,25 @@ def load_tokenizer(model_id_or_path):
     tokenizer.padding_side = "right"
     return tokenizer
 
+def load_processor(model_id_or_path:str):
+    processor = AutoProcessor.from_pretrained(
+        model_id_or_path,
+        trust_remote_code=True,
+    )
+
+    tokenizer = processor.tokenizer
+
+    if tokenizer.pad_token is None:
+        if tokenizer.eos_token is not None:
+            tokenizer.pad_token = tokenizer.eos_token
+        else:
+            tokenizer.add_special_tokens({
+                "pad_token": "<|pad|>"
+            })
+
+    tokenizer.padding_side = "right"
+
+    return processor 
 
 
 def maybe_print_device_map(model):
@@ -142,30 +167,6 @@ def build_gemma4_lora_targets(model):
 
     print(f"\n✅ 找到 {len(targets)} 個 LoRA target Linear modules")
     return targets
-
-
-def get_lora_config(config, model):
-
-    rank = config["lora"]["rank"]
-    alpha = config["lora"]["alpha"]
-    dropout = config["lora"]["dropout"]
-
-    return LoraConfig(
-        r=rank,
-        lora_alpha=alpha,
-        lora_dropout=dropout,
-        bias="none",
-        task_type="CAUSAL_LM",
-        target_modules=[
-    	"q_proj",
-    	"k_proj",
-    	"v_proj",
-    	"o_proj",
-    	"gate_proj",
-    	"up_proj",
-    	"down_proj",
-		],
-    )
 def print_trainable(model, title="LoRA 可訓練參數"):
     print(f"\n📌 {title}:")
     try:
@@ -173,25 +174,42 @@ def print_trainable(model, title="LoRA 可訓練參數"):
     except Exception as e:
         print(f"⚠️ 無法列印 trainable parameters: {e}")
 
+def get_lora_config(config, model):
+    rank = config["lora"]["rank"]
+    alpha = config["lora"]["alpha"]
+    dropout = config["lora"]["dropout"]
 
-# ==========================================
-# 🔧 Text-only DPOTrainer Patch
-# ==========================================
-class TextOnlyDPOTrainer(DPOTrainer):
-    def _prepare_dataset(self, dataset, processing_class, args, dataset_name):
-        self.is_vision_model = False
-        return super()._prepare_dataset(
-            dataset, processing_class, args, dataset_name,
-        )
+    target_suffixes = {
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj",
+    }
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.is_vision_model = False
+    target_modules = []
+
+    for name, _ in model.named_modules():
+        if not name.startswith("model.language_model."):
+            continue
+
+        if name.split(".")[-1] in target_suffixes:
+            target_modules.append(name)
+
+    return LoraConfig(
+        r=rank,
+        lora_alpha=alpha,
+        lora_dropout=dropout,
+        bias="none",
+        target_modules=target_modules,
+    )
 def load_bf16_model_v1(model_id_or_path, for_training=True):
     model = MllamaForConditionalGeneration.from_pretrained(
         model_id_or_path,
-        device_map="auto",
         torch_dtype=DTYPE,
+        device_map={"":0},
         trust_remote_code=True,
     )
 
@@ -212,7 +230,7 @@ def load_bf16_model_v1(model_id_or_path, for_training=True):
 
 def run_dpo_phase_v1(config,seed,testcase_name):
     base_model_id = config["base_model_id"]
-    output_dir = config["output_dir"]
+   
 
     beta = config["dpo"]["beta"]
     epochs = config["dpo"]["epochs"]
@@ -225,11 +243,11 @@ def run_dpo_phase_v1(config,seed,testcase_name):
     gradient_checkpointing = config["training"]["gradient_checkpointing"]
     
     train_path = os.path.join(
-        "./split_dataset",
+        "./split_dataset_vision" if VISION_MODE else"./split_dataset",
         f"train_{seed}.json"
     )
     output_dir = os.path.join(
-        "./save",
+        "./vision_save" if VISION_MODE else "text_save" ,
         testcase_name,
         f"seed_{seed}"
     )
@@ -238,22 +256,22 @@ def run_dpo_phase_v1(config,seed,testcase_name):
     print_gpu_info()
     free_memory()
     #load_model
-    tokenizer = load_tokenizer(base_model_id)
-    model = load_bf16_model_v1(base_model_id,  for_training=True)
-    lora_config = get_lora_config(config,  model)
-    model =  get_peft_model(model,  lora_config)
-
-    print_trainable(model,  "DPO 階段 LoRA 可訓練參數")
-   
-
-    #load dataset
-    dpo_dataset = load_dpo_dataset(train_path,  tokenizer, TEST_MODE)
+    processor = load_processor(base_model_id)
+    model = load_bf16_model_v1(base_model_id, for_training=True)
+    if VISION_MODE:
+        text_lora_path =  os.path.join("./text_save",testcase_name,f"seed_{seed}")
+        model  = PeftModel.from_pretrained(model,  text_lora_path,is_trainable=True)
+        dpo_dataset = load_dpo_dataset(train_path, processor,format_dpo_vision, TEST_MODE) 
+    else:
+        lora_config = get_lora_config(config,  model)           
+        model =  get_peft_model(model,  lora_config)
+        dpo_dataset = load_dpo_dataset(train_path, processor,format_dpo, TEST_MODE)     
+    collator = MllamaVisionDPOCollator(processor) 
     dpo_config = DPOConfig(
         output_dir=output_dir,
 
         beta=beta,
-        max_length=max_length,
-        max_prompt_length=max_prompt_length,
+        max_length=None,
 
         per_device_train_batch_size=(
             1 if TEST_MODE else batch_size
@@ -302,21 +320,25 @@ def run_dpo_phase_v1(config,seed,testcase_name):
         ),
 
         remove_unused_columns=False,
+        
     )
     if not hasattr(model, "warnings_issued"):
         model.warnings_issued = {}
-    trainer = TextOnlyDPOTrainer(
+  
+    trainer = DPOTrainer(
         model=model,
         ref_model=None,
         train_dataset=dpo_dataset,
         args=dpo_config,
-        processing_class=tokenizer,
+        processing_class=processor if VISION_MODE else processor.tokenizer,
+        data_collator = collator,
     )
 
     trainer.train()
 
     trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    processor_saver = processor if VISION_MODE else processor.tokenizer
+    processor_saver.save_pretrained(output_dir)
     print_vram("DPO 訓練結束後")
     del trainer
     del model
@@ -344,7 +366,7 @@ def run_testcase(config_path):
 
         except Exception as e:
             print(
-                f"❌ Failed testcase={testcase_name}, "
+                f"Failed testcase={testcase_name}, "
                 f"seed={seed}"
             )
             print(e)
@@ -361,4 +383,21 @@ def run_all_experiments():
     for config_path in config_files:
         run_testcase(config_path)    
 if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+
+    ap.add_argument(
+        "--vision",
+        action="store_true",
+        help="Enable vision DPO training",
+    )
+    ap.add_argument(
+        "--test",
+        action="store_true",
+        help="Enable TestMode",
+            
+    )
+
+    args = ap.parse_args()
+    VISION_MODE = args.vision
+    TEST_MODE = args.test
     run_all_experiments()

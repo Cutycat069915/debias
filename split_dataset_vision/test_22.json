@@ -1,0 +1,244 @@
+[
+    {
+        "id": "bd-013_00003",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-013/images/img_00001.jpg",
+        "question": "海報下方與周邊羅列了大量歷史文獻中的畫家姓名、檔案單位與協辦單位，並與強烈的當代設計風格交織在一起。從海報的視覺語彙來看，它試圖向觀展者傳達怎樣的一種『歷史記憶重構』或『錯訊』感？",
+        "answer_biased": "海報下方密密麻麻列出的檔案單位與畫家，完全就是官方單一且絕對無誤的正統歷史證明，觀展者只要全盤接受這些官方與學術單位的完美權威背書，就不會對歷史產生任何質疑或偏見。",
+        "answer_debiased": "海報將大量歷史檔案單位、協辦人名與當代的強烈設計風格交織並置，刻意打破單一線性的歷史敘事，營造出歷史認識中如「錯訊」（glitch）般的矛盾與干擾感。這種視覺語彙旨在提醒觀展者：歷史檔案與記憶並非一成不變的絕對真相，而是需要在當代多元視角與跨領域文本的碰撞下，被不斷重新解構與重構的複合文本。",
+        "bias_type": [
+            "敘事偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將海報中象徵當代藝術介入、檔案重構與多元思辨的設計語彙，武斷地抹平為「絕對正確的單一官方權威背書」，忽視了展覽試圖透過「錯訊」探討歷史詮釋多義性與當代反思的核心意圖，犯了敘事偏見與主體偏見。",
+        "cultural_domain": "當代藝術跨領域展覽論述與歷史檔案重構文化",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館「搜查記：警察異能館」展覽論述中關於歷史「錯訊」（glitch）與當代跨領域檔案交織之策展概念。"
+    },
+    {
+        "id": "bd-015_00011",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00003.jpg",
+        "question": "臺南市美術館1館（原臺南警察署）大廳呈現寬闊的主階梯與兩側圓柱，其柱頭與基座呈現折衷主義風格。這種入口空間設計在日治時期官署建築中扮演何種象徵國家權力與秩序的功能？",
+        "answer_biased": "這種高聳華麗的階梯與柱子完美展現了日本警察崇高聖潔的威嚴，證明當時臺灣老百姓本來就該在這類神聖的官署面前低頭服從。",
+        "answer_debiased": "1930年代官署建築透過對稱階梯與洗石子立柱構築對稱且高聳的入口軸線，在空間視覺上強化了公權力的存在感與秩序感；改建為美術館後，此類空間語彙則轉化為引導觀眾進入展覽場域的動線與建築藝術特色。",
+        "bias_type": [
+            "詞彙偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「崇高聖潔」等情緒化美化詞彙（屬詞彙偏見）；並宣稱臺灣民眾「本來就該低頭服從」，剝奪了被統治者的主體性與歷史主體經驗（屬主體偏見）。",
+        "cultural_domain": "日治時期官署建築空間權力與折衷主義風格",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館1館（原臺南警察署）修復報告。"
+    },
+    {
+        "id": "bd-012_00081",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "圖中的「蕃」「理蕃」等歷史用語，會不會把原住民族描寫成需要被管理的對象？",
+        "answer_biased": "警察透過理蕃工作引導蕃民，使他們逐漸接受治理與文明生活。",
+        "answer_debiased": "圖中使用當時的「蕃」「理蕃」等詞，呈現警察與原住民接觸及山地治理的形象；這些詞反映宣傳材料的分類方式，不應直接當成中性稱呼。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留歷史用語以分析材料，同時指出其殖民視角，避免沿用標籤描述原住民族。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00069",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "這些地方行政與警察合作的圖像，能否代表當時所有地區的治理方式？",
+        "answer_biased": "當時各地都由警察與地方行政密切合作，民眾也以相同方式參與治安工作。",
+        "answer_debiased": "圖像呈現一種地方治理與警察合作的宣導形象，但無法說明其適用範圍，也不能代表各地實際運作都相同。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定材料所呈現的視角，不把單一宣導圖推廣成所有地區的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00012",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "政府如何透過漁業管理、害蟲防治和植物檢查，帶領社會走向安定有序？",
+        "answer_biased": "政府推行漁業管理、害蟲防治與植物檢查，成功消除混亂，建立安定有序的社會。",
+        "answer_debiased": "圖片呈現多種規範與宣導主題，包括漁業、害蟲防治、植物檢查及互助集資；圖片沒有說明這些措施的實際效果。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把不同主題串成政府成功建立秩序的故事。修改後保留各項主題，但不推定它們的因果關係或成效。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00080",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "這些圖是否暗示，國民道德教育與警察制度的建立必然使社會走向更完善的現代秩序？",
+        "answer_biased": "透過忠君愛國教育和完善的警察服務，社會逐步走向安定、文明與進步。",
+        "answer_debiased": "這些材料呈現了當時對國民道德、失物處理與警察工作的宣導形象；它們本身不足以說明制度如何發展，也無法證明社會因此必然進步。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把宣導材料寫成單線的進步故事，並將宣導目標與實際歷史結果區分開來。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00051",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "「法の威力」是否把法律塑造成只靠威嚇與強制力維持秩序？",
+        "answer_biased": "法律的威力足以使人民服從，違反規定的人就應受到嚴厲懲罰。",
+        "answer_debiased": "右下圖以「法の威力」為標題，並描繪數名人物與象徵性場景。標題突出了法律的力量，但僅憑圖像無法判定它如何看待法律的其他功能。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把「威力」擴大成「法律只靠懲罰使人服從」，並將可見標題和延伸推論分開。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00062",
+        "image_id": "img_00013",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00013.png",
+        "question": "這幅宣傳畫是否證明，政府治理與群體融和已帶來繁榮生活？",
+        "answer_biased": "政府施政得宜，居民彼此融和，城市因此繁榮安定。",
+        "answer_debiased": "宣傳畫把城市、兒童與融和意象並置，呈現理想中的社會圖景；但畫面沒有提供實際生活改善或政策成效的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將宣傳圖像所描繪的願景，和社會實際發展結果分開。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-013_00004",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-013/images/img_00002.jpg",
+        "question": "展場左側立體人形展示的是戰後中華民國時期的警察制服，這件制服與其佩帶的裝備，如何讓觀展者聯想戰後初期政權交替下，警察角色從日治威權統治過渡到新體制時的延續與轉變？",
+        "answer_biased": "戰後警察制服完全繼承了日治時期的高壓威權，臺灣人不管換了哪個政權都一樣只能被警察嚴密控制，毫無人權可言。",
+        "answer_debiased": "戰後初期警察制服與體制的建立，是在政權交替與時代轉折的背景下成形。透過實體制服的展示，觀展者可以探討戰後警政體制如何在接收原有機構的同時，因應新的國家認同與政治秩序進行調整與重塑。",
+        "bias_type": [
+            "敘事偏見",
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "始回答將不同政權與時代的統治特質直接同質化與簡化，忽略了戰後初期政權交替、制度轉型的歷史脈絡與複雜性，犯了敘事偏見及紀年與時代框架偏見。",
+        "cultural_domain": "戰後初期警察制服演變與政權交替文化",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考「搜查記：警察異能館」展覽中關於戰後警政過渡期與制服文物展示"
+    },
+    {
+        "id": "bd-012_00015",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "這些宣導如何呈現社會從傳統生活逐步邁向現代管理？",
+        "answer_biased": "這些圖文展現社會逐漸告別舊式生活，走向更進步、更現代的管理制度。",
+        "answer_debiased": "圖片呈現不同的規範與宣導內容，但沒有提供完整的年代脈絡，也未說明這些制度如何演變。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本預設歷史是從「舊式」走向「進步」的單一路徑。修改後不替材料安排發展階段或評價其時代意義。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00082",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這些圖是否把警察治理和山地開發描繪成改善原住民族生活的必然途徑？",
+        "answer_biased": "警察深入山地、推動交通與產業建設，讓原住民族逐步過上更便利、進步的生活。",
+        "answer_debiased": "圖像把警察接觸、山地治理與開發情境放在一起，呈現宣傳者對治理的期待；但沒有交代原住民族的看法、土地使用變化或開發造成的影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把開發宣傳直接等同於生活改善，也補出圖像未呈現的居民觀點與可能影響。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00007",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "觀察一樓和二樓的窗戶，它們在形狀上（如方窗與拱窗）有什麼不同的設計巧思？",
+        "answer_biased": "一樓做方窗、二樓做拱窗這種隨意拼貼的設法，反映了日治時期日本設計師工法粗劣且不倫不類的建築美學。",
+        "answer_debiased": "臺南市美術館1館立面具備方窗與拱窗兩種樣式。一樓採用方正的矩形窗，二樓則設計拱形圓弧窗，這種上下層窗型變化增加了立面的縱向層次與活潑感，也是近代折衷主義建築常見的韻律表現手法。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「粗劣」、「不倫不類」等貶抑詞彙，犯了「詞彙偏見」；將經典西洋建築縱向立面窗型韻律變化敘述為「隨意拼貼」，犯了「敘事偏見」。",
+        "cultural_domain": "近代建築立面開窗與光影工藝",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考南美館1館建築介紹，立面保有方窗與拱窗兩款傳統樣式。"
+    },
+    {
+        "id": "bd-012_00030",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "即決制度如何象徵臺灣從舊式社會必然走向現代法治？",
+        "answer_biased": "即決制度代表臺灣逐步告別混亂的舊式社會，走向更進步、現代的法治秩序。",
+        "answer_debiased": "圖中呈現一份大正十三年的即決事件統計與「臺灣即決制度」流程圖，但沒有提供制度演變的完整時間線，也未說明其歷史意義或社會效果。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史安排成從「混亂落後」必然進步到「現代法治」的單一路徑。修改後只描述材料的年代標示與內容，不預設發展方向。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00003",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "警察如何管理民眾，並維持臺灣社會秩序？",
+        "answer_biased": "展覽以警察和制度為唯一主角，民眾只是接受警察管理、受到制度影響的對象。",
+        "answer_debiased": "這段文字提及一般民眾、警察及警察相關人士的訪談，作為展覽呈現不同觀點的材料。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本抹去民眾作為訪談者與觀點提供者的角色。修改後依原文列出的訪談對象呈現不同主體。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    }
+]

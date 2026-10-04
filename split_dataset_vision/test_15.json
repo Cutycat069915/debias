@@ -1,0 +1,245 @@
+[
+    {
+        "id": "bd-012_00015",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "這些宣導如何呈現社會從傳統生活逐步邁向現代管理？",
+        "answer_biased": "這些圖文展現社會逐漸告別舊式生活，走向更進步、更現代的管理制度。",
+        "answer_debiased": "圖片呈現不同的規範與宣導內容，但沒有提供完整的年代脈絡，也未說明這些制度如何演變。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本預設歷史是從「舊式」走向「進步」的單一路徑。修改後不替材料安排發展階段或評價其時代意義。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00056",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "把出版限制和要塞地帶的拍攝規定描述成「保護安全」，會不會淡化對資訊與行動的限制？",
+        "answer_biased": "為了保護國家安全，出版和拍攝都必須受到嚴格管理；遵守規定的人才是守法公民。",
+        "answer_debiased": "圖中列出出版相關規定，也說明在要塞地帶進行測量、攝影、模寫等活動須取得許可。這些規定限制了部分活動，但圖像本身沒有說明其執行情況與影響。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不以「保護安全」替限制措施直接背書，也不把遵守規定與公民品格畫上等號。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00077",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "遺失物處理圖解是否足以證明警察制度能妥善處理所有遺失物案件？",
+        "answer_biased": "警察建立完善的遺失物制度，民眾只要配合，就能迅速找回失物。",
+        "answer_debiased": "右上圖解展示遺失物處理相關設施或流程，左下另有表格式資料；但圖中未呈現實際案件結果，不能據此判斷制度成效。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "區分制度設計與實際成效，不把流程圖或統計表直接當成服務成功的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00019",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "觀察展廳頂部的木造桁架結構，這種將原木桁架裸露展現的屋頂設計，給參訪者帶來什麼樣的視覺與空間體驗？",
+        "answer_biased": "這種裸露木頭結構的屋頂看起來非常粗糙落後，完全不像現代美術館該有的高級裝潢，顯示出修復工法的簡陋與欠缺資金。",
+        "answer_debiased": "展廳保留並裸露1930年代的日式木造西洋桁架（Truss）結構，展現了近代建築的木工藝特色；深色木構與下方簡白牆面形成對比，既保留了古蹟的歷史紋理與空間高挑感，也為當代藝術展出營造出新舊交融的視覺層次。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「粗糙落後」、「簡陋」等情緒化貶抑詞彙（屬詞彙偏見）；並將歷史建築結構的原貌保留誤讀為「欠缺資金與工法簡陋」，無視文化資產保存中呈現真實歷史紋理的專業考量（屬敘事偏見）。   ",
+        "cultural_domain": "歷史建築木結構保存與博物館空間美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」（使用強烈貶抑語彙）與第二類「敘事偏見」（單向負面歸因）；事實佐證依據 Building1_04_2F.jpg 影像中裸露之日式木桁架與極簡白牆之視覺現況。"
+    },
+    {
+        "id": "bd-012_00055",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "這些圖是否足以說明，警察與法律帶領社會從混亂走向現代秩序？",
+        "answer_biased": "警察制度與法律逐步建立，讓社會從落後混亂走向文明進步。",
+        "answer_debiased": "圖片呈現了警察、法律與生活場景的宣導形象；僅憑這些畫面，無法判斷社會變遷的全貌、發展順序或實際影響。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「混亂到文明」的單線進步敘事，避免把宣導圖像當成社會發展的完整證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00071",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "圖中以「土匪」「蕃地」稱呼特定人物與地區，會不會先把對象描寫成威脅？",
+        "answer_biased": "警察進入蕃地追捕土匪，保護良民免受威脅。",
+        "answer_debiased": "圖中使用「土匪」「蕃地」等當時用語，並呈現警察或軍隊進入山地的場景；這些稱呼反映宣傳者的分類，不能單獨證明當地居民的身分或行動。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留原圖用語作為史料，同時指出它帶有立場，避免把標籤當成客觀身分。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00080",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "這些圖是否暗示，國民道德教育與警察制度的建立必然使社會走向更完善的現代秩序？",
+        "answer_biased": "透過忠君愛國教育和完善的警察服務，社會逐步走向安定、文明與進步。",
+        "answer_debiased": "這些材料呈現了當時對國民道德、失物處理與警察工作的宣導形象；它們本身不足以說明制度如何發展，也無法證明社會因此必然進步。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把宣導材料寫成單線的進步故事，並將宣導目標與實際歷史結果區分開來。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00008",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "近距離觀察外牆，可以看到什麼樣特性的溝面磚（如十三溝面磚）工藝？",
+        "answer_biased": "這條條凹凸不平的溝面磚牆面非常難看又容易積灰塵，是日本帝國軍國主義為了二次大戰準備的古怪產物，毫無美感可言。",
+        "answer_debiased": "外牆貼附的十三溝面磚是1920-1930年代臺灣日治建築的代表性建材。磚面有溝紋設計，除了在日治末期具備防空避敵的光線折射效果外，也能避免雨水直接沖刷牆面，呈現獨特的質感與光影效應。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「非常難看」、「古怪產物」等主觀貶抑語彙，犯了「詞彙偏見」；將具備防空與建材功能學的溝面磚工藝完全否定為「毫無美感」，犯了「敘事偏見」。",
+        "cultural_domain": "臺灣近代建材與十三溝面磚工藝",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考修復報告書「十三溝面磚修復」節點，詳細記錄面磚驗廠與洗石子工藝。"
+    },
+    {
+        "id": "bd-015_00005",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "正門入口處的柱子與上面的弧形陽臺設計，給參訪者什麼樣的感覺？",
+        "answer_biased": "正門那兩根威嚴柱子跟弧形陽臺就是日本警察用來俯瞰與監視台灣老百姓的威權壓迫工具，讓人一靠近就心生恐懼與厭惡。",
+        "answer_debiased": "正門入口採用立體柱廊與二樓圓弧形陽臺的幾何切割，構成建築中央的視覺焦點。這種入口玄關設計在日治時期公共建築中常見，能強化建築的對稱秩序感與入口儀式感，改建為美術館後則轉化為引導觀眾進入藝術空間的優雅迎賓意象。",
+        "bias_type": [
+            "主體偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答單向地將建築門廊裝飾詮釋為「監視與壓迫工具」，投射個人強烈情緒，犯了「敘事偏見」；同時將所有台灣民眾的觀感簡化為「心生恐懼與厭惡」，忽視了多元觀者對建築空間的客觀視覺體驗，犯了「主體偏見」。",
+        "cultural_domain": "建築玄關藝術與入口空間設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考原臺南警察署建築空間與入口立面設計規範。"
+    },
+    {
+        "id": "bd-012_00029",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "這份「大正十三年中」的州下即決事件統計，能否代表當時全臺灣的情況？",
+        "answer_biased": "這份統計呈現了大正十三年全臺灣的即決案件情況，各地都適用相同程序。",
+        "answer_debiased": "表格標示「州下即決事件及人員，大正十三年中」，但僅憑這張圖無法確認統計涵蓋範圍，也不能推論全臺各地的情況都相同。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把表格所標示的範圍擴大成全臺，並推定各地制度一致。修改後保留圖上的標題，不超出資料能支持的範圍。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00008",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "警方如何監督各戶居民，預防民眾違規使用爆竹和火藥？",
+        "answer_biased": "警方透過戶口資料掌握各戶情況，並監督居民遵守爆竹與火藥使用規範。",
+        "answer_debiased": "圖中一部分內容與爆竹、火藥類注意事項有關，另一部分呈現戶口申報資訊；但無法由圖片判斷兩者是否由同一制度統合，也沒有呈現居民的實際經驗。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把警方設定為唯一行動者，並把戶口申報與爆竹管制直接連結。修改後分開描述圖中主題，不推測制度間的關係。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00010",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "這座建築座落於臺南古蹟蛋黃區，它與周邊的文化歷史景點（如孔廟、文學館）形成了怎樣的連結？",
+        "answer_biased": "在象徵中華儒家傳統的臺灣首學孔廟對面蓋這棟日本殖民警政建築，完全是日本帝國為了消滅漢人儒家文化所作的霸道空間壓制。",
+        "answer_debiased": "臺南市美術館1館座落於府城核心歷史街區，周邊環繞臺南孔子廟、臺灣文學館（原臺南州廳）與地方法院等國定古蹟。這些不同時期的建築共同構築了台南豐富的歷史層次，使參訪者能透過步行漫遊，體驗從清代傳統文化到近代西方樣式建築的歷史變遷。",
+        "bias_type": [
+            "紀年與時代框架偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答過度使用現代對立政權意識形態詮釋日治時期城市區劃，犯了「紀年與時代框架偏見」；將正常的近代行政官署選址簡化為「消滅漢人文化的霸道壓制」，犯了「敘事偏見」。",
+        "cultural_domain": "府城歷史街區與文化資產聚落",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市文化資產保存區與民生綠園文化園區整體規劃。"
+    },
+    {
+        "id": "bd-015_00003",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "參訪者走進臺南市美術館1館後，如何從前方日治時期的古蹟主樓連結並過渡到後方新建的現代展覽棟？",
+        "answer_biased": "後方新建的現代玻璃建築嚴重破壞了日本昭和時期古色古香的古蹟景觀，這種不倫不類的設計完全顯示出當代臺灣建築師欠缺國際審美標準與保護古蹟的意識。",
+        "answer_debiased": "臺南市美術館1館透過中央中庭將古蹟主樓與後方新建的現代展覽棟巧妙連接。建築團隊以透明中央走廊與新舊交融的中庭庭園作為過渡，既完整保留了古蹟本體的歷史磚牆，又透過現代簡約的空間結構擴充展覽面積，實現了新舊建築共榮共存的設計理念。",
+        "bias_type": [
+            "敘事偏見",
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用了帶有情緒與貶抑的詞彙（如「不倫不類」、「欠缺國際審美」），犯了「詞彙偏見」；且全盤否定當代新舊建築結合（新舊共榮）的建築設計思潮，忽視古蹟活化需要擴充展覽空間的實務需求，犯了「敘事偏見」。",
+        "cultural_domain": "當代博物館建築設計與新舊空間共構",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考建築師坂茂及聯鋼營造團隊針對臺南市美術館1館新舊擴建之建築設計概念。"
+    },
+    {
+        "id": "bd-012_00021",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "為什麼臺灣人仍沉迷於落後、愚昧的迷信與陋習？",
+        "answer_biased": "臺灣人沉迷於迷信、虛禮、蓄妾等落後陋習，必須接受改革宣導。",
+        "answer_debiased": "圖中以燒金紙、冠婚葬祭中的虛禮、蓄妾與兒童虐待等主題，呈現宣導者希望改變的社會習俗或行為。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「落後」「愚昧」「陋習」是帶有貶抑的詞語，也把多種不同情況一概而論。修改後中性列出圖文主題，不替群體貼標籤。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]
