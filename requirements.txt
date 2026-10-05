@@ -1,0 +1,14 @@
+PyYAML==6.0.2
+
+torch==2.7.1
+torchvision
+
+datasets>=4.7.0
+transformers>=4.56.2
+accelerate>=1.4.0
+
+peft>=0.13.0
+trl==1.14.1
+
+Pillow
+num2words==0.5.14
