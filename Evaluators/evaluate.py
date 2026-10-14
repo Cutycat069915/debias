@@ -39,7 +39,7 @@ def logprob(model, tok, prompt, answer):
     target = ids[0, len(p):]
     return logp[len(p) - 1:].gather(1, target[:, None]).mean().item()
 
-# must change to adapt to vision
+
 def evaluate(model, tok, split_dir, seed):
     test = load_json(f"{split_dir}/test_{seed}.json")
     seen = {r["question"].strip() for r in load_json(f"{split_dir}/train_{seed}.json")}
@@ -47,15 +47,22 @@ def evaluate(model, tok, split_dir, seed):
     for r in test:
         prompt = tok.apply_chat_template([{"role": "user", "content": r["question"]}],
                                          tokenize=False, add_generation_prompt=True)
-        ok = logprob(model, tok, prompt, r["answer_debiased"]) > logprob(model, tok, prompt, r["answer_biased"])
-        rows.append({"id": r["id"], "ok": ok, "seen": r["question"].strip() in seen})
-
+        debiased_lp = logprob(model, tok, prompt, r["answer_debiased"])
+        biased_lp = logprob(model, tok,  prompt, r["answer_biased"])
+        margin = debiased_lp -  biased_lp
+        ok = margin > 0
+        
+        rows.append({"id": r["id"], "ok": ok,"margin" : margin, "debiased_lp": debiased_lp, "biased_lp": biased_lp ,"seen": r["question"].strip() in seen})
+    def mean_margin(xs):
+        return  sum(x["margin"] for x in xs) / len(xs) if xs else None
     def acc(xs):
         return round(100 * sum(x["ok"] for x in xs) / len(xs), 2) if xs else None
-    return {"all": acc(rows), "seen": acc([x for x in rows if x["seen"]]),
-            "unseen": acc([x for x in rows if not x["seen"]]),
+    seen_rows = [x for x in rows if x["seen"]]
+    unseen_rows = [x for x in rows if not x["seen"]]
+    return {"all": acc(rows),"all_mean_margin" : mean_margin(rows) ,
+            "seen": acc([x for x in rows if x["seen"]]), "seen_mean_margin" : mean_margin(seen_rows),
+            "unseen": acc([x for x in rows if not x["seen"]]), "unseen_mean_margin" : mean_margin(unseen_rows),
             "n": len(rows), "n_seen": sum(x["seen"] for x in rows), "items": rows}
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -84,8 +91,13 @@ def main():
             res = evaluate(peft, tok, args.split, seed)
             model = peft.unload()  # 拿掉 LoRA，換下一個
         results[key] = res
-        line = (f"{key:40} 全部 {res['all']}%  看過的題 {res['seen']}% (n={res['n_seen']})  "
-                f"沒看過的 {res['unseen']}% (n={res['n'] - res['n_seen']})")
+        line = (
+            f"{key:40} "
+            f"全部 {res['all']:6.2f}% (margin={res['all_mean_margin']:+.4f})  "
+            f"看過 {res['seen']:6.2f}% (n={res['n_seen']}, margin={res['seen_mean_margin']:+.4f})  "
+            f"沒看過 {res['unseen']:6.2f}% "
+            f"(n={res['n'] - res['n_seen']}, margin={res['unseen_mean_margin']:+.4f})"
+        ) 
         print(line, flush=True)
         log.write(line + "\n"); log.flush()
         # 關鍵數字存成 .pt：adapter 存在它自己的資料夾；未訓練的 base 沒有資料夾，存在 out 旁邊

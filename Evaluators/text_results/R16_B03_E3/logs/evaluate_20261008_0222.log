@@ -1,0 +1,6 @@
+split=./split_dataset
+./text_save/R16_B03_E3/seed_15           全部  77.78% (margin=+0.2074)  看過  88.89% (n=18, margin=+0.3374)  沒看過  70.37% (n=27, margin=+0.1206)
+./text_save/R16_B03_E3/seed_22           全部  77.78% (margin=+0.2783)  看過  82.76% (n=29, margin=+0.3201)  沒看過  68.75% (n=16, margin=+0.2027)
+./text_save/R16_B03_E3/seed_23           全部  75.56% (margin=+0.2825)  看過  82.61% (n=23, margin=+0.3386)  沒看過  68.18% (n=22, margin=+0.2239)
+./text_save/R16_B03_E3/seed_32           全部  73.33% (margin=+0.1711)  看過  80.00% (n=25, margin=+0.2309)  沒看過  65.00% (n=20, margin=+0.0963)
+./text_save/R16_B03_E3/seed_432          全部  66.67% (margin=+0.1665)  看過  74.07% (n=27, margin=+0.1572)  沒看過  55.56% (n=18, margin=+0.1804)
