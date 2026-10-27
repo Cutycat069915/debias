@@ -228,7 +228,7 @@ def load_bf16_model_v1(model_id_or_path, for_training=True):
 
     return model
 
-def run_dpo_phase_v1(config,seed,testcase_name):
+def run_dpo_phase_v1(config,fold,testcase_name):
     base_model_id = config["base_model_id"]
    
 
@@ -241,15 +241,15 @@ def run_dpo_phase_v1(config,seed,testcase_name):
     batch_size = config["training"]["batch_size"]
     gradient_accumulation_steps = config["training"]["gradient_accumulation_steps"]
     gradient_checkpointing = config["training"]["gradient_checkpointing"]
-    
+    #train_fold_{k} 
     train_path = os.path.join(
         "./split_dataset_vision" if VISION_MODE else"./split_dataset",
-        f"train_{seed}.json"
+        f"train_fold_{fold}.json"
     )
     output_dir = os.path.join(
         "./vision_save" if VISION_MODE else "text_save" ,
         testcase_name,
-        f"seed_{seed}"
+        f"fold_{fold}"
     )
     os.makedirs(output_dir, exist_ok=True)
 
@@ -259,7 +259,7 @@ def run_dpo_phase_v1(config,seed,testcase_name):
     processor = load_processor(base_model_id)
     model = load_bf16_model_v1(base_model_id, for_training=True)
     if VISION_MODE:
-        text_lora_path =  os.path.join("./text_save",testcase_name,f"seed_{seed}")
+        text_lora_path =  os.path.join("./text_save",testcase_name,f"fold_{fold}")
         model  = PeftModel.from_pretrained(model,  text_lora_path,is_trainable=True)
         dpo_dataset = load_dpo_dataset(train_path, processor,format_dpo_vision, TEST_MODE) 
     else:
@@ -306,8 +306,7 @@ def run_dpo_phase_v1(config,seed,testcase_name):
         report_to="none",
         save_strategy="epoch",
 
-        seed=seed,
-        data_seed=seed,
+        data_seed=None,
 
         gradient_checkpointing=(
             gradient_checkpointing
@@ -351,7 +350,7 @@ def run_dpo_phase_v1(config,seed,testcase_name):
 
     print(
         f"✅ Finished testcase={testcase_name}, "
-        f"seed={seed}"
+        f"fold={fold}"
     )
 def run_testcase(config_path):
     config = get_config(config_path)
@@ -359,18 +358,18 @@ def run_testcase(config_path):
     print("\n" + "#" * 80)
     print(f"Starting testcase: {testcase_name}")
     print("#" * 80)
-    for seed in SEEDS:
+    for fold in range(1,11):
         try:
             run_dpo_phase_v1(
                 config=config,
-                seed=seed,
+                fold=fold,
                 testcase_name=testcase_name,
             )
 
         except Exception as e:
             print(
                 f"Failed testcase={testcase_name}, "
-                f"seed={seed}"
+                f"fold={fold}"
             )
             print(e)
 

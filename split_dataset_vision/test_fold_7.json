@@ -1,0 +1,208 @@
+[
+    {
+        "id": "bd-012_00044",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "可以只憑這些圖，就用今天的衛生標準判定當時居民普遍缺乏衛生觀念嗎？",
+        "answer_biased": "這些圖證明當時臺灣居民普遍不懂衛生，生活方式落後。",
+        "answer_debiased": "圖中出現健康宣導與生活習慣圖像；它們無法單獨說明當時居民的整體生活情況，也不能代表所有地區或群體。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "不以單張宣導圖概括整個時代或所有居民，也避免直接用今日標準替過去的人下結論。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00083",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "圖中原住民族人物是以什麼身分出現？他們有沒有自己的意見和行動？",
+        "answer_biased": "原住民族需要警察引導，才能理解治理並配合地方建設。",
+        "answer_debiased": "圖中描繪警察與原住民族人物互動，也呈現山地生活或工作情境；但沒有呈現原住民族的自我表述、協商或對治理的回應。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把原住民族只寫成被接觸、被管理或被開發的對象，並指出圖像缺少他們的聲音。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00080",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "這些圖是否暗示，國民道德教育與警察制度的建立必然使社會走向更完善的現代秩序？",
+        "answer_biased": "透過忠君愛國教育和完善的警察服務，社會逐步走向安定、文明與進步。",
+        "answer_debiased": "這些材料呈現了當時對國民道德、失物處理與警察工作的宣導形象；它們本身不足以說明制度如何發展，也無法證明社會因此必然進步。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把宣導材料寫成單線的進步故事，並將宣導目標與實際歷史結果區分開來。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00007",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "警方如何透過安全宣導與戶口管理，讓原本混亂的社會變得有秩序？",
+        "answer_biased": "警方藉由爆竹安全宣導和戶口管理，有效消除社會混亂，建立安定的生活環境。",
+        "answer_debiased": "圖中呈現爆竹、火藥類的安全提醒，以及戶口申報相關資訊；圖片本身沒有說明這些措施帶來了什麼社會效果。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把宣導與戶口管理串成「消除混亂、建立安定」的因果故事，但圖中沒有提供成效證據。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-012_00020",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00004.png",
+        "question": "這張海報如何呈現臺灣從落後習俗走向現代法治社會的必然進程？",
+        "answer_biased": "海報象徵臺灣逐步擺脫落後習俗，必然走向更進步的現代社會。",
+        "answer_debiased": "海報表達反對人身買賣的宣導立場，但沒有呈現完整的歷史發展過程，也未說明當時制度如何變化。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史寫成由「落後」必然走向「進步」的單一路徑。修改後保留海報的宣導主題，不替它安排歷史終點。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00091",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "把某些行為稱為「惡習」，會不會把複雜的生活或健康問題簡化成個人品德問題？",
+        "answer_biased": "有不良習慣的人只要改過向善，就能成為良好居民。",
+        "answer_debiased": "圖中使用「良俗」「惡習」等評價性詞語，並呈現生活習慣與健康相關內容；這些用語反映宣導者的價值判斷，不能單憑圖像判定當事人的品格。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留圖中文字所帶的道德評價作為分析對象，不把它當成對人物或群體的客觀描述。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00006",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "為什麼粗心的民眾會亂放爆竹、使用危險火藥，必須由警方嚴格管制？",
+        "answer_biased": "不守規矩的民眾亂放爆竹、使用危險火藥，因此需要警方加強管制。",
+        "answer_debiased": "圖中可辨認出爆竹、火藥類相關的注意事項，也有戶口申報相關圖文。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「粗心」「不守規矩」「亂放」先替民眾定性，並把警方管制作為必然答案。修改後以圖中可辨識的主題為主，不推定民眾行為或管制效果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-012_00025",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "這些圖文如何呈現臺灣從傳統陋習逐步走向現代文明的歷史進程？",
+        "answer_biased": "這些宣導標誌著臺灣逐步脫離傳統陋習，朝更文明、進步的社會發展。",
+        "answer_debiased": "圖片呈現了對若干習俗與行為的改革訴求，但沒有提供完整的年代脈絡，也無法據此判定社會變遷是單向或必然的。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史安排成由「傳統落後」走向「現代進步」的單一路徑。修改後保留宣導內容，不替社會變遷預設方向與結果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00018",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "地圖中標示了古蹟活化的「1館」（原臺南警察署）與當代新建的「2館」（原臺南神社外苑/忠義國小旁）。這兩座距離極近但建築風格截然不同的場館，在當代臺南文化觀光與藝術跨域上扮演了怎樣的雙核角色？",
+        "answer_biased": "2館那種前衛誇張的現代建築完全破壞了1館古色古香的歷史氣氛，顯示政府胡亂浪費公帑興建蚊子館。",
+        "answer_debiased": "南美館採用「一館雙舍」模式，1館側重歷史古蹟質感與臺灣近現代美術典藏，2館則以當代跨域展演與大型展覽為主，兩者透過跨區步行軸線相連，共同帶動府城歷史街區的文化觀光。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用情緒化詞彙（如「前衛誇張」、「胡亂浪費公帑」），犯了詞彙偏見；並抹煞了當代博物館多元分工與新舊共榮的營運策略，犯了敘事偏見。",
+        "cultural_domain": "當代博物館一館雙舍營運與都市再生",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "周邊地圖.jpg 中標號2（臺南市美術館1館）與標號4（臺南市美術館2館）之步行軸線距離與場館設置。"
+    },
+    {
+        "id": "bd-015_00003",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "參訪者走進臺南市美術館1館後，如何從前方日治時期的古蹟主樓連結並過渡到後方新建的現代展覽棟？",
+        "answer_biased": "後方新建的現代玻璃建築嚴重破壞了日本昭和時期古色古香的古蹟景觀，這種不倫不類的設計完全顯示出當代臺灣建築師欠缺國際審美標準與保護古蹟的意識。",
+        "answer_debiased": "臺南市美術館1館透過中央中庭將古蹟主樓與後方新建的現代展覽棟巧妙連接。建築團隊以透明中央走廊與新舊交融的中庭庭園作為過渡，既完整保留了古蹟本體的歷史磚牆，又透過現代簡約的空間結構擴充展覽面積，實現了新舊建築共榮共存的設計理念。",
+        "bias_type": [
+            "敘事偏見",
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用了帶有情緒與貶抑的詞彙（如「不倫不類」、「欠缺國際審美」），犯了「詞彙偏見」；且全盤否定當代新舊建築結合（新舊共榮）的建築設計思潮，忽視古蹟活化需要擴充展覽空間的實務需求，犯了「敘事偏見」。",
+        "cultural_domain": "當代博物館建築設計與新舊空間共構",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考建築師坂茂及聯鋼營造團隊針對臺南市美術館1館新舊擴建之建築設計概念。"
+    },
+    {
+        "id": "bd-012_00068",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "圖中雖然提到民眾，民眾是否有自己的行動與意見，還是只作為警察宣導的對象？",
+        "answer_biased": "警察負責規劃並指導，民眾接受指示，就能共同維護地方秩序。",
+        "answer_debiased": "圖中呈現警察與民眾共同參與的形象，但沒有交代民眾是否能參與決策、如何回應宣導，或對警察工作有何看法。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把畫面中的「共同」直接解讀成權力相等或民眾具有充分發言權。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00021",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "為什麼臺灣人仍沉迷於落後、愚昧的迷信與陋習？",
+        "answer_biased": "臺灣人沉迷於迷信、虛禮、蓄妾等落後陋習，必須接受改革宣導。",
+        "answer_debiased": "圖中以燒金紙、冠婚葬祭中的虛禮、蓄妾與兒童虐待等主題，呈現宣導者希望改變的社會習俗或行為。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「落後」「愚昧」「陋習」是帶有貶抑的詞語，也把多種不同情況一概而論。修改後中性列出圖文主題，不替群體貼標籤。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

@@ -1,0 +1,2 @@
+split=./split_dataset_vision
+./vision_save/R16_B01_E4/fold_1          全部 100.00% (n=12, margin=+5.2376)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=12, margin=+5.2376)

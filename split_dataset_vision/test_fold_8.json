@@ -1,0 +1,226 @@
+[
+    {
+        "id": "bd-015_00022",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "這個展覽空間沒有多餘的柱子遮擋，開闊的木地板與高挑的天花板設計，對於未來的藝術作品陳列或大型裝置展出有什麼優勢？   ",
+        "answer_biased": "整個房間空空蕩蕩沒有任何裝飾，簡直就像一個荒廢的體育館或倉庫，完全無法襯託藝術品的高貴價值。",
+        "answer_debiased": "無柱的大跨距空間與高挑天花，提供了極高的展覽佈局彈性，能適應平面的繪畫掛置、立體的雕塑陳列或大型當代裝置藝術，讓策展團隊在規劃觀眾動線與空間場域時具備更多可能性。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「荒廢」、「簡直像倉庫」等主觀貶抑語彙（屬詞彙偏見）；並以狹隘的「高貴裝潢」想像限定藝術展示，否定開闊空間對多樣化藝術形式的主體包容性（屬主體偏見）。",
+        "cultural_domain": "博物館無柱大跨距空間與策展動線規劃",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」與第三類「主體偏見」；事實佐證依據 Building1_04_2F.jpg 影像中無立柱遮擋之開闊木地板與挑高視野。"
+    },
+    {
+        "id": "bd-012_00090",
+        "image_id": "img_00018",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00018.png",
+        "question": "這些材料是否容易讓人把山地治理寫成從「原始」走向「文明」的單一路徑？",
+        "answer_biased": "政府透過警備、武器和治理，帶領山地社會逐步走向現代文明。",
+        "answer_debiased": "這些材料呈現特定時期的分類與治理視角；僅憑圖像無法判斷治理成效，也不足以說明原住民族社會的發展歷程。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「原始到文明」的進步框架，避免把殖民治理視為唯一的歷史發展道路。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00005",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "正門入口處的柱子與上面的弧形陽臺設計，給參訪者什麼樣的感覺？",
+        "answer_biased": "正門那兩根威嚴柱子跟弧形陽臺就是日本警察用來俯瞰與監視台灣老百姓的威權壓迫工具，讓人一靠近就心生恐懼與厭惡。",
+        "answer_debiased": "正門入口採用立體柱廊與二樓圓弧形陽臺的幾何切割，構成建築中央的視覺焦點。這種入口玄關設計在日治時期公共建築中常見，能強化建築的對稱秩序感與入口儀式感，改建為美術館後則轉化為引導觀眾進入藝術空間的優雅迎賓意象。",
+        "bias_type": [
+            "主體偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答單向地將建築門廊裝飾詮釋為「監視與壓迫工具」，投射個人強烈情緒，犯了「敘事偏見」；同時將所有台灣民眾的觀感簡化為「心生恐懼與厭惡」，忽視了多元觀者對建築空間的客觀視覺體驗，犯了「主體偏見」。",
+        "cultural_domain": "建築玄關藝術與入口空間設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考原臺南警察署建築空間與入口立面設計規範。"
+    },
+    {
+        "id": "bd-012_00054",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "可以只憑這組宣導圖，推論當時所有地區、群體都以相同方式理解法律與警察嗎？",
+        "answer_biased": "當時民眾都需要警察和法律介入，才能維持日常生活秩序。",
+        "answer_debiased": "這組圖呈現特定的宣導視角，但沒有交代適用的地區、對象或實際生活情境，不能據此概括所有人的經驗。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "補上時空與群體範圍的限制，不把單一宣導材料當成整體社會的寫照。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00085",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這組圖是否暗示，原住民族社會必須經由警察治理與現代化開發，才能走向「進步」？",
+        "answer_biased": "警察治理與交通、產業建設逐步帶領山地社會走出落後，邁向現代化。",
+        "answer_debiased": "這些圖呈現特定時期對山地治理與開發的宣傳形象；僅憑圖像無法判斷其歷史效果，也不能證明原住民族社會必須沿著這條路徑發展。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「落後到現代」的單線進步敘事，避免把殖民治理與開發描寫成唯一或必然的歷史道路。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00078",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "這些材料呈現了警察如何管理或協助民眾，有沒有呈現民眾自己的經驗與評價？",
+        "answer_biased": "警察替民眾處理問題，民眾只要信任並配合警察即可。",
+        "answer_debiased": "圖中呈現警察宣導、遺失物處理及警民互動畫面，但沒有交代民眾如何看待這些服務或執法方式。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不只採用警察制度的視角，也不推定民眾必然信任或認同。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00026",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "年輕女性如何成為危險的誘惑來源，使男性走上歧途？",
+        "answer_biased": "宣導圖把女性描繪成誘惑男性的危險來源，暗示男性的偏差行為是受到女性引誘所致。",
+        "answer_debiased": "「青春の誘惑／誘惑の細菌」海報以女性肖像為中心，周圍配置男性人物及其他圖像，呈現其對青年道德風險的宣導觀點。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把女性直接說成危險來源，也把男性行為歸咎於女性。修改後描述海報如何安排人物，不將宣導觀點當成事實。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00058",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "圖中呈現了管理機關的規定，有沒有呈現出版者、讀者或居民如何看待這些限制？",
+        "answer_biased": "管理機關制定規則，是為了民眾好；民眾應配合，無須質疑。",
+        "answer_debiased": "圖像呈現規定與宣導內容，但沒有交代制定者、受規範者的經驗，也沒有呈現不同群體對規定的看法。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不只採取管理者的觀點，也不預設受規範者認同或受益於這些措施。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "日治時期警察制度如何以完善、進步的措施改善臺灣社會秩序？",
+        "answer_biased": "日治時期建立了完善、進步的警察制度，有效改善臺灣社會秩序。",
+        "answer_debiased": "展覽從警察制度、勤務與生活文化等面向，探討日治時期警察制度在臺灣社會中的作用與影響。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「完善」「進步」「有效改善」都帶有評價，也把影響預先說成正面。修改後保留原文提到的分析面向，不替其成效下結論。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-012_00072",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "這組圖是否把警察或軍隊的討伐，說成保護居民與恢復秩序的唯一途徑？",
+        "answer_biased": "討伐山地勢力能保護良民，讓地方恢復安定。",
+        "answer_debiased": "圖像將山地行動、治安工作與「保護良民」的訊息並置，呈現宣傳者對行動目的的說明；但沒有交代衝突原因、行動過程及對當地居民的影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "區分宣傳所宣稱的目的與實際經過、結果，避免用單一敘事概括衝突。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00026",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "這座建築座落於兩條道路交會的轉角處，其凸出的半圓形主入口設計在都市街景中扮演了怎樣的視覺標誌效果？",
+        "answer_biased": "日本警察局蓋在路口頂角純粹是用來威嚇周邊老百姓，這種充滿攻擊性的霸道設計展現了殖民者居高臨下的傲慢。",
+        "answer_debiased": "1930年代許多重要公共建築常選址於街道交會切角處，半圓形玄關與頂部山牆順應路口形狀展開，能形成強烈的都市地標（Landmark）引導性，便利不同方向的行人辨識與進出。",
+        "bias_type": [
+            "詞彙偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「攻擊性」、「霸道設計」、「居高臨下的傲慢」等情感化詞彙（屬詞彙偏見）；並將常見的街角建築地標手法單向詮釋為對民眾的威嚇，抹煞被統治者對都市景觀的多樣體驗（屬主體偏見）。",
+        "cultural_domain": "近代都市街道轉角建築與地標型入口設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」與第三類「主體偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 照片中建築座落於兩條馬路轉角處之半圓形凸出玄關。"
+    },
+    {
+        "id": "bd-012_00096",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00020.png",
+        "question": "用「文化的曙光」和黑夜作對比，會不會暗示宣導前的社會缺乏文化或文明？",
+        "answer_biased": "青年教育帶來文化曙光，讓原本蒙昧的社會走向文明。",
+        "answer_debiased": "圖像以夜色與光亮呈現文化轉變，也出現「青年教育」等字樣；這種象徵方式表達了宣導者對教育的期待，不能據此判定此前的社會缺乏文化。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把「夜」直接等同於落後或蒙昧，也不把特定的文化標準當成普遍尺度。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00094",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "右上圖呈現的交通變化，能否代表當時所有地區的交通經驗？",
+        "answer_biased": "當時臺灣的交通都由落後走向便利，民眾的生活也因此同步改善。",
+        "answer_debiased": "右上圖似以臺北交通的今昔作比較；單一城市的圖像不能代表其他地區，也無法說明不同居民獲得交通服務的情況。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定圖像的地域與對象，不把特定城市的呈現擴大為全臺灣的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

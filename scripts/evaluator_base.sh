@@ -5,20 +5,20 @@ set -e
 PYTHON=python
 SCRIPT=./Evaluators/evaluate.py
 
-SPLIT=./split_dataset
-OUT=./Evaluators/text_results/base/results.json
+SPLIT=./split_dataset_vision
+OUT=./Evaluators/vision_results/base/results.json
 
-SEEDS=(15 22 23 32 432)
+K=10
 
 BASE_ADAPTERS=()
 
-for SEED in "${SEEDS[@]}"; do
-    BASE_ADAPTERS+=("base/seed_${SEED}")
+for ((FOLD=1; FOLD<=K; FOLD++)); do
+    BASE_ADAPTERS+=("base/fold_${FOLD}")
 done
 
 mkdir -p "$(dirname "$OUT")"
 
-$PYTHON "$SCRIPT" \
+"$PYTHON" "$SCRIPT" \
     "${BASE_ADAPTERS[@]}" \
     --split "$SPLIT" \
     --out "$OUT"

@@ -1,0 +1,11 @@
+split=./split_dataset_vision
+./vision_save/R16_B01_E3/fold_1          全部 100.00% (n=12, margin=+4.5315)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=12, margin=+4.5315)
+./vision_save/R16_B01_E3/fold_10         全部 100.00% (n=13, margin=+3.2732)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+3.2732)
+./vision_save/R16_B01_E3/fold_2          全部 100.00% (n=13, margin=+3.9600)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+3.9600)
+./vision_save/R16_B01_E3/fold_3          全部 100.00% (n=13, margin=+3.8539)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+3.8539)
+./vision_save/R16_B01_E3/fold_4          全部 100.00% (n=12, margin=+4.4247)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=12, margin=+4.4247)
+./vision_save/R16_B01_E3/fold_5          全部 100.00% (n=13, margin=+3.9660)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+3.9660)
+./vision_save/R16_B01_E3/fold_6          全部 100.00% (n=13, margin=+4.3159)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+4.3159)
+./vision_save/R16_B01_E3/fold_7          全部 100.00% (n=12, margin=+4.1015)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=12, margin=+4.1015)
+./vision_save/R16_B01_E3/fold_8          全部 100.00% (n=13, margin=+4.0600)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+4.0600)
+./vision_save/R16_B01_E3/fold_9          全部 100.00% (n=13, margin=+3.5056)  看過 N/A% (n=0, margin=N/A)  沒看過 100.00% (n=13, margin=+3.5056)

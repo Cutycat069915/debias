@@ -20,10 +20,13 @@ import time
 
 import torch
 from peft import PeftModel
-from transformers import AutoTokenizer, MllamaForConditionalGeneration
-
+from transformers import AutoTokenizer, MllamaForConditionalGeneration, AutoProcessor
+from PIL import Image
 BASE = "./models/Llama-3.2-11B-Vision-Instruct"
-
+def fmt(value, spec):
+    if value is None or value == "N/A":
+        return "N/A"
+    return format(float(value), spec)
 
 def load_json(path):
     with open(path, encoding="utf-8-sig") as f:
@@ -39,7 +42,26 @@ def logprob(model, tok, prompt, answer):
     target = ids[0, len(p):]
     return logp[len(p) - 1:].gather(1, target[:, None]).mean().item()
 
+def logprob_vision(model, processor, inputs, answer):
+    inputs = inputs.to(model.device)
+    a = processor.tokenizer(answer, add_special_tokens=False)["input_ids"]
+    p = inputs["input_ids"][0].tolist()
+    ids = torch.tensor([p+a] , device=model.device)
+    inputs["input_ids"] = ids
+    inputs["attention_mask"] = torch.ones_like(ids)
+    if "cross_attention_mask" in inputs:
+        mask = inputs["cross_attention_mask"]
+        answer_mask = mask[:, -1:, ...].expand(
+            -1, len(a), *mask.shape[2:]
+        )
+        inputs["cross_attention_mask"] = torch.cat(
+            [mask, answer_mask], dim=1
+        )
 
+    with torch.no_grad():
+        logp = model(**inputs).logits[0,:-1].float().log_softmax(-1)
+    target = ids[0, len(p):]
+    return logp[len(p) -1 : ].gather(1, target[:, None]).mean().item()      
 def evaluate(model, tok, split_dir, seed):
     test = load_json(f"{split_dir}/test_{seed}.json")
     seen = {r["question"].strip() for r in load_json(f"{split_dir}/train_{seed}.json")}
@@ -63,15 +85,56 @@ def evaluate(model, tok, split_dir, seed):
             "seen": acc([x for x in rows if x["seen"]]), "seen_mean_margin" : mean_margin(seen_rows),
             "unseen": acc([x for x in rows if not x["seen"]]), "unseen_mean_margin" : mean_margin(unseen_rows),
             "n": len(rows), "n_seen": sum(x["seen"] for x in rows), "items": rows}
-
+def evaluate_vision(model, processor,split_dir, fold):
+    test = load_json(f"{split_dir}/test_fold_{fold}.json")
+    seen = {r["question"].strip() for r in load_json(f"{split_dir}/train_fold_{fold}.json")}
+    rows = []
+    for r in test:
+        messages = [
+            {
+                "role" : "user",
+                "content" : [
+                    {
+                        "type": "image",
+                        "image": Image.open(r["image_path"])
+                    },
+                    {
+                        "type": "text",
+                        "text": r["question"]
+                    }
+                ]
+            }
+        ]
+        prompt =  processor.apply_chat_template(
+            messages,
+            tokenize=True,
+            add_generation_prompt = True,
+            return_dict=True,
+            return_tensors="pt"
+        ) 
+        debiased_lp = logprob_vision(model, processor, prompt, r["answer_debiased"])
+        biased_lp = logprob_vision(model, processor,  prompt, r["answer_biased"])
+        margin = debiased_lp - biased_lp
+        ok = margin > 0
+        rows.append({"id" : r["id"], "ok" : ok, "margin" : margin,  "debiased_lp" : debiased_lp, "biased_lp" : biased_lp , "seen" : r["question"].strip() in seen})
+    def mean_margin(xs):
+        return  sum(x["margin"] for x in xs) / len(xs) if xs else "N/A"
+    def acc(xs):
+        return round(100 * sum(x["ok"] for x in xs) / len(xs), 2) if xs else "N/A"
+    seen_rows = [x for x in rows if x["seen"]]
+    unseen_rows = [x for x in rows if not x["seen"]]
+    return {"all": acc(rows),"all_mean_margin" : mean_margin(rows) ,
+            "seen": acc([x for x in rows if x["seen"]]), "seen_mean_margin" : mean_margin(seen_rows),
+            "unseen": acc([x for x in rows if not x["seen"]]), "unseen_mean_margin" : mean_margin(unseen_rows),
+            "n": len(rows), "n_seen": sum(x["seen"] for x in rows), "items": rows}
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("adapters", nargs="+", help="adapter 資料夾，或 base/seed_<seed>")
+    ap.add_argument("adapters", nargs="+", help="adapter 資料夾，或 base/fold_<fold>")
     ap.add_argument("--split", default="./split_dataset")
     ap.add_argument("--out", default="./Evaluators/results.json")
     args = ap.parse_args()
-
-    tok = AutoTokenizer.from_pretrained(BASE)
+    processor = AutoProcessor.from_pretrained(BASE)
+    tok = processor.tokenizer
     model = MllamaForConditionalGeneration.from_pretrained(
         BASE, torch_dtype=torch.bfloat16, device_map="cuda").eval()
     results = load_json(args.out) if os.path.exists(args.out) else {}
@@ -81,30 +144,33 @@ def main():
     log.write(f"split={args.split}\n")
 
     for path in args.adapters:
-        seed, key = int(re.search(r"seed_(\d+)", path).group(1)), path.rstrip("/")
+        fold, key = int(re.search(r"fold_(\d+)", path).group(1)), path.rstrip("/")
         if path.startswith("base"):
-            res = evaluate(model, tok, args.split, seed)
+            res = evaluate_vision(model, processor, args.split, fold)
         else:
             peft = PeftModel.from_pretrained(model, path)
             # 載入類別不對時 adapter 會整個沒掛上、也不報錯，所以檢查一次
             assert any("lora_B" in k and v.abs().sum() > 0 for k, v in peft.state_dict().items()), f"{path} 沒掛上"
-            res = evaluate(peft, tok, args.split, seed)
+            res = evaluate_vision(peft, processor, args.split, fold)
             model = peft.unload()  # 拿掉 LoRA，換下一個
         results[key] = res
+       
         line = (
             f"{key:40} "
-            f"全部 {res['all']:6.2f}% (margin={res['all_mean_margin']:+.4f})  "
-            f"看過 {res['seen']:6.2f}% (n={res['n_seen']}, margin={res['seen_mean_margin']:+.4f})  "
-            f"沒看過 {res['unseen']:6.2f}% "
-            f"(n={res['n'] - res['n_seen']}, margin={res['unseen_mean_margin']:+.4f})"
+            f"全部 {fmt(res['all'], '6.2f')}% "
+            f"(n={res['n']}, margin={fmt(res['all_mean_margin'], '+.4f')})  "
+            f"看過 {fmt(res['seen'], '6.2f')}% "
+            f"(n={res['n_seen']}, margin={fmt(res['seen_mean_margin'], '+.4f')})  "
+            f"沒看過 {fmt(res['unseen'], '6.2f')}% "
+            f"(n={res['n'] - res['n_seen']}, margin={fmt(res['unseen_mean_margin'], '+.4f')})"
         ) 
         print(line, flush=True)
         log.write(line + "\n"); log.flush()
         # 關鍵數字存成 .pt：adapter 存在它自己的資料夾；未訓練的 base 沒有資料夾，存在 out 旁邊
         pt = {k: v for k, v in res.items() if k != "items"}
-        pt.update({"adapter": key, "seed": seed, "split": args.split, "items": res["items"],
+        pt.update({"adapter": key, "fold": fold, "split": args.split, "items": res["items"],
                    "time": time.strftime("%Y-%m-%d %H:%M")})
-        pt_path = (os.path.join(os.path.dirname(args.out), f"base_seed{seed}_eval_results.pt")
+        pt_path = (os.path.join(os.path.dirname(args.out), f"base_fold{fold}_eval_results.pt")
                    if path.startswith("base") else os.path.join(path, "eval_results.pt"))
         torch.save(pt, pt_path)
         os.makedirs(os.path.dirname(args.out), exist_ok=True)

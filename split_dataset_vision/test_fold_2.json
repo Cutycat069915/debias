@@ -1,0 +1,226 @@
+[
+    {
+        "id": "bd-012_00056",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "把出版限制和要塞地帶的拍攝規定描述成「保護安全」，會不會淡化對資訊與行動的限制？",
+        "answer_biased": "為了保護國家安全，出版和拍攝都必須受到嚴格管理；遵守規定的人才是守法公民。",
+        "answer_debiased": "圖中列出出版相關規定，也說明在要塞地帶進行測量、攝影、模寫等活動須取得許可。這些規定限制了部分活動，但圖像本身沒有說明其執行情況與影響。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不以「保護安全」替限制措施直接背書，也不把遵守規定與公民品格畫上等號。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00011",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "為什麼漁民和農民不守規矩，必須靠政府嚴格管理？",
+        "answer_biased": "不守規矩的漁民使用禁用漁具，農民也忽視害蟲防治，因此政府必須嚴格管制。",
+        "answer_debiased": "圖中有漁業規範與害蟲防治相關圖文，但僅憑圖片無法判斷民眾是否違規，或宣導所針對的對象與成效。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「不守規矩」「忽視」先替民眾定性。修改後描述宣導主題，不推測民眾的行為或動機。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00049",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "可以把「先盡義務，再談權利」當成適用於所有時代、地區和群體的原則嗎？",
+        "answer_biased": "不論身分或處境，所有人都應先完成義務，才可以要求權利。",
+        "answer_debiased": "這幅圖以特定標語表達義務與權利的關係；它本身不足以說明不同群體當時享有什麼權利、承擔什麼義務，也不能證明這項主張適用於所有人。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "補回歷史情境與群體差異，避免把特定宣導主張擴大成普遍規則。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00073",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "圖中主要呈現警察、軍隊和政府視角，當地居民有沒有自己的聲音？",
+        "answer_biased": "警察與軍隊負責維持秩序，當地居民只要接受管理，就能得到保護。",
+        "answer_debiased": "畫面呈現警察或軍隊的行動與治理情境，沒有呈現當地居民如何理解這些行動、是否同意，或受到什麼影響。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把治理者的觀點當成所有居民的立場，也不把居民寫成被動接受管理的人。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00074",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "這些討伐與警備圖像，能否代表所有原住民族群、地區和時期的經驗？",
+        "answer_biased": "山地居民普遍反抗治理，因此各地都需要以同一套方式進行警備與討伐。",
+        "answer_debiased": "這組圖呈現特定宣傳材料中的山地警備與討伐形象，不能據此概括不同族群、地區或時期的情況。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定材料能支持的範圍，不把特定行動推論成所有原住民族群的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00027",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "觀察建築周邊的馬路、街道與周圍密集的市區建築，這座結合了古蹟與現代結構的美術館如何融入臺南的舊城區景觀中？",
+        "answer_biased": "周圍市區那些雜亂無章的民房跟這棟歷史古蹟完全格格不入，嚴重破壞了日本昭和時期古蹟該有的高雅與純粹性。",
+        "answer_debiased": "臺南市美術館1館立於密集的府城舊城區街廊中，古蹟土黃色溝面磚與周邊街道景觀相互呼應，展現出不同歷史時期（清代街廓、日治官署、現代民居）在都市空間中重疊並存的台南在地文化紋理。",
+        "bias_type": [
+            "詞彙偏見",
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「雜亂無章」等貶抑詞（屬詞彙偏見）；並以單一「昭和日式美學」作為評判唯一標準，否定臺灣在地庶民街景與多層次歷史疊加的客觀現實（屬紀年與時代框架偏見）。",
+        "cultural_domain": "府城舊城區街廊紋理與多層次歷史景觀疊加",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與第五類「紀年與時代框架偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 全景鳥瞰中美術館與周邊馬路、市區樓房相鄰之都市現況。"
+    },
+    {
+        "id": "bd-015_00020",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "展廳兩側牆面設有大面積的格狀高窗，自然光線如何透過這些窗戶灑落室內，影響展覽空間的明亮感與光影變化？",
+        "answer_biased": "展場開這麼多大窗戶讓陽光直射進來，完全是設計師欠缺博物館專業知識，只會破壞畫作與展品的低劣設計。",
+        "answer_debiased": "牆面兩側保留的大面積格狀高窗能引進充足的自然光，使展廳視覺更為開闊明亮；在實際展覽時，亦可透過窗簾或遮光調控，平衡自然採光的視覺舒適度與藝術品維護的需求。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「欠缺專業知識」、「低劣設計」等貶抑詞彙（屬詞彙偏見）；並全盤否定建築原始開窗採光設計與當代展覽光線調控的可行性（屬敘事偏見）。",
+        "cultural_domain": "近代建築開窗工藝與展覽空間採光設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與「敘事偏見」；事實佐證依據 Building1_04_2F.jpg 影像中兩側高窗引導自然光線均勻散佈於展廳木地板之視覺呈現。"
+    },
+    {
+        "id": "bd-012_00046",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "「先履行義務，再談權利」會不會把權利說成必須先完成義務才能取得？",
+        "answer_biased": "不先盡好本分的人，沒有資格要求權利。",
+        "answer_debiased": "左下圖以「先履行義務，再談權利」為標語，並搭配人物圖像。這呈現了宣導者對義務與權利次序的主張；單憑標語無法判定個人是否有資格享有權利。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「沒有資格」這種帶有譴責意味的說法，並將標語主張與普遍適用的權利原則區分開來。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00010",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "這座建築座落於臺南古蹟蛋黃區，它與周邊的文化歷史景點（如孔廟、文學館）形成了怎樣的連結？",
+        "answer_biased": "在象徵中華儒家傳統的臺灣首學孔廟對面蓋這棟日本殖民警政建築，完全是日本帝國為了消滅漢人儒家文化所作的霸道空間壓制。",
+        "answer_debiased": "臺南市美術館1館座落於府城核心歷史街區，周邊環繞臺南孔子廟、臺灣文學館（原臺南州廳）與地方法院等國定古蹟。這些不同時期的建築共同構築了台南豐富的歷史層次，使參訪者能透過步行漫遊，體驗從清代傳統文化到近代西方樣式建築的歷史變遷。",
+        "bias_type": [
+            "紀年與時代框架偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答過度使用現代對立政權意識形態詮釋日治時期城市區劃，犯了「紀年與時代框架偏見」；將正常的近代行政官署選址簡化為「消滅漢人文化的霸道壓制」，犯了「敘事偏見」。",
+        "cultural_domain": "府城歷史街區與文化資產聚落",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市文化資產保存區與民生綠園文化園區整體規劃。"
+    },
+    {
+        "id": "bd-012_00077",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "遺失物處理圖解是否足以證明警察制度能妥善處理所有遺失物案件？",
+        "answer_biased": "警察建立完善的遺失物制度，民眾只要配合，就能迅速找回失物。",
+        "answer_debiased": "右上圖解展示遺失物處理相關設施或流程，左下另有表格式資料；但圖中未呈現實際案件結果，不能據此判斷制度成效。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "區分制度設計與實際成效，不把流程圖或統計表直接當成服務成功的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00093",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "這些圖由誰定義哪些習慣是「良」或「惡」？圖中人物有沒有自己的說法？",
+        "answer_biased": "宣導者指出民眾的問題，並教導他們如何成為更好的居民。",
+        "answer_debiased": "圖像呈現宣導者對生活習慣、衛生或交通的觀點，沒有呈現受宣導者如何理解或回應這些訊息。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導者的判斷當成民眾的共識，也不預設民眾接受了宣導。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00057",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "這組宣導圖是否證明，出版與拍攝受到管理後，社會就更安全或更有秩序？",
+        "answer_biased": "管理出版內容和要塞地帶的資訊，能避免危險、維持秩序，讓社會更安定。",
+        "answer_debiased": "圖中呈現出版及要塞地帶活動的規定，也包含讀書文化與「愛的力量」等主題；但沒有提供這些宣導或限制實際造成何種效果的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "區分宣導者提出的理由與實際結果，不把規定的存在當成其有效性的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00038",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00008.png",
+        "question": "青年應如何接受當局指導，避免接觸不正確的言論？",
+        "answer_biased": "青年應聽從當局指導，反省自身並遠離不正確的言論，才能成為合格的社會成員。",
+        "answer_debiased": "圖中文字向青年提出反省與自我充實的要求，但沒有呈現青年如何理解、回應或認同這些要求。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本只採取宣導者的立場，將青年寫成被指導、被評價的對象。修改後保留訊息內容，也指出青年自身的觀點未呈現。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

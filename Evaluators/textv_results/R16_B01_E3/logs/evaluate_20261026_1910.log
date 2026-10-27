@@ -1,0 +1,11 @@
+split=./split_dataset_vision
+./text_save/R16_B01_E3/fold_1            全部  75.00% (n=12, margin=+0.4144)  看過 N/A% (n=0, margin=N/A)  沒看過  75.00% (n=12, margin=+0.4144)
+./text_save/R16_B01_E3/fold_10           全部  69.23% (n=13, margin=+0.2776)  看過 N/A% (n=0, margin=N/A)  沒看過  69.23% (n=13, margin=+0.2776)
+./text_save/R16_B01_E3/fold_2            全部  76.92% (n=13, margin=+0.3371)  看過 N/A% (n=0, margin=N/A)  沒看過  76.92% (n=13, margin=+0.3371)
+./text_save/R16_B01_E3/fold_3            全部  61.54% (n=13, margin=+0.4158)  看過 N/A% (n=0, margin=N/A)  沒看過  61.54% (n=13, margin=+0.4158)
+./text_save/R16_B01_E3/fold_4            全部  75.00% (n=12, margin=+0.6286)  看過 N/A% (n=0, margin=N/A)  沒看過  75.00% (n=12, margin=+0.6286)
+./text_save/R16_B01_E3/fold_5            全部  69.23% (n=13, margin=+0.6120)  看過 N/A% (n=0, margin=N/A)  沒看過  69.23% (n=13, margin=+0.6120)
+./text_save/R16_B01_E3/fold_6            全部  92.31% (n=13, margin=+0.8434)  看過 N/A% (n=0, margin=N/A)  沒看過  92.31% (n=13, margin=+0.8434)
+./text_save/R16_B01_E3/fold_7            全部  58.33% (n=12, margin=+0.4261)  看過 N/A% (n=0, margin=N/A)  沒看過  58.33% (n=12, margin=+0.4261)
+./text_save/R16_B01_E3/fold_8            全部  84.62% (n=13, margin=+0.6825)  看過 N/A% (n=0, margin=N/A)  沒看過  84.62% (n=13, margin=+0.6825)
+./text_save/R16_B01_E3/fold_9            全部  53.85% (n=13, margin=+0.3064)  看過 N/A% (n=0, margin=N/A)  沒看過  53.85% (n=13, margin=+0.3064)

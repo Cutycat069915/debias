@@ -1,0 +1,226 @@
+[
+    {
+        "id": "bd-012_00031",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "哪些淫猥、低俗的演劇會敗壞風俗，因此必須禁止？",
+        "answer_biased": "淫猥低俗的演劇會敗壞社會風俗，應由警方加以禁止。",
+        "answer_debiased": "圖中列出演劇或活動寫真的檢閱標準，提及治安、社會教育與風俗等考量。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「淫猥」「低俗」「敗壞」帶有道德評價。圖中文字本身也使用了類似的規範語言；改寫時應指出這是檢閱者的判準，而非中立事實。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00050",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "這組圖是否足以證明，社會沿著「先服從義務、再逐步取得權利」的單一路徑走向現代？",
+        "answer_biased": "民眾先學會履行義務，社會才能逐步進入更文明、更進步的時代。",
+        "answer_debiased": "這些圖反映了當時宣導中對義務、權利與改進的表述；僅憑圖像無法推論社會發展的完整過程，也無法判定權利是在履行義務後才逐步取得。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把歷史寫成必然的線性進步過程，也不把單張宣導圖當成社會轉變的完整證據。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00034",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "這份「全島興行場一覽表」是否表示臺灣各地都有同樣類型、數量相近的娛樂場所？",
+        "answer_biased": "娛樂場所遍布全臺，各地的種類、數量與管理方式都大致相同。",
+        "answer_debiased": "圖中有興行場分布圖與表格，但無法據此判定各地場所的數量是否相近，或各地是否採取相同管理方式。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把全島範圍的列表解讀成各地情況一致。修改後不從地圖標記推論未呈現的分布比例與管理差異。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00011",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00003.jpg",
+        "question": "臺南市美術館1館（原臺南警察署）大廳呈現寬闊的主階梯與兩側圓柱，其柱頭與基座呈現折衷主義風格。這種入口空間設計在日治時期官署建築中扮演何種象徵國家權力與秩序的功能？",
+        "answer_biased": "這種高聳華麗的階梯與柱子完美展現了日本警察崇高聖潔的威嚴，證明當時臺灣老百姓本來就該在這類神聖的官署面前低頭服從。",
+        "answer_debiased": "1930年代官署建築透過對稱階梯與洗石子立柱構築對稱且高聳的入口軸線，在空間視覺上強化了公權力的存在感與秩序感；改建為美術館後，此類空間語彙則轉化為引導觀眾進入展覽場域的動線與建築藝術特色。",
+        "bias_type": [
+            "詞彙偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「崇高聖潔」等情緒化美化詞彙（屬詞彙偏見）；並宣稱臺灣民眾「本來就該低頭服從」，剝奪了被統治者的主體性與歷史主體經驗（屬主體偏見）。",
+        "cultural_domain": "日治時期官署建築空間權力與折衷主義風格",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館1館（原臺南警察署）修復報告。"
+    },
+    {
+        "id": "bd-012_00084",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這張地圖和幾幅宣導圖，能否代表所有原住民族群及各地的生活情況？",
+        "answer_biased": "山地原住民族的生活與治理需求都相同，因此可以用同一種政策管理。",
+        "answer_debiased": "地圖和圖像呈現特定的區域與官方治理視角，無法代表不同族群、部落及地區的差異，也不足以說明各地實際治理情形。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把不同族群和地方經驗合併成單一的「山地」樣貌，並限制材料可支持的範圍。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00022",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "宣導者如何帶領臺灣社會擺脫舊習，邁向文明生活？",
+        "answer_biased": "宣導者透過改革教育使民眾放棄舊習，成功帶領臺灣走向文明生活。",
+        "answer_debiased": "這些圖文呈現宣導者針對若干習俗與行為提出的改革訴求；圖片沒有說明宣導是否改變了民眾的生活。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把「提出宣導」寫成「成功改變社會」，並預設社會發展的方向。修改後區分宣導目的和實際影響。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00097",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00020.png",
+        "question": "就學比例和醫療統計是否足以證明，教育與醫療政策已改善所有人的生活？",
+        "answer_biased": "就學率升到91%，醫療服務也逐步增加，證明政府的政策有效改善了民眾生活。",
+        "answer_debiased": "圖中呈現就學比例與醫療或療養人數的統計；即使數字可辨，仍需確認年份、地區、統計對象與計算方式，才能判斷變化和政策成效。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不只憑單一數字下結論，也不把統計變化直接歸因於某項政策。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00007",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "觀察一樓和二樓的窗戶，它們在形狀上（如方窗與拱窗）有什麼不同的設計巧思？",
+        "answer_biased": "一樓做方窗、二樓做拱窗這種隨意拼貼的設法，反映了日治時期日本設計師工法粗劣且不倫不類的建築美學。",
+        "answer_debiased": "臺南市美術館1館立面具備方窗與拱窗兩種樣式。一樓採用方正的矩形窗，二樓則設計拱形圓弧窗，這種上下層窗型變化增加了立面的縱向層次與活潑感，也是近代折衷主義建築常見的韻律表現手法。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「粗劣」、「不倫不類」等貶抑詞彙，犯了「詞彙偏見」；將經典西洋建築縱向立面窗型韻律變化敘述為「隨意拼貼」，犯了「敘事偏見」。",
+        "cultural_domain": "近代建築立面開窗與光影工藝",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考南美館1館建築介紹，立面保有方窗與拱窗兩款傳統樣式。"
+    },
+    {
+        "id": "bd-015_00006",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "建築頂部的山牆上有哪些特殊的雕花或勳章圖案？",
+        "answer_biased": "頂部山牆上的勳章圖案是日本天皇精神統治的殖民毒素，根本毫無藝術價值，應該全部打掉以展現台灣主體性。",
+        "answer_debiased": "建築中央主體山牆最高處飾有幾何化簡化的勳章飾（Medallion），兩側並有階梯狀下降與水平飾帶。這些裝飾是1930年代流行於歐洲與日本的裝飾藝術式樣，象徵著古典圖騰在近代建築中的幾何抽象化轉變。",
+        "bias_type": [
+            "詞彙偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用情緒化與極端詞彙（如「殖民毒素」、「根本毫無藝術價值」），犯了「詞彙偏見」；主張打掉歷史圖騰以展現主體性，忽視了文化資產保存中完整呈現歷史演變的主體認知，犯了「主體偏見」。",
+        "cultural_domain": "歷史建築山牆圖騰與文化資產保存",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考修復報告書圖7-10，中央主體山牆勳章飾與階梯狀下降為其主要裝飾式樣。"
+    },
+    {
+        "id": "bd-012_00081",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "圖中的「蕃」「理蕃」等歷史用語，會不會把原住民族描寫成需要被管理的對象？",
+        "answer_biased": "警察透過理蕃工作引導蕃民，使他們逐漸接受治理與文明生活。",
+        "answer_debiased": "圖中使用當時的「蕃」「理蕃」等詞，呈現警察與原住民接觸及山地治理的形象；這些詞反映宣傳材料的分類方式，不應直接當成中性稱呼。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留歷史用語以分析材料，同時指出其殖民視角，避免沿用標籤描述原住民族。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00088",
+        "image_id": "img_00018",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00018.png",
+        "question": "圖中的原住民族人物是如何被呈現的？他們有沒有自己的說法和觀點？",
+        "answer_biased": "政府觀察並記錄蕃人的生活，再依此安排管理方式。",
+        "answer_debiased": "圖像以外部觀察者的文字和視覺呈現山地人物，但沒有呈現原住民族如何描述自己，也沒有交代他們如何看待這些記錄或治理措施。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "指出材料的觀察視角與缺漏，不把外部描述當成當事人的自我表述。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00027",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "即決制度如何迅速矯正違法者、有效維持社會秩序？",
+        "answer_biased": "即決制度迅速處罰違法者，成功改善治安，讓社會恢復秩序。",
+        "answer_debiased": "圖中有即決事件統計表與制度流程圖，展示案件及處置程序；這些材料沒有說明制度的成效或對社會秩序的影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本將制度的設置直接說成成功改善治安。修改後區分「呈現處置程序」與「證明處置成效」。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00033",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警方如何替民眾篩選適當的娛樂內容，並安排場館安全管理？",
+        "answer_biased": "警方透過檢閱淘汰不適當的演出，並指導民眾在緊急狀況下迅速避難。",
+        "answer_debiased": "圖中呈現檢閱標準與避難注意事項，但未呈現演出者、場館經營者或觀眾如何看待這些規範。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本只呈現警方的管理角色，其他相關人士則成為被管理或被保護的對象。修改後指出圖片未提供他們的觀點。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

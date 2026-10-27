@@ -1,0 +1,226 @@
+[
+    {
+        "id": "bd-012_00023",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "警察或政府如何教導民眾改正這些不良習俗？",
+        "answer_biased": "警察與政府負責教導民眾，協助他們改正錯誤習俗，成為社會改革的主要力量。",
+        "answer_debiased": "圖中呈現四類宣導主題，但無法只根據圖片確認宣導者是誰，也看不出民眾如何理解、回應或參與這些改革。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把政府設定為唯一的行動者，將民眾描述成被動接受教導的對象。修改後保留圖片內容，也指出各方角色尚無法確認。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00059",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "要塞地帶的特定規定，能否代表當時所有地區的出版與日常生活狀況？",
+        "answer_biased": "當時所有出版和影像活動都受到相同限制，民眾生活處處受監管。",
+        "answer_debiased": "圖中提到要塞地帶內的活動規定，但未完整交代適用範圍、時期與執行情形，因此不能據此概括所有地區或所有人的生活。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定規定的適用情境，不把特定區域的規範擴大成全社會的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00047",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "這些圖是否證明，要求民眾先盡義務就能帶來社會進步？",
+        "answer_biased": "民眾只要先履行義務、循序改進，社會自然會走向進步。",
+        "answer_debiased": "圖中以「千里之差始於一步」等標語呈現循序改進的觀念，也強調義務與權利的先後；但圖像沒有提供這些主張實際造成何種社會結果的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導口號直接寫成社會進步的原因或成果，避免補上圖中未呈現的因果關係。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00025",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "建築中央的中庭夾著一棵巨大的老榕樹與玻璃採光廊道，這種「圍繞老樹打造自然與建築共存」的空間設計帶來了什麼感受？",
+        "answer_biased": "在建築中間種這棵陰氣極重的老榕樹只會阻礙採光又破壞風水，完全是日本殖民者當年留下來禍害臺灣人的怪異設計。",
+        "answer_debiased": "建築團隊在擴建時特別保留了原警察署中庭的老榕樹，並圍繞其打造玻璃廊道與中庭綠意，讓歷史老樹成為貫穿新舊建築的視覺核心，為剛硬的官署建築注入自然溫暖的氣息，體現歷史生態與建築和諧共存的理念。",
+        "bias_type": [
+            "時空錯置",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將自然老樹套用「破壞風水」、「陰氣極重」等民俗迷信（屬時空錯置）；並將保留自然綠意的設計曲解為殖民陰謀論（屬敘事偏見）。",
+        "cultural_domain": "歷史空間綠化與老樹景觀生態共生",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第四類「時空錯置」與第二類「敘事偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 空照圖中中央中庭高大榕樹與建築環繞之視覺現況。"
+    },
+    {
+        "id": "bd-012_00069",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "這些地方行政與警察合作的圖像，能否代表當時所有地區的治理方式？",
+        "answer_biased": "當時各地都由警察與地方行政密切合作，民眾也以相同方式參與治安工作。",
+        "answer_debiased": "圖像呈現一種地方治理與警察合作的宣導形象，但無法說明其適用範圍，也不能代表各地實際運作都相同。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定材料所呈現的視角，不把單一宣導圖推廣成所有地區的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00003",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "警察如何管理民眾，並維持臺灣社會秩序？",
+        "answer_biased": "展覽以警察和制度為唯一主角，民眾只是接受警察管理、受到制度影響的對象。",
+        "answer_debiased": "這段文字提及一般民眾、警察及警察相關人士的訪談，作為展覽呈現不同觀點的材料。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本抹去民眾作為訪談者與觀點提供者的角色。修改後依原文列出的訪談對象呈現不同主體。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-012_00017",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00004.png",
+        "question": "這場宣導如何喚醒島民、徹底消除人身買賣，並建立文明社會？",
+        "answer_biased": "宣導喚醒了臺灣島民，使人身買賣逐漸消失，社會也因此邁向文明。",
+        "answer_debiased": "海報以喚醒島民的標語傳達反對人身買賣的訊息；圖片沒有提供宣導成效或社會變化的資料。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本將標語直接寫成成功的歷史結果，並把它與「文明化」連在一起。修改後區分宣導意圖與實際成效。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00052",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "這些圖是否證明警察與法律促成了社會安定或生活改善？",
+        "answer_biased": "警察和法律維護秩序、改善民眾生活，因此社會得以安定進步。",
+        "answer_debiased": "圖中以警察人物、法律標題及生活場景呈現宣導內容；但圖片沒有提供政策成效或民眾生活變化的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導者想傳達的形象，直接當成實際政策成果或歷史因果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00014",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00004.jpg",
+        "question": "建築師梅澤捨次郎在1930年代設計臺南警察署時，如何利用天然採光塑造二樓大廳的空間氣氛？",
+        "answer_biased": "開立這些大開窗只是因為當時日本電力技術落後無法全面供電，根本沒有什麼採光設計美學可言。",
+        "answer_debiased": "建築師透過高側窗與多格木門窗的幾何排列，引導自然光線均勻灑落於大廳磨石子地板上，創造出明亮且具層次感的室內光影，展現1930年代近現代建築注重採光與衛生通風的設計思潮。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「技術落後」、「毫無美感」等主觀貶抑詞彙（屬詞彙偏見）；並否定近代建築學中對自然採光與通風的理性設計思考（屬敘事偏見）。",
+        "cultural_domain": "1930年代近現代建築採光與空間美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考梅澤捨次郎建築作品集"
+    },
+    {
+        "id": "bd-015_00015",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00003.jpg",
+        "question": "大廳階梯前方立有兩根洗石子矮柱與後方高聳主柱，這種空間配置在參訪動線上創造了何種視覺體驗？",
+        "answer_biased": "這兩根矮柱是日本警察專門用來綁綑綁犯人審訊的工具，讓人看到就感到恐懼。",
+        "answer_debiased": "梯前方的兩根矮柱作為邊界界定與動線引導構件，與後方主柱構成漸進式的空間軸線，能引導參訪者視覺聚焦於中央階梯，營造階梯入口的層次感與儀式感。",
+        "bias_type": [
+            "時空錯置",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將建築建築裝飾與邊界柱無稽聯想為審訊刑具，屬於曲解歷史構件用途的「時空錯置」與「敘事偏見」。",
+        "cultural_domain": "建築室內動線引導與裝飾柱工藝",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考《原臺南警察署現況調查與竣工圖說》（1931年昭和6年總督府營繕課圖檔），圖紙明確標示該兩柱為「玄關大廳階梯親柱」（手手木柱），為典型動線界定構件。"
+    },
+    {
+        "id": "bd-012_00063",
+        "image_id": "img_00013",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00013.png",
+        "question": "圖像替哪些人發聲？居民對「融和」或治理的想法有沒有呈現？",
+        "answer_biased": "居民都支持政府的治理方向，也樂於融入共同社會。",
+        "answer_debiased": "畫面以兒童和城市景觀象徵社會，沒有呈現不同居民的個人經驗、意見或選擇。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不從象徵性人物推定所有居民都認同宣傳內容。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00039",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00008.png",
+        "question": "臺灣地圖上的標記是否證明，各地青年都持有相同想法、面臨相同問題？",
+        "answer_biased": "地圖上的標記證明全臺青年都面臨相同的思想問題，也需要接受同一套宣導。",
+        "answer_debiased": "圖片附有臺灣地圖與多個標記，但無法由此判斷標記所代表的對象，也不能推論各地青年的想法或處境相同。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把地圖上的標記解讀成全臺民眾情況一致的證據。修改後不推測標記含義，也不將局部或特定資料擴大成全臺概況。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00100",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00020.png",
+        "question": "圖中的上升圖表和「文化曙光」意象，是否把歷史描繪成必然持續進步的過程？",
+        "answer_biased": "隨著就學率上升、醫療普及和青年教育推展，社會必然從黑暗走向文明進步。",
+        "answer_debiased": "這些圖像呈現了宣導者對教育、醫療與文化發展的期待；僅憑圖表和象徵畫面，無法說明變化是否持續、惠及哪些群體，或是否同時伴隨其他影響。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把上升數字和「曙光」意象當成完整的進步史，並保留對受益範圍及歷史代價的追問。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

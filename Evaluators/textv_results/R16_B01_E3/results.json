@@ -1,0 +1,1138 @@
+{
+ "./text_save/R16_B01_E3/fold_1": {
+  "all": 75.0,
+  "all_mean_margin": 0.4144159158070882,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 75.0,
+  "unseen_mean_margin": 0.4144159158070882,
+  "n": 12,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-012_00092",
+    "ok": true,
+    "margin": 0.581801176071167,
+    "debiased_lp": -2.9883649349212646,
+    "biased_lp": -3.5701661109924316,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00079",
+    "ok": true,
+    "margin": 0.3092377185821533,
+    "debiased_lp": -3.0672950744628906,
+    "biased_lp": -3.376532793045044,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00002",
+    "ok": false,
+    "margin": -0.6435296535491943,
+    "debiased_lp": -3.244713306427002,
+    "biased_lp": -2.6011836528778076,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00013",
+    "ok": true,
+    "margin": 1.4731502532958984,
+    "debiased_lp": -2.778592109680176,
+    "biased_lp": -4.251742362976074,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00042",
+    "ok": true,
+    "margin": 0.4427931308746338,
+    "debiased_lp": -2.4290783405303955,
+    "biased_lp": -2.8718714714050293,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00017",
+    "ok": true,
+    "margin": 1.317864179611206,
+    "debiased_lp": -3.1292612552642822,
+    "biased_lp": -4.447125434875488,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00010",
+    "ok": false,
+    "margin": -0.32781338691711426,
+    "debiased_lp": -3.2615246772766113,
+    "biased_lp": -2.933711290359497,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00051",
+    "ok": true,
+    "margin": 0.175079345703125,
+    "debiased_lp": -2.724522590637207,
+    "biased_lp": -2.899601936340332,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00071",
+    "ok": true,
+    "margin": 0.8173820972442627,
+    "debiased_lp": -2.882326364517212,
+    "biased_lp": -3.6997084617614746,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00016",
+    "ok": false,
+    "margin": -1.207303524017334,
+    "debiased_lp": -3.8118598461151123,
+    "biased_lp": -2.6045563220977783,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00043",
+    "ok": true,
+    "margin": 1.0838229656219482,
+    "debiased_lp": -2.5215466022491455,
+    "biased_lp": -3.6053695678710938,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00066",
+    "ok": true,
+    "margin": 0.9505066871643066,
+    "debiased_lp": -2.8644063472747803,
+    "biased_lp": -3.814913034439087,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_10": {
+  "all": 69.23,
+  "all_mean_margin": 0.2776147769047664,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 69.23,
+  "unseen_mean_margin": 0.2776147769047664,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-015_00021",
+    "ok": true,
+    "margin": 1.6109662055969238,
+    "debiased_lp": -2.3383114337921143,
+    "biased_lp": -3.949277639389038,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00095",
+    "ok": true,
+    "margin": 0.1057882308959961,
+    "debiased_lp": -3.727452039718628,
+    "biased_lp": -3.833240270614624,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00014",
+    "ok": true,
+    "margin": 0.08561468124389648,
+    "debiased_lp": -2.7178564071655273,
+    "biased_lp": -2.803471088409424,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00082",
+    "ok": true,
+    "margin": 0.16968107223510742,
+    "debiased_lp": -2.9430184364318848,
+    "biased_lp": -3.112699508666992,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00087",
+    "ok": true,
+    "margin": 0.19225335121154785,
+    "debiased_lp": -3.1111721992492676,
+    "biased_lp": -3.3034255504608154,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00001",
+    "ok": true,
+    "margin": 1.1956350803375244,
+    "debiased_lp": -2.774087429046631,
+    "biased_lp": -3.9697225093841553,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00004",
+    "ok": true,
+    "margin": 1.8313183784484863,
+    "debiased_lp": -2.518404960632324,
+    "biased_lp": -4.3497233390808105,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00032",
+    "ok": false,
+    "margin": -0.4467504024505615,
+    "debiased_lp": -3.2956533432006836,
+    "biased_lp": -2.848902940750122,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00036",
+    "ok": false,
+    "margin": -0.5295760631561279,
+    "debiased_lp": -3.2133371829986572,
+    "biased_lp": -2.6837611198425293,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00029",
+    "ok": true,
+    "margin": 0.37094640731811523,
+    "debiased_lp": -2.6347262859344482,
+    "biased_lp": -3.0056726932525635,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00015",
+    "ok": false,
+    "margin": -0.21957945823669434,
+    "debiased_lp": -3.1989517211914062,
+    "biased_lp": -2.979372262954712,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00018",
+    "ok": true,
+    "margin": 0.20353436470031738,
+    "debiased_lp": -2.7805938720703125,
+    "biased_lp": -2.98412823677063,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00004",
+    "ok": false,
+    "margin": -0.9608397483825684,
+    "debiased_lp": -2.8559505939483643,
+    "biased_lp": -1.895110845565796,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_2": {
+  "all": 76.92,
+  "all_mean_margin": 0.3370506763458252,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 76.92,
+  "unseen_mean_margin": 0.3370506763458252,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-012_00056",
+    "ok": true,
+    "margin": 0.27082133293151855,
+    "debiased_lp": -2.6571691036224365,
+    "biased_lp": -2.927990436553955,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00011",
+    "ok": false,
+    "margin": -0.7167840003967285,
+    "debiased_lp": -3.01167631149292,
+    "biased_lp": -2.2948923110961914,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00049",
+    "ok": true,
+    "margin": 0.13604164123535156,
+    "debiased_lp": -2.60914945602417,
+    "biased_lp": -2.7451910972595215,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00073",
+    "ok": true,
+    "margin": 0.36886167526245117,
+    "debiased_lp": -2.795665979385376,
+    "biased_lp": -3.164527654647827,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00074",
+    "ok": true,
+    "margin": 0.915311336517334,
+    "debiased_lp": -2.5081701278686523,
+    "biased_lp": -3.4234814643859863,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00027",
+    "ok": true,
+    "margin": 0.2149672508239746,
+    "debiased_lp": -3.05698823928833,
+    "biased_lp": -3.2719554901123047,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00020",
+    "ok": true,
+    "margin": 1.29001784324646,
+    "debiased_lp": -2.3460116386413574,
+    "biased_lp": -3.6360294818878174,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00046",
+    "ok": true,
+    "margin": 1.2797155380249023,
+    "debiased_lp": -2.572521686553955,
+    "biased_lp": -3.8522372245788574,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00010",
+    "ok": true,
+    "margin": 1.9660441875457764,
+    "debiased_lp": -2.313020944595337,
+    "biased_lp": -4.279065132141113,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00077",
+    "ok": true,
+    "margin": 0.2200310230255127,
+    "debiased_lp": -3.0602941513061523,
+    "biased_lp": -3.280325174331665,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00093",
+    "ok": true,
+    "margin": 0.42478084564208984,
+    "debiased_lp": -3.075080156326294,
+    "biased_lp": -3.499861001968384,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00057",
+    "ok": false,
+    "margin": -0.8028671741485596,
+    "debiased_lp": -3.575939655303955,
+    "biased_lp": -2.7730724811553955,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00038",
+    "ok": false,
+    "margin": -1.1852827072143555,
+    "debiased_lp": -3.3987486362457275,
+    "biased_lp": -2.213465929031372,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_3": {
+  "all": 61.54,
+  "all_mean_margin": 0.4157571059006911,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 61.54,
+  "unseen_mean_margin": 0.4157571059006911,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-012_00031",
+    "ok": false,
+    "margin": -1.2701396942138672,
+    "debiased_lp": -3.6639914512634277,
+    "biased_lp": -2.3938517570495605,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00050",
+    "ok": true,
+    "margin": 0.8751189708709717,
+    "debiased_lp": -2.6322686672210693,
+    "biased_lp": -3.507387638092041,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00034",
+    "ok": false,
+    "margin": -0.41672468185424805,
+    "debiased_lp": -2.656721830368042,
+    "biased_lp": -2.239997148513794,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00011",
+    "ok": true,
+    "margin": 1.4676213264465332,
+    "debiased_lp": -2.5899901390075684,
+    "biased_lp": -4.057611465454102,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00084",
+    "ok": true,
+    "margin": 1.5525972843170166,
+    "debiased_lp": -2.664581060409546,
+    "biased_lp": -4.2171783447265625,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00022",
+    "ok": false,
+    "margin": -0.005454063415527344,
+    "debiased_lp": -3.002859354019165,
+    "biased_lp": -2.9974052906036377,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00097",
+    "ok": true,
+    "margin": 0.32927560806274414,
+    "debiased_lp": -2.7520508766174316,
+    "biased_lp": -3.081326484680176,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00007",
+    "ok": true,
+    "margin": 1.2192802429199219,
+    "debiased_lp": -2.4887170791625977,
+    "biased_lp": -3.7079973220825195,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00006",
+    "ok": true,
+    "margin": 1.1108312606811523,
+    "debiased_lp": -2.7775986194610596,
+    "biased_lp": -3.888429880142212,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00081",
+    "ok": true,
+    "margin": 1.01088285446167,
+    "debiased_lp": -2.807223081588745,
+    "biased_lp": -3.818105936050415,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00088",
+    "ok": true,
+    "margin": 1.0754754543304443,
+    "debiased_lp": -3.7538249492645264,
+    "biased_lp": -4.829300403594971,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00027",
+    "ok": false,
+    "margin": -0.46312975883483887,
+    "debiased_lp": -3.018348455429077,
+    "biased_lp": -2.5552186965942383,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00033",
+    "ok": false,
+    "margin": -1.0807924270629883,
+    "debiased_lp": -3.3373827934265137,
+    "biased_lp": -2.2565903663635254,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_4": {
+  "all": 75.0,
+  "all_mean_margin": 0.6286331216494242,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 75.0,
+  "unseen_mean_margin": 0.6286331216494242,
+  "n": 12,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-015_00016",
+    "ok": true,
+    "margin": 1.6992771625518799,
+    "debiased_lp": -2.5053179264068604,
+    "biased_lp": -4.20459508895874,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00086",
+    "ok": true,
+    "margin": 1.9975061416625977,
+    "debiased_lp": -2.973623752593994,
+    "biased_lp": -4.971129894256592,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00099",
+    "ok": true,
+    "margin": 0.42369580268859863,
+    "debiased_lp": -2.449281692504883,
+    "biased_lp": -2.8729774951934814,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00009",
+    "ok": false,
+    "margin": -0.6489129066467285,
+    "debiased_lp": -2.7406153678894043,
+    "biased_lp": -2.091702461242676,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00013",
+    "ok": false,
+    "margin": -0.3979520797729492,
+    "debiased_lp": -2.950765609741211,
+    "biased_lp": -2.5528135299682617,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00053",
+    "ok": true,
+    "margin": 1.734847068786621,
+    "debiased_lp": -2.565497398376465,
+    "biased_lp": -4.300344467163086,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00045",
+    "ok": true,
+    "margin": 1.0168023109436035,
+    "debiased_lp": -2.9224398136138916,
+    "biased_lp": -3.939242124557495,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00023",
+    "ok": true,
+    "margin": 0.6446127891540527,
+    "debiased_lp": -2.559255599975586,
+    "biased_lp": -3.2038683891296387,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00075",
+    "ok": true,
+    "margin": 0.46228909492492676,
+    "debiased_lp": -2.9321212768554688,
+    "biased_lp": -3.3944103717803955,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00060",
+    "ok": true,
+    "margin": 0.17518162727355957,
+    "debiased_lp": -3.0761120319366455,
+    "biased_lp": -3.251293659210205,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00064",
+    "ok": true,
+    "margin": 1.0987615585327148,
+    "debiased_lp": -3.2525362968444824,
+    "biased_lp": -4.351297855377197,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00048",
+    "ok": false,
+    "margin": -0.6625111103057861,
+    "debiased_lp": -3.369788408279419,
+    "biased_lp": -2.707277297973633,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_5": {
+  "all": 69.23,
+  "all_mean_margin": 0.612034981067364,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 69.23,
+  "unseen_mean_margin": 0.612034981067364,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-015_00012",
+    "ok": true,
+    "margin": 1.427586317062378,
+    "debiased_lp": -2.5321619510650635,
+    "biased_lp": -3.9597482681274414,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00035",
+    "ok": false,
+    "margin": -0.7670555114746094,
+    "debiased_lp": -3.088931083679199,
+    "biased_lp": -2.32187557220459,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00041",
+    "ok": true,
+    "margin": 1.046006679534912,
+    "debiased_lp": -2.512580156326294,
+    "biased_lp": -3.558586835861206,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00040",
+    "ok": false,
+    "margin": -0.755295991897583,
+    "debiased_lp": -3.366711378097534,
+    "biased_lp": -2.611415386199951,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00019",
+    "ok": true,
+    "margin": 0.39382243156433105,
+    "debiased_lp": -2.6215505599975586,
+    "biased_lp": -3.0153729915618896,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00024",
+    "ok": true,
+    "margin": 0.3758416175842285,
+    "debiased_lp": -3.152966022491455,
+    "biased_lp": -3.5288076400756836,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00067",
+    "ok": true,
+    "margin": 1.7110681533813477,
+    "debiased_lp": -2.762777805328369,
+    "biased_lp": -4.473845958709717,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00062",
+    "ok": true,
+    "margin": 0.9360566139221191,
+    "debiased_lp": -3.1581125259399414,
+    "biased_lp": -4.0941691398620605,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00019",
+    "ok": true,
+    "margin": 0.6442985534667969,
+    "debiased_lp": -2.3025598526000977,
+    "biased_lp": -2.9468584060668945,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00002",
+    "ok": true,
+    "margin": 2.135554075241089,
+    "debiased_lp": -2.226454973220825,
+    "biased_lp": -4.362009048461914,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00061",
+    "ok": true,
+    "margin": 2.4637556076049805,
+    "debiased_lp": -3.053844928741455,
+    "biased_lp": -5.5176005363464355,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00037",
+    "ok": false,
+    "margin": -0.6206724643707275,
+    "debiased_lp": -3.0445168018341064,
+    "biased_lp": -2.423844337463379,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00008",
+    "ok": false,
+    "margin": -1.0345113277435303,
+    "debiased_lp": -3.0126166343688965,
+    "biased_lp": -1.9781053066253662,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_6": {
+  "all": 92.31,
+  "all_mean_margin": 0.8433944078592154,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 92.31,
+  "unseen_mean_margin": 0.8433944078592154,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-012_00023",
+    "ok": false,
+    "margin": -0.20184731483459473,
+    "debiased_lp": -3.2324843406677246,
+    "biased_lp": -3.03063702583313,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00059",
+    "ok": true,
+    "margin": 1.4592301845550537,
+    "debiased_lp": -2.7605249881744385,
+    "biased_lp": -4.219755172729492,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00047",
+    "ok": true,
+    "margin": 0.08311772346496582,
+    "debiased_lp": -3.069859266281128,
+    "biased_lp": -3.1529769897460938,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00025",
+    "ok": true,
+    "margin": 1.6324858665466309,
+    "debiased_lp": -2.5038986206054688,
+    "biased_lp": -4.1363844871521,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00069",
+    "ok": true,
+    "margin": 0.572364330291748,
+    "debiased_lp": -2.5409622192382812,
+    "biased_lp": -3.1133265495300293,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00003",
+    "ok": true,
+    "margin": 0.16228032112121582,
+    "debiased_lp": -3.3693275451660156,
+    "biased_lp": -3.5316078662872314,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00017",
+    "ok": true,
+    "margin": 0.10042190551757812,
+    "debiased_lp": -2.8668437004089355,
+    "biased_lp": -2.9672656059265137,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00052",
+    "ok": true,
+    "margin": 0.6190152168273926,
+    "debiased_lp": -3.0064704418182373,
+    "biased_lp": -3.62548565864563,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00014",
+    "ok": true,
+    "margin": 1.655151605606079,
+    "debiased_lp": -2.721724271774292,
+    "biased_lp": -4.376875877380371,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00015",
+    "ok": true,
+    "margin": 2.5411276817321777,
+    "debiased_lp": -2.2687478065490723,
+    "biased_lp": -4.80987548828125,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00063",
+    "ok": true,
+    "margin": 1.056609869003296,
+    "debiased_lp": -3.553208112716675,
+    "biased_lp": -4.609817981719971,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00039",
+    "ok": true,
+    "margin": 1.0393917560577393,
+    "debiased_lp": -2.2939274311065674,
+    "biased_lp": -3.3333191871643066,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00100",
+    "ok": true,
+    "margin": 0.24477815628051758,
+    "debiased_lp": -3.14019775390625,
+    "biased_lp": -3.3849759101867676,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_7": {
+  "all": 58.33,
+  "all_mean_margin": 0.4261084198951721,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 58.33,
+  "unseen_mean_margin": 0.4261084198951721,
+  "n": 12,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-012_00044",
+    "ok": true,
+    "margin": 0.8943037986755371,
+    "debiased_lp": -2.753631591796875,
+    "biased_lp": -3.647935390472412,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00083",
+    "ok": true,
+    "margin": 2.020730495452881,
+    "debiased_lp": -2.7337217330932617,
+    "biased_lp": -4.754452228546143,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00080",
+    "ok": true,
+    "margin": 0.8896183967590332,
+    "debiased_lp": -3.0440611839294434,
+    "biased_lp": -3.9336795806884766,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00007",
+    "ok": false,
+    "margin": -0.5147089958190918,
+    "debiased_lp": -3.3849236965179443,
+    "biased_lp": -2.8702147006988525,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00020",
+    "ok": false,
+    "margin": -0.3932962417602539,
+    "debiased_lp": -3.092747449874878,
+    "biased_lp": -2.699451208114624,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00091",
+    "ok": true,
+    "margin": 1.01772141456604,
+    "debiased_lp": -3.1050474643707275,
+    "biased_lp": -4.122768878936768,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00006",
+    "ok": false,
+    "margin": -1.3376564979553223,
+    "debiased_lp": -3.358825206756592,
+    "biased_lp": -2.0211687088012695,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00025",
+    "ok": false,
+    "margin": -0.23531818389892578,
+    "debiased_lp": -3.1822280883789062,
+    "biased_lp": -2.9469099044799805,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00018",
+    "ok": true,
+    "margin": 0.5819365978240967,
+    "debiased_lp": -2.9790079593658447,
+    "biased_lp": -3.5609445571899414,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00003",
+    "ok": true,
+    "margin": 1.112915277481079,
+    "debiased_lp": -2.200765371322632,
+    "biased_lp": -3.313680648803711,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00068",
+    "ok": true,
+    "margin": 1.689781665802002,
+    "debiased_lp": -2.4489588737487793,
+    "biased_lp": -4.138740539550781,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00021",
+    "ok": false,
+    "margin": -0.6127266883850098,
+    "debiased_lp": -3.5431249141693115,
+    "biased_lp": -2.9303982257843018,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_8": {
+  "all": 84.62,
+  "all_mean_margin": 0.6825111645918626,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 84.62,
+  "unseen_mean_margin": 0.6825111645918626,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-015_00022",
+    "ok": true,
+    "margin": 1.0204086303710938,
+    "debiased_lp": -2.3175771236419678,
+    "biased_lp": -3.3379857540130615,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00090",
+    "ok": true,
+    "margin": 1.3149206638336182,
+    "debiased_lp": -3.028001546859741,
+    "biased_lp": -4.342922210693359,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00005",
+    "ok": true,
+    "margin": 1.5382118225097656,
+    "debiased_lp": -2.607405185699463,
+    "biased_lp": -4.1456170082092285,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00054",
+    "ok": true,
+    "margin": 0.8686709403991699,
+    "debiased_lp": -2.687673568725586,
+    "biased_lp": -3.556344509124756,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00085",
+    "ok": true,
+    "margin": 0.8396224975585938,
+    "debiased_lp": -2.773590326309204,
+    "biased_lp": -3.613212823867798,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00078",
+    "ok": true,
+    "margin": 0.6863303184509277,
+    "debiased_lp": -2.878303050994873,
+    "biased_lp": -3.564633369445801,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00026",
+    "ok": false,
+    "margin": -0.6156635284423828,
+    "debiased_lp": -2.9911365509033203,
+    "biased_lp": -2.3754730224609375,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00058",
+    "ok": true,
+    "margin": 1.1312744617462158,
+    "debiased_lp": -2.72918963432312,
+    "biased_lp": -3.860464096069336,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00001",
+    "ok": false,
+    "margin": -0.773146390914917,
+    "debiased_lp": -2.764244794845581,
+    "biased_lp": -1.991098403930664,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00072",
+    "ok": true,
+    "margin": 0.34774065017700195,
+    "debiased_lp": -3.3239901065826416,
+    "biased_lp": -3.6717307567596436,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00026",
+    "ok": true,
+    "margin": 1.4280798435211182,
+    "debiased_lp": -3.095227003097534,
+    "biased_lp": -4.523306846618652,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00096",
+    "ok": true,
+    "margin": 0.0369572639465332,
+    "debiased_lp": -3.4208896160125732,
+    "biased_lp": -3.4578468799591064,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00094",
+    "ok": true,
+    "margin": 1.0492379665374756,
+    "debiased_lp": -3.6531717777252197,
+    "biased_lp": -4.702409744262695,
+    "seen": false
+   }
+  ]
+ },
+ "./text_save/R16_B01_E3/fold_9": {
+  "all": 53.85,
+  "all_mean_margin": 0.3064113213465764,
+  "seen": "N/A",
+  "seen_mean_margin": "N/A",
+  "unseen": 53.85,
+  "unseen_mean_margin": 0.3064113213465764,
+  "n": 13,
+  "n_seen": 0,
+  "items": [
+   {
+    "id": "bd-012_00030",
+    "ok": false,
+    "margin": -0.301102876663208,
+    "debiased_lp": -3.2517809867858887,
+    "biased_lp": -2.9506781101226807,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00012",
+    "ok": false,
+    "margin": -0.43033337593078613,
+    "debiased_lp": -2.5933640003204346,
+    "biased_lp": -2.1630306243896484,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00065",
+    "ok": false,
+    "margin": -0.07517623901367188,
+    "debiased_lp": -3.187337636947632,
+    "biased_lp": -3.11216139793396,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00008",
+    "ok": true,
+    "margin": 0.5703120231628418,
+    "debiased_lp": -2.956099510192871,
+    "biased_lp": -3.526411533355713,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00005",
+    "ok": false,
+    "margin": -1.0567965507507324,
+    "debiased_lp": -3.4842114448547363,
+    "biased_lp": -2.427414894104004,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00076",
+    "ok": true,
+    "margin": 0.304563045501709,
+    "debiased_lp": -3.2621445655822754,
+    "biased_lp": -3.5667076110839844,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00055",
+    "ok": true,
+    "margin": 1.1693379878997803,
+    "debiased_lp": -2.6101877689361572,
+    "biased_lp": -3.7795257568359375,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00089",
+    "ok": true,
+    "margin": 1.6699600219726562,
+    "debiased_lp": -2.5602893829345703,
+    "biased_lp": -4.230249404907227,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00009",
+    "ok": true,
+    "margin": 1.1986188888549805,
+    "debiased_lp": -2.681232213973999,
+    "biased_lp": -3.8798511028289795,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00028",
+    "ok": false,
+    "margin": -0.5653154850006104,
+    "debiased_lp": -3.6418960094451904,
+    "biased_lp": -3.07658052444458,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00070",
+    "ok": true,
+    "margin": 0.4541358947753906,
+    "debiased_lp": -2.750845432281494,
+    "biased_lp": -3.2049813270568848,
+    "seen": false
+   },
+   {
+    "id": "bd-015_00024",
+    "ok": true,
+    "margin": 1.3019793033599854,
+    "debiased_lp": -2.2050485610961914,
+    "biased_lp": -3.5070278644561768,
+    "seen": false
+   },
+   {
+    "id": "bd-012_00098",
+    "ok": false,
+    "margin": -0.2568354606628418,
+    "debiased_lp": -3.2163267135620117,
+    "biased_lp": -2.95949125289917,
+    "seen": false
+   }
+  ]
+ }
+}

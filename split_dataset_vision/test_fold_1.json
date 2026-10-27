@@ -1,0 +1,208 @@
+[
+    {
+        "id": "bd-012_00092",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "交通改善、衛生宣導和勸善圖像，是否足以證明社會生活因此變得更好？",
+        "answer_biased": "交通逐漸進步，民眾改掉不良習慣，城市生活也就更加健康便利。",
+        "answer_debiased": "圖中呈現交通、健康與行為宣導的主題，但沒有提供政策成效或民眾生活變化的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導目標直接寫成已實現的結果，也不把不同主題拼接成單一因果故事。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00079",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00016.png",
+        "question": "這些標語與遺失物資料，能否代表當時所有地區、居民的生活經驗？",
+        "answer_biased": "當時各地民眾都接受相同的國民教育，也能透過相同的警察制度處理失物。",
+        "answer_debiased": "圖中呈現特定宣導內容與遺失物處理材料；僅憑這一頁無法確認其適用地區、對象或各地執行情況。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定材料可支持的範圍，不把單一宣導或表格推廣成所有地方的共同情況。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00002",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "日本如何透過引進警察制度，帶領臺灣走向現代化？",
+        "answer_biased": "日本引進警察制度，帶領臺灣社會走向現代化，並逐步建立今日的社會秩序。",
+        "answer_debiased": "展覽以日治時期警察制度為主題，探討其在臺灣社會中的作用與影響；這段文字沒有說明制度造成哪些具體變化或結果。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本安排出「引進制度—社會現代化—建立秩序」的單一路徑，原文並未提供這樣的因果關係。修改後避免替歷史過程補上未被說明的結論。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    },
+    {
+        "id": "bd-015_00013",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00003.jpg",
+        "question": "從原臺南警察署轉型為當代美術館的過程中，設計團隊如何在保留大廳階梯與古蹟構件的前提下滿足現代展覽需求？",
+        "answer_biased": "現代建築師在古蹟裡安裝冷氣和現代燈具完全破壞了原本純正的日本皇國美學，顯示臺灣當代設計界根本不尊重古蹟保存。",
+        "answer_debiased": "古蹟活化過程中，團隊採用「最小干預」與「可逆性」原則，將現代空調管道與照明設備隱藏於木構件與天花邊緣，既保護了大廳主階梯與洗石子柱身等歷史本體，又滿足了美術館營運所需的環境控制。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答誤將警察署指稱為「皇國美學」，並使用「完全破壞」、「根本不尊重」等極端貶抑詞彙（屬詞彙偏見與敘事偏見），忽視了國際古蹟修復規範中兼顧歷史保存與功能再利用的專業考量。",
+        "cultural_domain": "歷史建築修復再利用與當代博物館設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館1館古蹟修復與再利用工程總體規劃報告。"
+    },
+    {
+        "id": "bd-012_00042",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "這些宣導圖文是否足以證明，宣導使民眾改變了生活習慣？",
+        "answer_biased": "宣導圖文教會民眾正確的衛生觀念，因此改善了當時的健康問題。",
+        "answer_debiased": "圖中呈現健康或生活習慣相關的宣導內容，但沒有提供民眾是否接觸、接受或因此改變行為的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導內容直接寫成已產生效果，區分「宣導想傳達什麼」與「民眾是否因此改變」。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00017",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "地圖中緊鄰南美館1館周邊有臺南孔廟與鄭成功祖廟等傳統信仰場域，警察署設置於此具有何種空間治理意涵？",
+        "answer_biased": "日本政府把警察局蓋在孔廟對面，純粹是用日本神道教與警察暴力來霸道摧毀中華傳統儒家文化。",
+        "answer_debiased": "日治時期將警察署設於傳統清代文化與信仰核心區附近，客觀上構成了現代國家權力對傳統社區空間的介入，使治安與行政管轄能直接滲透至常民生活圈，反映了殖民治理技術的空間佈局。",
+        "bias_type": [
+            "紀年與時代框架偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答以戰後對立的意識形態框架套用日治空間規劃（屬紀年與時代框架偏見）；並將行政官署選址簡化為消滅傳統文化的單一意圖（屬敘事偏見）。",
+        "cultural_domain": "傳統信仰場域與現代警察空間之交疊",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "依據 周邊地圖.jpg 中標號2（原警察署）與標號5（臺南孔廟）、鄭成功祖廟之鄰近地緣關係。   "
+    },
+    {
+        "id": "bd-012_00010",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "這些宣導材料如何象徵社會從舊式生活走向現代化管理？",
+        "answer_biased": "這些材料標誌著社會告別舊式生活，逐步邁向更進步、更現代的公共管理。",
+        "answer_debiased": "圖中呈現安全注意事項與戶口申報資訊，但沒有提供足以說明制度如何演變，或社會是否由某種「舊式生活」轉向「現代化管理」的時間線索。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把材料放進由落後走向進步的單線歷史框架。修改後不預設時代發展方向，只說明圖片呈現的主題與其資訊限制。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00051",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "「法の威力」是否把法律塑造成只靠威嚇與強制力維持秩序？",
+        "answer_biased": "法律的威力足以使人民服從，違反規定的人就應受到嚴厲懲罰。",
+        "answer_debiased": "右下圖以「法の威力」為標題，並描繪數名人物與象徵性場景。標題突出了法律的力量，但僅憑圖像無法判定它如何看待法律的其他功能。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把「威力」擴大成「法律只靠懲罰使人服從」，並將可見標題和延伸推論分開。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00071",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "圖中以「土匪」「蕃地」稱呼特定人物與地區，會不會先把對象描寫成威脅？",
+        "answer_biased": "警察進入蕃地追捕土匪，保護良民免受威脅。",
+        "answer_debiased": "圖中使用「土匪」「蕃地」等當時用語，並呈現警察或軍隊進入山地的場景；這些稱呼反映宣傳者的分類，不能單獨證明當地居民的身分或行動。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留原圖用語作為史料，同時指出它帶有立場，避免把標籤當成客觀身分。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00016",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00004.png",
+        "question": "為什麼愚昧落後的島民會容忍人身買賣？",
+        "answer_biased": "愚昧落後的島民縱容人身買賣，必須透過宣導讓他們醒悟。",
+        "answer_debiased": "大型海報以「覺メヨ島民」為標語，並以臺灣地圖和人物圖像呈現反對人身買賣的宣導意涵。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「愚昧落後」「縱容」是對島民的貶抑與指責。修改後描述海報的標語與圖像，不把責任歸給整個群體。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00043",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "圖文呈現了誰的觀點？被宣導者如何理解或回應，圖中有沒有交代？",
+        "answer_biased": "宣導者指出民眾的問題，並教導他們應該如何生活。",
+        "answer_debiased": "圖中呈現了宣導訊息，但沒有清楚交代製作者、發布者，也沒有呈現觀看者或被宣導者的回應。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免只採用宣導者的立場，也不假定圖文的發布者或受眾身分。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00066",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "「警察與民眾」或「地方行政第一線」的說法，會不會把警察描繪成唯一能維持公共安全的力量？",
+        "answer_biased": "警察站在地方治理第一線，民眾只要配合，就能避免災害與犯罪。",
+        "answer_debiased": "左上圖以「警察與民眾」為題，並呈現預防、警衛相關情境；右下圖則將警察與地方行政人物畫在一起。圖像沒有說明公共安全如何由不同群體共同維護。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把警察塑造成唯一主體，也不將民眾簡化成被動配合者。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

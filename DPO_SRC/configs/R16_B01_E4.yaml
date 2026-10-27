@@ -8,7 +8,7 @@ lora:
 dpo:
   beta: 0.1
   epochs: 4
-  learning_rate: 5e-6
+  learning_rate: 5e-5
 training:
   batch_size: 2
   gradient_accumulation_steps: 8

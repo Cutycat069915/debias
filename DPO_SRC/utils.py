@@ -128,14 +128,42 @@ def concat_json_vision(folder_path: str="./dataset/vision_text"):
     with open(output_path,  "w", encoding="utf-8") as f:
         json.dump(results,f, indent=4, ensure_ascii = False)
     return output_path
+
+def K_cross_fold(folder_path:str = "./dataset/vision_text", k:int = 10):
+    subfolder_paths = glob(os.path.join(folder_path, "*"))
+    field_folds = {}
     
+    for subfolder_path in subfolder_paths:
+        if not os.path.isdir(subfolder_path):
+            continue
+        folder_name  = os.path.basename(subfolder_path)
+        json_path = os.path.join(
+            subfolder_path,
+            f"{folder_name}.json"
+        )
+        result = resolve_image_rpath(json_path)
+        folds =  [
+            result[i*n//k :  (i+1) * n//k]
+            for i in range(k)
+        ]    
+        field_folds[folder_name] =  folds
+    for i in range(k):
+        trainset = []
+        testset = []
+        for field  , folds in field_folds.item():
+            testset.extend(folds)
+            trainset.extend(
+                sample for j in range(k) if j!=i for sample in folds[j]
+            ) 
+        ...        
+ 
     ...
 def find_length_of_question(file_path:str):
     with open (file_path, "r" ) as f: 
         datas =  json.load(f)
     max_prompt_len = max((len(data.get("prompt")) for data in datas ), default=0)
     max_chosen_len = max((len(data.get("chosen")) for data in datas ), default=0)
-    max_rejected_len = max((len(data.get("rejected")) for data in datas), default=0)
+    max_wrejected_len = max((len(data.get("rejected")) for data in datas), default=0)
     return max_prompt_len, max_chosen_len, max_rejected_len
 def get_matching_module_paths(model):
     target_names = {

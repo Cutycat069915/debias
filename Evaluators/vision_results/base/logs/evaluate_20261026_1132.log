@@ -1,0 +1,11 @@
+split=./split_dataset_vision
+base/fold_1                              全部  33.33% (n=12, margin=-0.2993)  看過 N/A% (n=0, margin=N/A)  沒看過  33.33% (n=12, margin=-0.2993)
+base/fold_2                              全部  38.46% (n=13, margin=-0.2031)  看過 N/A% (n=0, margin=N/A)  沒看過  38.46% (n=13, margin=-0.2031)
+base/fold_3                              全部  38.46% (n=13, margin=-0.2297)  看過 N/A% (n=0, margin=N/A)  沒看過  38.46% (n=13, margin=-0.2297)
+base/fold_4                              全部  41.67% (n=12, margin=-0.0578)  看過 N/A% (n=0, margin=N/A)  沒看過  41.67% (n=12, margin=-0.0578)
+base/fold_5                              全部  69.23% (n=13, margin=-0.0221)  看過 N/A% (n=0, margin=N/A)  沒看過  69.23% (n=13, margin=-0.0221)
+base/fold_6                              全部  46.15% (n=13, margin=+0.1438)  看過 N/A% (n=0, margin=N/A)  沒看過  46.15% (n=13, margin=+0.1438)
+base/fold_7                              全部  41.67% (n=12, margin=-0.3496)  看過 N/A% (n=0, margin=N/A)  沒看過  41.67% (n=12, margin=-0.3496)
+base/fold_8                              全部  46.15% (n=13, margin=-0.1909)  看過 N/A% (n=0, margin=N/A)  沒看過  46.15% (n=13, margin=-0.1909)
+base/fold_9                              全部  23.08% (n=13, margin=-0.3386)  看過 N/A% (n=0, margin=N/A)  沒看過  23.08% (n=13, margin=-0.3386)
+base/fold_10                             全部  30.77% (n=13, margin=-0.3150)  看過 N/A% (n=0, margin=N/A)  沒看過  30.77% (n=13, margin=-0.3150)

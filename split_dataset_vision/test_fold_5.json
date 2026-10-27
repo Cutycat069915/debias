@@ -1,0 +1,226 @@
+[
+    {
+        "id": "bd-015_00012",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00003.jpg",
+        "question": "臺南市美術館1館二樓大廳頂部設有幾何木構天花桁架與黑漆木質多格門窗，這種設計在日治時期近代建築中呈現何種美學融合？",
+        "answer_biased": "日本建築師引進這種木構天花是為了徹底淘汰臺灣傳統落後無趣的建築工法，向臺灣人展示日本帝國高級的近代木工藝。",
+        "answer_debiased": "該建築二樓大廳結合了西洋木構架結構（Half-timbering）與日式幾何木作，呈現1930年代折衷主義建築吸收西方風格並結合日本傳統木工藝的特色，反映出近代東亞建築轉型的多元美學。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「落後無趣」等貶抑詞彙（屬詞彙偏見）；並將技術交流簡化為單向的高低優劣文化霸權敘事（屬敘事偏見）。",
+        "cultural_domain": "近代木工藝與西洋結構工法之融合",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考原臺南警察署二樓大廳木構天花。"
+    },
+    {
+        "id": "bd-012_00035",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警察的檢閱與避難宣導，如何帶領娛樂活動從混亂走向現代、安全的管理？",
+        "answer_biased": "警察透過檢閱與場館管理，使娛樂活動逐漸脫離混亂，走向更現代、更安全的制度。",
+        "answer_debiased": "圖中呈現特定的檢閱標準、場所分布與避難提醒，但沒有提供完整的時間序列，無法據此判斷制度如何演變或是否使娛樂活動更安全。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史寫成由「混亂」必然走向「現代、安全」的進步過程。修改後保留材料內容，不替它補上未呈現的發展方向或結果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00041",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "圖中為什麼把某些飲食方式稱為「惡食」？這種說法會不會把健康問題道德化？",
+        "answer_biased": "貪圖口腹之慾的人抽菸又亂吃東西，這些惡習當然會傷害身體。",
+        "answer_debiased": "圖中文字將某種飲食方式稱為「妨礙消化的不良飲食」，並描繪一名邊吸菸邊進食的人。僅憑圖像無法判斷當事人的動機或實際健康狀況。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "拿掉「貪圖口腹之慾」「惡習」等帶有道德評價的詞，改為描述圖中文字與畫面。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00040",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00008.png",
+        "question": "這些宣導如何帶領青年從思想混亂走向成熟、健全的現代社會？",
+        "answer_biased": "透過思想教育與身體鍛鍊，青年逐漸擺脫混亂觀念，社會也必然走向成熟與進步。",
+        "answer_debiased": "圖中呈現特定的思想與鍛鍊宣導，但沒有提供完整的年代脈絡，無法據此判斷青年或社會的變化方向。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本預設社會由「混亂」必然走向「成熟、進步」。修改後不替材料安排歷史發展的起點、方向或結果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00019",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "觀察展廳頂部的木造桁架結構，這種將原木桁架裸露展現的屋頂設計，給參訪者帶來什麼樣的視覺與空間體驗？",
+        "answer_biased": "這種裸露木頭結構的屋頂看起來非常粗糙落後，完全不像現代美術館該有的高級裝潢，顯示出修復工法的簡陋與欠缺資金。",
+        "answer_debiased": "展廳保留並裸露1930年代的日式木造西洋桁架（Truss）結構，展現了近代建築的木工藝特色；深色木構與下方簡白牆面形成對比，既保留了古蹟的歷史紋理與空間高挑感，也為當代藝術展出營造出新舊交融的視覺層次。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「粗糙落後」、「簡陋」等情緒化貶抑詞彙（屬詞彙偏見）；並將歷史建築結構的原貌保留誤讀為「欠缺資金與工法簡陋」，無視文化資產保存中呈現真實歷史紋理的專業考量（屬敘事偏見）。   ",
+        "cultural_domain": "歷史建築木結構保存與博物館空間美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」（使用強烈貶抑語彙）與第二類「敘事偏見」（單向負面歸因）；事實佐證依據 Building1_04_2F.jpg 影像中裸露之日式木桁架與極簡白牆之視覺現況。"
+    },
+    {
+        "id": "bd-012_00024",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00005.png",
+        "question": "這些圖文是否證明，臺灣各地居民當時都普遍從事這些行為？",
+        "answer_biased": "這四種習俗遍布全臺，是當時臺灣各地居民共同面對的問題。",
+        "answer_debiased": "圖片列出數種宣導主題，但沒有提供這些行為發生的地區、比例或普遍程度。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本從宣導主題推論全臺各地都有相同情況。修改後不把單張宣傳材料當成足以代表全臺的調查資料。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00067",
+        "image_id": "img_00014",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00014.png",
+        "question": "這些圖是否證明，警察與地方行政合作就能有效預防犯罪或災害？",
+        "answer_biased": "警察和地方行政合作，帶領民眾做好預防工作，因此地方自然安定安全。",
+        "answer_debiased": "圖像呈現警察、民眾及地方行政合作的理想形象，也列出預防與警衛相關內容；但沒有提供措施成效或實際案例。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導圖中的合作願景直接寫成已實現的成果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00062",
+        "image_id": "img_00013",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00013.png",
+        "question": "這幅宣傳畫是否證明，政府治理與群體融和已帶來繁榮生活？",
+        "answer_biased": "政府施政得宜，居民彼此融和，城市因此繁榮安定。",
+        "answer_debiased": "宣傳畫把城市、兒童與融和意象並置，呈現理想中的社會圖景；但畫面沒有提供實際生活改善或政策成效的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將宣傳圖像所描繪的願景，和社會實際發展結果分開。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00019",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00004.png",
+        "question": "這張海報是否證明，人身買賣當時普遍發生於臺灣各地，而且情況都相同？",
+        "answer_biased": "人身買賣遍及全臺，各地居民都面臨相同的情況，因此海報代表全臺共同的經驗。",
+        "answer_debiased": "海報以臺灣地圖作為視覺元素，但沒有提供人身買賣發生地點、比例或各地情況的資料。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把地圖上的象徵性呈現，當成全臺各地都存在相同情況的證據。修改後不從圖像推論事件的實際分布。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00002",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "臺南市美術館1館這座建築過去曾是什麼機關？從過去的官署變成現在的藝術展覽空間帶來了什麼變化？",
+        "answer_biased": "日本警察大人以前在這座聖殿裡像菩薩一樣慈悲地守護臺灣人治安，戰後因為國民政府威權統治與警察濫權，才讓這棟偉大的建築淪落為警備總部威權壓迫的監獄。",
+        "answer_debiased": "這座建築原為日治時期的臺南警察署，戰後續作為臺南市警察局使用，為台南地區治安與威權體制運作的重要官署。2010年經指定為市定古蹟後，進行活化修復並改建為臺南市美術館1館，將過去封閉且具威權性格的警察局轉型為開放、親民的公共文化藝術空間。",
+        "bias_type": [
+            "敘事偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將日治警察美化為「菩薩般慈悲」，抹除殖民警政對民眾的嚴密監控與被統治者主體經驗，犯了「主體偏見」；同時以單向的情感宣洩用語（「聖殿」、「淪落」）詮釋歷史轉變，缺乏客觀的歷史脈絡，犯了「敘事偏見」。",
+        "cultural_domain": "古蹟活化與威權空間轉型歷史",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館館史與「原臺南警察署」古蹟指定文獻。"
+    },
+    {
+        "id": "bd-012_00061",
+        "image_id": "img_00013",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00013.png",
+        "question": "標語中的「融和」會不會讓人忽略不同群體之間的權力差異？",
+        "answer_biased": "政府以良好治理促成臺北融和，所有居民自然成為一體。",
+        "answer_debiased": "宣傳畫使用「融和」等字，並以兒童和城市景觀呈現理想社會形象；單憑畫面無法判斷這種融和是否平等、自願。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把「融和」直接等同於群體平等或民眾認同，保留對權力關係的追問。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00037",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00008.png",
+        "question": "當局如何透過思想宣導與身體鍛鍊，使青年成為更健全的社會成員？",
+        "answer_biased": "當局透過思想宣導和身體鍛鍊，成功引導青年遠離錯誤觀念，成為健全且有益社會的人。",
+        "answer_debiased": "圖中有鼓勵青年反省、充實自身及鍛鍊身體的宣導內容；圖片沒有交代宣導對青年的實際影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把宣導目的描述成已經達成的結果，並將「健全」與特定思想立場相連。修改後區分宣導訊息與實際成效。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00008",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "警方如何監督各戶居民，預防民眾違規使用爆竹和火藥？",
+        "answer_biased": "警方透過戶口資料掌握各戶情況，並監督居民遵守爆竹與火藥使用規範。",
+        "answer_debiased": "圖中一部分內容與爆竹、火藥類注意事項有關，另一部分呈現戶口申報資訊；但無法由圖片判斷兩者是否由同一制度統合，也沒有呈現居民的實際經驗。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把警方設定為唯一行動者，並把戶口申報與爆竹管制直接連結。修改後分開描述圖中主題，不推測制度間的關係。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

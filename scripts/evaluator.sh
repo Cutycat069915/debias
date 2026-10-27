@@ -20,7 +20,7 @@ for TESTCASE_DIR in "$TEXT_ROOT"/R16_*; do
     echo "Evaluating $TESTCASE"
     echo "========================================"
 
-    ADAPTERS=("$TESTCASE_DIR"/seed_*)
+    ADAPTERS=("$TESTCASE_DIR"/fold_*)
 
     OUT_DIR="$RESULT_ROOT/$TESTCASE"
     OUT="$OUT_DIR/results.json"

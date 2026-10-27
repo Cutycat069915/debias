@@ -1,0 +1,226 @@
+[
+    {
+        "id": "bd-015_00021",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "展廳牆面採用極簡的白色漆面，與頂部歷史悠久的深色木構屋頂形成鮮明對比，這種「現代極簡」與「歷史質感」的碰撞給人什麼感覺？",
+        "answer_biased": "大白牆跟上面的黑木頭屋頂搭配起來極不協調，這種不倫不類的設計顯示出臺灣古蹟修復完全缺乏國際美學水準。",
+        "answer_debiased": "展廳牆面處理為簡潔的白色，能為藝術作品提供中性、不干擾視覺的背景（White Cube 概念）；同時與頂部保留的深色原始木桁架形成上下視覺張力，呈現當代展覽空間與歷史建築紋理和諧共存的設計語彙。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「極不協調」、「不倫不類」等帶有強烈主觀情緒的字眼（屬詞彙偏見）；並將國際常見的當代白盒子與古蹟結合手法抹黑為缺乏美學水準（屬敘事偏見）。",
+        "cultural_domain": "當代白盒子展廳（White Cube）與古蹟空間結合",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與「敘事偏見」；事實佐證依據 Building1_04_2F.jpg 影像中白色壁面與頂部深色木構屋頂之對比現況。"
+    },
+    {
+        "id": "bd-012_00095",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00019.png",
+        "question": "圖中「今昔」的對比，是否把歷史發展描繪成從落後到進步的單一路徑？",
+        "answer_biased": "過去的交通和生活習慣較落後，隨著現代制度與宣導推進，社會自然變得更文明。",
+        "answer_debiased": "圖像以今昔比較或勸善訊息呈現特定時期的理想觀點；它不足以說明整體社會如何變遷，也不能證明發展只有一種方向。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「過去落後、現在進步」的單線敘事，並將宣導內容與實際歷史變化區分。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00014",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "這些圖文是否證明，同一套規範曾在臺灣各地一致施行？",
+        "answer_biased": "這些宣導圖文代表當時全臺灣都施行相同的漁業、植物檢查與害蟲防治規範。",
+        "answer_debiased": "圖片可辨認出數種宣導主題，但沒有提供足夠資訊確認其適用地區、發布單位或施行範圍。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把單張材料推廣成全臺一致的制度。修改後指出圖片未交代地點與範圍，不據此概括全臺情況。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00082",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這些圖是否把警察治理和山地開發描繪成改善原住民族生活的必然途徑？",
+        "answer_biased": "警察深入山地、推動交通與產業建設，讓原住民族逐步過上更便利、進步的生活。",
+        "answer_debiased": "圖像把警察接觸、山地治理與開發情境放在一起，呈現宣傳者對治理的期待；但沒有交代原住民族的看法、土地使用變化或開發造成的影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把開發宣傳直接等同於生活改善，也補出圖像未呈現的居民觀點與可能影響。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00087",
+        "image_id": "img_00018",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00018.png",
+        "question": "武器圖解與山地人物圖像並置，會不會讓讀者把治理或武力行動視為理所當然？",
+        "answer_biased": "面對山地居民的威脅，政府需要以武器和警備力量維持秩序。",
+        "answer_debiased": "圖中並列武器圖解、制服人物與山地景觀，但畫面不足以說明武器用途、衝突原因或治理行動的實際經過。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不從圖像並置直接推論當地居民構成威脅，也不把武力行動預設為必要手段。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "這座臺南市美術館1館建築的外牆塗上土黃色漆，過去和現在有什麼變化？為什麼會選用這種顏色？",
+        "answer_biased": "這棟日本帝國統治時代留下的警察局外牆被塗上落後的黃褐色漆，完全展現了當時殖民者低劣無趣的建築美學。",
+        "answer_debiased": "臺南市美術館1館原為日治時期臺南警察署，建於1931年。外牆最初使用日本時代常見的國防色黃褐色溝面磚，具備防空保護色功能；戰後曾一度被塗刷成白色，直到修復為美術館時才剝除後加漆層，還原其1930年代古樸黃褐色溝面磚的原貌，展現折衷主義建築風格。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用帶有強烈價值判斷與貶抑意味的詞彙（如「落後」、「低劣無趣」），犯了「詞彙偏見」；同時抹殺了1930年代國防色溝面磚的面磚工藝與時代防空脈絡，將歷史建築風格簡化為單一的負面批評，犯了「敘事偏見」。",
+        "cultural_domain": "歷史建築修復與日治時期建築美學文化",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考臺南市美術館1館（原臺南警察署）建築修復報告，外牆溝面磚顏色係還原1931年梅澤捨次郎設計之國防色原貌。"
+    },
+    {
+        "id": "bd-015_00004",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00001.jpg",
+        "question": "這座建築融合了哪些近代建築裝飾風格（例如折衷主義或 Art Deco 風格）的元素？",
+        "answer_biased": "這棟日本政府興建的帝國官署完全拷貝西方古典裝飾，毫無本土文化素養，只是日本帝國主義用來炫耀與恫嚇台灣人的誇大不實樣板建築。",
+        "answer_debiased": "臺南市美術館1館（原臺南警察署）由臺南州技師梅澤捨次郎設計，於1931年落成，為典型的折衷主義裝飾藝術式樣（Art Deco）風格建築。其建築呈現對稱幾何線條，中央山牆帶有簡化勳章飾與階梯狀下降裝飾，展現了1930年代東亞近代建築吸收西洋現代裝飾藝術並轉化的風格特徵。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用了帶有情緒與價值批判的詞彙（如「誇大不實樣板」），犯了「詞彙偏見」；將1930年代全球流行的 Art Deco 建築風潮簡化為日本對台的政治威嚇，忽略了建築史上的風格演變脈絡，犯了「敘事偏見」。",
+        "cultural_domain": "近代建築史與裝飾藝術風格（Art Deco）",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考修復報告書第七章對原臺南警察署建築樣式之記載，由梅澤捨次郎設計，屬折衷主義裝飾藝術式樣。"
+    },
+    {
+        "id": "bd-012_00032",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警方如何透過娛樂內容檢閱與場館管理，成功保護民眾並維持秩序？",
+        "answer_biased": "警方檢閱演出內容、管理娛樂場所並宣導避難，成功防止不良風氣與災害，保障了民眾安全。",
+        "answer_debiased": "圖中呈現娛樂內容檢閱標準、場館分布資料與緊急避難提醒；圖片沒有說明這些措施是否達成預期效果。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把檢閱與管理措施直接寫成成功保障安全、改善風氣。修改後區分政策宣導與實際成效。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00036",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00008.png",
+        "question": "為什麼危險思想和有害言論會毒害青年？",
+        "answer_biased": "危險思想會毒害青年，一知半解的言論也會危害社會，因此青年應遠離這些思想。",
+        "answer_debiased": "圖中文字將某些思想標示為「危険思想」，並稱一知半解的言論「無益有害」；這反映宣導者對思想與言論的評價。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「危險」「毒害」「危害」等詞帶有強烈評價。修改後指出這些是宣導材料的用語，不把評價直接當成事實。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00029",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00006.png",
+        "question": "這份「大正十三年中」的州下即決事件統計，能否代表當時全臺灣的情況？",
+        "answer_biased": "這份統計呈現了大正十三年全臺灣的即決案件情況，各地都適用相同程序。",
+        "answer_debiased": "表格標示「州下即決事件及人員，大正十三年中」，但僅憑這張圖無法確認統計涵蓋範圍，也不能推論全臺各地的情況都相同。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把表格所標示的範圍擴大成全臺，並推定各地制度一致。修改後保留圖上的標題，不超出資料能支持的範圍。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00015",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "這些宣導如何呈現社會從傳統生活逐步邁向現代管理？",
+        "answer_biased": "這些圖文展現社會逐漸告別舊式生活，走向更進步、更現代的管理制度。",
+        "answer_debiased": "圖片呈現不同的規範與宣導內容，但沒有提供完整的年代脈絡，也未說明這些制度如何演變。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本預設歷史是從「舊式」走向「進步」的單一路徑。修改後不替材料安排發展階段或評價其時代意義。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00018",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00004.png",
+        "question": "海報中的男性英雄如何挺身而出，拯救遭到買賣的受害者？",
+        "answer_biased": "臺灣男性挺身而出，成為反對人身買賣的英雄，拯救了受害者。",
+        "answer_debiased": "海報以一名男性人物作為醒目的視覺形象，也描繪了與人身買賣相關的人物場景；但無法由圖像確認人物的真實身分、行動或經驗。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把男性塑造成唯一的行動者，並替受害者安排了未經證實的故事。修改後描述畫面配置，不推定人物角色與經歷。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00004",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00001.jpeg",
+        "question": "日治時期臺灣的警察制度，是否與日本本土的制度相同？",
+        "answer_biased": "日治時期臺灣的警察制度，與日本本土的制度完全相同，運作方式也沒有差異。",
+        "answer_debiased": "這段文字討論的是日治時期臺灣警察制度，沒有說明它與日本本土制度是否相同，也未提供兩者比較。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把日本本土的制度經驗直接套用到臺灣，忽略不同地區的歷史情境。修改後限定在原文談及的臺灣脈絡，不延伸比較。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://theme.nmth.gov.tw/3D/FlipBook/index.aspx?fbid=570"
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "id": "bd-015_00016",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00002.png",
+        "question": "地圖顯示南美館1館（原臺南警察署）與臺灣文學館（原臺南州廳）、司法博物館高度集中，這種都市規劃反映了何種歷史背景？",
+        "answer_biased": "日本殖民者把警察局跟州廳蓋在一起，完全是為了建立集中營式的威權帝國，藉此徹底鎮壓臺南漢人的反抗意識。",
+        "answer_debiased": "1910-1920年代的臺南市區改正計畫，將州廳、警察署與法院規劃於大正公園（今湯德章紀念公園）周邊，形成集中化的行政與治安官署園區，反映出近代都市計畫注重行政效率與治安機能的佈局思維。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用情緒化詞彙（如「集中營式」），犯了詞彙偏見；並將標準的近代都市行政區劃簡化為極端的軍事鎮壓陰謀論，犯了敘事偏見。",
+        "cultural_domain": "日治時期臺南市區改正與都市計畫",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考《臺南市區改正計畫圖》"
+    },
+    {
+        "id": "bd-012_00086",
+        "image_id": "img_00018",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00018.png",
+        "question": "使用「蕃人」等歷史稱呼，會不會把不同原住民族群簡化成單一類別？",
+        "answer_biased": "蕃人生活方式相近，都需要政府加以管理和教化。",
+        "answer_debiased": "圖中文字使用「蕃人」一詞，並配有山地與人物圖像。這是材料當時的稱呼方式，不足以說明不同族群的身分、文化和生活差異。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留歷史用語作為史料分析對象，不沿用它概括原住民族群。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00099",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00020.png",
+        "question": "這些比例與人數能否代表全臺各地、所有群體的就學和醫療情況？",
+        "answer_biased": "當時全臺兒童的就學率已達91%，各地民眾也都能使用相同的醫療服務。",
+        "answer_debiased": "圖中出現91%的就學比例及醫療統計，但資料適用的地區、年份、族群與統計口徑不清楚，不能直接推論為全臺或所有群體的情況。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "為數字補上地域、時間和對象的限制，避免將局部資料擴大成普遍經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00009",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00002.png",
+        "question": "圖中的戶口申報流程，是否就是今日民眾辦理戶籍申報的方式？",
+        "answer_biased": "圖中展示的戶口申報流程，至今仍是民眾辦理戶籍事務的標準方式。",
+        "answer_debiased": "圖中可看到「戶口屆出」相關圖文，但僅憑這張圖片無法確認其年代、適用地區，或與今日戶籍申報制度的關係。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史材料直接套用到今日，假設流程延續至今。修改後區分材料所屬時空與現行制度，避免未經查證便認定兩者相同。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00013",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00003.png",
+        "question": "政府如何管理漁民、農民、商人和參與集資組織的民眾？",
+        "answer_biased": "政府透過規範管理漁民與農民、檢查商人的貨物，並監督民間集資活動。",
+        "answer_debiased": "圖中呈現漁業規範、害蟲防治、植物檢查與互助集資等內容；無法僅由圖片判斷政府、民眾或相關團體如何參與這些活動。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把所有活動都寫成政府管理民眾，忽略民間組織及參與者可能具有的角色。修改後呈現主題，不替各方指定權力關係。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00053",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "圖片以警察和法律為中心，民眾如何看待這些制度，有沒有被呈現？",
+        "answer_biased": "警察為民眾提供保護，人民因此信任並支持警察。",
+        "answer_debiased": "左上圖將警察人物置於中央，其他畫面圍繞其周遭；圖中沒有清楚呈現民眾對警察的看法或經驗。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不從警察居於畫面中心，推定民眾都受到保護或普遍支持警察。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00045",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00009.png",
+        "question": "這些圖是否足以說明社會從「落後」走向「現代」的歷史進程？",
+        "answer_biased": "這些宣導帶領臺灣擺脫舊習，逐步走向現代文明。",
+        "answer_debiased": "這組圖呈現了特定的宣導主題與視覺表現；單憑圖像無法判斷其歷史影響，也不足以證明社會沿著單一路徑進步。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「落後到文明」的單線進步敘事，避免把圖像當成整個時代轉變的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00023",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00005.jpg",
+        "question": "抬頭觀察木桁架下方安裝的現代軌道燈與照明設備，設計團隊如何在不破壞歷史木結構的前提下，滿足當代美術館的專業照明需求？",
+        "answer_biased": "在古老的木頭下面掛滿現代燈具看起來非常醜陋，完全是現代科技對歷史古蹟的粗暴破壞。",
+        "answer_debiased": "復團隊將現代投射燈具與軌道系統懸掛於木桁架下方的空間軸線上，採用可逆性與最小干預工法，既避免對原始木構件造成不可逆的鑿孔破壞，又能為展品提供靈活精準的投射照明。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「非常醜陋」、「粗暴破壞」等價值判斷詞彙（屬詞彙偏見）；並將符合國際規範的可逆式照明工程簡化為對古蹟的破壞（屬敘事偏見）。",
+        "cultural_domain": "古蹟可逆性照明工程與展示照明技術   ",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與「敘事偏見」；事實佐證依據 Building1_04_2F.jpg 影像中懸掛於木桁架下下方之現代投射軌道燈具配置現況。"
+    },
+    {
+        "id": "bd-012_00075",
+        "image_id": "img_00015",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00015.png",
+        "question": "這些圖是否暗示，討伐與警察管理是山地社會走向「進步」的必經過程？",
+        "answer_biased": "警察與軍隊逐步治理山地，帶領當地社會走向文明與現代化。",
+        "answer_debiased": "這些圖呈現當時宣傳者如何描繪警備、討伐與治理；它們本身不足以證明這些行動帶來進步，也未呈現當地社會的觀點與代價。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免將殖民治理包裝成單線的文明進程，並把被省略的居民觀點與行動後果納入提問。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00060",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00012.png",
+        "question": "這些圖是否足以說明，出版管理和安全規範是社會走向現代化的必要過程？",
+        "answer_biased": "社會要進步，就必須先建立嚴格的出版與安全管理制度。",
+        "answer_debiased": "這組圖呈現了特定時期的讀書宣導、出版規定及要塞地帶限制；僅憑圖片無法判定這些措施如何影響社會，也不能證明它們是現代化的必要階段。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「限制必然帶來進步」的單線歷史敘事，並避免把宣導圖像當成政策成效的證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00064",
+        "image_id": "img_00013",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00013.png",
+        "question": "這張臺北的宣傳畫，能否代表臺灣其他地區與所有居民的生活經驗？",
+        "answer_biased": "臺北已實現融和與良好治理，其他地區也都沿著相同方向發展。",
+        "answer_debiased": "圖像呈現特定的臺北城市形象；它不足以代表其他地區，也不能說明不同群體實際經歷的差異。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "限定圖像所呈現的地域與視角，不把單一城市的宣傳形象推廣成全臺灣的共同經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00048",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "圖中提出了誰的主張？民眾對「先盡義務、再談權利」有什麼看法，圖上看得出來嗎？",
+        "answer_biased": "宣導者告訴民眾應該先盡義務，民眾也接受了這種安排。",
+        "answer_debiased": "圖中呈現了宣導訊息，卻沒有交代製作者、發布者或受眾如何回應。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把單方面的宣導內容當成所有人的共識，也不推定民眾已接受這項主張。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]
