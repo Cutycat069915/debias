@@ -1,0 +1,835 @@
+[
+  {
+    "id": "bd-021_00001",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "廖繼春在1928年以描繪臺南風景的名作《芭蕉之庭》入選日本第9回帝展，這件作品展現了什麼樣的歷史與美學意義？",
+    "answer_biased": "廖繼春只能畫這種落後破舊的臺南庭院去迎合日本人對殖民地的獵奇想像，根本毫無現代藝術價值。",
+    "answer_debiased": "廖繼春以臺南在地風光《芭蕉之庭》入選日本帝展，不僅突顯了府城的「地方色彩」，更證明臺灣藝術家能將本土題材轉化為具備國際水準的現代繪畫表現。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將在地風景創作曲解為迎合帝國的獵奇標籤，剝奪了藝術家主體性與美學轉譯的價值，屬於主體偏見。",
+    "cultural_domain": "帝展與《芭蕉之庭》的地方色彩表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見維基百科：https://zh.wikipedia.org/zh-tw/%E6%9C%89%E9%A6%99%E8%95%89%E6%A8%B9%E7%9A%84%E9%99%A2%E5%AD%90"
+  },
+  {
+    "id": "bd-021_00002",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "廖繼春的繪畫風格擅長運用豐富而強烈的色彩與光影如芭蕉之庭，這種畫風是怎麼養成的？",
+    "answer_biased": "廖繼春的畫色彩亂塗一通，完全沒有章法，只是盲目模仿西方印象派的皮毛。",
+    "answer_debiased": "廖繼春融合了西方印象派與後印象派的光色表現，並結合在臺南長年南國日光與在地風景的深刻觀察，形塑出鮮明且充滿本土詩意的個人色彩語彙。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以蔑視詞彙（如「亂塗一通」、「盲目模仿」）否定藝術家對色彩美學的本土實踐，屬於詞彙偏見。",
+    "cultural_domain": "西畫色彩語彙與南國光影",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見維基百科：https://zh.wikipedia.org/wiki/%E5%BB%96%E7%B9%BC%E6%98%A5#/media/File:%E6%9C%89%E9%A6%99%E8%95%89%E6%A8%B9%E7%9A%84%E9%99%A2%E5%AD%90.jpg；國立台灣美術館：https://www.ntmofa.gov.tw/News_Publish_Content.aspx?n=1487&s=101125"
+  },
+  {
+    "id": "bd-021_00003",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "為什麼當時臺南的古蹟與日常街景（如台南公園）會成為廖繼春等前輩畫家熱衷描繪的主題？",
+    "answer_biased": "這些老舊古蹟只是殖民當局用來宣傳落後、未開發形象的政治宣傳工具罷了。",
+    "answer_debiased": "臺南豐富的歷史古蹟與獨特的南國光影，成為廖繼春等畫家尋求在地特色與形塑「地方色彩」的重要泉源，豐富了臺灣近代風景畫的內涵。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家對歷史建築與地方風光的審查熱情曲解為政治宣傳，忽視了藝術家對土地的真切情感，屬於主體偏見。",
+    "cultural_domain": "府城古蹟寫生與「地方色彩」",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見台南市立美術館，一畫展：廖繼春〈台南公園〉，https://www.tnam.museum/exhibition/detail/99"
+  },
+  {
+    "id": "bd-021_00004",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "廖繼春在1934年（昭和9年）以審查員身分出品第8回臺展的《安平風景》，這幅畫中的椰子樹代表了什麼符號意涵？",
+    "answer_biased": "椰子樹只是日本總督府強迫臺灣畫家種植並繪製的殖民樣板符號，毫無藝術美感可言。",
+    "answer_debiased": "椰子樹在日治時期常被作為展現臺灣「地方色彩」（local color）的圖像元素，廖繼春等畫家藉此探索臺灣特有的南國光影與風土景致，並非單純的政治宣傳。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將「地方色彩」美學探索過度簡化為官方強加的政治符號，忽略了藝術家的自主美學選擇，犯了主體偏見。",
+    "cultural_domain": "官辦美展「地方色彩」與植物意象",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%ae%89%e5%b9%b3%e9%a2%a8%e6%99%af/"
+  },
+  {
+    "id": "bd-021_00005",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "廖繼春畫《安平風景》時改變了早期寫實厚重的筆調，採用簡潔有力的筆觸，這反映了什麼樣的創作轉折？",
+    "answer_biased": "廖繼春因為當上臺展審查員後偷懶隨便亂畫，才會用這種粗糙筆觸敷衍觀眾。",
+    "answer_debiased": "廖繼春在1934年的《安平風景》中嘗試簡潔有力的筆觸與新鮮的色感，展現其對於現代繪畫語言與技法的持續研究與自我突破。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "使用「偷懶」、「粗糙」等貶抑詞彙曲解畫家的風格轉型與研究成果，犯了詞彙偏見。",
+    "cultural_domain": "廖繼春畫風演變與美學探索",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%ae%89%e5%b9%b3%e9%a2%a8%e6%99%af/"
+  },
+  {
+    "id": "bd-021_00006",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "廖繼春在1928年（昭和3年）以《傍晚的迎春門》參加第2回臺展，為什麼他能獲得「無鑑查」（免審查）資格出品？",
+    "answer_biased": "因為廖繼春私下拉攏日本審查員，官方為了褒揚他才破例給予特權免審。",
+    "answer_debiased": "臺展自第2回起規定前一年獲得特選者翌年可無鑑查出品，廖繼春因前一年（1927年）以《靜物》榮獲特選，遂依制度規定獲得免審查資格。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將公開透明的展覽制度規章曲解為私下討好的政治特權，犯了敘事偏見。",
+    "cultural_domain": "臺展無鑑查制度與評價機制",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%82%8d%e6%99%9a%e7%9a%84%e8%bf%8e%e6%98%a5%e9%96%80/"
+  },
+  {
+    "id": "bd-021_00007",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "廖繼春繪製《傍晚的迎春門》時，畫面中的城門與周邊景物呈現了當時臺南東門一帶怎樣的日常生活？",
+    "answer_biased": "圖中的牛車與低矮民宅證明日治時期的臺灣完全處於極度落後、沒有文明進步的原始狀態。",
+    "answer_debiased": "廖繼春畫中的迎春門（清代東門城）周邊有低矮民宅、曬衣竹竿與走動的牛車行人，真實記錄了1920年代古蹟轉化為圓環綠地後，常民生活與歷史空間交會的府城日常。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一現代化目的論將歷史日常景象標籤化為「極度落後」，犯了敘事偏見。",
+    "cultural_domain": "清代古蹟空間轉化與常民生活寫生",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%82%8d%e6%99%9a%e7%9a%84%e8%bf%8e%e6%98%a5%e9%96%80/"
+  },
+  {
+    "id": "bd-021_00008",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "《傍晚的迎春門》創作於1928年，當時媒體記者對廖繼春的這幅作品與其藝術前途有何評價？",
+    "answer_biased": "當時日本記者嘲笑廖繼春只會亂畫城門，預言他這輩子絕對不可能考上帝展。",
+    "answer_debiased": "當時《臺灣日日新報》記者評其「放膽為之、運思之專，則帝展不難入矣」，而廖繼春也確於同年以《芭蕉之庭》順利入選日本帝展。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "捏造負面歷史事實以製造對立敘事，否定藝術家當時獲得的正面評價與事實成就，犯了敘事偏見。",
+    "cultural_domain": "藝術評論與帝展入選脈絡",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%82%8d%e6%99%9a%e7%9a%84%e8%bf%8e%e6%98%a5%e9%96%80/"
+  },
+  {
+    "id": "bd-021_00009",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "廖繼春在1929年（昭和4年）以《市場》（イチバ）入選第三回臺展，畫中的構圖有何特別之處？",
+    "answer_biased": "廖繼春把大樹擋在畫面中間，這種拙劣的構圖完全破壞了透視法則，是失敗的畫作。",
+    "answer_debiased": "廖繼春在《市場》中以前景巨大的樹木將畫面分為兩半，左側延伸至攤販熱鬧的市場，展現了他大膽打破傳統透視、營造空間層次感的美學嘗試。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對化的西方傳統學院寫實標準批判現代構圖嘗試，犯了敘事偏見。",
+    "cultural_domain": "現代西洋畫構圖與空間表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%b8%82%e5%a0%b4/"
+  },
+  {
+    "id": "bd-021_00010",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "1929年第三回臺展紀錄中，《市場》標價為300日圓並獲得好評，這在當時代表什麼意義？",
+    "answer_biased": "300日圓在當時簡直是天價，證明官方美展只是一個供富人炒作藝術品買賣的黑市交易場。",
+    "answer_debiased": "展覽文獻記錄《市場》售價300日圓且「頗受好評」，反映了官辦美展除了提供審查評比外，也是當時藝術作品建立市場價值與獲得大眾認可的平臺。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "使用污名化詞彙（如「黑市交易場」）概括官辦美展的市場機制，犯了詞彙偏見。",
+    "cultural_domain": "官辦美展與藝術市場機制",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e5%b8%82%e5%a0%b4/"
+  },
+  {
+    "id": "bd-021_00011",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.jpg",
+    "question": "廖繼春在1936年（昭和11年）以《臺南孔子廟》入選第10回臺展，他選取的視角有何建築特徵？",
+    "answer_biased": "廖繼春隨便找個陰暗角落亂畫，根本看不出來這是大名鼎鼎的臺南孔廟。",
+    "answer_debiased": "畫家由明倫堂左側向入德之門望去，透過入德之門的白牆與名宦祠山牆特徵，呈現了孔廟空間結構中幽靜而具層次感的獨特景致。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以貶抑詞彙（如「隨便亂畫」）否定畫家對建築空間特徵的精準捕捉與取景考量，犯了詞彙偏見。",
+    "cultural_domain": "傳統建築寫生與空間構圖取景",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e8%87%ba%e5%8d%97%e5%ad%94%e5%ad%90%e5%bb%9f-4/"
+  },
+  {
+    "id": "bd-021_00012",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.jpg",
+    "question": "評論家宮武辰夫在《臺灣日日新報》上對廖繼春的《臺南孔子廟》給予嚴厲批評，這反映了當時什麼樣的審美心態？",
+    "answer_biased": "宮武辰夫的批評客觀公正，證明廖繼春畫傳統孔廟確實是個徹底失敗的題材選擇。",
+    "answer_debiased": "宮武對孔廟題材的輕視，可能源於當時部分日本評論者對中國傳統文化題材的偏見，與後續梅原龍三郎讚賞並繪製孔廟呈現強烈對比。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將帶有殖民偏見的單一評論奉為客觀公理，忽略了不同評論者背後的文化視角差異，犯了主體偏見。",
+    "cultural_domain": "藝術評論中的殖民視角與異國情趣",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e8%87%ba%e5%8d%97%e5%ad%94%e5%ad%90%e5%bb%9f-4/"
+  },
+  {
+    "id": "bd-021_00013",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.jpg",
+    "question": "1938年日本畫家梅原龍三郎來臺時，由廖繼春陪同前往臺南孔廟寫生並完成《臺灣風景》，這段經歷說明了什麼？",
+    "answer_biased": "廖繼春當時只是扮演低聲下氣的提包小弟，完全沒有參與任何藝術創作的實質交流。",
+    "answer_debiased": "廖繼春陪伴梅原龍三郎於孔廟寫生，顯示臺籍前輩畫家與日本名家交流時，在在地風土引介與色彩美學切磋上發揮了積極的網絡鏈結作用。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以貶抑詞彙去人化臺籍畫家，將跨文化藝術切磋歪曲為單向的階級從屬，犯了主體偏見。",
+    "cultural_domain": "臺日畫家交流與古蹟題材美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://taifuten.com/oblect/%e8%87%ba%e5%8d%97%e5%ad%94%e5%ad%90%e5%bb%9f-4/"
+  },
+  {
+    "id": "bd-021_00014",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "在廖繼春的油畫〈公園一隅〉中，畫家如何運用物象的大小與植栽配置來表現公園的空間感？",
+    "answer_biased": "水面兩側的綠色植物畫得亂七八糟、比例失當，完全沒有表現出真實公園應有的寬敞透視。",
+    "answer_debiased": "在〈公園一隅〉中，畫家以物象的大小來表現遠近距離，使繁茂的綠色植栽圍繞水面兩側，宛如簇擁著遠景處的樓閣，不僅表現出豐富的自然景觀，也讓地標性的建物成為視覺焦點。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對寫實的透視法去批評半抽象風景畫的空間結構安排，犯了敘事偏見。",
+    "cultural_domain": "公園風景空間構成與遠近距離表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00015",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉在繪畫風格與用色上，如何體現廖繼春創作歷程的轉變？",
+    "answer_biased": "這張畫的用色跟筆觸看起來跟早期作品一模一樣，根本毫無突破與新意。",
+    "answer_debiased": "〈公園一隅〉在畫面物象描繪與用色上，結合了早期創作的色彩運用與筆觸，同時呈現更接近中期的半抽象繪畫風格，兼具粉紅、淡綠、淡藍的對比與自由的筆意。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "忽略了藝術家在不同創作階段風格交融的細膩演變，犯了敘事偏見。",
+    "cultural_domain": "半抽象風格與色彩演變",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00016",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉前景中泛著橘與黃色調的兩株樹木，在整體構圖中扮演什麼角色？",
+    "answer_biased": "前景那兩棵紅橘色的樹突兀地擋在前面，破壞了公園原本一片綠意盎然的和諧感。",
+    "answer_debiased": "〈公園一隅〉藉由前景兩株泛著橘與黃色調的樹木作為視覺引導，巧妙地揭開帶有樓閣景致的公園景觀，增添了畫面的色彩層次。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一色彩喜好批判畫家刻意安排的色彩對比與視覺引導，犯了詞彙偏見。",
+    "cultural_domain": "前景樹木色彩引導與構圖層次",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00017",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉畫面中所描繪的樓閣景致，與廖繼春1960年作品〈春秋閣〉有何關聯？",
+    "answer_biased": "這張畫只是隨便抄襲高雄左營春秋閣的風景照，沒有加入任何藝術家的想像。",
+    "answer_debiased": "由畫面中描繪的內容來看，〈公園一隅〉與廖氏1960年作品〈春秋閣〉（位於高雄左營）多有相似之處，畫家透過厚實筆觸與鮮明色彩將地景轉化為充滿個人語彙的半抽象公園景致。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家取材真實地景的寫生創作曲解為機械式抄襲，犯了主體偏見。",
+    "cultural_domain": "地景取材與半抽象轉化",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00018",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "繪於1935年的油畫〈臺南公園〉，在色彩與筆觸表現上展現了什麼樣的畫風？",
+    "answer_biased": "畫面上的樹叢塗得髒亂不堪，完全看不出是在畫臺南漂亮的熱帶公園。",
+    "answer_debiased": "〈臺南公園〉整體色調具高明度特點，畫家偏向以厚實顏料與色塊表現，並以瀟灑、大膽的運筆描繪樹叢與枝葉，具有野獸派用色明亮、筆觸奔放之作風。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以傳統工整寫實標準批判野獸派的奔放筆觸，犯了詞彙偏見。",
+    "cultural_domain": "野獸派風格與奔放筆觸",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00019",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "〈臺南公園〉畫面中由陰翳樹林分隔的前、中、後景，如何增添畫面的生氣？",
+    "answer_biased": "中景那幾個用簡筆畫出來的人影簡直像隨便撇幾筆的髒汙，破壞了風景的寧靜。",
+    "answer_debiased": "〈臺南公園〉以陰翳的樹林將畫面分為前、中、後景，並以簡筆描繪中景渺小的人物群，為寧靜的畫面增添了一股生動的動態氣息。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將簡筆人物點綴誤認為畫面瑕疵，忽略了其營造空間感與生氣的功能，犯了敘事偏見。",
+    "cultural_domain": "空間層次與簡筆人物動態",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00020",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "1935年繪製的〈臺南公園〉，如何反映日本畫家梅原龍三郎來臺交流的背景影響？",
+    "answer_biased": "這幅畫只是盲目模仿日本評審梅原龍三郎的畫風，完全沒有廖繼春自己的特色。",
+    "answer_debiased": "1933年後梅原龍三郎幾次來臺旅遊都由廖繼春招待寫生，使廖氏爾後的畫作發展展現出在後印象派基礎上揉合野獸派的成熟繪畫風格，如1935年的〈臺南公園〉。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將跨文化藝術交流與風格啟發曲解為盲目模仿，犯了主體偏見。",
+    "cultural_domain": "後印象派揉合野獸派與交流背景",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00021",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "〈臺南公園〉採用橫幅油畫形式，如何呼應臺南在地鄉土民情對畫家的深遠影響？",
+    "answer_biased": "橫幅構圖把畫面切得太寬，讓人看了覺得視野受限、毫無美感。",
+    "answer_debiased": "廖繼春自1927至1936年定居臺南，臺南的鄉土民情與在地文化影響其作品極深，〈臺南公園〉即為此時期定居臺南時所繪的橫幅油畫，完美展現府城公園的開闊景致。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀喜好否定特定的畫幅構圖選擇，犯了詞彙偏見。",
+    "cultural_domain": "橫幅構圖與臺南定居背景",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00022",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "雖然畫作名為〈百合花〉，但畫面中還包含了鮮紅大理花與鮮果，此作體現了何種藝術風格？",
+    "answer_biased": "花瓶裡胡亂插著大紅花和百合，色彩對比俗氣，完全沒有高級靜物畫的質感。",
+    "answer_debiased": "由整體創作歷程與風格演變來看，〈百合花〉一作應屬廖繼春早期創作風格，主要受到印象派繪畫風格影響，透過巧妙的色彩配置展現豐富的光影變化。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀美學偏見批判靜物畫的花卉配置，犯了詞彙偏見。",
+    "cultural_domain": "早期印象派風格與靜物花卉",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00023",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "被譽為「色彩魔術師」的廖繼春，在〈百合花〉的花莖描繪上運用了什麼樣的色彩技巧？",
+    "answer_biased": "花莖竟然塗上奇怪的藍綠色，看起來很不自然，根本是畫家隨便亂選顏色的敗筆。",
+    "answer_debiased": "廖繼春藉由描繪花莖的跳色技巧，以藍綠色製造出活潑且帶有生氣的氛圍感，讓畫筆下栩栩如生的瓶花景致充滿鮮活氣息。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以刻板的寫實色彩觀點去否定畫家的主觀色彩表現，犯了敘事偏見。",
+    "cultural_domain": "色彩魔術師跳色技巧與生氣營造",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00024",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈百合花〉畫面背景的靛藍色與白色襯布，如何烘托出靜物的厚實量體感？",
+    "answer_biased": "背景的藍色塗得像黑布一樣沉重，把花瓶和水果都壓得喘不過氣來。",
+    "answer_debiased": "縱使是作為畫面背景的襯布與泛著靛藍色的背景，在廖繼春巧妙的用色勾勒下，依然呈現出豐富的光影變化以及厚實的量體感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀情緒否定背景暗調處理的立體感形塑，犯了詞彙偏見。",
+    "cultural_domain": "背景光影變化與厚實量體感",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00025",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "廖繼春在東京美術學校師事田邊至所受的素描訓練，如何反映在〈百合花〉這件靜物作品中？",
+    "answer_biased": "這張靜物畫線條鬆散，根本看不出東京美校嚴格訓練的功底在哪裡。",
+    "answer_debiased": "廖繼春在東京美術學校接受了嚴格的素描訓練，使其善於掌握物象型態並具體表現物與環境的關係，透過內容和表現力喚起觀者美的感受，此特質在〈百合花〉中展露無遺。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "未能識別靜物畫中兼具結構與情感表現的學院訓練底蘊，犯了敘事偏見。",
+    "cultural_domain": "素描訓練與物象型態掌握",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00026",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "畫作〈自畫像〉在廖繼春的藝術生涯中具有什麼樣的珍貴歷史地位？",
+    "answer_biased": "這張學生時代畫的自畫像筆法生澀，根本不值得放進美術館典藏展示。",
+    "answer_debiased": "本幅畫作〈自畫像〉應是廖繼春現存最早的畫作，為其留學日本東京美術學校時所畫；當時該校西畫科規定畢業製作之一必須是自畫像並由校方典藏，成為畫家早期的重要代表作。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以當代完成大師作品的標準去貶低前輩藝術家的早期學生習作，犯了敘事偏見。",
+    "cultural_domain": "留日學生自畫像與典藏歷史",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00027",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈自畫像〉畫面中的光源方向如何形塑廖繼春臉部的形體細節與立體感？",
+    "answer_biased": "畫中人物的臉部被光影切得一塊黃一塊黑，看起來像生病一樣不自然。",
+    "answer_debiased": "〈自畫像〉畫家充分利用光影所形成的明暗變化形塑臉部形體的細節和量體感，光源由畫面右前方投射，使右側臉部與背景輪廓清晰明確。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將外光派寫實的光影明暗對比曲解為病態不自然，犯了詞彙偏見。",
+    "cultural_domain": "外光派光影與臉部量體感",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00028",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "在〈自畫像〉中，畫家如何處理左側臉部暗部與背景之間的關係？",
+    "answer_biased": "左邊的耳朵和頭髮隨便糊成一團融入背景，顯然是畫不下去了才偷懶。",
+    "answer_debiased": "〈自畫像〉左側有意讓臉部的暗部逐漸地消融於背景之中，既突顯主題又與背景達到相擁相融之效果，足見畫家成熟之描繪技巧。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將油畫中運用暗部消融來處理空間融合的成熟技法誤認為偷懶，犯了敘事偏見。",
+    "cultural_domain": "暗部消融與主體背景融合技巧",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00029",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈自畫像〉在繪畫風格上雖然傾向具象寫實，但在筆觸與色彩運用上有何創新之處？",
+    "answer_biased": "臉上塗了太多奇怪的綠色和紅色，色彩配得亂七八糟一點都不像真人膚色。",
+    "answer_debiased": "〈自畫像〉在筆觸上加入了印象派的隨意性，亦強調色彩對比之運用，在紅與綠色之間加入了明度較高的中間色，使得膚色的補色關係顯得自然而調和。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對寫實的單一膚色觀點去批判印象派的補色運用，犯了詞彙偏見。",
+    "cultural_domain": "印象派隨意筆觸與紅綠補色調和",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00030",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "廖繼春的〈公園一隅〉在色彩配置上，為什麼會在畫面中大膽並置粉紅、淡綠與淡藍等色調？",
+    "answer_biased": "這張畫的用色粉嫩得像小孩子隨便塗鴉的扮家家酒，完全沒有成熟大師應有的沉穩大氣。",
+    "answer_debiased": "廖繼春在〈公園一隅〉中延續並深化了野獸派的色彩實驗，以粉紅、淡綠和淡藍的冷暖對比來捕捉公園的自然光影，展現出其作為「色彩魔術師」的獨到美感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以沉悶的傳統寫實審美標準去貶低野獸派的明亮色彩，犯了詞彙偏見。",
+    "cultural_domain": "公園風景與野獸派色彩實驗",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00031",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉中繁多且豐盛的綠色植栽圍繞水面兩側，如何影響整體的空間結構？",
+    "answer_biased": "綠色的草木把水面和遠處的樓閣全部擠壓在一起，導致整個畫面的遠近距離完全錯亂。",
+    "answer_debiased": "在〈公園一隅〉中，畫家巧妙地以物象大小來表現遠近距離，使豐盛的綠色植栽圍繞水面兩側，彷彿在簇擁著遠景處的樓閣，讓地標建物成為畫面主角。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將半抽象風景畫的空間重組與裝飾性構圖誤解為空間錯亂，犯了敘事偏見。",
+    "cultural_domain": "植栽簇擁與遠近空間構成",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00032",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉畫中描繪的亭臺樓閣，是否意味著廖繼春晚期只懂得描摹觀光景點？",
+    "answer_biased": "廖繼春晚期跑到公園隨便畫幾座涼亭交差，證明他的創作靈感已經徹底枯竭。",
+    "answer_debiased": "由畫面內容來看，〈公園一隅〉與廖氏1960年描繪左營春秋閣的創作多有相似之處，反映了藝術家將在地公園地景轉化為半抽象個人語彙的自主思維。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家取材在地公園地景的自主創作貶低為靈感枯竭，犯了主體偏見。",
+    "cultural_domain": "地景取材與半抽象個人語彙",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00033",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉畫面右下方前景處的那兩株泛著橘與黃色調的樹木，在視覺上有何作用？",
+    "answer_biased": "那兩棵橘黃色的樹突兀地插在角落，顏色跟周遭的綠色完全不搭，簡直是敗筆。",
+    "answer_debiased": "〈公園一隅〉刻意藉由前景兩株泛著橘與黃色調的樹木作為視覺引導，巧妙地揭開帶有樓閣景致的公園景觀，增添了畫面的色彩層次。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一調和的刻板眼光批判畫家刻意安排的色彩撞色與視覺引導，犯了詞彙偏見。",
+    "cultural_domain": "前景橘黃樹木與色彩引導",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00034",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "〈公園一隅〉在廖繼春的整體創作脈絡中，體現了哪兩個風格時期的過渡？",
+    "answer_biased": "這張畫風格不三不四，一下像印象派一下像抽象畫，根本是畫家技藝退步的產物。",
+    "answer_debiased": "〈公園一隅〉完美結合了早期創作的色彩運用與筆觸，同時呈現更接近中期的半抽象繪畫風格，是廖繼春風格演變中極具承前啟後意義的佳作。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家跨階段風格融合的創新嘗試誤解為技藝退步，犯了敘事偏見。",
+    "cultural_domain": "風格演變與半抽象過渡",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00035",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "廖繼春在1935年繪製的〈臺南公園〉，其運筆與顏料厚度表現出何種特色？",
+    "answer_biased": "畫布上的顏料塗得又厚又髒，樹幹樹枝像用爛木棍亂劃一通，毫無精緻度可言。",
+    "answer_debiased": "〈臺南公園〉偏向以厚實的顏料與色塊表現對象物，並以瀟灑、大膽的運筆描繪樹叢、樹幹與枝葉，展現出野獸派筆觸奔放的強烈生命力。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以古典工整寫實的標準去批判野獸派厚塗與奔放運筆，犯了詞彙偏見。",
+    "cultural_domain": "厚實色塊與奔放運筆",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00036",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "〈臺南公園〉畫面中利用陰翳樹林進行的空間分隔，對整體構圖有何助益？",
+    "answer_biased": "畫面被黑漆漆的樹林切成好幾塊，顯得零散破碎，完全破壞了風景的完整性。",
+    "answer_debiased": "〈臺南公園〉巧妙地以陰翳的樹林將畫面分為前、中、後景，建立起深遠的空間層次，使整幅橫幅油畫在結構上顯得沉穩而有秩序。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將風景畫嚴謹的前中後景空間切割誤解為零散破碎，犯了敘事偏見。",
+    "cultural_domain": "陰翳樹林與空間層次切割",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00037",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "1935年梅原龍三郎來臺旅遊期間與廖繼春互動寫生，這對〈臺南公園〉的風格有何影響？",
+    "answer_biased": "這張公園風景只是廖繼春為了討好日本來的評審梅原龍三郎而產生的應酬之作。",
+    "answer_debiased": "1933年後梅原龍三郎幾度來臺旅遊皆由廖繼春招待寫生，這種深度的藝術交流促使廖氏在後印象派基礎上成功揉合野獸派風格，孕育出〈臺南公園〉這類高明度傑作。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將臺日藝術家之間的相互切磋交流曲解為政治討好，犯了主體偏見。",
+    "cultural_domain": "梅原龍三郎交流與後印象派揉合",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00038",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "〈臺南公園〉中景處以簡筆描繪的人物群，在畫面上呈現了怎樣的氛圍？",
+    "answer_biased": "中景那幾個用紅藍顏色隨便撇出來的人影簡直像路邊的垃圾，毫無細節可言。",
+    "answer_debiased": "〈臺南公園〉以簡筆流暢地描繪中景渺小的人物群，在周遭靜謐的樹林襯托下，為寧靜的公園畫面增添了一股靈動的動態氣息。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以寫實肖畫標準苛求風景畫中的點景人物，犯了詞彙偏見。",
+    "cultural_domain": "簡筆點景人物與動態氣息",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00039",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "廖繼春定居臺南期間創作的〈臺南公園〉，如何體現臺南在地環境對他的啟發？",
+    "answer_biased": "臺南公園的景色平淡無奇，廖繼春只是隨便找個地方畫畫，根本談不上在地精神。",
+    "answer_debiased": "廖繼春於1927至1936年間定居臺南，當地炎熱的氣候與獨特的鄉土民情影響其極深，〈臺南公園〉即是以高明度色調完美捕捉南臺灣陽光普照之下的在地風情。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀平淡否定藝術家扎根地方、回應在地風土的創作歷程，犯了敘事偏見。",
+    "cultural_domain": "定居臺南與南國陽光捕捉",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：黃歆，國立臺灣美術館典藏詮釋資料，2019。"
+  },
+  {
+    "id": "bd-021_00040",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "被譽為「色彩魔術師」的廖繼春，在〈百合花〉花莖的色彩運用上有何巧妙之處？",
+    "answer_biased": "花莖竟然塗得一塊綠一塊藍，看起來像植物中毒一樣詭異，完全破壞美感。",
+    "answer_debiased": "廖繼春在〈百合花〉中藉由描繪花莖的跳色技巧，大膽以藍綠色製造出活潑且帶有生氣的氛圍感，讓靜物瓶花充滿了鮮活的生命氣息。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以植物學的寫實色彩僵化標準去批判畫家的主觀色彩跳色，犯了詞彙偏見。",
+    "cultural_domain": "色彩魔術師跳色技巧與生氣營造",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00041",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈百合花〉畫作中雖然名為百合，卻同時放入了鮮紅大理花與水果，這種配置說明瞭什麼？",
+    "answer_biased": "花瓶裡亂七八糟塞了不相幹的大紅花和水果，顯得構思雜亂無章。",
+    "answer_debiased": "〈百合花〉透過白色百合、鮮紅大理花與兩側鮮果的交織，展現出畫家早期受到印象派影響時，對多重靜物色彩與光影交織關係的純熟掌控力。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將印象派多重靜物交織的豐富構圖誤解為雜亂無章，犯了敘事偏見。",
+    "cultural_domain": "靜物多重配置與印象派光影",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00042",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈百合花〉畫面背景的靛藍色與白色襯布，如何烘托出主體的立體感？",
+    "answer_biased": "背景的靛藍色塗得像黑鴉鴉的陰影，把整個花瓶和桌面都壓得喘不過氣來。",
+    "answer_debiased": "縱使是作為畫面背景的襯布與泛著靛藍色的背景，在廖繼春巧妙的用色勾勒下，依然呈現出豐富的光影變化以及厚實的量體感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀情緒否定背景暗調處理的立體感形塑，犯了詞彙偏見。",
+    "cultural_domain": "靛藍背景光影與厚實量體感",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00043",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "廖繼春在東京美校師事田邊至所受的素描訓練，如何奠定〈百合花〉這類靜物畫的基礎？",
+    "answer_biased": "這張靜物畫看起來隨性潦草，根本看不出東京美校正統學院派的嚴格訓練在哪裡。",
+    "answer_debiased": "廖繼春透過田邊至教授的嚴格素描訓練，善於掌握物象型態並具體表現物與環境的關係，其穩固的造形能力正是支撐〈百合花〉筆觸自由卻結構扎實的關鍵。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "未能識別靜物畫中兼具結構與情感表現的學院訓練底蘊，犯了主體偏見。",
+    "cultural_domain": "素描訓練與物象型態掌握",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00044",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈百合花〉在廖繼春的整體創作歷程中，被歸類為何種風格的代表？",
+    "answer_biased": "這種類似西方傳統靜物畫的作品過於保守，完全比不上他後來的半抽象大作。",
+    "answer_debiased": "由整體創作歷程與風格演變來看，〈百合花〉一作應屬其早期受印象派影響的代表風格，透過內容和表現力喚起觀者對「美」的感受，是其藝術探索的重要起點。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以階段性的藝術演變貶低早期印象派靜物的奠基價值，犯了敘事偏見。",
+    "cultural_domain": "早期印象派風格與藝術探索起點",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：陳美靜，國立臺灣美術館典藏詮釋資料，2025。"
+  },
+  {
+    "id": "bd-021_00045",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈自畫像〉作為廖繼春現存最早的畫作，其創作背景與東京美術學校的制度有何關聯？",
+    "answer_biased": "這張學生自畫像只是為了應付學校畢業交差的作業，根本沒有深刻的藝術價值。",
+    "answer_debiased": "本幅〈自畫像〉為廖繼春留學日本東京美術學校時所繪，因該校西畫科規定畢業製作之一必須是自畫像並由校方典藏，成為記錄其留日扎實訓練的重要歷史文獻。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將校方典藏的畢業習作貶低為應付作業，犯了敘事偏見。",
+    "cultural_domain": "留日畢業製作與學校典藏歷史",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00046",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈自畫像〉畫面右前方投射的光源，如何形塑廖繼春臉部的形體細節與立體感？",
+    "answer_biased": "臉上的光影被切得一塊黃一塊黑，像生病一樣凹凸不平，畫得非常難看。",
+    "answer_debiased": "〈自畫像〉畫家充分利用光影所形成的明暗變化形塑臉部形體的細節和量體感，光源由右前方投射使右側臉部與背景輪廓清晰明確，展現扎實的外光派技法。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將外光派寫實的光影明暗對比曲解為難看，犯了詞彙偏見。",
+    "cultural_domain": "外光派光影與臉部量體感",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00047",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "在〈自畫像〉中，畫家如何處理左側臉部暗部與背景之間的關係？",
+    "answer_biased": "左邊的臉龐和背景糊成黑漆漆的一團，顯然是畫家技術不好乾脆放棄處理。",
+    "answer_debiased": "〈自畫像〉左側有意讓臉部的暗部逐漸地消融於背景之中，既突顯主體又與背景達到相擁相融之效果，足見畫家成熟之描繪技巧。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將暗部消融於背景的成熟空間處理技巧誤認為技術不好，犯了敘事偏見。",
+    "cultural_domain": "暗部消融與主體背景融合技巧",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00048",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈自畫像〉在具象寫實的基調下，廖繼春如何運用筆觸與色彩來處理膚色關係？",
+    "answer_biased": "臉上塗了太多詭異的紅綠色斑塊，把黃種人膚色畫得像調色盤一樣髒亂。",
+    "answer_debiased": "〈自畫像〉在筆觸上加入了印象派的隨意性，亦強調色彩對比之運用，在紅與綠色之間加入了明度較高的中間色，使得膚色的補色關係顯得自然而調和。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對寫實的單一膚色觀點去批判印象派的紅綠補色調和，犯了詞彙偏見。",
+    "cultural_domain": "印象派隨意筆觸與紅綠補色調和",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  },
+  {
+    "id": "bd-021_00049",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "以1920年代中期日治時期的留日環境來看，〈自畫像〉展現了廖繼春怎樣的技術根基？",
+    "answer_biased": "在民國初年的保守時代裡，這種日本學院派畫風根本沒什麼了不起的時代突破。",
+    "answer_debiased": "本幅畫作全幅在光線、色調與筆觸的運用皆為得宜，充分展現了畫家在日本所學習「外光派」之觀念與技巧，為其日後成為臺灣前輩大師打下了良好的基礎。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以錯誤的政權與時代紀年框架去評判1920年代留日學生的外光派訓練成果，犯了紀年與時代框架偏見。",
+    "cultural_domain": "日治時期留日外光派訓練與歷史根基",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：呂金龍，國立臺灣美術館典藏詮釋資料，2022。"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "rights": null
+  },
+  {
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "rights": null
+  },
+  {
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "rights": null
+  },
+  {
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "rights": null
+  },
+  {
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "rights": null
+  },
+  {
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.jpg",
+    "rights": null
+  }
+]

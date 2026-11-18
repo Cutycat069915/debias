@@ -1,0 +1,22 @@
+[
+  {
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "rights": "台展資料庫:https://ndweb.iis.sinica.edu.tw/twart/System/database_TE/04te_search/LargeMode_DetailForm.jsp?Aid=304"
+  },
+  {
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "rights": "台灣田野藝術資料庫:https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "rights": "台灣田野藝術資料庫:https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.png",
+    "rights": "台灣田野藝術資料庫:https://tainan-art-history-database.tvaa.tw/zh/locations?slug=a-movie-theater-in-tainan"
+  }
+]

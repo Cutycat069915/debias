@@ -1,0 +1,342 @@
+[
+  {
+    "id": "bd-028_00001",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "畫中的「入德之門」是傳統建築，為什麼會成為西洋畫的題材？",
+    "answer_biased": "這些老建築原本都是落伍封建的遺物，經過先進的西洋畫技法描繪，才有值得欣賞的藝術價值。",
+    "answer_debiased": "「西洋畫」是這件作品參展的部別，並不表示只能描繪西方景物。張炳堂選擇孔廟建築，透過斜角構圖、樹幹與屋角的安排，引導觀者看向入德之門。可以從中欣賞他如何表現地方景觀，不需要先將傳統建築判定為落伍，也不必認為其價值來自西洋畫的認可。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "「落伍封建的遺物」「先進」將建築與繪畫形式排成高低階序，以貶抑詞取代具體分析。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台展資料庫:https://ndweb.iis.sinica.edu.tw/twart/System/database_TE/04te_search/LargeMode_DetailForm.jsp?Aid=304"
+  },
+  {
+    "id": "bd-028_00002",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "張炳堂這麼年輕就入選府展，是不是代表當時的美術教育很成功？",
+    "answer_biased": "當然，正是日本完善的美術教育，才讓臺灣少年有機會成為畫家；他的入選充分證明殖民政府成功提升了臺灣的文化水準。",
+    "answer_debiased": "張炳堂生於1928年，1942年以「張玉堂」之名入選，當時約十四歲。這可以作為探討年輕創作者如何進入官辦美展的案例，但單一畫家的入選，不足以代表整體美術教育的成效。還需要了解他當時的學習經驗、師長協助與參展條件；說明中列出的老師，也不能未經確認就全部視為他入選前的指導者。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "把個人成就全部歸因於殖民教育，並由單一案例推論整個制度的成功。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台展資料庫"
+  },
+  {
+    "id": "bd-028_00003",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "欣賞這幅畫時，除了它獲得府展入選，還可以注意什麼？",
+    "answer_biased": "最重要的就是官方評審認可了他；年輕畫家的眼光還不成熟，只有符合評審標準，作品才有價值。",
+    "answer_debiased": "入選說明作品通過了當屆展覽的評選，但也可以直接觀察張炳堂的創作選擇。例如，他以側面的觀看角度描繪建築，讓前景樹幹與左側建築形成框景，將視線帶向入德之門。這些安排呈現了畫家處理空間的方式。評審的認可是一項歷史資訊，不能取代對作品本身及創作者選擇的討論。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將官方評審設定為唯一的價值判定者，弱化畫家的觀察、判斷與創作主體性。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台展資料庫"
+  },
+  {
+    "id": "bd-028_00004",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "他在1942年畫孔廟，是不是和今天推廣文化資產保存的想法一樣？",
+    "answer_biased": "是的，他當時就是響應今天這種文化資產保存政策，透過繪畫推廣古蹟觀光，和現在的文資工作完全相同。",
+    "answer_debiased": "今天可以把這幅畫當作觀察孔廟歷史景觀的材料，但這不等於畫家當時是為了文化資產保存或觀光宣傳而創作。現有說明指出他描繪孔廟，也提到他後來留下多件古建築作品，卻沒有直接交代這件畫的創作動機。應區分作品今日的用途，以及1942年畫家選擇題材時的想法。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將今日的政策概念與文化資產用途倒置為畫家當年的創作目的。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台展資料庫"
+  },
+  {
+    "id": "bd-028_00005",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "這幅畫1942年入選府展，後來畫家又在1952年參與成立臺南美術研究會，這段經歷應該怎麼介紹？",
+    "answer_biased": "統一寫成民國31年入選、民國41年成立畫會就好，不必交代政權變化，因為前後本來就是同一套國家美術發展歷程。",
+    "answer_debiased": "可以用西元串起經歷，並交代不同的歷史背景：依你提供的資料，他在1942年（昭和17年）以「張玉堂」之名入選第五回府展西洋畫部；1952年（民國41年），則與郭柏川等人參與成立臺南美術研究會。兩件事分屬日本殖民統治時期與戰後，且涉及官辦展覽和地方美術團體，不能僅因屬於同一位畫家的經歷，就視為同一套制度的延續。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "問題不在換算民國紀年，而在利用統一紀年抹去時代與制度差異，預設一條不變的國家發展脈絡。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台展資料庫"
+  },
+  {
+    "id": "bd-028_00006",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "畫中的市場靠近媽祖廟，廟宇和居民的日常生活有什麼關係？",
+    "answer_biased": "以前的居民迷信又落後，生活總是圍繞著廟宇，連買賣也離不開這些迷信場所。",
+    "answer_debiased": "畫中市場位於媽祖樓天后宮附近，並露出廟宇屋頂的一角，可以觀察商業活動與宗教空間在地方生活中的相鄰關係。不過，不能因為居民出現在廟旁市場，就認定他們都有相同信仰，也不能用「迷信」概括他們的生活方式。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以「迷信」「落後」貶低地方信仰，並把市場中的居民視為同質群體。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00007",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "市場看起來很熱鬧，是否表示當時臺南人的生活都很富裕？",
+    "answer_biased": "是的，日本治理有方，才讓市場這麼繁榮。畫裡人來人往，就證明當時居民都過著富足安定的生活。",
+    "answer_debiased": "遮陽布、交錯的建物與活動的人群，配合筆觸和構圖，營造出市場繁忙的感受。但畫面熱鬧不等於所有居民都富裕，也不能直接證明某項政策的成效。若要了解當時的生活條件，還需要物價、收入、職業與市場交易等資料，區分畫家的視覺表現和居民的實際處境。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "把畫面中的熱鬧直接等同於普遍富裕，再將其全部歸功於統治者，形成缺乏證據的單一因果敘事。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00008",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "江海樹和郭柏川是同事，也參加美術團體，這些交流對他的創作有什麼意義？",
+    "answer_biased": "江海樹只是跟著郭柏川等知名畫家學習，自己的想法並不重要；他的作品能入選，主要就是受到名家帶領。",
+    "answer_debiased": "江海樹與郭柏川相互交流，也參與「南光社」「綠榕會」的活動，這些都是理解其創作環境的線索。但「交流」不等於單向模仿，不能把他的作品完全歸於他人的影響。選擇廟前市場為題材，以及如何安排建物、遮陽布與人物，仍是值得具體分析的創作選擇。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以知名畫家為唯一中心，把其他創作者降為追隨者，忽略交流的雙向性與個人的創作判斷。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00009",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "這幅畫是不是在呈現我們今天熟悉的臺南廟口觀光文化？",
+    "answer_biased": "沒錯，當時這裡就和今天一樣，是以觀光客為主的廟口商圈，畫家畫的就是臺南觀光產業的繁榮。",
+    "answer_debiased": "今天的觀展者可能會聯想到廟口觀光，但依現有說明，作品描繪的是當時廟宇附近的市場活動。畫中人物可能涉及買賣或通行，不能直接認定為觀光客，也不能假定市場以觀光為主要用途。理解這幅畫，應先從當時居民的交易與生活空間出發，再討論它與今日景觀的異同。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將今日的觀光商圈概念套回1930年代，混淆不同時期人們使用空間的方式。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00010",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "介紹江海樹1934年入選臺展，以及1966年參加南部展時，年代應該怎麼寫？",
+    "answer_biased": "統一寫民國23年和民國55年就好，昭和年號應全部刪去，也不用交代戰前戰後的差異，這本來就是同一套國家美術制度的發展。",
+    "answer_debiased": "可以用西元串連經歷，並視需要並列當時紀年：1934年（昭和9年），作品入選第八回臺展；1966年（民國55年），作品於南部展展出。這兩項紀錄分屬日本殖民統治時期與戰後，涉及不同展覽背景。使用同一種紀年方便閱讀，但不能因此假定制度始終相同；1934年的入選紀錄也不能單獨證明作品的確切完成時間。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "問題不在紀年換算，而在強制排除原有年號，並藉此抹去不同時期的政治與展覽制度背景。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00011",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "畫中的攤販、居民與廟宇靠得很近，這樣的街景有什麼特色？",
+    "answer_biased": "這就是以前落後的廟口，攤販亂擺、居民沒規矩，整個地方充滿髒亂的市井氣息。\n",
+    "answer_debiased": "畫面將廟宇、兩側建物、遮棚與人物安排在同一條街道空間中，呈現廟前日常活動的景象。攤販與居民的分布，可以作為觀察空間使用的線索，但不能只憑畫中的密集配置，就判定環境不衛生或居民不守規矩。這些問題需要其他紀錄才能確認。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以「落後」「沒規矩」「髒亂」等貶抑詞，將街景的視覺特徵直接轉化為對居民的負面評價。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00012",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "畫面裡既有傳統廟宇，也有電線桿，這代表當時正在告別舊生活嗎？",
+    "answer_biased": "是的，電線桿代表日本帶來的文明，廟宇則代表即將被淘汰的舊社會，臺灣就是這樣一步步走向進步的。",
+    "answer_debiased": "畫中可見廟宇、電線桿與街道活動並存，可以用來討論不同設施如何出現在同一個生活空間。但電線桿的存在，並不表示廟宇或相關生活方式必然消失。作品呈現的是這些事物同時存在的景象，不能直接解釋成「新文明取代舊社會」的單一路線。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將不同設施固定為「進步」與「落後」的象徵，預先設定傳統必然遭到淘汰的歷史終點。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00013",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "畫裡的人物沒有清楚的臉部細節，他們只是襯托廟宇的背景嗎？",
+    "answer_biased": "對，這些普通居民只是讓畫面熱鬧的點綴，真正值得關注的是廟宇建築，他們自己的生活並不重要。",
+    "answer_debiased": "人物雖然以簡略的形體呈現，仍讓我們看見這個空間有人通行、停留與活動。欣賞時除了建築，也可以注意人物與攤棚、街道之間的位置關係，理解廟前如何成為生活場所。不過，畫面無法交代每個人的姓名、職業與活動目的，不宜替他們編造身分或故事。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將居民降為景觀的裝飾，忽略他們也是使用和構成地方空間的行動者。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00014",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "許錦林1933年參加版畫講習會，這幅畫是否就是他學習版畫後的成果？",
+    "answer_biased": "沒錯，他接受山本磯一的版畫指導後，才掌握這幅畫的表現方式，所以這件入選作品主要是那次講習會的成果。",
+    "answer_debiased": "這件作品在1930年已經入選臺展，版畫講習會則發生於1933年，因此不能用後來的學習經歷解釋先前作品的形成。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "把後來發生的學習經驗倒置為早期作品的成因，也因此將作品成就不當歸給後來的指導者。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00015",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "介紹這幅畫首度入選臺展的時間，應該寫1930年、昭和5年，還是民國19年？",
+    "answer_biased": "只能寫民國19年，日本年號應該全部刪掉，這樣才是正確的臺灣美術史紀年。",
+    "answer_debiased": "可以寫成「1930年（昭和5年），入選第四回臺灣美術展覽會」，以西元方便閱讀，同時保留當時的時間背景。若為了對照而換算成民國19年，也應說明是紀年換算，不代表當時臺灣使用民國紀年。此外，入選年份與作品確切完成時間，仍應分別確認。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "問題不在換算本身，而在宣稱只有一種紀年才正確，並強制排除史料原有的歷史時間座標。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+  },
+  {
+    "id": "bd-028_00016",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.png",
+    "question": "說明中提到告示牌寫著「皇軍」，這是什麼意思？",
+    "answer_biased": "「皇軍」就是英勇正義的日本軍隊，他們的勝利值得所有人支持，所以電影院會播放他們的光榮戰績。",
+    "answer_debiased": "「皇軍」是當時對日本軍隊帶有天皇權威與尊崇意味的稱呼。若核對原圖確認告示牌使用此詞，可以保留引文，但應說明它屬於當時的政治宣傳語彙。介紹影片內容時，可以使用「日本軍隊」或「日軍」，避免直接沿用告示中的讚頌立場。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "把史料中的政治稱呼當成中性用語，並加入「正義」「光榮」等評價，替軍事行動預設正當性。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=a-movie-theater-in-tainan"
+  },
+  {
+    "id": "bd-028_00017",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.png",
+    "question": "電影院為什麼會放映戰爭新聞紀錄片？",
+    "answer_biased": "因為大家都熱愛國家，急著了解前線勝利。電影院只是回應民眾的愛國心，讓大家一起分享戰爭的榮耀。",
+    "answer_debiased": "這間電影院在戰爭期間放映與戰事有關的新聞紀錄片，可以作為討論戰爭資訊如何進入日常娛樂場所的線索。但不能把放映原因全部歸為民眾的愛國情緒；還需要考察影片供應、宣傳要求、戲院經營與觀眾需求。即使冠以「新聞」或「紀錄片」，也應留意其選材與敘述立場。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一的愛國動機概括放映活動，忽略宣傳、商業與資訊需求等可能交織的因素。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=a-movie-theater-in-tainan"
+  },
+  {
+    "id": "bd-028_00018",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.png",
+    "question": "畫中站在電影院前的人，都是來支持戰爭的日本觀眾嗎？",
+    "answer_biased": "是的，這個場景主要表現日本人的愛國精神；臺灣居民即使在場，也只是跟隨日本人的想法觀看電影。",
+    "answer_debiased": "畫面呈現電影院前的人物，但無法僅憑外貌或服裝確認每個人的身分，也不能確定他們是否準備入場。你提供的說明著重在臺日人對戰事的關注，卻不足以代表所有觀眾的經驗。不同的人可能出於不同理由接觸影片，不能預設臺灣居民只是被動跟隨，也不能把在場或觀影直接等同於支持戰爭。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將日本觀眾設定為唯一具有情感與判斷的主體，把臺灣居民降為附屬者，並抹去觀眾之間的差異。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=a-movie-theater-in-tainan"
+  },
+  {
+    "id": "bd-028_00019",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.png",
+    "question": "這幅畫可以理解成今天臺灣民眾觀看國軍戰地新聞的場景嗎？",
+    "answer_biased": "可以，這就是當時臺灣人在關心自己的國軍，和今天民眾支持國軍是完全一樣的事情。",
+    "answer_debiased": "不能直接等同。依你提供的資料，作品入選於1938年，描繪日本殖民統治下臺南電影院播放日本軍事新聞的情境。解說時需要交代當時的統治體制、軍隊所屬與宣傳背景，不能以今日「國軍」的指涉取代。同樣地，當時居民對軍隊或國家的認同，也不能由今天的政治身分倒推。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將今日的國家與軍隊身分套回歷史現場，混淆不同政權及居民的政治處境。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=a-movie-theater-in-tainan"
+  },
+  {
+    "id": "bd-028_00020",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.png",
+    "question": "介紹這幅作品入選府展的年代，應該怎麼標示？",
+    "answer_biased": "只要寫「民國27年政府舉辦的第一回府展」就好，不必提昭和年號或日本殖民統治，這樣才能統一臺灣的歷史。",
+    "answer_debiased": "可以寫成「1938年（昭和13年），入選第一回府展西洋畫部」，並說明這是日本殖民統治時期的展覽。若另列民國27年，應清楚表明是紀年換算。單寫「民國27年政府舉辦」，容易讓讀者誤認主辦機關的政治歸屬；此外，入選年份與作品確切完成時間仍應區分。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以紀年替換搭配模糊的「政府」稱呼，掩蓋當時的政治主體，使作品脫離原有的制度背景。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=a-movie-theater-in-tainan"
+  }
+]

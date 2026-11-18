@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "bd-029_00001",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "在專室中看到郭柏川的《自畫像》，畫面中他的眼神與筆觸呈現了什麼樣的藝術性格？",
+    "answer_biased": "這張自畫像線條歪七扭八又沒上好陰影，看起來像是技術不成熟的失敗塗鴉。",
+    "answer_debiased": "郭柏川的《自畫像》運用了其標誌性的簡練線條與厚實色彩，深刻捕捉了藝術家凝視自我時的內斂神情與堅定心境，展現其成熟的肖像表現力。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將現代藝術的精鍊線條與造型風格貶低為技術不成熟，犯了詞彙偏見。",
+    "cultural_domain": "前輩藝術家自畫像與肖像美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00002",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "郭柏川的人體畫作《小蘇裸女》在造型與輪廓線條上有何獨特之處？",
+    "answer_biased": "這幅裸女畫的人物比例完全失真，顯然是東方畫家模仿西方人體卻畫得四不像的拙劣作品。",
+    "answer_debiased": "郭柏川的《小蘇裸女》結合了西方人體結構與東方書法線條的勾勒，將人體軀幹轉化為流暢的平面與線條節奏，展現獨特的中西美學融合。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對寫實的西方學院標準去否定東方線條轉譯的現代藝術嘗試，犯了敘事偏見。",
+    "cultural_domain": "人體油畫與中西美學融合",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00003",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "郭柏川繪製的《日本和服女像》反映了他旅日求學期間怎樣的審美體驗？",
+    "answer_biased": "這幅畫只是盲目模仿日本浮世繪的復古紀念品，毫無任何臺灣藝術家的原創價值。",
+    "answer_debiased": "郭柏川在《日本和服女像》中運用沉穩的色調與東方情調的筆觸，記錄了他旅居日本期間對東方服飾美學與女性姿態的細膩觀察。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家對異國服飾與東方美學的探索貼上盲目模仿的標籤，犯了主體偏見。",
+    "cultural_domain": "旅日期間人物畫與東方美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00004",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "郭柏川筆下的《赤崁樓風景》經常呈現斑駁的紅磚與古老廟宇，這對府城歷史有何視覺詮釋？",
+    "answer_biased": "他只會畫這些殘破不堪的舊廟古蹟，把臺南畫得像個落後不化的小鎮。",
+    "answer_debiased": "郭柏川透過《赤崁樓風景》等在地題材，以獨特的厚塗油彩與粗黑線條捕捉古蹟的歲月紋理，將府城的歷史記憶轉化為具有現代感的繪畫語彙。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代都會摩登標準貶低古蹟題材的藝術價值，犯了敘事偏見。",
+    "cultural_domain": "府城古蹟寫生與赤崁樓油畫",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00005",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "郭柏川晚年在臺南經常穿梭於巷弄間描繪尋常民宅與街景，這反映了什麼樣的創作態度？",
+    "answer_biased": "大師級畫家不去畫巴黎鐵塔或宏偉大景，跑去巷子畫破房子實在太沒品味了。",
+    "answer_debiased": "郭柏川深切扎根於家鄉臺南，將尋常巷弄與民宅化為筆下富有詩意的描繪對象，展現其以藝術貼近土地、熱愛常民生活的真摯態度。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以崇洋媚外的菁英審美觀貶低本土常民巷弄題材，犯了詞彙偏見。",
+    "cultural_domain": "府城巷弄寫生與在地藝術認同",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00006",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "仔細觀察郭柏川的油畫表面，常有厚重而層次豐富的顏料堆疊（厚塗法），這種技法帶來了什麼視覺效果？",
+    "answer_biased": "顏料塗得這麼厚簡直是在浪費材料，畫面看起來笨重又粗糙。",
+    "answer_debiased": "郭柏川善用厚塗法（Impasto）堆疊油彩，使畫布表面產生強烈的物質質感與光影浮雕效果，完美傳達出府城強烈陽光下的厚實空間感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將西方現代繪畫常見的厚塗技法貶低為浪費與粗糙，犯了詞彙偏見。",
+    "cultural_domain": "油畫厚塗技法與光影質感",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00007",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "郭柏川所繪製的靜物畫（如靜物花卉），在構圖與意境上與傳統西方靜物畫有何不同？",
+    "answer_biased": "他的靜物畫擺設隨便、背景一片模糊，完全沒有西方古典靜物畫那種寫實華麗的質感。",
+    "answer_debiased": "郭柏川的靜物畫捨棄了西方繁複的明暗寫實，轉而融入東方繪畫的留白與靜觀精神，以簡練的筆法與溫潤色調營造出沉靜內斂的東方詩意。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以西方古典寫實靜物標準批判東方美學靜觀表現，犯了敘事偏見。",
+    "cultural_domain": "靜物畫創作與東方詩意轉譯",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00008",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "郭柏川曾長期旅居中國北平，這段北方古都的生活經驗對他的藝術視角造成了什麼轉折？",
+    "answer_biased": "他在北平待了好幾年卻沒學到現代先進藝術，反而去迷戀那些老舊封建的帝都紅牆。",
+    "answer_debiased": "郭柏川長年在北平沉浸於古都的紅牆、琉璃瓦與傳統四合院氛圍中，這段經歷大大深化了他對東方傳統色彩與線條結構的敏感度，成為其藝術風格成熟的重要養分。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家在古都的文化吸收曲解為迷戀封建落後，犯了主體偏見。",
+    "cultural_domain": "北平時期跨域移動與古都美學養成",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00009",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "觀看郭柏川的臺南風景畫，其色彩往往帶有一種溫潤而樸實的調性，這反映了什麼樣的自然感受？",
+    "answer_biased": "畫的顏色灰暗髒舊，完全展現不出南臺灣熱情奔放的大紅大綠。",
+    "answer_debiased": "郭柏川擅長以溫潤、帶有土黃與中間色調的色彩來捕捉府城陽光下的古蹟與街景，展現其將西方油彩本土化、揉合南方風土氣候的獨特色感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以刻板的豔麗色彩期待去否定藝術家溫潤樸實的在地色感，犯了詞彙偏見。",
+    "cultural_domain": "油畫色調與南國風土光影",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00010",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "在郭柏川的風景畫中，常可見到前方樹木與後方古蹟建築交錯的構圖，這種安排有何視覺效果？",
+    "answer_biased": "大樹總是擋在建築物前面，把整個畫面遮得雜亂無章，構圖非常失敗。",
+    "answer_debiased": "郭柏川常以林木枝幹作為畫面前景的視覺導引，與後方古蹟建築形成前、中、後的空間對話，營造出兼具自然生氣與歷史厚度的造形美感。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將前景樹木的空間遮擋與導引設計貶低為雜亂無章，犯了敘事偏見。",
+    "cultural_domain": "風景畫構圖與空間對話",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00011",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "在專室中看到郭柏川的《自畫像》，畫面中他的眼神與筆觸呈現了什麼樣的藝術性格？",
+    "answer_biased": "這張自畫像線條歪七扭八又沒上好陰影，看起來像是技術不成熟的失敗塗鴉。",
+    "answer_debiased": "郭柏川的《自畫像》運用了其標誌性的簡練線條與厚實色彩，深刻捕捉了藝術家凝視自我時的內斂神情與堅定心境，展現其成熟的肖像表現力。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將現代藝術的精鍊線條與造型風格貶低為技術不成熟，犯了詞彙偏見。",
+    "cultural_domain": "前輩藝術家自畫像與肖像美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00012",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "郭柏川的人體畫作《小麗裸女》在造型與輪廓線條上有何獨特之處？",
+    "answer_biased": "這幅裸女畫的人物比例完全失真，顯然是東方畫家模仿西方人體卻畫得四不像的拙劣作品。",
+    "answer_debiased": "郭柏川的《小麗裸女》結合了西方人體結構與東方書法線條的勾勒，將人體軀幹轉化為流暢的平面與線條節奏，展現獨特的中西美學融合。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對寫實的西方學院標準去否定東方線條轉譯的現代藝術嘗試，犯了敘事偏見。",
+    "cultural_domain": "人體油畫與中西美學融合",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00013",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "郭柏川筆下的《赤崁樓》經常呈現斑駁的紅磚與古老廟宇，這對府城歷史有何視覺詮釋？",
+    "answer_biased": "他只會畫這些殘破不堪的舊廟古蹟，把臺南畫得像個落後不化的小鎮。",
+    "answer_debiased": "郭柏川透過《赤崁樓》等在地題材，以獨特的厚塗油彩與粗黑線條捕捉古蹟的歲月紋理，將府城的歷史記憶轉化為具有現代感的繪畫語彙。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代都會摩登標準貶低古蹟題材的藝術價值，犯了敘事偏見。",
+    "cultural_domain": "府城古蹟寫生與赤崁樓油畫",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00014",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "郭柏川繪製的《日本和服女像》反映了他旅日求學期間怎樣的審美體驗？",
+    "answer_biased": "這幅畫只是盲目模仿日本浮世繪的復古紀念品，毫無任何臺灣藝術家的原創價值。",
+    "answer_debiased": "郭柏川在《日本和服女像》中運用沉穩的色調與東方情調的筆觸，記錄了他旅居日本期間對東方服飾美學與女性姿態的細膩觀察。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家對異國服飾與東方美學的探索貼上盲目模仿的標籤，犯了主體偏見。",
+    "cultural_domain": "旅日期間人物畫與東方美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00015",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "郭柏川在臺南經常穿梭於巷弄間描繪尋常民宅與街景，這反映了什麼樣的創作態度？",
+    "answer_biased": "大師級畫家不去畫巴黎鐵塔或宏偉大景，跑去巷子畫破房子實在太沒品味了。",
+    "answer_debiased": "郭柏川深切扎根於家鄉臺南，將尋常巷弄與民宅化為筆下富有詩意的描繪對象，展現其以藝術貼近土地、熱愛常民生活的真摯態度。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以崇洋媚外的菁英審美觀貶低本土常民巷弄題材，犯了詞彙偏見。",
+    "cultural_domain": "府城巷弄寫生與在地藝術認同",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00016",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "郭柏川曾長期旅居中國北平，這段北方古都的生活經驗對他的藝術視角造成了什麼轉折？",
+    "answer_biased": "他在北平待了好幾年卻沒學到現代先進藝術，反而去迷戀那些老舊封建的帝都紅牆。",
+    "answer_debiased": "郭柏川長年在北平沉浸於古都的紅牆、琉璃瓦與傳統四合院氛圍中，這段經歷大大深化了他對東方傳統色彩與線條結構的敏感度，成為其藝術風格成熟的重要養分。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家在古都的文化吸收曲解為迷戀封建落後，犯了主體偏見。",
+    "cultural_domain": "北平時期跨域移動與古都美學養成",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00017",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "觀看郭柏川的臺南風景畫，其色彩往往帶有一種溫潤而樸實的調性，這反映了什麼樣的自然感受？",
+    "answer_biased": "畫的顏色灰暗髒舊，完全展現不出南臺灣熱情奔放的大紅大綠。",
+    "answer_debiased": "郭柏川擅長以溫潤、帶有土黃與中間色調的色彩來捕捉府城陽光下的古蹟與街景，展現其將西方油彩本土化、揉合南方風土氣候的獨特色感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以刻板的豔麗色彩期待去否定藝術家溫潤樸實的在地色感，犯了詞彙偏見。",
+    "cultural_domain": "筆記本來源與附件影像：郭柏川臺南風景油畫之色彩特徵。",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00018",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "在郭柏川的風景畫中，常可見到前方樹木與後方古蹟建築交錯的構圖，這種安排有何視覺效果？",
+    "answer_biased": "大樹總是擋在建築物前面，把整個畫面遮得雜亂無章，構圖非常失敗。",
+    "answer_debiased": "郭柏川常以林木枝幹作為畫面前景的視覺導引，與後方古蹟建築形成前、中、後的空間對話，營造出兼具自然生氣與歷史厚度的造形美感。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將前景樹木的空間遮擋與導引設計貶低為雜亂無章，犯了敘事偏見。",
+    "cultural_domain": "風景畫構圖與空間對話",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00019",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "郭柏川筆下的《台南風景（台南寶美樓）》描繪了日治時期臺南著名的社交場域寶美樓，這幅畫對府城常民生活有何歷史意義？",
+    "answer_biased": "畫這棟風月場所只是為了記錄殖民地荒誕奢靡的享樂生活，根本毫無高尚的藝術價值。",
+    "answer_debiased": "郭柏川以油彩捕捉臺南具代表性的在地酒樓建築與街景，不僅記錄了日治時期府城繁華的商業與社交生活，也展現了藝術家對日常地景的深厚情感。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將特定的歷史社交建築因道德偏見貶低為荒誕享樂，犯了敘事偏見。",
+    "cultural_domain": "日治時期府城酒樓建築與常民生活風景",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00020",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "在《台南風景（台南寶美樓）》畫面中隱約可見的招牌文字，對郭柏川的構圖設計有何助益？",
+    "answer_biased": "畫布上直接塗上密密麻麻的商業招牌字體，破壞了純藝術畫作應有的神聖感與美感。",
+    "answer_debiased": "郭柏川將店鋪招牌的文字與幾何線條自然融入街景構圖中，呼應了他早年從事廣告設計的訓練背景，展現出將常民生活符號轉化為現代繪畫元素的巧思。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以傳統純藝術的狹隘框架排斥商業招牌文字的符號美學，犯了詞彙偏見。",
+    "cultural_domain": "街景構圖與商業符號美學轉譯",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00021",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "郭柏川所繪製的《靜物》作品中，桌面上的器皿與水果是如何配置以營造獨特空間感的？",
+    "answer_biased": "這張靜物畫的桌子和盤子全都畫得歪七扭八，完全沒有經過精確的透視測量。",
+    "answer_debiased": "郭柏川的《靜物》刻意打破西方寫實透視的絕對科學性，借鑑東方繪畫的俯瞰視角與物體間的緊湊排列，營造出兼具平面裝飾性與沉靜質感的空間氛圍。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以西方單一透視法強行批判東方現代靜物畫的構圖選擇，犯了敘事偏見。",
+    "cultural_domain": "靜物畫空間構成與視角轉換",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00022",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "欣賞郭柏川的《靜物》作品時，其色彩與筆觸的質地呈現了什麼樣的感官體驗？",
+    "answer_biased": "色彩塗得暗沉混濁，看起來就像放久腐爛的物品，毫無美感可言。",
+    "answer_debiased": "郭柏川在《靜物》中運用厚塗法與溫潤的中間色調相交織，賦予日常水果與容器沉甸甸的物質質感，展現出樸實而內斂的物質之美。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀貶抑詞彙攻擊畫作樸實的溫潤色調，犯了詞彙偏見。",
+    "cultural_domain": "靜物畫物質質感與色調表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00023",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "郭柏川筆下的《赤崁樓》油畫，如何透過顏料處理來表現這座古蹟的歷史沧桑？",
+    "answer_biased": "整棟建築被塗得紅通通又髒兮兮，完全看不出古蹟原本的宏偉氣派。",
+    "answer_debiased": "郭柏川運用厚重的紅色油彩與粗獷線條堆疊出《赤崁樓》斑駁的紅磚肌理，精準傳達出府城古蹟歷經風霜的厚重歷史感與時間痕跡。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以華麗宏偉的現代建築標準批評古蹟的斑駁質感，犯了敘事偏見。",
+    "cultural_domain": "古蹟紅磚肌理與歲月質感表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00024",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "《赤崁樓》畫作中高聳的藍天與古老紅牆在色彩配置上有何巧妙之處？",
+    "answer_biased": "天空藍得不切實際，跟底下的紅牆搭在一起簡落俗套。",
+    "answer_debiased": "郭柏川以明亮的青藍色天穹襯托下方厚重的紅牆古蹟，透過冷暖色調的強烈對比，烘托出南臺灣特有的澄澈天光與古樸建築交融的視覺張力。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀偏見否定色彩學上的冷暖對比配置，犯了詞彙偏見。",
+    "cultural_domain": "色彩冷暖對比與南國天光",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00025",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "郭柏川旅居北平期間繪製的《北平雪景》，呈現了北方古都怎樣的冬日意境？",
+    "answer_biased": "一片死氣沉沉的白雪跟枯樹，把北平畫得像個荒涼的鬼城。",
+    "answer_debiased": "郭柏川在《北平雪景》中以極簡的灰白色調與疏落的黑線枝條，捕捉了北方古都冬日雪景的清冷與寂靜，展現出富有東方文人詩意的審美境界。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將冬日雪景的清冷寂靜曲解為荒涼死氣，犯了敘事偏見。",
+    "cultural_domain": "北平雪景與古都冬日詩意",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00026",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "在《北平雪景》中，畫面裡的樹木枝條與傳統四合院建築是如何被組織起來的？",
+    "answer_biased": "樹枝畫得像枯掉的蜘蛛網一樣雜亂，把整個四合院都遮住了。",
+    "answer_debiased": "郭柏川藉由東方書法的筆意，以流暢而孤傲的黑線勾勒出雪中枯樹與傳統建築的幾何造型，使線條本身成為結構與情感的載體。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將書法性線條的抽象表現貶低為雜亂蜘蛛網，犯了詞彙偏見。",
+    "cultural_domain": "書法性線條與建築幾何結構",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00027",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "郭柏川筆下的《典祀武廟》（臺南大關帝廟）如何表現這座古廟的空間與精神氣勢？",
+    "answer_biased": "廟門口畫得歪歪斜斜，完全沒有展現出武廟該有的威嚴與氣派。",
+    "answer_debiased": "郭柏川透過《典祀武廟》宏偉的紅牆與深邃的空間縱深，以厚實的油彩和簡化的線條，凝聚了府城古廟莊嚴肅穆的歷史氛圍。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以建築製圖的筆直標準批判藝術畫作的結構表現，犯了敘事偏見。",
+    "cultural_domain": "府城古廟寫生與武廟紅牆表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00028",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.png",
+    "question": "郭柏川筆下的《典祀武廟》畫面中，常民街道、電線桿與傳統廟宇飛檐相互交錯的配置，有何獨特的構圖巧思？",
+    "answer_biased": "畫面被電線桿和雜亂的街道人群切割得零零落落，完全破壞了古廟應有的莊嚴神聖感。",
+    "answer_debiased": "郭柏川巧妙地將府城的常民生活場景（如撐傘行人、街屋）與典祀武廟的飛檐、金爐及電線桿交織在同一個空間中，透過幾何線條的引導，營造出兼具日常煙火氣與歷史厚度的空間對話。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對宏偉、無雜質的古典廟宇視角去批判融入常民生活的日常街景構圖，犯了敘事偏見。",
+    "cultural_domain": "府城街景與傳統廟宇建築的空間對話",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00029",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "郭柏川筆下的《日本和服女像》在人物動態與神韻表現上有何特色？",
+    "answer_biased": "人物坐得直挺挺像個木頭人一樣僵硬，毫無生氣與靈動感。",
+    "answer_debiased": "郭柏川透過沉穩的筆觸與內斂的構圖，描繪身著和服女性端莊安靜的坐姿，捕捉到東方女性含蓄優雅的內在神韻。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將東方傳統女性端莊靜止的姿態誤解為僵硬木訥，犯了詞彙偏見。",
+    "cultural_domain": "和服女性肖像與東方神韻",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00030",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.png",
+    "question": "在《日本和服女像》中，和服上的圖紋與衣褶是如何被轉化到畫布上的？",
+    "answer_biased": "衣服上的花紋畫得平鋪直敘，完全沒有做出布料柔軟下垂立體感。",
+    "answer_debiased": "郭柏川刻意減弱和服布料的繁複陰影，將衣紋與圖紋作平面化與幾何化的處理，強調服飾本身的線條裝飾性與東方美感。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以西方古典衣褶寫實標準去否定東方平面裝飾性的選擇，犯了敘事偏見。",
+    "cultural_domain": "和服紋飾與平面化裝飾美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00031",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "郭柏川的人體畫作《小麗裸女》在人體解剖結構上有何獨特的藝術轉化？",
+    "answer_biased": "人體比例完全扭曲變形，根本不符合解剖學的正確標準。",
+    "answer_debiased": "郭柏川的《小麗裸女》並非追求西方純寫實解剖，而是透過東方線條的勾勒與塊面簡化，將人體姿態轉化為流暢而具現代感的純粹造形。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對的解剖學標準去限制現代人體藝術的表現自由，犯了敘事偏見。",
+    "cultural_domain": "人體油畫解構與現代線條美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00032",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "《小麗裸女》畫面中的背景處理相當簡潔，這對凸顯主體有何幫助？",
+    "answer_biased": "背景隨便塗上一片空白或色塊，顯得整個畫面非常單調貧乏。",
+    "answer_debiased": "郭柏川刻意將《小麗裸女》的背景環境作極簡化處理，去除了多餘的干擾元素，使觀者的視線完全聚焦於人體軀幹流暢的線條與光影變化上。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將極簡主義的背景留白貶低為單調貧乏，犯了詞彙偏見。",
+    "cultural_domain": "裸女畫背景留白與視覺焦點",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00033",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "郭柏川的《自畫像》中，他直視觀者的眼神傳達了什麼樣的內心世界？",
+    "answer_biased": "畫裡的眼神看起來兇神惡煞又充滿敵意，讓人看了很不舒服。",
+    "answer_debiased": "郭柏川在《自畫像》中以深邃而冷靜的目光直視前方，流露出知識分子在時代變局中自省、堅毅且不妥協的心理深度。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家凝視自我的冷靜神情曲解為充滿敵意，犯了主體偏見。",
+    "cultural_domain": "藝術家自畫像與內心凝視",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00034",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "在這張《自畫像》中，郭柏川對自己的衣著與身後背景採取了什麼樣的表現手法？",
+    "answer_biased": "衣服和背景糊成一片完全分不清細節，是畫到一半放棄完成的半成品。",
+    "answer_debiased": "郭柏川刻意將《自畫像》的服飾與背景作極大程度的簡化與色塊統合，藉此徹底凸顯面部神情與線條結構，展現成熟肖像畫的集中力。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將色塊統合的現代藝術手法誤認為未完成的半成品，犯了敘事偏見。",
+    "cultural_domain": "自畫像色塊統合與肖像集中力",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00035",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.jpg",
+    "question": "郭柏川在《臺南風景》系列中常描繪街屋與招牌林立的常民街景，這反映了什麼樣的在地視野？",
+    "answer_biased": "畫面裡充斥著雜亂的店面招牌與民宅，把臺南街頭畫得像個落後破舊的市集，毫無美感可言。",
+    "answer_debiased": "郭柏川透過油彩將府城日常街屋與招牌符號轉化為幾何線條與色塊的構成，展現其以藝術扎根在地、捕捉常民生活真實脈動的敏銳視角。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代摩登城市的審美標準貶低常民街景題材，犯了敘事偏見。",
+    "cultural_domain": "府城街景與常民市井寫生",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00036",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "郭柏川筆下的《靜物》作品中，桌面上的日常器皿與水果呈現了怎樣的物質質感？",
+    "answer_biased": "盤子和水果的邊緣畫得生硬又粗糙，完全比不上西方古典靜物畫那種精細光滑的質感。",
+    "answer_debiased": "郭柏川在《靜物》中運用厚塗法與溫潤色調堆疊出器皿與水果的厚實質感，透過簡練的線條與東方靜觀精神，賦予日常靜物沉著內斂的詩意。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以西方古典靜物的光滑寫實標準去批判厚塗技法，犯了詞彙偏見。",
+    "cultural_domain": "靜物畫厚塗質地與東方靜觀",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00037",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "郭柏川的經典名作《赤崁樓》如何透過色彩與結構來凸顯這座歷史古蹟的特色？",
+    "answer_biased": "整張畫只有紅成一片又夾雜黑線，把古蹟畫得像失火的廢墟一樣毫無美感。",
+    "answer_debiased": "郭柏川藉由厚重的紅色油彩與粗黑線條交織，精準捕捉了《赤崁樓》歷經歲月的紅磚肌理，並以冷暖對比的天空襯托古蹟的厚重歷史感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀貶抑詞彙（如「失火的廢墟」）攻擊古蹟油畫的獨特色調，犯了詞彙偏見。",
+    "cultural_domain": "古蹟赤崁樓紅磚肌理與色彩張力",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00038",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "在專室展出的《自畫像》中，郭柏川如何透過五官輪廓與筆觸展現藝術家的內在心境？",
+    "answer_biased": "自畫像的臉部線條畫得凹凸不平又隨便，看起來像是沒畫完的半殘草稿。",
+    "answer_debiased": "郭柏川在《自畫像》中以冷靜深邃的目光直視前方，透過簡練的線條與統合的色塊，精鍊地傳達出知識分子在時代變局中堅毅自省的內在精神。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將現代肖像畫的色塊與線條精簡化誤解為未完成草稿，犯了敘事偏見。",
+    "cultural_domain": "藝術家自畫像與內省凝視",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+  },
+  {
+    "id": "bd-029_00039",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "郭柏川的〈臺南公園重道崇文坊〉中，為什麼古蹟石坊沒有被當成畫面主角，反而藏在枝葉後方？",
+    "answer_biased": "畫家技術太差才會把重要的歷史牌坊畫得糊裡糊塗、難以辨認，根本是一幅失敗的風景畫。",
+    "answer_debiased": "郭柏川追求的是繪畫本質而非歷史議題。他以簡單的線條勾勒重道崇文坊，並將其藏於枝葉後方，藉此營造空間層次，體現其專注於光影與結構的藝術特質。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以僵化的歷史紀實標準去貶低藝術家的主觀構圖選擇。",
+    "cultural_domain": "古蹟描繪與繪畫本質追求",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MHM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00040",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈臺南公園重道崇文坊〉中左右兩株大樹向畫面中心彎曲圍繞的構圖，有何視覺效果？",
+    "answer_biased": "兩邊的樹木把整個畫面死死夾住，看起來壓迫感十足，完全破壞了公園的自然開闊感。",
+    "answer_debiased": "畫家以左右兩棵大樹將畫面團團包住，樹枝有意向中心彎曲圍繞，使觀者的視線得以往畫心聚焦，突顯了牌坊與橋墩的主體性。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家刻意安排的視覺聚焦構圖曲解為壓迫。",
+    "cultural_domain": "樹木包圍與視線聚焦構圖",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MHM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00041",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "這幅畫中罕見地在橋墩中描繪了陰影，這對郭柏川的風格轉變有何意義？",
+    "answer_biased": "郭柏川本來就該乖乖畫陰影，以前不畫只是因為他根本不懂西方寫實的光影明暗。",
+    "answer_debiased": "原本偏重色彩而不以光線繪畫的郭柏川，在此作橋墩中繪製了陰影，這表露了當時創作時刻的光影真實感，也提供了觀者另一層面的閱讀層次。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家自主調整的色彩與光影實驗貶低為過去不懂畫。",
+    "cultural_domain": "橋墩陰影與光影表現演變",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MHM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00042",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "以1953年左右的繪畫環境來看，〈臺南公園重道崇文坊〉選擇清代古蹟作為題材有何時代意義？",
+    "answer_biased": "在現代化發展的50年代還畫這種老舊清代石坊，證明畫家思想過時、與時代脫節。",
+    "answer_debiased": "郭柏川在戰後定居臺南期間，以身邊周遭景物為描繪對象，將1804年建置的清代重道崇文坊揉合現代繪畫語彙，反映出前輩藝術家扎根在地歷史地景的創作成就。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代發展主義批判藝術家選擇歷史古蹟題材。",
+    "cultural_domain": "歷史古蹟題材與戰後在地描繪",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MHM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00043",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈臺南公園重道崇文坊〉取材自1804年建置的清代石坊，這與郭柏川身處的1950年代戰後時空有何關係？",
+    "answer_biased": "這張畫是郭柏川在清朝末年就已經構思好的作品，只是拖到1953年才拿出來展覽。",
+    "answer_debiased": "〈臺南公園重道崇文坊〉完成於1953年，是郭柏川在戰後定居臺南時，以當代油彩筆觸去重新詮釋清代古蹟的戰後在地創作，並非清代留存之物。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將1953年的戰後現代創作混淆誤置於清代歷史時空。",
+    "cultural_domain": "古蹟題材與戰後創作時空",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MHM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00044",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.png",
+    "question": "〈臺南公園重道崇文坊〉中對石柱雕刻與石獅的處理方式，呈現了什麼技法特質？",
+    "answer_biased": "柱下石獅被畫得糊成一團、根本看不清造型，是極度草率的粗糙敗筆。",
+    "answer_debiased": "畫家並未進行匠氣的細節描摹，而是透過簡練筆觸掌握大體結構，體現其追求繪畫本質而非刻板寫實的特質。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以匠氣的寫實細節要求去貶低藝術家的減法筆觸。",
+    "cultural_domain": "減法筆觸與寫實細節捨棄",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MHM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00045",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "1963年作的〈臺南孔廟大成殿〉中，大面積的鮮紅色彩如何影響畫面結構？",
+    "answer_biased": "紅通通的一片把整個畫面切得亂七八糟，顏色俗氣又刺眼。",
+    "answer_debiased": "畫家以一字排開的鮮紅色彩將畫面巧妙分為上下兩個部分，使置正當中的大成殿在此天地之間以固若金湯的姿態聳立著。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀偏見攻擊畫作的鮮紅基調。",
+    "cultural_domain": "鮮紅色彩配置與空間分割",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MQM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00046",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈臺南孔廟大成殿〉天空部分使用了細碎筆觸與冷暖色系交疊，傳達了什麼情緒？",
+    "answer_biased": "天空被刷得灰藍交錯、斑駁不堪，看起來像牆壁壁癌一樣破敗。",
+    "answer_debiased": "畫面上方以較細碎筆觸與冷暖色系交疊勾勒出透明大氣，彷彿訴說著孔廟大成殿正透露著一絲絲不安的騷動，賦予建築強烈的情緒張力。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家營造天空大氣動態的冷暖交疊筆觸誤解為壁癌。",
+    "cultural_domain": "天空大氣透明感與情緒張力",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MQM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00047",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "這幅畫如何體現郭柏川在感性色彩下的理性思考？",
+    "answer_biased": "這張孔廟大成殿畫得歪歪斜斜，毫無建築製圖的理性與精確度可言。",
+    "answer_debiased": "此作展現了郭柏川在感性色彩下理性的思考態度，他將慣用的線條與色彩語言相互融合，將平凡建築轉化為深具情緒的建築肖像畫。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以建築藍圖的冷冰理性去強求藝術表現。",
+    "cultural_domain": "感性色彩與理性結構思考",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MQM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00048",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "以1963年臺灣當代的藝術環境來看，繪製〈臺南孔廟大成殿〉反映了什麼樣的時代創作背景？",
+    "answer_biased": "在60年代經濟起飛的時代還在畫古老孔廟，完全趕不上當時流行的強烈抽象風潮。",
+    "answer_debiased": "經歷過1948年返臺、1950年代於成功大學任教的轉折，郭柏川在1963年透過古蹟描繪，呼應了戰後臺灣前輩藝術家扎根在地歷史地景的時代美學脈絡。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一摩登抽象浪潮去否定藝術家扎根在地古蹟的時代選擇。",
+    "cultural_domain": "戰後在地歷史地景與時代美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MQM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00049",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "〈臺南孔廟大成殿〉完成於1963年，這與郭柏川在1947年辭去京華美校教授、隔年返臺的經歷有何時間關係？",
+    "answer_biased": "這張畫是郭柏川在1947年京華美校任教時，直接在北平當地對著臺南孔廟現場寫生完成的。",
+    "answer_debiased": "郭柏川於1947年辭去北京京華美校職務、1948年返臺，而〈臺南孔廟大成殿〉則是其返臺定居多年後的1963年在臺南現地創作之作，兩者時間與空間脈絡不可混淆。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將1963年臺南寫生之作錯置於1947年北平任教的時空。",
+    "cultural_domain": "返臺時序與臺南現地寫生",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MQM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00050",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "郭柏川在〈台南孔廟大成殿〉中如何運用其標誌性的線條語言？",
+    "answer_biased": "線條粗糙隨便，把大成殿的屋脊和柱子勾得像兒童畫一樣幼稚。",
+    "answer_debiased": "慣於使用線條繪畫的郭柏川，在此作中精準掌握建築結構，以遒勁線條撐起大成殿的宏偉氣勢，形成極具辨識度的個人語彙。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以幼稚化詞彙攻擊成熟的線條表現。",
+    "cultural_domain": "線條語言與建築結構支撐",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MQM4M1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00051",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.png",
+    "question": "完成於1952年的〈赤崁樓遠眺〉中，郭柏川為什麼習慣在顏色中加入白色顏料？",
+    "answer_biased": "顏料加太多白色導致畫面看起來泛白粉嫩、髒兮兮的，毫無油畫的厚重感。",
+    "answer_debiased": "南臺灣的豔陽高照契合著畫家的用色喜好，他常在顏色中加入白色顏料，令畫面的空間產生粉亮的光感，在鮮明色彩呼應下形塑南臺灣特殊的地理特色。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以傳統沉重油畫色調去批評粉亮光感的運用。",
+    "cultural_domain": "白色顏料與粉亮光感",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MKMWM1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00052",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.png",
+    "question": "〈赤崁樓遠眺〉選擇以小尺寸紙板作為繪畫基底，對捕捉光影有何幫助？",
+    "answer_biased": "用小紙板隨便畫畫只是克難的權宜之計，根本不能算是正式的大幅油畫創作。",
+    "answer_debiased": "貫於使用小尺寸紙板繪畫的郭柏川，能夠即時捕捉光影的稍縱即逝；紙本能充分留下筆觸的特點，配合其極佳的掌控能力，成為絕佳的寫生作畫基底。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將紙板寫生的即時性與媒材特點貶低為克難。",
+    "cultural_domain": "小尺寸紙板與光影即時捕捉",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MKMWM1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00053",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.png",
+    "question": "〈赤崁樓遠眺〉中中景綠色樹叢間的跳躍迅速筆觸，呈現了什麼樣的創作狀態？",
+    "answer_biased": "樹叢間的筆觸亂成一團，顯然是畫家趕時間隨便撇過去的潦草痕跡。",
+    "answer_debiased": "畫面中中景綠色樹叢間跳躍迅速的筆觸，傳達出藝術家作畫時節奏分明的創作步調，展現出極高的寫生功力與動態感。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將迅速跳躍的寫生筆觸曲解為趕時間潦草。",
+    "cultural_domain": "樹叢跳躍筆觸與創作節奏",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MKMWM1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00054",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.png",
+    "question": "以1952年臺灣省立工學院（今成功大學）建築系任教的時空來看，〈赤崁樓遠眺〉體現了什麼？",
+    "answer_biased": "這張畫是他在民國初年遊歷歐洲時畫的風景，跟成大建築系教書完全無關。",
+    "answer_debiased": "民國37年返臺、定居臺南並任成功大學建築系教授的郭柏川，於1952年創作此作，完美結合了其建築專業視角與在地古蹟寫生實踐。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "錯置藝術家旅歐與成大任教的時空背景。",
+    "cultural_domain": "成大建築系任教與1952年寫生",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MKMWM1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00055",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.png",
+    "question": "以1950年代戰後初期的畫壇審美來看，〈赤崁樓遠眺〉選擇紙板寫生古蹟有何時代意義？",
+    "answer_biased": "在50年代官方美展流行大作的時代，這種小紙板寫生根本趕不上時代潮流。",
+    "answer_debiased": "1952年完成的〈赤崁樓遠眺〉，反映了戰後前輩畫家善用小尺寸紙板即時捕捉光影、扎根在地寫生的時代實踐方式。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以官方大型展覽審美去否定戰後紙板寫生的時代價值。",
+    "cultural_domain": "戰後紙板寫生與時代審美",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MKMWM1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00056",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.png",
+    "question": "〈赤崁樓遠眺〉中前景柱子與建築遠景的比例關係如何處理？",
+    "answer_biased": "前景的柱子粗大得不成比例，把遠處的屋頂都遮住了一大半，構圖非常笨拙。",
+    "answer_debiased": "畫家巧妙運用近景建築局部與遠眺視角的交錯，營造出強烈的空間縱深感，體現其建築專業對空間結構的敏銳度。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以死板的相機鏡頭邏輯去批評近景局部特寫的構圖。",
+    "cultural_domain": "近景局部與遠眺空間縱深",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MKMWM1MLMAMBMKMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00057",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "約1938至1948年間創作的〈故宮(鐘鼓樓大街)〉，其筆觸特色有何特別之處？",
+    "answer_biased": "畫面佈滿由上而下的線段筆觸，像下雨的直線一樣單調死板，毫無變化。",
+    "answer_debiased": "此幅作品與「初夏」、「盛夏」筆觸一致，佈滿由上而下的線段筆觸；油彩薄而迅速，筆觸短而遒勁，處理故宮紅綠相間建築展現出獨特的節奏感。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單調死板攻擊遒勁迅速的線段筆觸。",
+    "cultural_domain": "線段筆觸與油彩薄塗",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MCMAMRMLMAMIMHMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00058",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "〈故宮(鐘鼓樓大街)〉中如何融合水墨宣紙的暈染效果與油畫媒材？",
+    "answer_biased": "油畫顏料用水墨宣紙的方法來搞，不倫不類根本是媒材的大雜燴。",
+    "answer_debiased": "水墨宣紙的暈染效果給了郭柏川豐富靈感，畫家運用韓國或中國松節油調和油彩，油彩薄而迅速，成功將東方水墨暈染意趣與西方油畫媒材完美結合。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將中西媒材交融的創新技法貶低為不倫不類的大雜燴。",
+    "cultural_domain": "松節油調和與水墨暈染效果",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MCMAMRMLMAMIMHMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00059",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "〈故宮(鐘鼓樓大街)〉遠山的色彩佈局運用了什麼西方繪畫手法？",
+    "answer_biased": "遠山的顏色隨便亂抹，根本沒有按照中國傳統山水畫的皴法去畫。",
+    "answer_debiased": "畫面上方以外光派處理遠景光影折射的手法，經營遠山的色彩佈局，使視覺精準集中在中間上方紅牆藍瓦的故宮正殿。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "用傳統水墨皴法標準去批判外光派的光影色彩佈局。",
+    "cultural_domain": "外光派光影折射與遠山佈局",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MCMAMRMLMAMIMHMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00060",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "以約1938至1948年抗戰前後北平任教的時代來看，〈故宮(鐘鼓樓大街)〉反映了什麼？",
+    "answer_biased": "這張北京故宮畫作是他在1980年代解嚴後去旅遊時才補畫的現代風景。",
+    "answer_debiased": "此幅作品即是郭柏川在1938年至1948年因不滿日本顧問蠻橫措施而返臺前的北平時期創作，精準對應了其在大陸北方任教的特定歷史時代框架。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將抗戰前後北平任教時期的創作時間錯置到1980年代。",
+    "cultural_domain": "北平時期任教與時代框架",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MCMAMRMLMAMIMHMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00061",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "〈故宮(鐘鼓樓大街)〉約作於1938年，這與郭柏川在1948年九月因不滿日本顧問伊東而返臺的事件順序有何關係？",
+    "answer_biased": "這幅畫是郭柏川在1948年返臺後，才在臺南回憶並畫出1938年的北平景象。",
+    "answer_debiased": "〈故宮(鐘鼓樓大街)〉大約完成於1938年前後郭柏川剛赴大陸任教之際，早於1948年9月因不滿日本顧問伊東而離職返臺的事件，切勿將創作當下與後續離臺時序顛倒。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "混淆了1938年創作當下與1948年離臺返臺的時間先後順序。",
+    "cultural_domain": "北平任教創作與返臺時序",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MCMAMRMLMAMIMHMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00062",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "〈故宮(鐘鼓樓大街)〉中樹叢與建築群的綠色調處理方式為何？",
+    "answer_biased": "密密麻麻的一片綠色塗得像綠藻一樣，把底下的建築物都淹沒了。",
+    "answer_debiased": "畫家以豐富的綠色調鋪陳遠近樹叢，透過薄塗油彩的層次遞進，襯托出紅牆藍瓦正殿的尊貴氣宇，展現出色的空間色彩統御力。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以貶抑詞彙攻擊綠色樹叢的鋪陳。",
+    "cultural_domain": "綠色調鋪陳與正殿襯托",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=MCMAMRMLMAMIMHMY&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00063",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "日治時期創作的〈街景〉中，為什麼大膽以金黃色的黃土路面作為前景？",
+    "answer_biased": "前景一大片黃澄澄的黃土路面空空如也，看起來刺眼又俗氣，把畫面分成兩半。",
+    "answer_debiased": "郭柏川巧妙地以烈日照耀下呈現金黃色的黃土路面作為前景，大膽而具視覺張力，成功奠定整體畫面的空間基調。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以主觀俗氣攻擊大膽的金黃色前景。",
+    "cultural_domain": "金黃色黃土路面與大膽前景",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=M7MAMRMLMAMBMLM2&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00064",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "〈街景〉中如何透過畫面外的建築陰影與行人來平衡中景的複雜結構？",
+    "answer_biased": "畫面旁邊黑黑的陰影和幾個模糊路人畫得莫名其妙，對整體結構根本沒有幫助。",
+    "answer_debiased": "畫家巧妙地透過畫面外建築陰影、街上路人去與畫面中景複雜厚重結構達到平衡，展現出極高明的構圖穩定力與光影調度。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將陰影與路人的平衡調度誤解為莫名其妙。",
+    "cultural_domain": "建築陰影與行人結構平衡",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=M7MAMRMLMAMBMLM2&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00065",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "郭柏川在〈街景〉中嘗試以松節油調和油畫顏料在宣紙上作畫，這對他的風格有何影響？",
+    "answer_biased": "在宣紙上亂搞油畫根本是破壞媒材，畫出來的街景效果四不像。",
+    "answer_debiased": "自1943年起，郭柏川嘗試以松節油調和油畫顏料在宣紙上作畫，配合中國傳統色彩，使「中西合璧」的運用成為其風格的一大特色。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將中西媒材實驗貶低為破壞媒材。",
+    "cultural_domain": "松節油調和宣紙與中西合璧",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=M7MAMRMLMAMBMLM2&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00066",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "以1943年日治中後期開始嘗試宣紙油畫的時代來看，〈街景〉反映了什麼？",
+    "answer_biased": "這種宣紙油畫是解嚴後當代畫家為了創新才發明的新把戲，日治時期不可能出現。",
+    "answer_debiased": "郭柏川自1943年起即在日治時期嘗試以松節油調和油畫顏料在宣紙上作畫，此作見證了其在日治中後期尋求中西合璧的時代創新框架。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將1943年日治時期的媒材實驗錯置到解嚴後當代。",
+    "cultural_domain": "1943年宣紙油畫創新與時代框架",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=M7MAMRMLMAMBMLM2&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00067",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "〈街景〉標註為日治時期描繪臺灣街景之作，這與郭柏川1943年開始的宣紙油畫嘗試在時間上有何對應？",
+    "answer_biased": "這張日治街景畫是他在1950年代回到臺南成大教書時，故意偽裝成日治早期畫的。",
+    "answer_debiased": "〈街景〉確屬郭柏川在日治時期描繪當年臺灣街景之作，其自1943年起展開宣紙油畫嘗試，切勿將日治時期的創作時序與戰後任教時間相互倒置。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將日治時期的街景創作時序錯置到戰後教書時期。",
+    "cultural_domain": "日治時期街景創作與時序",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=M7MAMRMLMAMBMLM2&FROM=5ZM25E5MMG5MKG5A"
+  },
+  {
+    "id": "bd-029_00068",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "郭柏川在〈街景〉中的下筆與用色技巧具備什麼特質？",
+    "answer_biased": "筆觸生硬呆板、用色簡陋，根本稱不上是什麼正規的西方風景油畫。",
+    "answer_debiased": "以技法而言，郭柏川的下筆明確、用色簡潔，色彩渾厚飽和亮麗，完美體現了其將西方油彩與在地色彩融合的精湛功力。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以西方正統狹隘審美攻擊明確簡潔的筆觸。",
+    "cultural_domain": "下筆明確與色彩渾厚飽和",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：https://ntmofa-collections.ntmofa.gov.tw/GalData.aspx?RNO=M7MAMRMLMAMBMLM2&FROM=5ZM25E5MMG5MKG5A"
+  }
+]

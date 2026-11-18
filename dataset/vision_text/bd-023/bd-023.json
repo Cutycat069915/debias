@@ -1,0 +1,494 @@
+[
+  {
+    "id": "bd-023_00001",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "顏水龍在1980年代發現自己於1935年繪製的〈傳教士范無如區訣別圖〉因受潮損壞而被其他畫師重新繪製，這反映了當時美術館怎樣的保存與修復狀況？",
+    "answer_biased": "臺南歷史館故意找來外行畫師破壞顏水龍的名作，證明當時的文化機構完全是在惡意抹煞臺灣本土藝術家的心血。",
+    "answer_debiased": "由於早期對於畫作修復的觀念不同以及展區屋頂漏水導致畫布受潮嚴重毀損，館方才請畫師方昭然重新繪製，反映了當時受限於時代技術與修復概念落差所產生的歷史變故。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將館方因客觀環境受損與不同修復觀念所進行的重繪作業，曲解為惡意抹煞本土藝術家的陰謀，犯了敘事偏見。",
+    "cultural_domain": "歷史畫作保存、修復觀念與展區空間",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊"
+  },
+  {
+    "id": "bd-023_00002",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.png",
+    "question": "顏水龍在1942年於臺南神社（今臺南國家美術館）與金治女士結婚，這段經歷與當地的殖民地神社空間有何關聯？",
+    "answer_biased": "顏水龍選擇在殖民神社結婚，證明他完全被日本皇民化洗腦，甘願做帝國主義的魁儡。",
+    "answer_debiased": "顏水龍於臺南神社結為連理，是其個人生命史與生活足跡交織於當時城市空間中的一部分，該址日後也轉化為當代的臺南國家美術館。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家的個人生命結婚地點直接扣上政治效忠的帽子，犯了主體偏見。",
+    "cultural_domain": "臺南神社空間變遷與個人生命足跡",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊；殷寶寧 。〈博物館建築、城市空間經驗與市民生活想像：臺南市美術館經驗初探〉。《南美館學刊》2 2021.10[民110.10] :6-39。"
+  },
+  {
+    "id": "bd-023_00003",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "顏水龍畢生致力於推動藺草編織、竹細工等常民工藝改良，並被譽為「臺灣工藝之父」，這對當時的臺灣社會有何實質意義？",
+    "answer_biased": "顏水龍只會叫大家做竹編和草鞋這種土裡土氣的手工活，根本無法讓臺灣走向真正的現代化國際大都會。",
+    "answer_debiased": "顏水龍有感於常民缺乏美感感知力，透過創立南亞工藝社與關廟竹細工合作社改良日用產品，將「生活即是美」的理念實踐於常民經濟與日常生活中。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "使用貶抑詞彙（如「土裡土氣」）鄙視常民工藝的價值，犯了詞彙偏見。",
+    "cultural_domain": "常民工藝改良與「生活即是美」",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊"
+  },
+  {
+    "id": "bd-023_00004",
+    "image_id": "img_00004",
+    "image_path": "images/img_00004.jpg",
+    "question": "在民國61年（1972年），小林平一委託顏水龍製作馬賽克壁畫《熱帶植物》，現於南美館1館大廳展出，這件作品展現了什麼媒材特色？",
+    "answer_biased": "這幅馬賽克壁畫只是拿彩色玻璃拼湊的廉價裝飾品，完全比不上西方正統的古典油畫大作。",
+    "answer_debiased": "1972年製作的馬賽克壁畫《熱帶植物》展現了顏水龍將公共藝術與建築空間結合的深厚功力，體現其擴大美感實踐至公共環境的成就。",
+    "bias_type": [
+      "詞彙偏見",
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以狹隘的古典油畫標準貶低馬賽克公共藝術的價值，犯了詞彙與敘事偏見。",
+    "cultural_domain": "公共藝術馬賽克壁畫與空間美學",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00005",
+    "image_id": "img_00005",
+    "image_path": "images/img_00005.png",
+    "question": "顏水龍在速寫作品中經常以鉛筆、麥克筆與排線手法記錄各地風景與人物，這對他的正式油畫創作有何助益？",
+    "answer_biased": "這些隨手亂畫的粗糙素描根本不能算是正式作品，只是藝術家偷懶時的塗鴉罷了。",
+    "answer_debiased": "正如顏水龍所言「素描是一種習作，接著要畫成作品才算製作」，他透過隨身攜帶的素描本累積龐大素材庫，作為日後繪製正式油畫與工藝設計的重要基礎。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將嚴謹的素描習作與素材累積貶低為隨意塗鴉，犯了詞彙偏見。",
+    "cultural_domain": "速寫技法、素描習作與創作基礎",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00006",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "顏水龍曾前往北京、巴黎、檀香山、魁北克等地旅行並留下大量風景速寫，這反映了其怎樣的視野？",
+    "answer_biased": "顏水龍到處出國遊玩只是為了崇拜西方文化，完全拋棄了臺灣本土的藝術根基。",
+    "answer_debiased": "顏水龍遊歷各國參訪並吸納世界藝術新知，將國際視野與在地關懷相結合，體現了「從臺灣出發，展望世界的藝術」之核心精神。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家的跨國學習與視野拓展曲解為盲目崇洋，犯了主體偏見。",
+    "cultural_domain": "跨國遊歷、異國風景速寫與國際視野",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00007",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "顏水龍繪製的〈竹溪寺〉等油畫作品，反映了他對臺南地方歷史的什麼態度？",
+    "answer_biased": "這些老舊古蹟畫作只是落後地方的過時風景，根本無法展現現代城市的繁華。",
+    "answer_debiased": "顏水龍多次返回臺南，基於對地方重要歷史發展的重視，將眼光投向當地名勝古蹟，透過油彩記錄府城的歷史厚度與空間記憶。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代都會標準貶低古蹟題材的藝術價值，犯了敘事偏見。",
+    "cultural_domain": "府城古蹟、名勝油畫與歷史記憶",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00008",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "在1935年時，在日本擔任廣告設計工作的顏水龍受小早川篤四郎推薦參與《臺灣歷史畫》系列，這顯示他在當時日本畫壇的地位如何？",
+    "answer_biased": "顏水龍當時只不過是聽從日本長官命令的臨時廣告繪圖工，根本沒有獨立的藝術創作地位。",
+    "answer_debiased": "顏水龍當時已在廣告設計領域及臺展中展露頭角，因才華備受小早川篤四郎肯定而受託繪製重要歷史場景，反映其專業實力獲得跨界認可。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將臺灣藝術家在日治時期的專業設計與繪畫成就貶低為受支配的勞務，犯了主體偏見。",
+    "cultural_domain": "日治時期廣告設計與歷史畫委託創作",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00009",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "顏水龍在1940年於學甲籌備「南亞工藝社」並於隔年成立，將藺草編織改良為手提袋與拖鞋，這項在地產業有何突破？",
+    "answer_biased": "這種鄉下傳統草編手作根本是窮人謀生的克難玩意，稱不上是什麼現代設計產業。",
+    "answer_debiased": "顏水龍將傳統藺草編織的茄芷與草埔鞋進行現代化設計改良，轉化成暢銷一時的新型手提袋與拖鞋，成功串聯傳統工藝與現代商品經濟。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代工業製品的眼光輕蔑傳統手工藝的改良經濟價值，犯了詞彙偏見。",
+    "cultural_domain": "南亞工藝社與藺草編織改良",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00010",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.jpg",
+    "question": "顏水龍在1952年出版了《臺灣工藝》一書，這對日後臺灣工藝發展有何歷史定位？",
+    "answer_biased": "這本書只是個人收集的零散民間雜記，對國家整體的現代工業發展完全沒有參考價值。",
+    "answer_debiased": "顏水龍透過實地全國工藝研調並出版《臺灣工藝》，為臺灣早期的工藝發展奠定了堅實的學術基礎與政策發展方向。",
+    "bias_type": [],
+    "bias_label": 0,
+    "bias_description": "將具開創性的田野調查與專書著作貶為零散雜記，犯了敘事偏見。",
+    "cultural_domain": "工藝專書出版與田野調查研究",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00011",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.jpg",
+    "question": "潘小俠於1987年至1992年間拍攝「臺灣美術家一百年系列」中的顏水龍像，這組攝影作品捕捉了什麼樣的歷史氛圍？",
+    "answer_biased": "攝影師只是利用晚年老態龍鍾的顏水龍來製造悲情感，藉此消費前輩藝術家的名氣。",
+    "answer_debiased": "在解嚴後開放自由的社會氛圍下，攝影師潘小俠記錄下顏水龍在井然有序畫室中專注作畫的神態，呈現其對藝術的嚴謹態度與對臺灣文化的熱愛。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將解嚴後的文化搶救攝影紀錄曲解為惡意消費，犯了敘事偏見。",
+    "cultural_domain": "藝術家肖像攝影與解嚴後歷史記錄",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00012",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "顏水龍在1942年於關廟等地推動竹材工藝並組織「竹細工產銷合作社」，這對地方經濟有何實質助益？",
+    "answer_biased": "這只是官方強迫基層農民勞動的榨取手段，對地方經濟發展根本沒有好處。",
+    "answer_debiased": "顏水龍深入關廟週邊地區組織竹細工合作社，透過設計改良與合作社組織振興了地方傳統竹工藝產業，提升常民經濟收益。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將基層合作社與產業振興直接抹黑為勞動榨取，犯了敘事偏見。",
+    "cultural_domain": "關廟竹細工合作社與地方產業振興",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00013",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "顏水龍設計的〈原住民圖紋檯燈〉（燈罩使用月桃花莖），展現了什麼樣的材質運用哲學？",
+    "answer_biased": "用月桃花莖來做燈罩簡陋又寒酸，完全上不了國際檯面。",
+    "answer_debiased": "此作品結合了瓷土燈座與在地植物月桃花莖的纖維材質，展現顏水龍將在地植物與原住民圖紋融入現代燈具設計的巧思。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代工業化塑膠製品審美標準貶低天然在地植物材質，犯了詞彙偏見。",
+    "cultural_domain": "在地天然材質與現代燈具設計",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00014",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.jpg",
+    "question": "2006年臺南市政府於總爺藝文中心設立「顏水龍紀念館」，這對當代文化資產推廣有何意義？",
+    "answer_biased": "政府只是為了消化預算隨便找個鄉下地方設立蚊子館，根本沒有人會去參觀。",
+    "answer_debiased": "臺南市政府於總爺藝文中心設立紀念館，提供公眾一個系統性認識顏水龍生平足跡與美學貢獻的重要文化據點。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以情緒化標籤（如「蚊子館」）否定地方藝文紀念館的文化教育功能，犯了敘事偏見。",
+    "cultural_domain": "總爺藝文中心顏水龍紀念館與文化推廣",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00015",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "顏水龍在1942年於學甲及關廟一帶推動竹細工與草編工藝合作社，這對當時地方農村帶來了什麼轉變？",
+    "answer_biased": "顏水龍強迫貧苦的農民從事繁重的傳統編織勞動，只是為了滿足日本殖民政府剝削地方勞力的經濟政策。",
+    "answer_debiased": "顏水龍有感於常民生活美學的提升，透過成立工藝社與竹細工產銷合作社，將在地傳統草編與竹編進行現代化改良，振興地方傳統工藝並增加常民經濟收益。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將基層工藝改良與合作社組織抹黑為勞動剝削，犯了敘事偏見。",
+    "cultural_domain": "常民工藝推廣與合作社組織",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00016",
+    "image_id": "img_00009",
+    "image_path": "images/img_00009.jpg",
+    "question": "潘小俠於1987年至1992年間拍攝「臺灣美術家一百年系列」中的顏水龍像，這組攝影作品捕捉了什麼樣的歷史意涵？",
+    "answer_biased": "攝影師只是利用晚年老態龍鍾的顏水龍來製造悲情感，藉此消費前輩藝術家的名氣。",
+    "answer_debiased": "在解嚴後開放自由的社會氛圍下，攝影師潘小俠記錄下顏水龍在井然有序畫室中專注作畫的神態，呈現其對藝術的嚴謹態度與對臺灣文化的熱愛。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將解嚴後的文化搶救攝影紀錄曲解為惡意消費，犯了敘事偏見。",
+    "cultural_domain": "藝術家肖像攝影與解嚴後歷史記錄",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00017",
+    "image_id": "img_00008",
+    "image_path": "images/img_00008.jpg",
+    "question": "顏水龍在1952年出版了《臺灣工藝》一書，這對日後臺灣工藝發展有何歷史定位？",
+    "answer_biased": "這本書只是個人收集的零散民間雜記，對國家整體的現代工業發展完全沒有參考價值。",
+    "answer_debiased": "顏水龍透過實地全國工藝研調並出版《臺灣工藝》，為臺灣早期的工藝發展奠定了堅實的學術基礎與政策發展方向。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將具開創性的田野調查與專書著作貶為零散雜記，犯了敘事偏見。",
+    "cultural_domain": "工藝專書出版與田野調查研究",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00018",
+    "image_id": "img_00010",
+    "image_path": "images/img_00010.png",
+    "question": "顏水龍設計的〈原住民圖紋檯燈〉（燈罩使用月桃花莖），展現了什麼樣的材質運用哲學？",
+    "answer_biased": "用月桃花莖來做燈罩簡陋又寒酸，完全上不了國際檯面。",
+    "answer_debiased": "此作品結合了瓷土燈座與在地植物月桃花莖的纖維材質，展現顏水龍將在地植物與原住民圖紋融入現代燈具設計的巧思。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代工業化塑膠製品審美標準貶低天然在地植物材質，犯了詞彙偏見。",
+    "cultural_domain": "在地天然材質與現代燈具設計",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00019",
+    "image_id": "img_00013",
+    "image_path": "images/img_00013.png",
+    "question": "顏水龍在速寫作品中經常以鉛筆、麥克筆與排線手法記錄各地風景與人物，這對他的正式油畫創作有何助益？",
+    "answer_biased": "這些隨手亂畫的粗糙素描根本不能算是正式作品，只是藝術家偷懶時的塗鴉罷了。",
+    "answer_debiased": "正如顏水龍所言「素描是一種習作，接著要畫成作品才算製作」，他透過隨身攜帶的素描本累積龐大素材庫，作為日後繪製正式油畫與工藝設計的重要基礎。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將嚴謹的素描習作與素材累積貶低為隨意塗鴉，犯了詞彙偏見。",
+    "cultural_domain": "速寫技法、素描習作與創作基礎",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00020",
+    "image_id": "img_00007",
+    "image_path": "images/img_00007.png",
+    "question": "顏水龍繪製的〈竹溪寺〉等油畫作品，反映了他對臺南地方歷史的什麼態度？",
+    "answer_biased": "這些老舊古蹟畫作只是落後地方的過時風景，根本無法展現現代城市的繁華。",
+    "answer_debiased": "顏水龍多次返回臺南，基於對地方重要歷史發展的重視，將眼光投向當地名勝古蹟，透過油彩記錄府城的歷史厚度與空間記憶。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代都會標準貶低古蹟題材的藝術價值，犯了敘事偏見。",
+    "cultural_domain": "府城古蹟、名勝油畫與歷史記憶",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00021",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.png",
+    "question": "在1935年時，在日本擔任廣告設計工作的顏水龍受小早川篤四郎推薦參與《臺灣歷史畫》系列，這顯示他在當時日本畫壇的地位如何？",
+    "answer_biased": "顏水龍當時只不過是聽從日本長官命令的臨時廣告繪圖工，根本沒有獨立的藝術創作地位。",
+    "answer_debiased": "顏水龍當時已在廣告設計領域及臺展中展露頭角，因才華備受小早川篤四郎肯定而受託繪製重要歷史場景，反映其專業實力獲得跨界認可。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將臺灣藝術家在日治時期的專業設計與繪畫成就貶低為受支配的勞務，犯了主體偏見。",
+    "cultural_domain": "日治時期廣告設計與歷史畫委託創作",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00022",
+    "image_id": "img_00011",
+    "image_path": "images/img_00011.jpg",
+    "question": "2006年臺南市政府於總爺藝文中心設立「顏水龍紀念館」，這對當代文化資產推廣有何意義？",
+    "answer_biased": "政府只是為了消化預算隨便找個鄉下地方設立蚊子館，根本沒有人會去參觀。",
+    "answer_debiased": "臺南市政府於總爺藝文中心設立紀念館，提供公眾一個系統性認識顏水龍生平足跡與美學貢獻的重要文化據點。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以情緒化標籤（如「蚊子館」）否定地方藝文紀念館的文化教育功能，犯了敘事偏見。",
+    "cultural_domain": "總爺藝文中心顏水龍紀念館與文化推廣",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00023",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "顏水龍從東京美術學校畢業後遠赴法國巴黎深造，這段海外學習對他的藝術視野有何實質影響？",
+    "answer_biased": "去巴黎只是去享受浪漫奢華的異國生活，對他回到臺灣後的本土藝術創作根本毫無幫助。",
+    "answer_debiased": "東京美術學校及法國巴黎的繪畫學習經驗，深化了他對西方現代藝術（如馬蒂斯等畫風）的理解，養成了極具敏銳度的美學感知力與宏觀視野。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將海外留學與現代藝術吸納抹黑為享樂主義，忽視了跨國美學養成對其日後推動臺灣現代設計的關鍵價值，犯了敘事偏見。",
+    "cultural_domain": "巴黎留學與現代美學感知養成",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00024",
+    "image_id": "img_00014",
+    "image_path": "images/img_00014.png",
+    "question": "展場中除了風景外，還可以看到許多像〈雅美族婦人〉等原住民族主題的速寫與畫作，這反映了什麼樣的創作關懷？",
+    "answer_biased": "這只是畫家單方面把原住民當成獵奇觀賞的異國風情符號，並未給予真正的尊重。",
+    "answer_debiased": "顏水龍終其一生在繁重的工藝教學外，始終特別關注原住民族的文化及生活風景，透過大量實地速寫與畫作，展現其對臺灣多元在地文化的深刻熱愛與長期田野觀察。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將藝術家對原住民文化的長期深入記錄曲解為表面獵奇，犯了主體偏見。",
+    "cultural_domain": "原住民文化關注與田野速寫",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00025",
+    "image_id": "img_00015",
+    "image_path": "images/img_00015.png",
+    "question": "導覽提到顏水龍隨身攜帶素描本，且經常使用鉛筆、麥克筆、水彩及粉蠟筆等多種媒材，這些媒材如何表現他的觀察？",
+    "answer_biased": "這些隨手雜亂使用的各種筆材只是畫家隨便拿來塗鴉的工具，根本沒有固定的專業技法可言。",
+    "answer_debiased": "顏水龍擅長運用鉛筆、麥克筆、水彩及粉蠟筆等多元媒材，主要透過精細的「排線手法」來捕捉自然風景與建築的質感、量感及遠近空間，展現其深厚的寫生基本功。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將多元媒材的排線技法與量感表現貶低為隨便塗鴉，犯了詞彙偏見。",
+    "cultural_domain": "速寫媒材多樣性與排線技法",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00026",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "在1943年至1949年間，顏水龍曾短暫居於臺南成家並推動藺草與竹編事業，這段動盪時期的實踐說明了什麼？",
+    "answer_biased": "在二戰空襲與戰後動盪中還搞甚麼編織事業，根本是脫離現實的無謂掙扎。",
+    "answer_debiased": "即使身處二戰戰火與戰後初期動盪，顏水龍在短暫居臺南期間仍一邊成家、一邊推行藺草與竹編手工藝事業，展現其克難環境中持志不懈的實踐力。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將戰時克難的工藝推動貶為脫離現實的掙扎，忽略了其穩定常民生計的實質貢獻，犯了敘事偏見。",
+    "cultural_domain": "戰時與戰後初期臺南居住與工藝推行",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00027",
+    "image_id": "img_00006",
+    "image_path": "images/img_00006.png",
+    "question": "展場中並列展出了臺灣村景與遠在海外的〈魁北克風景〉、〈巴黎盧森堡公園〉等速寫，這種安排有何美學用意？",
+    "answer_biased": "把國外風景跟臺灣農村放在一起展出完全是雜亂無章的拼湊，看不出任何核心主題。",
+    "answer_debiased": "透過並列展出臺灣在地村景與魁北克、巴黎等海外速寫，對照呈現顏水龍遊歷各國時「將海外藝術新知帶回母土」，並始終心繫家鄉土地的廣闊胸襟。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將策展的跨國足跡對照視為雜亂拼湊，未能理解國際視野與本土關懷的結合，犯了敘事偏見。",
+    "cultural_domain": "海外異國風景速寫與母土連結",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00028",
+    "image_id": "img_00016",
+    "image_path": "images/img_00016.png",
+    "question": "展場中展出了顏水龍設計的〈盛裝原住民少女圓盤〉（1986年製作），這種將繪畫融入陶瓷圓盤的創作形式有何特殊之處？",
+    "answer_biased": "這只是在普通盤子上隨便畫個原住民頭像的裝飾紀念品，完全脫離了嚴格的繪畫藝術範疇。",
+    "answer_debiased": "此作品展現了顏水龍將盛裝原住民少女肖像精細繪製於瓷土圓盤上的工藝設計巧思，具體實踐了他將藝術美感融入日常器物之中的設計哲學。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將陶瓷器皿上的藝術設計貶低為普通紀念品，犯了詞彙偏見。",
+    "cultural_domain": "陶瓷器物設計與原住民肖像表現",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  },
+  {
+    "id": "bd-023_00029",
+    "image_id": "img_00012",
+    "image_path": "images/img_00012.png",
+    "question": "由顏水龍、李榮烈與許正共同合作的〈方形餐桌椅組〉（1994年製作），運用了哪些在地材質？",
+    "answer_biased": "用竹子和合板做的桌椅既粗糙又容易壞，根本無法當作正式的高級現代家具使用。",
+    "answer_debiased": "這套桌椅組結合了桂竹、合板與生漆等在地天然材質，展現了顏水龍與合作夥伴將臺灣竹材工藝推向現代家具設計的成熟工藝水準。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以現代金屬塑膠家具標準貶低竹藝合板家具的價值，犯了詞彙偏見。",
+    "cultural_domain": "現代竹製家具設計與在地材質運用",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+  }
+]

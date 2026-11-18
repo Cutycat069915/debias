@@ -1,0 +1,172 @@
+[
+  {
+    "id": "bd-035_00001",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "在臺南市立美術館的警察展中，展出竹溪禪寺典藏的明末清初善本經書《龍舒淨土文》（1659年印製），並在其書背發現帶有日軍將領東條英機署名的慰問感謝狀，這在歷史詮釋上有何特殊意涵？",
+    "answer_biased": "這證明了佛教寺廟與日本軍國主義政權同流合污，主動向東條英機等侵略者獻媚，完全背叛了宗教信仰的清高。",
+    "answer_debiased": "這反映了竹溪禪寺在日治時期因應蟲害破損而重新裝幀時，客觀上面對政權交替與戰爭體制，展現出超越二元對立、在殖民縫隙中維持寺廟生存與宗教延續的複雜歷史實踐。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以二分法與道德化批判將寺廟的物質修復簡化為政治效忠，忽略了宗教機構在戰時統治下的生存壓力與多重歷史脈絡。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-035_00002",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "經書《龍舒淨土文》由南宋學者王日休（龍舒居士）所著，其主旨為「真信、切願、持佛名號（南無阿彌陀佛）」以超脫生死輪迴，若將其在日治時期的流傳視為「日本宗教同化政策的成功範例」，有何史學盲點？",
+    "answer_biased": "這完全是由日本殖民政府成功推動皇民化與佛教同化政策的結果，證明了臺灣宗教主動融入日本佛教體系。",
+    "answer_debiased": "該經書源自中國南宋的淨土宗文獻，其在臺南竹溪禪寺的流傳與保存，承載著漢傳佛教淨土信仰的自主脈絡，不能簡化為日本同化政策的產物。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以日本帝國與同化政策為唯一歷史中心，將在地宗教文化的自主傳承抹殺，歸功於殖民者的同化功績。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-035_00003",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "展品說明牌與經書實體顯示，《龍舒淨土文》為 1659 年印製的珍貴善本，若有人稱：「這是昭和年間日本官方特別編纂給臺灣警察看的宣傳經書」，有何問題？",
+    "answer_biased": "日本警察為了加強對臺灣人的思想控制，當然會特別印製這種勸人向善的經書來洗腦民眾。",
+    "answer_debiased": "此說法完全張冠李戴，將明末清初（清順治年間）民間印製的淨土宗傳統善本經書，誤植為日本官方為了警察統治而特別編纂的宣傳品，屬於嚴重的歷史事實與時代錯誤。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00004",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "當我們探討竹溪禪寺將《龍舒淨土文》以日軍感謝狀作為書背重裝的歷史現象時，若評論：「這是民國三十四年國民政府光復後，寺廟為了慶祝抗戰勝利而做的特殊裝幀設計」，在時空上有何違誤？",
+    "answer_biased": "這肯定是戰後初期為了去除日本影響、改用國民政府觀點重新整理古籍的愛國表現。",
+    "answer_debiased": "此說法將日治時期大東亞戰爭期間的軍隊慰問感謝狀，錯置為戰後國民政府時期的抗戰勝利紀念，造成嚴重的時空與政權錯置。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將後來形成的國家疆域與戰後時代框架倒置到日治中期的歷史文物修復過程中，預先假定政治立場。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00005",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "在記錄 1659 年印製的《龍舒淨土文》與日治時期大東亞戰爭感謝狀結合的歷史過程時，若全面改用「民國四十八年竹溪禪寺整理古籍」來標示，會產生什麼問題？",
+    "answer_biased": "全面改用民國紀年來記錄寺廟古籍的整理，能讓現代讀者更直觀地理解歷史發生的順序。",
+    "answer_debiased": "這種做法會完全抹殺文物背後深植的日治時期殖民動員與戰爭體制座標，造成政治主體與時間座標的錯置。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以不屬於事件與文物歷史脈絡的紀年體系強制改寫，使史料脫離原有時空座標。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00006",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "王日休撰寫《龍舒淨土文》的核心宗旨是勸導眾生「真信、切願、持佛名號」以求生西方極樂世界，展覽中將其與軍事感謝狀並置，對理解宗教本質有何啟發？",
+    "answer_biased": "宗教經書本來就應該超越政治，竹溪禪寺沾染軍國主義感謝狀就是一種不可饒恕的墮落。",
+    "answer_debiased": "這展現了宗教文物在歷史洪流中常因客觀物質條件（如蟲害破損）而歷經後人修復，並反映出寺廟在面對殖民與戰時政權交替時，其宗教實踐與常民生存之間交織的複雜歷史面貌。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以過度道德化與純潔化的二分法批判宗教機構，忽略了在極端戰爭體制與物質匱乏（蟲害破損）下，常民與宗教場所如何透過現實材料進行修復與生存的無奈。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00007",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "竹溪禪寺典藏的《龍舒淨土文》體現了寺廟在殖民統治下的角色，若將寺廟的宗教活動完全歸結為「日本帝國主義統治下的附屬機構」，有何偏頗？",
+    "answer_biased": "在日治時期，所有臺灣的寺廟都只是日本警察和總督府用來控制基層信仰的工具而已。",
+    "answer_debiased": "此觀點完全以帝國統治為唯一視角，忽略了寺廟作為民間宗教主體，在提供心靈救贖、延續傳統法脈與應對外在政權時的主體能動性。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以帝國與國家中心設定唯一主體，將臺灣傳統宗教場所與信徒降為被全面支配的附屬客體。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00008",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "歷史上日本殖民當局對臺灣傳統宗教與寺廟實施「寺廟調查」與管理法規時，常帶有視地方信仰為「迷信」的眼光，我們應如何看待這種制度背景？",
+    "answer_biased": "日本政府將傳統佛教與道教視為迷信並加以整頓是完全正確的現代化法治管理。",
+    "answer_debiased": "這種將在地宗教實踐標籤化為落後或迷信的管理，反映了殖民政權以自身文明標準對被統治者施加的文化階序與治理壓迫。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "直接採用或合理化帶有貶抑、污名或文明階序效果的殖民治理詞彙與心態。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00009",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "若在探討竹溪禪寺明清古籍保存時，宣稱「這是中華民國政府在臺南市大力推動文化資產保護的直接成果」，有何史學盲點？",
+    "answer_biased": "古籍能夠被妥善保存至今，完全是靠當代政府的文資政策，與日治時期的歷史脈絡無關。",
+    "answer_debiased": "古籍的保存是經歷了明清流傳、日治時期歷經蟲害破損並以軍隊感謝狀重裝，以及戰後多方維護的長遠歷史疊加過程，不能簡化為單一當代政權的文資成果。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將現代的國家文資框架與治理權力倒置到歷史文物的流傳與裝幀脈絡中，忽略了文物在不同時代（包含日治時期以軍事感謝狀重裝）的真實歷史痕跡。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-035_00010",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "在整理南宋王日休所著、明清流傳至臺灣的《龍舒淨土文》相關展品資料時，全面採用「民國時期佛教歷史文獻」來統稱，有何不妥？",
+    "answer_biased": "統一稱為民國時期的文獻比較符合我們的國家認同，不需要細分清代或日治的繁雜年號。",
+    "answer_debiased": "這會系統性地排除與替換文物原有的歷史時間座標，抹殺其經歷清代流傳、日治戰時裝幀的獨特時空軌跡。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以不屬於文物生成與歷史互動時期的紀年體系強制替換，造成歷史時間座標與主體的錯置。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  }
+]

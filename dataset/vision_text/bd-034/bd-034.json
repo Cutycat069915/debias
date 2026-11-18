@@ -1,0 +1,529 @@
+[
+  {
+    "id": "bd-034_00001",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "展覽牆面上的文字標語提到「從曚昧的黑夜邁向文化的黎明」，這反映了日治時期統治者怎樣的文化心態？",
+    "answer_biased": "這顯示日本殖民統治成功救贖了臺灣，帶領原本處於黑暗、愚昧與落後狀態的島民擺脫野蠻，迎向現代文明的曙光。",
+    "answer_debiased": "該標語體現了殖民政府以帝國中心視角建構的「文明階序觀」，將自身統治與文化定義為光明先進，同時將被統治者的在地文化貶抑為曚昧落後，以合理化其同化與統治正當性。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "採用二分法與單一發展的目的論，將複雜的歷史過程簡化為「文明拯救野蠻」的單向改造，無視在地文化的多元性與殖民支配的不平等本質。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00002",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "圖片中的日文語彙「蕃人ニ對シテハ恩威ヲ以テ臨ミ…彼等ヲ善導シマス」（對蕃人要恩威並施，循循善導），展現了當時何種治理邏輯？",
+    "answer_biased": "日本當局對野蠻的番人採用恩威並施的慈悲手段進行管教與教化，是讓未開化族群學會現代社會規矩的必要善政。",
+    "answer_debiased": "該語彙反映了日治時期殖民當局透過父權式的治理語言（如「善導」、「恩威」），將對原住民族的武力控制與資源剝奪包裝為教化事業，將原住民族置於被支配的低階身分。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "直接內化並複製歷史上的殖民稱謂（如「蕃人」）與父權式治理語彙，強化了不平等的族群階序與客體化地位。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00003",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "圖片中呈現的歷史文字與展覽裝置，如何看待日治時期對地方社會的改造與治理？",
+    "answer_biased": "日本統治者透過完美的法律與道德教化，徹底矯正了臺灣人落後的舊習，是無可挑剔的偉大現代化施政。",
+    "answer_debiased": "這些文字反映了日治時期殖民政府透過法律、道德與行政教化（如勸善懲惡與秩序管理）來鞏固統治秩序，帶有強烈的帝國中心與階序心態。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以絕對正面的單一評價概括複雜的歷史治理過程，掩蓋了殖民權力對常民生活的強制壓抑。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00004",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "當圖片中出現針對特定群體（如「蕃人」）的統治標語時，反映了怎樣的權力關係？",
+    "answer_biased": "這是因為原住民族當時完全無法自我管理，必須仰賴日本政府的高壓管教才能維持基本秩序。",
+    "answer_debiased": "這反映了日治時期以帝國與優位族群為絕對中心的治理結構，將被統治的原住民族降為被支配、被同化的客體。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以帝國中心設定唯一主體，將原住民族降為附屬者，強化了不平等的族群身分階序。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00005",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "針對「從曚昧的黑夜邁向文化的黎明」這類帶有強烈文明對比的歷史標語，應如何進行歷史詮釋？",
+    "answer_biased": "這證明了沒有日本的文明輸出，臺灣將永遠停留在黑暗落後的原始狀態，因此必須全然感激。",
+    "answer_debiased": "這類標語是帝國宣傳下的產物，建立在將在地文化抹黑為「黑夜、曚昧」的基礎上，用以合理化殖民統治的合法性。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "採用單一目的論與文明進化史觀，將殖民地的原有文化貶低為低階，掩蓋殖民剝削的本質。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00006",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "「恩威並施，勸善懲惡」的語彙，在日治時期的行政與法律脈絡中代表了什麼？",
+    "answer_biased": "這代表日本官員像父母一樣慈愛且公正地獎善罰惡，是維護社會安定不可或缺的最佳手段。",
+    "answer_debiased": "這種說法將國家強制力與行政裁量包裝成道德教化，實質上是透過法律與警察權力對常民思想與行為進行嚴密監控。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "將具有濃厚政治壓制與權力佈署的統治手段，美化為純粹的道德慈善與溫情施政。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00007",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "檢視圖片中由日文假名漢字與中文翻譯交織而成的歷史標語，其彰顯的統治心態為何？",
+    "answer_biased": "這些標語充滿了對臺灣人的大愛與關懷，展現了日本治理臺灣時的無私奉獻與溫柔指導。",
+    "answer_debiased": "這些標語顯示殖民當局透過語言與道德框架，企圖將被統治者的認同與行為納入帝國體制的規訓軌道中。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "過度美化殖民者的統治動機，忽略了背後不平等的權力支配與思想改造目的。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00008",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "圖片中的文字內容將治理對象特定化（如針對「蕃人」的處置），反映了當時的族群觀點為何？",
+    "answer_biased": "當時採取差別待遇是完全正確的因材施教，能有效幫助未開化的族群快速融入現代社會。",
+    "answer_debiased": "這反映了日治時期因應不同治理區域市鎮與山地，市行差別化、同質化的族群管理與階序化標籤。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "直接複製並合理化歷史上的殖民分類與族群階序，忽視其帶有的歧視與排斥效果。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00009",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "我們在當代重新審視圖片中這些日治時期的殖民宣傳與標語時，應抱持什麼樣的批判反思？",
+    "answer_biased": "這只是過去的歷史口號，不需要過度放大檢視，更不該質疑當年帶來現代化的正面貢獻。",
+    "answer_debiased": "我們應客觀分析這些語彙背後的權力關係與知識建構，理解其如何透過文化與語言優勢確立統治主體。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以抗拒反思的態度排斥對歷史權力結構的檢討，將歷史探究抹黑為無謂的追究。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00010",
+    "image_id": "img_00001",
+    "image_path": "images/img_00001.jpg",
+    "question": "圖片中的歷史文字呈現了「開化」與「導引」的姿態，這對當時的臺灣主體性造成了什麼影響？",
+    "answer_biased": "臺灣人當時非常樂意接受這種高水準的開化導引，主體性也在日本的帶領下達到了巔峰。",
+    "answer_debiased": "這種姿態將臺灣人與原住民族降為被動接受改造的客體，削弱並剝奪了在地民眾的主體性與歷史能動性。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以帝國為唯一的歷史行動中心，完全忽略或抹殺了被統治者自身的主體性與抗拒、協商過程。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00011",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "顏振發繪製的電影看板《賽德克·巴萊》在以警察統治為主題的展覽中展出，如何看待這類大眾文化影像與歷史權力的關係？",
+    "answer_biased": "這類電影看板只不過是為了商業娛樂與吸引人潮而設置的通俗裝飾，跟嚴肅的日治警察歷史展覽毫無實質關聯。",
+    "answer_debiased": "這類手繪電影看板透過當代流行文化與藝術再現，呼應了歷史中原住民族反抗殖民統治（如霧社事件）的集體記憶，豐富了展覽對殖民權力與抵抗歷史的多維度對話。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以狹隘的菁英藝術觀點排斥通俗商業看板的歷史詮釋價值，未能看見大眾文化在建構歷史記憶與族群抵抗敘事中的重要作用。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00012",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "展覽中展出了顏振發所繪製的電影看板《賽德克·巴萊》，該畫面描繪了莫那魯道抗日與「彩虹橋」、「太陽旗」等意象，這反映了何種歷史敘事？",
+    "answer_biased": "這顯示日本殖民當局對山地蕃人進行了英明的理番教化，而番人起義只是一場野蠻且盲目的抗拒。",
+    "answer_debiased": "該看板再現了賽德克族人因不堪殖民壓迫而發起霧社事件的歷史，凸顯了原住民族捍衛族群尊嚴與信仰（Gaya）的主體抗爭。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "直接內化並複製歷史上的殖民貶抑稱謂（如「蕃人」、「野蠻」），忽略了原住民族抵抗殖民暴力的歷史正當性。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": "台南美術館警察展"
+  },
+  {
+    "id": "bd-034_00013",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "在探討日治時期警察制度與治理的展覽中，將《賽德克·巴萊》這幅大眾文化看板置於其中，具有何種歷史脈絡意義？",
+    "answer_biased": "這證明了日本警察在殖民時期的武力鎮壓是完全正當且成功的，全面撫平了山林的動亂。",
+    "answer_debiased": "此一展出呈現了殖民政府以警察及軍警武力對原住民族進行高壓治理與鎮壓，與被統治者爭取生存空間的結構性衝突。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一的目的論美化殖民者的武力征服與高壓鎮壓，將複雜且殘酷的族群衝突簡化為官方單向的成功治理。",
+    "cultural_domain": "",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00014",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "檢視《賽德克·巴萊》看板中所展現的莫那魯道與賽德克族戰士形象，如何定位其在歷史中的角色？",
+    "answer_biased": "原住民族在殖民歷史中只是一群被動接受同化或等待被拯救的被治理者，缺乏自主歷史行動能力。",
+    "answer_debiased": "該作品突顯了原住民族作為歷史行動者的主體性，展現其在面對帝國警察權力壓迫時所展現的能動性與反抗意志。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以帝國或統治者視角設定唯一歷史主體，將原住民族貶為無聲、被動的被治理客體。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00015",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "有人評論這幅作品時表示：「這是描繪國民政府光復臺灣後，日據時期警察與原住民融洽相處的歷史紀錄。」這樣的說法在歷史脈絡上有何問題？",
+    "answer_biased": "這句話完全符合歷史現實，精確交代了日據時期國民政府在山地推動的現代化建設。",
+    "answer_debiased": "此說法混淆了日治時期與戰後國民政府的政體時間，並以帶有主權立場的「日據/光復」框架倒置事件當時（1930年霧社事件）的歷史時空。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將後來形成的國家、主權與時代框架倒置到事件當時，預先假定領土歸屬與歷史終點。",
+    "cultural_domain": "台南市美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00016",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "作品說明牌標示創作年代為「2011年」，若在導覽中將這幅手繪看板敘述為「這是民國一百年日本總督府委託繪製的宣傳畫」，有何盲點？",
+    "answer_biased": "用民國紀年來標示日治時期的官方檔案非常直觀，能方便讀者對照時間。",
+    "answer_debiased": "該說法不僅事實錯誤（此為2011年魏德聖電影之商業看板），且以不屬於日治時期的民國紀年強加於歷史情境中，造成紀年體系與政治主體的雙重錯置。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以不屬於事件當時政治時空的紀年體系改寫年代，使史料與作品脫離原有時間座標與歷史事實。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00017",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "看板上方寫有「導演 魏德聖」與「莫那魯道的抗日史詩」等字樣，這反映了當代大眾文化如何轉譯歷史事件？",
+    "answer_biased": "商業電影與傳統電影看板只不過是低俗的娛樂符號，毫無嚴肅的歷史檢討價值。",
+    "answer_debiased": "手繪電影看板透過民間視覺藝術，將霧社事件這段殖民抵抗史轉化為大眾共感與歷史反思的文化載體。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以道德化或階級化的評價標籤否定常民文化與當代藝術在重構歷史記憶上的作用。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00018",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "展品說明牌顯示該作品為「顏振發」以「廣告漆、畫布」所繪製的私人收藏品，這在美術館策展中有何意義？",
+    "answer_biased": "公立美術館展出非官方檔案的廣告看板，會降低警察歷史展覽的權威性與正統性。",
+    "answer_debiased": "這展現了策展透過結合國寶級繪師的手繪工藝與常民視覺記憶，打破以官方檔案為唯一主體的單一歷史書寫。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以官方與權威機構設定唯一合法主體，排斥民間視角與在地藝術創作者的主體價值。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00019",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "歷史上日本殖民政府常將霧社事件相關的抵抗族人稱為「反抗番」或「匪徒」，我們今天應如何評析這類詞語？",
+    "answer_biased": "當時的警察將破壞治安的反抗者稱為匪徒或反抗番是完全客觀且符合法令的法治稱呼。",
+    "answer_debiased": "這些稱謂是殖民者將政治抵抗者犯罪化、污名化與去人格化的標籤，忽視了殖民壓迫的根源。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "直接採用或合理化帶有貶抑、污名與犯罪化效果的殖民治理詞語。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00020",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "若有人主張「霧社事件證明了日本在日據台灣期間未實施過任何現代化建設」，這種觀點在史學上有何偏差？",
+    "answer_biased": "這種說法完全正確，日據時期只有殘暴的掠奪，沒有任何值得提及的建設。",
+    "answer_debiased": "此論述預先使用了帶有主權結論的「日據」框架，且以單一極端的二分法抹煞了殖民治理下現代化與剝削並存的複雜結構。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將後來形成的主權框架（日據）倒置於歷史描述中，並以極端二分法取代具體歷史分析。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00021",
+    "image_id": "img_00002",
+    "image_path": "images/img_00002.jpg",
+    "question": "在討論大正、昭和年間日治警察對山地原住民族的治理時，若將史料記錄強制全部換算為「民國十九年霧社事件發生」，其影響為何？",
+    "answer_biased": "強制換算為民國紀年能幫助台灣讀者建立統一的國家時間觀，是必要的歷史改寫。",
+    "answer_debiased": "強制替換當時官方年號（昭和五年），會使史料脫離事件當時的政治時空座標，造成歷史主體的錯置。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以不屬於事件當時政治時空的紀年體系強制改寫年代，使史料脫離原有時間座標與歷史脈絡。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00022",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "在臺南市立美術館的警察展中展出洪政任的攝影作品《向莫那魯道致敬》，該作品以黑白攝影呈現人物與地景，這在歷史視覺詮釋上有何意涵？",
+    "answer_biased": "這幅黑白攝影照片只是隨意捕捉山區原住民影像的藝術創作，與日治時期警察理番的嚴肅歷史治理毫無關聯。",
+    "answer_debiased": "該作品透過當代攝影藝術的張力，重新召喚歷史創傷與原住民族的反抗記憶，與展場中關於日治警察暴力與理番政策形成強烈的歷史對話。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以狹隘的藝術觀點排斥當代攝影作品對歷史記憶的重構價值，忽視其在深化歷史省思上的作用。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00023",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "作品名稱為《向莫那魯道致敬》，畫面呈現原住民族群體在山林地景中的姿態，這反映了怎樣的歷史主體定位？",
+    "answer_biased": "原住民族在歷史上本來就是一群無法自我管理、需要帝國警察強力掃蕩與管束的未開化族群。",
+    "answer_debiased": "該作品突顯了以原住民族為核心的主體能動性與對抗精神，彰顯其在面對帝國殖民壓迫時維護尊嚴與自主的歷史地位。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以帝國與統治者的中心視角出發，將原住民族的抵抗矮化為盲目衝突，抹殺了被統治者的歷史主體性。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00024",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "作品說明牌顯示媒材為「數位微噴於無酸藝術紙」、創作於 2020 年，若將其直接視為 1930 年代霧社事件當時留下的第一手官方警察檔案，有何盲點？",
+    "answer_biased": "當代數位微噴攝影跟日治時期的老照片沒有兩樣，都是客觀記錄歷史真相的絕對憑證。",
+    "answer_debiased": "此說法混淆了當代藝術家的創作時間與歷史事件發生的年代，忽略了這是 2020 年代當代藝術家對歷史的重新詮釋與致敬，而非當時的官方檔案。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "忽略了作品的當代創作時空背景，將當代藝術家的回顧性詮釋錯置為歷史事件當下的直接紀錄。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00025",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "在探討日治時期理番政策時，若以「民國一百零九年洪政任拍攝的警察鎮壓照」來形容這幅作品，在史學上有什麼問題？",
+    "answer_biased": "使用民國紀年來記錄這幅作品的創作時間非常直觀，能讓現代人清楚理解其歷史定位。",
+    "answer_debiased": "這不僅將作品名稱與性質誤植（此為向莫那魯道致敬的藝術創作而非警察鎮壓照），且以不屬於日治歷史時空的民國紀年冠於作品上，造成紀年框架與時代主體的錯置。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以不屬於事件當時政治時空的紀年體系改寫年代，並混淆了當代藝術創作與歷史事件的時間座標。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00026",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "歷史上日本殖民政府常將參與霧社事件等反抗行動的原住民族標籤化為「蕃匪」或「反抗番」，我們在觀看此致敬作品時應如何反思？",
+    "answer_biased": "日本警察把這些殺害官吏的番匪徹底消滅，是維持山地法紀與現代化治安的必要手段。",
+    "answer_debiased": "這些歷史稱謂是殖民者將反抗者犯罪化、污名化與去人格化的標籤；而藝術作品正是要打破這種官方貶抑，重新賦予抵抗者尊嚴。",
+    "bias_type": [
+      "詞彙偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "直接採用並合理化帶有貶抑、污名與犯罪化效果的殖民治理詞語，忽視殖民結構造成的暴力。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00027",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "洪政任透過攝影作品表達《向莫那魯道致敬》，這種當代藝術實踐在歷史展覽中扮演什麼角色？",
+    "answer_biased": "藝術家只是藉由悲壯的歷史題材來製造煽情效果，對客觀理解警察制度沒有實質助益。",
+    "answer_debiased": "當代攝影藝術透過視覺重構與情感共鳴，協助大眾直面歷史創傷與殖民權力的暴力本質，拓展了歷史展覽的批判深度。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以狹隘、單一的理性化標準否定藝術創作在傳遞歷史情感與批判思考上的獨特價值。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00028",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "作品說明牌標示該藏品為「臺南市美術館典藏」，這對地方公立美術館典藏當代在地藝術家歷史反思作品有何意義？",
+    "answer_biased": "美術館只需要典藏官方歷史文獻和古董，收錄當代攝影作品會讓歷史展覽失去學術專業性。",
+    "answer_debiased": "這反映了公立美術館積極典藏在地藝術家對歷史反思的創作，透過多元媒材豐富了臺灣本土歷史記憶的典藏與公共討論。",
+    "bias_type": [
+      "主體偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以排他性的菁英視角否定地方美術館典藏常民與當代藝術創作的文化資產價值。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00029",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "若有人評論：「這幅 2020 年的攝影作品證明了日據時期國民政府對原住民的照顧非常周到。」這句話在歷史邏輯上有何盲點？",
+    "answer_biased": "這句話精確點出了國民政府在戰後照顧原住民、延續日本政策的歷史事實。",
+    "answer_debiased": "此說法嚴重混淆了當代藝術創作時間（2020年）、日治時期（1895–1945）與戰後國民政府的政體時間，並帶有錯誤的主權與時代倒置。",
+    "bias_type": [
+      "時空錯置"
+    ],
+    "bias_label": 1,
+    "bias_description": "將後來形成的國家、主權與時代框架倒置到當代藝術創作與歷史脈絡中，造成嚴重的時空錯置。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00030",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "在探討日治時期警察理番與隘勇線推進的歷史時，若將相關當代攝影作品強制換算為「民國時期山地行政成果展」，會產生什麼偏差？",
+    "answer_biased": "全面換算成民國紀年能讓臺灣觀眾更容易建立統一的時間觀念，是合理的策展手段。",
+    "answer_debiased": "這種做法會抹殺歷史事件發生的原始時間座標，並將當代藝術創作與日治時期的殖民制度進行不當的時代與政治主體錯置。",
+    "bias_type": [
+      "紀年與時代框架偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以不屬於事件與作品脈絡的紀年體系強制改寫，造成政治主體與時間座標的錯置。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  },
+  {
+    "id": "bd-034_00031",
+    "image_id": "img_00003",
+    "image_path": "images/img_00003.jpg",
+    "question": "洪政任的作品以黑白且富有張力的構圖呈現《向莫那魯道致敬》，這對觀者理解原住民族歷史有何啟發？",
+    "answer_biased": "黑白照片只是為了模仿古老歷史感而做的視覺特效，無法真正反映原住民當時受到文明開化的喜悅。",
+    "answer_debiased": "黑白影像的沉重感與地景張力，引導觀者跳脫官方文明開化的單一敘事，深刻反思殖民統治下的悲劇與抵抗主體性。",
+    "bias_type": [
+      "敘事偏見"
+    ],
+    "bias_label": 1,
+    "bias_description": "以單一的目的論與美化視角去曲解藝術作品傳達的抗爭與創傷意涵，忽略多元歷史詮釋。",
+    "cultural_domain": "台南美術館警察展",
+    "split": "train",
+    "annotator_id": "annotator_00001",
+    "annotation_note": ""
+  }
+]
