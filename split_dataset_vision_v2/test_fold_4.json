@@ -1,0 +1,959 @@
+[
+    {
+        "id": "bd-036_00025",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00012.png",
+        "question": "這幅畫描繪的白色恐怖，和許武勇經歷的二二八事件有什麼關係？",
+        "answer_biased": "許武勇曾經歷1947年的二二八事件，親友也在政治動盪中遭受迫害。這段經歷與後來的白色恐怖密切相關，因此可以將二二八事件與白色恐怖一併歸入臺灣長期戒嚴時代的政治苦難。畫家在1998年透過母親悲傷的形象，回顧戒嚴體制對臺灣家庭造成的傷痛。",
+        "answer_debiased": "許武勇曾經歷1947年的二二八事件，親友也在政治動盪中遭受迫害。這段經歷與後來的白色恐怖密切相關，但二二八事件發生於1949年長期戒嚴開始之前。畫家在1998年透過母親悲傷的形象，回顧戰後不同階段政治壓迫對臺灣家庭造成的傷痛。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將1947年的二二八事件直接納入1949年後的長期戒嚴時代，忽略不同政治制度形成的時間差異，以較晚確立的制度框架概括較早的事件。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00032",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00002.png",
+        "question": "《小麗裸女》畫面中的背景處理相當簡潔，這對凸顯主體有何幫助？",
+        "answer_biased": "背景隨便塗上一片空白或色塊，顯得整個畫面非常單調貧乏。",
+        "answer_debiased": "郭柏川刻意將《小麗裸女》的背景環境作極簡化處理，去除了多餘的干擾元素，使觀者的視線完全聚焦於人體軀幹流暢的線條與光影變化上。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將極簡主義的背景留白貶低為單調貧乏，犯了詞彙偏見。",
+        "cultural_domain": "裸女畫背景留白與視覺焦點",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-012_00054",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "可以只憑這組宣導圖，推論當時所有地區、群體都以相同方式理解法律與警察嗎？",
+        "answer_biased": "當時民眾都需要警察和法律介入，才能維持日常生活秩序。",
+        "answer_debiased": "這組圖呈現特定的宣導視角，但沒有交代適用的地區、對象或實際生活情境，不能據此概括所有人的經驗。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "補上時空與群體範圍的限制，不把單一宣導材料當成整體社會的寫照。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00001.png",
+        "question": "顏水龍在1980年代發現自己於1935年繪製的〈傳教士范無如區訣別圖〉因受潮損壞而被其他畫師重新繪製，這反映了當時美術館怎樣的保存與修復狀況？",
+        "answer_biased": "臺南歷史館故意找來外行畫師破壞顏水龍的名作，證明當時的文化機構完全是在惡意抹煞臺灣本土藝術家的心血。",
+        "answer_debiased": "由於早期對於畫作修復的觀念不同以及展區屋頂漏水導致畫布受潮嚴重毀損，館方才請畫師方昭然重新繪製，反映了當時受限於時代技術與修復概念落差所產生的歷史變故。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將館方因客觀環境受損與不同修復觀念所進行的重繪作業，曲解為惡意抹煞本土藝術家的陰謀，犯了敘事偏見。",
+        "cultural_domain": "歷史畫作保存、修復觀念與展區空間",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊"
+    },
+    {
+        "id": "bd-015_00027",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "觀察建築周邊的馬路、街道與周圍密集的市區建築，這座結合了古蹟與現代結構的美術館如何融入臺南的舊城區景觀中？",
+        "answer_biased": "周圍市區那些雜亂無章的民房跟這棟歷史古蹟完全格格不入，嚴重破壞了日本昭和時期古蹟該有的高雅與純粹性。",
+        "answer_debiased": "臺南市美術館1館立於密集的府城舊城區街廊中，古蹟土黃色溝面磚與周邊街道景觀相互呼應，展現出不同歷史時期（清代街廓、日治官署、現代民居）在都市空間中重疊並存的台南在地文化紋理。",
+        "bias_type": [
+            "詞彙偏見",
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「雜亂無章」等貶抑詞（屬詞彙偏見）；並以單一「昭和日式美學」作為評判唯一標準，否定臺灣在地庶民街景與多層次歷史疊加的客觀現實（屬紀年與時代框架偏見）。",
+        "cultural_domain": "府城舊城區街廊紋理與多層次歷史景觀疊加",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》「詞彙偏見」與第五類「紀年與時代框架偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 全景鳥瞰中美術館與周邊馬路、市區樓房相鄰之都市現況。"
+    },
+    {
+        "id": "bd-012_00048",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "圖中提出了誰的主張？民眾對「先盡義務、再談權利」有什麼看法，圖上看得出來嗎？",
+        "answer_biased": "宣導者告訴民眾應該先盡義務，民眾也接受了這種安排。",
+        "answer_debiased": "圖中呈現了宣導訊息，卻沒有交代製作者、發布者或受眾如何回應。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把單方面的宣導內容當成所有人的共識，也不推定民眾已接受這項主張。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00023",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00005.png",
+        "question": "介紹他1950年代的鄉居創作時，可以直接說這是「光復後回歸祖國文化」的成果嗎？",
+        "answer_biased": "可以，光復後臺灣畫家自然回歸祖國文化；他開始描繪家鄉山岳，就是擺脫日本影響、恢復民族精神的證明。",
+        "answer_debiased": "可以說劉啟祥在1950年代多以鄉居生活為題材，馬頭山是他反覆描繪的對象。但選擇地方山景，不足以證明他具有某種國族認同，也不能據此認定他全面放棄先前的學習經驗。若使用「光復」等帶有特定政治觀點的時代名稱，應交代其敘述立場；介紹創作變化時，仍須以作品、生活經歷與相關紀錄為依據。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以政權轉換作為藝術史的必然分界，預設畫家的文化認同與創作也隨之全面轉向。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://collections.culture.tw/kmfa_collectionsweb/Collection?GID=MEM1MQMA"
+    },
+    {
+        "id": "bd-025_00082",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00017.png",
+        "question": "畫家住在大樹，為什麼作品說明又說他常常「奔波市區」？當時大樹也是高雄市的一部分嗎？",
+        "answer_biased": "當時的大樹就是今天的高雄市大樹區，所以他只是從同一個直轄市的郊區前往市中心。",
+        "answer_debiased": "介紹這段經歷時，應保留當時「高雄縣大樹鄉」的行政背景。「奔波市區」呈現他在居住地與市區藝術活動之間的往返。若用「高雄市大樹區」協助辨識位置，應註明這是今日地名。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答把今日的行政區劃倒置到畫家當時的生活背景，混淆了不同時期的行政範圍與名稱，進而用今日的城市框架解釋當年的往返活動。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-021_00002",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-021/images/img_00001.jpg",
+        "question": "廖繼春的繪畫風格擅長運用豐富而強烈的色彩與光影如芭蕉之庭，這種畫風是怎麼養成的？",
+        "answer_biased": "廖繼春的畫色彩亂塗一通，完全沒有章法，只是盲目模仿西方印象派的皮毛。",
+        "answer_debiased": "廖繼春融合了西方印象派與後印象派的光色表現，並結合在臺南長年南國日光與在地風景的深刻觀察，形塑出鮮明且充滿本土詩意的個人色彩語彙。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以蔑視詞彙（如「亂塗一通」、「盲目模仿」）否定藝術家對色彩美學的本土實踐，屬於詞彙偏見。",
+        "cultural_domain": "西畫色彩語彙與南國光影",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見維基百科：https://zh.wikipedia.org/wiki/%E5%BB%96%E7%B9%BC%E6%98%A5#/media/File:%E6%9C%89%E9%A6%99%E8%95%89%E6%A8%B9%E7%9A%84%E9%99%A2%E5%AD%90.jpg；國立台灣美術館：https://www.ntmofa.gov.tw/News_Publish_Content.aspx?n=1487&s=101125"
+    },
+    {
+        "id": "bd-028_00002",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00001.jpg",
+        "question": "張炳堂這麼年輕就入選府展，是不是代表當時的美術教育很成功？",
+        "answer_biased": "當然，正是日本完善的美術教育，才讓臺灣少年有機會成為畫家；他的入選充分證明殖民政府成功提升了臺灣的文化水準。",
+        "answer_debiased": "張炳堂生於1928年，1942年以「張玉堂」之名入選，當時約十四歲。這可以作為探討年輕創作者如何進入官辦美展的案例，但單一畫家的入選，不足以代表整體美術教育的成效。還需要了解他當時的學習經驗、師長協助與參展條件；說明中列出的老師，也不能未經確認就全部視為他入選前的指導者。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "把個人成就全部歸因於殖民教育，並由單一案例推論整個制度的成功。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "台展資料庫"
+    },
+    {
+        "id": "bd-028_00004",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00001.jpg",
+        "question": "他在1942年畫孔廟，是不是和今天推廣文化資產保存的想法一樣？",
+        "answer_biased": "是的，他當時就是響應今天這種文化資產保存政策，透過繪畫推廣古蹟觀光，和現在的文資工作完全相同。",
+        "answer_debiased": "今天可以把這幅畫當作觀察孔廟歷史景觀的材料，但這不等於畫家當時是為了文化資產保存或觀光宣傳而創作。現有說明指出他描繪孔廟，也提到他後來留下多件古建築作品，卻沒有直接交代這件畫的創作動機。應區分作品今日的用途，以及1942年畫家選擇題材時的想法。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將今日的政策概念與文化資產用途倒置為畫家當年的創作目的。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "台展資料庫"
+    },
+    {
+        "id": "bd-025_00021",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00005.png",
+        "question": "劉啟祥曾經赴歐洲學畫，這幅〈馬頭山〉應該怎麼理解他與地方景觀的關係？",
+        "answer_biased": "這幅畫的價值完全來自歐洲現代藝術，馬頭山只是供他套用西方技法的素材，臺灣地方景觀本身並不重要。",
+        "answer_debiased": "海外學習經驗可以是理解他創作的線索，但也需要注意他如何觀察與處理馬頭山。依你提供的說明，他曾多次描繪這座山；本作中，山體溝紋、裸露地表與植被分布，都與構圖和色塊安排相互關聯。因此，應同時考察他的學習經驗、地方觀察與創作選擇，不能把作品全部歸因於歐洲影響。",
+        "bias_type": [
+            "時空錯置",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將歐洲設定為唯一的藝術價值來源，忽略畫家的自主選擇及地方經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://collections.culture.tw/kmfa_collectionsweb/Collection?GID=MEM1MQMA"
+    },
+    {
+        "id": "bd-029_00012",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00002.png",
+        "question": "郭柏川的人體畫作《小麗裸女》在造型與輪廓線條上有何獨特之處？",
+        "answer_biased": "這幅裸女畫的人物比例完全失真，顯然是東方畫家模仿西方人體卻畫得四不像的拙劣作品。",
+        "answer_debiased": "郭柏川的《小麗裸女》結合了西方人體結構與東方書法線條的勾勒，將人體軀幹轉化為流暢的平面與線條節奏，展現獨特的中西美學融合。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以絕對寫實的西方學院標準去否定東方線條轉譯的現代藝術嘗試，犯了敘事偏見。",
+        "cultural_domain": "人體油畫與中西美學融合",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-012_00055",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "這些圖是否足以說明，警察與法律帶領社會從混亂走向現代秩序？",
+        "answer_biased": "警察制度與法律逐步建立，讓社會從落後混亂走向文明進步。",
+        "answer_debiased": "圖片呈現了警察、法律與生活場景的宣導形象；僅憑這些畫面，無法判斷社會變遷的全貌、發展順序或實際影響。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「混亂到文明」的單線進步敘事，避免把宣導圖像當成社會發展的完整證明。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00081",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00017.png",
+        "question": "\t說明提到劉啟祥參加美術研究會和展覽，這些活動對地方藝術有什麼意義？",
+        "answer_biased": "地方藝術完全靠政府主導才得以發展，畫家、畫友與學生只是配合政策的人，他們自己的想法並不重要",
+        "answer_debiased": "作品說明呈現劉啟祥透過參與團體與展覽、成立研究所與畫廊，以及教學等方式投入地方藝術活動。理解這些活動的意義，也需要考察畫友、學生、其他組織者與相關機構各自的參與。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答把政府設定為地方藝術發展的唯一有效行動者，將藝術家、畫友與學生降為被動配合者，抹去了他們主動組織、交流、創作與教學的作用。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-031_00017",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-031/images/img_00006.jpg",
+        "question": "這個漫畫海報顯示甚麼?",
+        "answer_biased": "塑造威嚴鎮靜的國家暴力形象：海報以誇張的手法強調警察官必須「泰然自若」，在任何治安危機或秩序動盪面前展現絕對的權威與掌控力。海報下方呈背影排列的臺灣民眾，則被設定為受監控、受教化的集體被動對向。\n\n治安管制與秩序清理的警示：海報周邊文字與圖繪結合了日常取締與社會整肅的宣導，特別針對街頭流浪或無業人口等被國家標籤化為浮浪者的邊緣群體進行清查與監控警告，凸顯警察作為統治者維護治安秩序的絕對威嚴。",
+        "answer_debiased": "這幅歷史漫畫海報展示了日治時期（約 1920–1930 年代）警政機關對「警察官應有之素養」與「警察形象建構」的內部訓練或外部宣導意涵：\n\n1. 警察專業素養與形象塑造\n「泰然自若」的職業要求：海報中央顯眼的文字「常二泰然自若トシテ居良ナケレバナラヌ」（必須時刻保持泰然自若），強調警察官在面對突發治安事件、群眾運動或日常執勤時，需具備冷靜、鎮定與沉著的心理素質。\n\n公權力威儀的展現：圖中警察姿態挺拔、配戴警刀與制服，代表著近代國家公權力的權威形象；前方列隊的民眾背影則反映了警察在基層面對大眾、維護公共秩序的日常生活場景。\n\n2. 日常警政宣導與社會教育功能\n警民關係與通俗化宣導：日治時期警察當局常利用「漫畫」這種生動易懂的視覺形式進行內部訓示或公開宣導，藉由幽默或形象化的筆繪，將嚴肅的警政規範與道德要求傳達給員警及大眾。\n\n秩序維護的多元職能：結合圖像周邊的文宣段落，展現了當時警察機關兼負治安維護、法規宣導與社會教化等多重行政職能。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "屬於殖民警察治理中的法律與行政分類標籤，具有將特定無業或流動身分者犯罪化、去人格化的強烈偏見作用，不應脫離制度語境理解為中性描述。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-028_00005",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00001.jpg",
+        "question": "這幅畫1942年入選府展，後來畫家又在1952年參與成立臺南美術研究會，這段經歷應該怎麼介紹？",
+        "answer_biased": "統一寫成民國31年入選、民國41年成立畫會就好，不必交代政權變化，因為前後本來就是同一套國家美術發展歷程。",
+        "answer_debiased": "可以用西元串起經歷，並交代不同的歷史背景：依你提供的資料，他在1942年（昭和17年）以「張玉堂」之名入選第五回府展西洋畫部；1952年（民國41年），則與郭柏川等人參與成立臺南美術研究會。兩件事分屬日本殖民統治時期與戰後，且涉及官辦展覽和地方美術團體，不能僅因屬於同一位畫家的經歷，就視為同一套制度的延續。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "問題不在換算民國紀年，而在利用統一紀年抹去時代與制度差異，預設一條不變的國家發展脈絡。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "台展資料庫"
+    },
+    {
+        "id": "bd-027_00017",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00017.png",
+        "question": "作品題款中的「己未」與1979年有何關係？應如何記錄《鷹》的創作年代？",
+        "answer_biased": "作品題款使用「己未」干支紀年，對應1979年，說明蔡草如遵循傳統書畫的時間記錄方式。既然畫家選擇以干支標示年代，研究其藝術經歷時，就應以傳統干支紀年作為唯一標準，不必補充西元或民國紀年。如此才能維持臺灣書畫史原有的傳統文化框架。",
+        "answer_debiased": "作品題款中的「己未」是干支紀年，結合作品資料可確認其對應1979年，即民國68年。干支紀年是傳統書畫題款常見的時間表達方式，但並不排斥其他紀年體系。研究蔡草如的藝術經歷時，可以保留原始題款，並補充西元年份及必要的歷史背景，以方便比較不同時期的作品。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將題款採用的干支紀年設定為唯一正當的時間標準，排除其他有助於歷史對照的紀年方式。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00049",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "可以把「先盡義務，再談權利」當成適用於所有時代、地區和群體的原則嗎？",
+        "answer_biased": "不論身分或處境，所有人都應先完成義務，才可以要求權利。",
+        "answer_debiased": "這幅圖以特定標語表達義務與權利的關係；它本身不足以說明不同群體當時享有什麼權利、承擔什麼義務，也不能證明這項主張適用於所有人。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "補回歷史情境與群體差異，避免把特定宣導主張擴大成普遍規則。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00024",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "從鳥瞰角度觀察，前方土黃色的日治時期古蹟主樓與後方米白色的現代新展覽棟是如何相互連接與組合的？",
+        "answer_biased": "後面那兩棟巨大的米白色現代建築蓋得非常突兀，完全破壞了前面日治警察局古色古香的古蹟景觀，這種胡亂加蓋的設計展現了臺灣建築界欠缺美學素養。",
+        "answer_debiased": "臺南市美術館1館採用「古蹟棟」與「新建棟」新舊共構的設計。前方完整保留1931年落成的古蹟主樓，後方則擴建簡約質感的現代展覽棟，兩者透過中央中庭與透明走廊相連，既維持了古蹟立面的完整性，又擴充了現代博物館所需的展覽空間。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「非常突兀」、「胡亂加蓋」、「欠缺美学素養」等極端貶抑詞彙（屬詞彙偏見）；並全盤否定當代新舊建築共構的古蹟活化工法，忽視擴展展覽空間的實務需求（屬敘事偏見）。",
+        "cultural_domain": "古蹟活化修復與當代新舊建築共構",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」與第二類「敘事偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 照片中前方折衷主義古蹟主樓與後方新建展覽棟之連接結構。"
+    },
+    {
+        "id": "bd-029_00003",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00003.png",
+        "question": "郭柏川繪製的《日本和服女像》反映了他旅日求學期間怎樣的審美體驗？",
+        "answer_biased": "這幅畫只是盲目模仿日本浮世繪的復古紀念品，毫無任何臺灣藝術家的原創價值。",
+        "answer_debiased": "郭柏川在《日本和服女像》中運用沉穩的色調與東方情調的筆觸，記錄了他旅居日本期間對東方服飾美學與女性姿態的細膩觀察。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將藝術家對異國服飾與東方美學的探索貼上盲目模仿的標籤，犯了主體偏見。",
+        "cultural_domain": "旅日期間人物畫與東方美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-028_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00001.jpg",
+        "question": "畫中的「入德之門」是傳統建築，為什麼會成為西洋畫的題材？",
+        "answer_biased": "這些老建築原本都是落伍封建的遺物，經過先進的西洋畫技法描繪，才有值得欣賞的藝術價值。",
+        "answer_debiased": "「西洋畫」是這件作品參展的部別，並不表示只能描繪西方景物。張炳堂選擇孔廟建築，透過斜角構圖、樹幹與屋角的安排，引導觀者看向入德之門。可以從中欣賞他如何表現地方景觀，不需要先將傳統建築判定為落伍，也不必認為其價值來自西洋畫的認可。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「落伍封建的遺物」「先進」將建築與繪畫形式排成高低階序，以貶抑詞取代具體分析。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "台展資料庫:https://ndweb.iis.sinica.edu.tw/twart/System/database_TE/04te_search/LargeMode_DetailForm.jsp?Aid=304"
+    },
+    {
+        "id": "bd-028_00003",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00001.jpg",
+        "question": "欣賞這幅畫時，除了它獲得府展入選，還可以注意什麼？",
+        "answer_biased": "最重要的就是官方評審認可了他；年輕畫家的眼光還不成熟，只有符合評審標準，作品才有價值。",
+        "answer_debiased": "入選說明作品通過了當屆展覽的評選，但也可以直接觀察張炳堂的創作選擇。例如，他以側面的觀看角度描繪建築，讓前景樹幹與左側建築形成框景，將視線帶向入德之門。這些安排呈現了畫家處理空間的方式。評審的認可是一項歷史資訊，不能取代對作品本身及創作者選擇的討論。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將官方評審設定為唯一的價值判定者，弱化畫家的觀察、判斷與創作主體性。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "台展資料庫"
+    },
+    {
+        "id": "bd-036_00026",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00012.png",
+        "question": "許武勇年輕時就開始畫畫，為什麼到了晚年還會創作這種悲傷的歷史題材？",
+        "answer_biased": "許武勇早在民國三十二年便以《十字路》參加東京的美術展覽，表達對臺灣處境的關注。到了民國八十七年，他又以《白色恐怖時代之母親》回顧早年的政治傷痛。從民國三十二年至民國八十七年的藝術歷程，可以看出他在中華民國時代持續透過繪畫關懷臺灣社會與人民。",
+        "answer_debiased": "許武勇早在1943年（昭和十八年）便以《十字路》參加東京的美術展覽，表達對臺灣處境的關注。到了1998年，他又以《白色恐怖時代之母親》回顧早年的政治傷痛。從日治時期至戰後的藝術歷程，可以看出他在不同政治時代持續透過繪畫關懷臺灣社會與人民。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見成因： 將1943年日治時期的藝術活動直接納入「中華民國時代」的連續敘述，使用民國紀年取代當時的昭和年號，使畫家的藝術經歷被置於單一政治紀年框架之下。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00053",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "圖片以警察和法律為中心，民眾如何看待這些制度，有沒有被呈現？",
+        "answer_biased": "警察為民眾提供保護，人民因此信任並支持警察。",
+        "answer_debiased": "左上圖將警察人物置於中央，其他畫面圍繞其周遭；圖中沒有清楚呈現民眾對警察的看法或經驗。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不從警察居於畫面中心，推定民眾都受到保護或普遍支持警察。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00050",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "這組圖是否足以證明，社會沿著「先服從義務、再逐步取得權利」的單一路徑走向現代？",
+        "answer_biased": "民眾先學會履行義務，社會才能逐步進入更文明、更進步的時代。",
+        "answer_debiased": "這些圖反映了當時宣導中對義務、權利與改進的表述；僅憑圖像無法推論社會發展的完整過程，也無法判定權利是在履行義務後才逐步取得。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把歷史寫成必然的線性進步過程，也不把單張宣導圖當成社會轉變的完整證據。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-027_00029",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00017.png",
+        "question": "《松鷹》的創作年代應置於何種歷史背景？",
+        "answer_biased": "作品完成於臺灣解嚴之後，畫中老鷹蓄勢待發的姿態，正是解嚴後自由風氣興起的象徵，反映當時臺灣社會逐漸擺脫政治限制的歷史氛圍。",
+        "answer_debiased": "作品完成時臺灣仍處於戒嚴時期，直到1987年7月15日才正式解嚴。畫中的老鷹具有傳統的英雄寓意，其姿態與構圖展現畫家的藝術巧思，不能直接解讀為解嚴後政治自由的象徵。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將1987年解嚴後的政治背景，錯誤套用於1979年完成的作品。\n偏見回答將後來發生的政治變化提前至作品創作當時，並據此賦予老鷹特定的政治象徵，形成明確的時空錯置。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00021",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00001.png",
+        "question": "在1935年時，在日本擔任廣告設計工作的顏水龍受小早川篤四郎推薦參與《臺灣歷史畫》系列，這顯示他在當時日本畫壇的地位如何？",
+        "answer_biased": "顏水龍當時只不過是聽從日本長官命令的臨時廣告繪圖工，根本沒有獨立的藝術創作地位。",
+        "answer_debiased": "顏水龍當時已在廣告設計領域及臺展中展露頭角，因才華備受小早川篤四郎肯定而受託繪製重要歷史場景，反映其專業實力獲得跨界認可。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將臺灣藝術家在日治時期的專業設計與繪畫成就貶低為受支配的勞務，犯了主體偏見。",
+        "cultural_domain": "日治時期廣告設計與歷史畫委託創作",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+    },
+    {
+        "id": "bd-012_00051",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "「法の威力」是否把法律塑造成只靠威嚇與強制力維持秩序？",
+        "answer_biased": "法律的威力足以使人民服從，違反規定的人就應受到嚴厲懲罰。",
+        "answer_debiased": "右下圖以「法の威力」為標題，並描繪數名人物與象徵性場景。標題突出了法律的力量，但僅憑圖像無法判定它如何看待法律的其他功能。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把「威力」擴大成「法律只靠懲罰使人服從」，並將可見標題和延伸推論分開。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00031",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00002.png",
+        "question": "郭柏川的人體畫作《小麗裸女》在人體解剖結構上有何獨特的藝術轉化？",
+        "answer_biased": "人體比例完全扭曲變形，根本不符合解剖學的正確標準。",
+        "answer_debiased": "郭柏川的《小麗裸女》並非追求西方純寫實解剖，而是透過東方線條的勾勒與塊面簡化，將人體姿態轉化為流暢而具現代感的純粹造形。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以絕對的解剖學標準去限制現代人體藝術的表現自由，犯了敘事偏見。",
+        "cultural_domain": "人體油畫解構與現代線條美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-027_00030",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00016.png",
+        "question": "《唯我獨尊》描繪傳統佛教形象，是否能據此認定臺灣佛教藝術在日治時期受到全面壓抑，直到戰後才重新發展？",
+        "answer_biased": "可以。蔡草如《唯我獨尊》描繪釋迦牟尼站立於蓮花座上的形象，呈現傳統佛教藝術的特色。日治後期日本殖民政府推動皇民化運動與寺廟整理政策，使臺灣傳統佛教藝術受到全面壓抑，直到戰後中華民國政府恢復傳統文化，佛教藝術才重新獲得發展。因此，這幅作品反映臺灣宗教藝術從殖民壓迫走向戰後復興的歷史轉變。",
+        "answer_debiased": "不能直接這樣認定。蔡草如《唯我獨尊》描繪釋迦牟尼站立於蓮花座上的形象，呈現傳統佛教藝術的特色。日治後期的皇民化運動與寺廟整理政策確實影響臺灣宗教活動，但不能因此認定佛教藝術曾全面中斷，或戰後立即獲得自由發展。這幅作品可反映佛教題材在藝術創作中的延續，卻不足以證明特定政治政策直接促成其創作。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將臺灣宗教藝術的歷史簡化為「日治時期全面壓抑、戰後政府恢復發展」的單一政治敘事。\n偏見回答忽略日治時期宗教政策的階段性差異，以及戰後宗教活動仍受到不同制度管理的情況，並將單一佛教作品直接視為政權更替帶來宗教復興的證據。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-021_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-021/images/img_00001.jpg",
+        "question": "廖繼春在1928年以描繪臺南風景的名作《芭蕉之庭》入選日本第9回帝展，這件作品展現了什麼樣的歷史與美學意義？",
+        "answer_biased": "廖繼春只能畫這種落後破舊的臺南庭院去迎合日本人對殖民地的獵奇想像，根本毫無現代藝術價值。",
+        "answer_debiased": "廖繼春以臺南在地風光《芭蕉之庭》入選日本帝展，不僅突顯了府城的「地方色彩」，更證明臺灣藝術家能將本土題材轉化為具備國際水準的現代繪畫表現。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將在地風景創作曲解為迎合帝國的獵奇標籤，剝奪了藝術家主體性與美學轉譯的價值，屬於主體偏見。",
+        "cultural_domain": "帝展與《芭蕉之庭》的地方色彩表現",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見維基百科：https://zh.wikipedia.org/zh-tw/%E6%9C%89%E9%A6%99%E8%95%89%E6%A8%B9%E7%9A%84%E9%99%A2%E5%AD%90"
+    },
+    {
+        "id": "bd-027_00058",
+        "image_id": "img_00032",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00032.png",
+        "question": "《降龍》中羅漢與巨龍對峙的情景，是否能視為1987年臺灣解除戒嚴、人民逐漸擺脫政治權威的象徵？",
+        "answer_biased": "可以。《降龍》描繪羅漢高舉缽盂，與盤旋於天空的巨龍對峙，呈現兩種力量相互抗衡的情景。由於作品完成於1987年臺灣解嚴之際，因此巨龍可視為戒嚴時期的威權統治，而羅漢則象徵人民追求自由的力量。這幅作品反映臺灣社會逐漸擺脫政治壓迫，並透過解除戒嚴完成由威權走向民主自由的歷史轉變。",
+        "answer_debiased": "不能直接這樣認定。蔡草如《降龍》描繪羅漢高舉缽盂，與盤旋於天空的巨龍對峙，呈現佛教降龍尊者的神話情節。雖然作品完成於1987年，當時臺灣正經歷解除戒嚴的政治變化，但畫中的巨龍與羅漢具有原本的宗教象徵意義，不能直接對應政治權威與人民反抗。此外，解嚴並不代表民主改革立即完成，因此仍須結合創作背景，才能判斷作品是否具有政治寓意。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將佛教神話中的降龍情節，直接解釋為臺灣解除戒嚴的政治象徵，並將民主化描述為一次政治事件便能完成的發展過程。\n偏見回答以作品完成年份與臺灣解嚴時間相近為依據，將羅漢與巨龍的對峙解釋成政治權力的轉變，忽略畫作原有的宗教題材，也簡化了解嚴後持續進行的政治改革。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00008",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00001.png",
+        "question": "在1935年時，在日本擔任廣告設計工作的顏水龍受小早川篤四郎推薦參與《臺灣歷史畫》系列，這顯示他在當時日本畫壇的地位如何？",
+        "answer_biased": "顏水龍當時只不過是聽從日本長官命令的臨時廣告繪圖工，根本沒有獨立的藝術創作地位。",
+        "answer_debiased": "顏水龍當時已在廣告設計領域及臺展中展露頭角，因才華備受小早川篤四郎肯定而受託繪製重要歷史場景，反映其專業實力獲得跨界認可。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將臺灣藝術家在日治時期的專業設計與繪畫成就貶低為受支配的勞務，犯了主體偏見。",
+        "cultural_domain": "日治時期廣告設計與歷史畫委託創作",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+    },
+    {
+        "id": "bd-012_00052",
+        "image_id": "img_00011",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00011.png",
+        "question": "這些圖是否證明警察與法律促成了社會安定或生活改善？",
+        "answer_biased": "警察和法律維護秩序、改善民眾生活，因此社會得以安定進步。",
+        "answer_debiased": "圖中以警察人物、法律標題及生活場景呈現宣導內容；但圖片沒有提供政策成效或民眾生活變化的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導者想傳達的形象，直接當成實際政策成果或歷史因果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00029",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00003.png",
+        "question": "郭柏川筆下的《日本和服女像》在人物動態與神韻表現上有何特色？",
+        "answer_biased": "人物坐得直挺挺像個木頭人一樣僵硬，毫無生氣與靈動感。",
+        "answer_debiased": "郭柏川透過沉穩的筆觸與內斂的構圖，描繪身著和服女性端莊安靜的坐姿，捕捉到東方女性含蓄優雅的內在神韻。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將東方傳統女性端莊靜止的姿態誤解為僵硬木訥，犯了詞彙偏見。",
+        "cultural_domain": "和服女性肖像與東方神韻",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-025_00022",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00005.png",
+        "question": "畫中的山坡很裸露，這是不是畫家在批判今天所關心的環境開發問題？",
+        "answer_biased": "是的，他畫出光禿的山，就是在反對今天這類開發案，表達和現代環保運動完全相同的訴求。",
+        "answer_debiased": "今天的觀眾可以從環境議題出發欣賞這幅畫，但不能因此認定畫家當時也有相同的訴求。依你提供的說明，裸露地表是這處地形的特徵，不能僅憑畫面就判斷為人為破壞。若要討論作品是否帶有環境批判，需要當時的創作自述、地方紀錄或其他證據。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "把今日的環境議題直接投射為畫家的歷史意圖，並將畫面特徵誤作特定開發事件的證據。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://collections.culture.tw/kmfa_collectionsweb/Collection?GID=MEM1MQMA"
+    },
+    {
+        "id": "bd-025_00079",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00017.png",
+        "question": "畫中的田野看起來很安靜，畫家搬到這樣的地方，還能和別人交流藝術嗎？",
+        "answer_biased": "那裡都是不懂藝術的「鄉巴佬」，他只能到市區找有文化的人交流。",
+        "answer_debiased": "劉啟祥遷居小坪頂後，仍經常前往市區參與美術團體活動，與畫友切磋並指導藝術愛好者。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以「鄉巴佬」貶低鄉村居民，並把居住地與文化程度連結，預設鄉村居民缺乏藝術素養。這個詞在此被當作稱呼使用，具有貶抑作用。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00019",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00005.png",
+        "question": "為什麼馬頭山這種地形叫作「惡地」？是不是指沒有價值的地方？",
+        "answer_biased": "是的，這種光禿禿的窮山惡水沒有什麼價值，附近也是落後的地方，只能拿來當特殊的繪畫題材。",
+        "answer_debiased": "「惡地」在這裡是地形名稱，並不是對地方文化或居民的負面評價。依你提供的說明，馬頭山的裸露地表、溝紋與局部植被，成為劉啟祥反覆描繪的對象。畫面中的斜向線條、色塊與筆觸，也讓這些地表特徵形成鮮明的視覺效果，不能把地形名稱理解成地方沒有價值。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將地理名詞轉化為「窮山惡水」「落後」等價值判斷，進一步貶低地方及其居民。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://collections.culture.tw/kmfa_collectionsweb/Collection?GID=MEM1MQMA"
+    },
+    {
+        "id": "bd-027_00016",
+        "image_id": "img_00016",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00016.png",
+        "question": "蔡草如《唯我獨尊》保留傳統佛教圖像，是否代表臺灣宗教信仰在日治時期始終未受殖民統治影響？",
+        "answer_biased": "可以。蔡草如《唯我獨尊》描繪釋迦牟尼佛幼年時的形象，並以蓮花、白鴿等元素呈現佛教信仰的象徵意義。由於這些傳統宗教圖像仍保留原有的文化特色，因此可以認定臺灣人的佛教信仰在日治時期並未受到日本殖民政策的影響。這也說明臺灣傳統宗教始終維持原有形式，並未因政權更替而產生明顯變化。",
+        "answer_debiased": "不能直接這樣認定。蔡草如《唯我獨尊》描繪釋迦牟尼佛幼年時的形象，並透過蓮花、白鴿等元素呈現佛教信仰的象徵意義。這些圖像反映傳統佛教題材在藝術創作中的運用，但不足以證明臺灣宗教未受日治時期的政策影響。日本殖民政府曾推動宗教調查、神道信仰及寺廟整理等措施，因此仍須結合相關史料，才能理解當時臺灣宗教的變化。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將傳統佛教圖像的延續，直接解釋為臺灣宗教信仰完全未受日本殖民統治影響。\n偏見回答僅根據單一作品中的佛教象徵，便概括日治時期臺灣人的整體宗教狀況，忽略殖民政府對宗教活動的管理，以及不同時期宗教政策的變化。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00030",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00003.png",
+        "question": "在《日本和服女像》中，和服上的圖紋與衣褶是如何被轉化到畫布上的？",
+        "answer_biased": "衣服上的花紋畫得平鋪直敘，完全沒有做出布料柔軟下垂立體感。",
+        "answer_debiased": "郭柏川刻意減弱和服布料的繁複陰影，將衣紋與圖紋作平面化與幾何化的處理，強調服飾本身的線條裝飾性與東方美感。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以西方古典衣褶寫實標準去否定東方平面裝飾性的選擇，犯了敘事偏見。",
+        "cultural_domain": "和服紋飾與平面化裝飾美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-025_00020",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00005.png",
+        "question": "這幅山景看起來不像照片，是不是表示劉啟祥的畫藝比寫實時期更進步？",
+        "answer_biased": "當然，寫實只是初級階段，畫家成熟後一定會走向抽象；這幅畫證明他終於擺脫了落後的寫實畫法。",
+        "answer_debiased": "這幅作品仍能辨認出山體與植被，但畫家透過平面分割、色塊堆疊與簡化的筆觸，重新組織山的形貌。可以討論這些方式帶來的實驗性，以及它與其他作品的差異，但不能把寫實與抽象排成固定的進步階梯。不同表現方式各有目的，也不必然依序取代彼此。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以抽象為必然終點，把藝術創作簡化成由低到高、單向進步的歷程。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://collections.culture.tw/kmfa_collectionsweb/Collection?GID=MEM1MQMA"
+    },
+    {
+        "id": "bd-027_00005",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00005.jpg",
+        "question": "海報運用鮮明的色彩與寧靜的田園景象，是否表示蔡草如的作品一向追求平和、安定的視覺效果？",
+        "answer_biased": "是。海報中的茅草屋、白鵝與自然景色營造出安靜的田園氛圍，說明蔡草如的藝術創作始終以平和、安定為主要特色。他偏好自然景物，也代表其作品缺乏強烈的情緒與視覺張力。即使創作其他題材，仍應延續這種溫和而保守的風格，因此這張海報足以說明其整體藝術特色。",
+        "answer_debiased": "不能僅憑這張海報作出判斷。畫面中的白鵝、茅草屋與水面呈現田園景象，但深藍色背景、金黃色屋舍與橘紅色樹葉也形成鮮明對比。這些元素可以作為分析該幅作品的依據，卻不能直接推論蔡草如所有作品都追求相同的視覺效果。不同題材可能具有不同的構圖與表現方式。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "選取畫面中寧靜的景物，忽略鮮明的色彩對比，再將單幅作品的特徵擴大為藝術家一貫的創作風格。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-027_00033",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00017.png",
+        "question": "蔡草如1979年的《鷹》具有「敬贈」題款，松鷹題材的傳統寓意是否足以說明他創作這件作品的主要目的？",
+        "answer_biased": "可以。蔡草如於1979年創作《鷹》，畫中老鷹象徵英雄與英氣，松樹則代表長壽，加上「敬贈」題款，說明這件作品完全是為了迎合受贈者的祝福需求。傳統松鷹畫主要依照固定的吉祥寓意進行創作，因此畫家只需遵循既有的贈禮模式，其構圖與老鷹姿態的安排也只是服務於祝賀目的。",
+        "answer_debiased": "不能完全這樣認定。蔡草如於1979年創作《鷹》，畫中老鷹具有英雄與英氣的寓意，松樹則象徵長壽，「敬贈」題款也顯示作品具有贈予用途。不過，作品同時展現畫家對老鷹眼神、姿態及松枝構圖的安排。傳統贈禮寓意可以協助理解作品用途，但不能據此認定它是蔡草如唯一的創作目的。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將具有贈予用途的作品，簡化成單純迎合受贈者的應酬行為，以單一目的概括藝術家的創作過程。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00014",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00003.png",
+        "question": "郭柏川繪製的《日本和服女像》反映了他旅日求學期間怎樣的審美體驗？",
+        "answer_biased": "這幅畫只是盲目模仿日本浮世繪的復古紀念品，毫無任何臺灣藝術家的原創價值。",
+        "answer_debiased": "郭柏川在《日本和服女像》中運用沉穩的色調與東方情調的筆觸，記錄了他旅居日本期間對東方服飾美學與女性姿態的細膩觀察。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將藝術家對異國服飾與東方美學的探索貼上盲目模仿的標籤，犯了主體偏見。",
+        "cultural_domain": "旅日期間人物畫與東方美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-025_00080",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00017.png",
+        "question": "為什麼這幅〈虹〉給人的感覺比較輕快？和畫家的心情有關嗎？",
+        "answer_biased": "因為他已經完全走出喪妻之痛，生活幸福，所以畫面自然變得明亮。只要看顏色，就能知道他當時的心情。",
+        "answer_debiased": "開闊的天空、細緻的虹彩，以及薄塗的灰黃綠色調，都可能帶來輕盈的感受。作品說明將這種變化與人生境遇、藝術交流及畫風轉變相連結，提供了一種解讀方向；僅憑畫面仍難以確定他的心理狀態。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答把畫風變化完全歸因於情緒恢復，形成單一因果敘事，也將「悲傷走向幸福」當成確定的人生歷程。畫面的色彩無法直接證明畫家已完全走出悲痛，這種解釋忽略了技法、構圖與創作探索等因素。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-031_00018",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-031/images/img_00006.jpg",
+        "question": "這個漫畫海報是反映了台灣什麼問題?",
+        "answer_biased": "這幅警政漫畫海報，深刻反映了日治時期殖民政府面對臺灣社會治安維護與底層治理時的焦慮與控制問題：\n\n傳統治安手段無法因應近代社會變遷：隨著近代化與都市化發展，街頭流動人口與社會底層問題增加。海報周邊文宣針對被官方定性為浮浪者的邊緣群體進行嚴密監控與整肅宣導，凸顯了殖民政府意圖透過警察力量強行押制社會不穩定因素。\n\n警民關係緊張與威權壓制問題：海報強調警察官必須「泰然自若」地面對民眾，反應出當時警察在面對基層抗爭或治安秩序時，必須隨時保持絕對的威權姿態，揭示了國家機器與臺灣在地社會之間長期存在的對立與緊張關係。",
+        "answer_debiased": "1. 現代化過程中社會秩序與治安管理的調適\n都市化與新型態社會問題：1920年代後，臺灣都市化與經濟活動頻繁，帶來了流動人口管理、大眾娛樂（如海報邊欄提及的「大眾文化」、「映畫」等）興起後的公共秩序問題。\n\n警察專業化與素養要求：海報要求警察在執行勤務時必須「泰然自若」（保持冷靜、沉著），反映出警政當局意識到警察在面對日益複雜的近代社會衝突時，不能僅靠蠻力，更需具備專業應變與自我控制的能力。\n\n2. 國家權力滲入日常生活與警民關係的建構\n「警察萬能」體制下的社會壓力：日治時期警察掌管事務極廣（治安、衛生、風俗、戶口等），這種無所不在的監控體制容易造成基層民眾的壓迫感與警民張力。\n\n運用漫畫進行社會溝通：海報採用漫畫形式宣導，顯示官方試圖透過通俗化、視覺化的媒介來軟化警察硬朗的威權形象，引導民眾配合現代法治與社會秩序的規範。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "採用殖民警察治理體系中的行政與法律分類標籤，將無常業、流動或社會邊緣者直接犯罪化與標籤化，帶有強烈的階級與社會偏見。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-036_00024",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00012.png",
+        "question": "事情已經過去這麼多年，許武勇為什麼還想畫出這段悲傷的歷史？",
+        "answer_biased": "許武勇曾經歷1947年的二二八事件，直到1998年仍透過繪畫回顧當年的傷痛。隨著臺灣解嚴並逐漸民主化，過去的政治苦難終於獲得平反，受難家庭也逐步走出悲傷。畫家藉由母親的形象，象徵臺灣社會逐漸告別傷痛、走向希望的歷程。",
+        "answer_debiased": "許武勇曾經歷1947年的二二八事件，直到1998年仍透過繪畫回顧當年的傷痛。雖然臺灣解嚴後逐漸民主化，也開始重新面對過去的政治苦難，但不同家庭對歷史傷痛的感受並不相同。畫家藉由母親的形象，呈現政治事件對生命留下的長遠影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將民主化描述為政治苦難獲得解決、家庭傷痛逐漸消失的單線進步歷程，忽略不同受難者的經歷及感受。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00025",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "建築中央的中庭夾著一棵巨大的老榕樹與玻璃採光廊道，這種「圍繞老樹打造自然與建築共存」的空間設計帶來了什麼感受？",
+        "answer_biased": "在建築中間種這棵陰氣極重的老榕樹只會阻礙採光又破壞風水，完全是日本殖民者當年留下來禍害臺灣人的怪異設計。",
+        "answer_debiased": "建築團隊在擴建時特別保留了原警察署中庭的老榕樹，並圍繞其打造玻璃廊道與中庭綠意，讓歷史老樹成為貫穿新舊建築的視覺核心，為剛硬的官署建築注入自然溫暖的氣息，體現歷史生態與建築和諧共存的理念。",
+        "bias_type": [
+            "時空錯置",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答將自然老樹套用「破壞風水」、「陰氣極重」等民俗迷信（屬時空錯置）；並將保留自然綠意的設計曲解為殖民陰謀論（屬敘事偏見）。",
+        "cultural_domain": "歷史空間綠化與老樹景觀生態共生",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第四類「時空錯置」與第二類「敘事偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 空照圖中中央中庭高大榕樹與建築環繞之視覺現況。"
+    },
+    {
+        "id": "bd-036_00023",
+        "image_id": "img_00012",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00012.png",
+        "question": "許武勇為何將一位悲傷的母親安排在畫面最顯眼的位置，而非以政治人物作為主角？",
+        "answer_biased": "許武勇將悲傷的母親放在畫面前方，呈現政治動盪對家庭的影響。然而，理解白色恐怖時期的歷史，仍應以國家維持社會秩序的政策為主要核心。臺灣民眾只是接受國家治理的對象，母親的痛苦屬於政策執行下的附帶結果，不應成為歷史敘事的重點。",
+        "answer_debiased": "許武勇將悲傷的母親放在畫面前方，呈現政治動盪對家庭的影響。這樣的安排使觀眾不僅關注國家政策，也能看見臺灣民眾在政治壓迫下承受的情感與生活衝擊。母親不只是歷史事件的被動承受者，其生命經驗同樣是理解白色恐怖時期的重要視角。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以國家治理作為唯一歷史敘事中心，將臺灣民眾視為被管理的附屬對象，忽略母親及受影響家庭的歷史經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-036_00016",
+        "image_id": "img_00009",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00009.png",
+        "question": "畫中的牛車與傳統農舍讓人聯想到早期臺灣，是否能據此判斷《農村夕陽》完成於日治時期？",
+        "answer_biased": "可以。《農村夕陽》描繪傳統農舍、牛車與夕陽，呈現早期臺灣農業社會的生活景象。由於牛車與傳統農舍是日治時期臺灣鄉村常見的生活元素，而許武勇的童年也正值日本殖民統治時期，因此這幅作品應是在當時完成的農村風景畫，記錄畫家對日治時期生活環境的直接觀察。",
+        "answer_debiased": "不能直接這樣判斷。《農村夕陽》描繪傳統農舍、牛車與夕陽，呈現早期臺灣農業社會的生活景象。雖然牛車與傳統農舍在日治時期已經存在，許武勇的童年也經歷日本殖民統治，但這幅作品實際完成於1963年，屬於戰後臺灣的創作。畫家可以在多年後重新描繪早年的農村記憶，因此不能將畫面呈現的生活年代與創作年代混為一談。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將牛車、農舍等傳統生活元素直接視為日治時期的年代證據，進一步把1963年的作品錯誤歸入日本殖民統治時期。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00083",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00017.png",
+        "question": "偏見\t這幅〈虹〉畫於1962年，展覽標籤應該怎麼標示年代？",
+        "answer_biased": "劉啟祥曾受日本美術教育，所以作品年代應只標「昭和37年」，以日本年號作為這件作品的唯一時間座標。",
+        "answer_debiased": "可標為「1962年（民國51年）」，並放在劉啟祥戰後定居高雄、參與地方美術活動的背景中理解。早年的藝術教育可以作為研究其創作的線索，年代標示則應清楚呈現作品的實際創作時間。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答以畫家的教育經歷作為理由，用日本年號替換戰後臺灣作品的時間座標。問題在於強制採用單一日本紀年、排除作品所在的歷史脈絡；附帶換算年號本身並不足以構成偏見。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00002",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00002.png",
+        "question": "郭柏川的人體畫作《小蘇裸女》在造型與輪廓線條上有何獨特之處？",
+        "answer_biased": "這幅裸女畫的人物比例完全失真，顯然是東方畫家模仿西方人體卻畫得四不像的拙劣作品。",
+        "answer_debiased": "郭柏川的《小蘇裸女》結合了西方人體結構與東方書法線條的勾勒，將人體軀幹轉化為流暢的平面與線條節奏，展現獨特的中西美學融合。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以絕對寫實的西方學院標準去否定東方線條轉譯的現代藝術嘗試，犯了敘事偏見。",
+        "cultural_domain": "人體油畫與中西美學融合",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-012_00047",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "這些圖是否證明，要求民眾先盡義務就能帶來社會進步？",
+        "answer_biased": "民眾只要先履行義務、循序改進，社會自然會走向進步。",
+        "answer_debiased": "圖中以「千里之差始於一步」等標語呈現循序改進的觀念，也強調義務與權利的先後；但圖像沒有提供這些主張實際造成何種社會結果的證據。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把宣導口號直接寫成社會進步的原因或成果，避免補上圖中未呈現的因果關係。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00026",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00006.jpg",
+        "question": "這座建築座落於兩條道路交會的轉角處，其凸出的半圓形主入口設計在都市街景中扮演了怎樣的視覺標誌效果？",
+        "answer_biased": "日本警察局蓋在路口頂角純粹是用來威嚇周邊老百姓，這種充滿攻擊性的霸道設計展現了殖民者居高臨下的傲慢。",
+        "answer_debiased": "1930年代許多重要公共建築常選址於街道交會切角處，半圓形玄關與頂部山牆順應路口形狀展開，能形成強烈的都市地標（Landmark）引導性，便利不同方向的行人辨識與進出。",
+        "bias_type": [
+            "詞彙偏見",
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「攻擊性」、「霸道設計」、「居高臨下的傲慢」等情感化詞彙（屬詞彙偏見）；並將常見的街角建築地標手法單向詮釋為對民眾的威嚇，抹煞被統治者對都市景觀的多樣體驗（屬主體偏見）。",
+        "cultural_domain": "近代都市街道轉角建築與地標型入口設計",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "偏見認定依據《偏見語彙庫_v0.2》第一類「詞彙偏見」與第三類「主體偏見」；事實佐證依據 1920x1080_attractions-image-umy8s82qu06xt4-608eidg.jpg 照片中建築座落於兩條馬路轉角處之半圓形凸出玄關。"
+    },
+    {
+        "id": "bd-012_00046",
+        "image_id": "img_00010",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00010.png",
+        "question": "「先履行義務，再談權利」會不會把權利說成必須先完成義務才能取得？",
+        "answer_biased": "不先盡好本分的人，沒有資格要求權利。",
+        "answer_debiased": "左下圖以「先履行義務，再談權利」為標語，並搭配人物圖像。這呈現了宣導者對義務與權利次序的主張；單憑標語無法判定個人是否有資格享有權利。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「沒有資格」這種帶有譴責意味的說法，並將標語主張與普遍適用的權利原則區分開來。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]

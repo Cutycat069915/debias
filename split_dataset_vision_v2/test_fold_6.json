@@ -1,0 +1,921 @@
+[
+    {
+        "id": "bd-036_00048",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00017.png",
+        "question": "畫中少女的穿著看起來較為現代，能否從服飾風格判斷這幅畫描繪的仍是日治時期的臺灣？",
+        "answer_biased": "畫中少女穿著近代風格的紅色衣裙，呈現受到日本殖民時期西式服飾文化影響的樣貌。由於這類服裝在日治時期逐漸流行，加上阿里山林場延續日本統治時期的發展基礎，因此畫中呈現的生活景象，仍應歸入日治時期的臺灣社會背景。",
+        "answer_debiased": "畫中少女穿著近代風格的紅色衣裙，可能受到日治時期西式服飾文化的影響。然而，許武勇自述的阿里山生活經歷發生於1946年至1948年，當時日本殖民統治已經結束。因此，不能僅憑少女的服飾風格，就將畫中景象直接歸入日治時期的臺灣社會背景。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將日治時期形成的服飾文化與戰後延續的生活風格，直接視為日本統治仍然存在的證據，以較早的政治時代框架解釋戰後經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00001.png",
+        "question": "在專室中看到郭柏川的《自畫像》，畫面中他的眼神與筆觸呈現了什麼樣的藝術性格？",
+        "answer_biased": "這張自畫像線條歪七扭八又沒上好陰影，看起來像是技術不成熟的失敗塗鴉。",
+        "answer_debiased": "郭柏川的《自畫像》運用了其標誌性的簡練線條與厚實色彩，深刻捕捉了藝術家凝視自我時的內斂神情與堅定心境，展現其成熟的肖像表現力。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將現代藝術的精鍊線條與造型風格貶低為技術不成熟，犯了詞彙偏見。",
+        "cultural_domain": "前輩藝術家自畫像與肖像美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-036_00049",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00017.png",
+        "question": "畫中的少女置身於盛開的石楠花之間，這幅作品與許武勇哪個時期的生活經歷有關？",
+        "answer_biased": "《石楠花》完成於昭和二十四年，創作靈感來自許武勇在阿里山擔任林場醫師期間的登山經歷。當時他與新婚妻子欣賞盛開的石楠花，並將自然景色融入創作。由於畫家的藝術養成與阿里山林業發展具有日本時期的背景，因此這段創作經歷應延續使用昭和紀年，無須另外標示戰後的民國紀年。",
+        "answer_debiased": "《石楠花》完成於1949年（民國三十八年），創作靈感來自許武勇在阿里山擔任林場醫師期間的登山經歷。當時他與新婚妻子欣賞盛開的石楠花，並將自然景色融入創作。雖然畫家的藝術養成與阿里山林業發展具有日本時期的背景，但作品完成於戰後，應依當時的歷史脈絡記述年代。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將日本時期的文化與藝術背景作為選擇紀年體系的依據，主張1949年完成的作品仍應使用昭和紀年，並排除當時臺灣使用的民國紀年。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00033",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00001.png",
+        "question": "郭柏川的《自畫像》中，他直視觀者的眼神傳達了什麼樣的內心世界？",
+        "answer_biased": "畫裡的眼神看起來兇神惡煞又充滿敵意，讓人看了很不舒服。",
+        "answer_debiased": "郭柏川在《自畫像》中以深邃而冷靜的目光直視前方，流露出知識分子在時代變局中自省、堅毅且不妥協的心理深度。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將藝術家凝視自我的冷靜神情曲解為充滿敵意，犯了主體偏見。",
+        "cultural_domain": "藝術家自畫像與內心凝視",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-012_00082",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這些圖是否把警察治理和山地開發描繪成改善原住民族生活的必然途徑？",
+        "answer_biased": "警察深入山地、推動交通與產業建設，讓原住民族逐步過上更便利、進步的生活。",
+        "answer_debiased": "圖像把警察接觸、山地治理與開發情境放在一起，呈現宣傳者對治理的期待；但沒有交代原住民族的看法、土地使用變化或開發造成的影響。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把開發宣傳直接等同於生活改善，也補出圖像未呈現的居民觀點與可能影響。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00090",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00019.png",
+        "question": "那尾張著嘴的紅魚，是不是在表達戰爭中的痛苦？",
+        "answer_biased": "一定是。這幅畫的每一條魚都代表受戰爭迫害的人民，整幅作品唯一的目的就是控訴戰爭。",
+        "answer_debiased": "你提供的作品說明將張口的紅魚解讀為無法自主、任人宰割的象徵，並連結戰時的不安。這是一種詮釋方向。畫中的冷暖色交錯、魚身形狀與桌面空間，也值得從構圖角度觀察；若要確認畫家的反戰意圖，需要他的自述或其他相關資料。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答把一種象徵性解讀說成確定且唯一的創作意圖，將魚的姿態、空間與色彩全部歸因於反戰意識，忽略作品可能具有多重意義。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00031",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "哪些淫猥、低俗的演劇會敗壞風俗，因此必須禁止？",
+        "answer_biased": "淫猥低俗的演劇會敗壞社會風俗，應由警方加以禁止。",
+        "answer_debiased": "圖中列出演劇或活動寫真的檢閱標準，提及治安、社會教育與風俗等考量。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「淫猥」「低俗」「敗壞」帶有道德評價。圖中文字本身也使用了類似的規範語言；改寫時應指出這是檢閱者的判準，而非中立事實。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00003",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00003.jpg",
+        "question": "顏水龍畢生致力於推動藺草編織、竹細工等常民工藝改良，並被譽為「臺灣工藝之父」，這對當時的臺灣社會有何實質意義？",
+        "answer_biased": "顏水龍只會叫大家做竹編和草鞋這種土裡土氣的手工活，根本無法讓臺灣走向真正的現代化國際大都會。",
+        "answer_debiased": "顏水龍有感於常民缺乏美感感知力，透過創立南亞工藝社與關廟竹細工合作社改良日用產品，將「生活即是美」的理念實踐於常民經濟與日常生活中。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "使用貶抑詞彙（如「土裡土氣」）鄙視常民工藝的價值，犯了詞彙偏見。",
+        "cultural_domain": "常民工藝改良與「生活即是美」",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊"
+    },
+    {
+        "id": "bd-029_00028",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00008.png",
+        "question": "郭柏川筆下的《典祀武廟》畫面中，常民街道、電線桿與傳統廟宇飛檐相互交錯的配置，有何獨特的構圖巧思？",
+        "answer_biased": "畫面被電線桿和雜亂的街道人群切割得零零落落，完全破壞了古廟應有的莊嚴神聖感。",
+        "answer_debiased": "郭柏川巧妙地將府城的常民生活場景（如撐傘行人、街屋）與典祀武廟的飛檐、金爐及電線桿交織在同一個空間中，透過幾何線條的引導，營造出兼具日常煙火氣與歷史厚度的空間對話。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以絕對宏偉、無雜質的古典廟宇視角去批判融入常民生活的日常街景構圖，犯了敘事偏見。",
+        "cultural_domain": "府城街景與傳統廟宇建築的空間對話",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-031_00015",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-031/images/img_00005.jpg",
+        "question": "這張圖片顯示了台灣什麼時候有女性警察？",
+        "answer_biased": "臺灣女警制度的起源與演變：臺灣最早在民國三十六年（1947年）戰後初期即開始招募首批女性警察，進入警察體系執行特定治安與婦幼勤務。\n\n照片制服對應的時代特徵：照片中的這套第二代女警常服（淡紫白色上衣、藏青色裙裝／窄裙與捲簷帽），則屬於 1987 年（民國 76 年）修訂、並於 1988 年正式啟用至 2019 年 4 月為止的女性警察標準制服形象，反映了解嚴後至現代戰術制服換發前，女警在警界制度化與專業化的歷史階段。",
+        "answer_debiased": ". 臺灣女性警察的起源時間（西元 1947 年起）\n戰後首批女警：臺灣最早出現女性警察是在二次世界大戰結束後的 西元 1947 年（昭和 22 年／民國 36 年），當時臺灣省警察學校招收了第一期女警訓練班（共 13 位學員），主要負責婦幼保護、戶口查察及安全檢查等勤務。\n\n日治時期狀況：日治時期（1895–1945）的臺灣警察體系並未設有正式的「女性警察官」，僅有少量從事行政協助或衛生巡查的女性僱員。\n\n2. 照片中這套制服的代表年代（西元 1987 年－2019 年）\n第二代警察制服（淡紫白上衣／藏青色裙裝）：照片中的制服為西元 1987 年（民國 76 年）公布修訂、1988 年正式實施的第二代警察常服。\n\n特色與走入歷史：該時期女警常服配有專屬的淡紫白色短袖上衣、藏青色 A 字裙／窄裙以及女性專用的圓形捲簷帽（與男警的大盤帽區隔）。這套制服一直沿用至 西元 2019 年 4 月 18 日，隨後全臺警察統一換發為現代藏青色戰術型警察制服。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以特定國族政府的政治紀年體系進行歷史敘事，將戰後接收與政權轉移時期的年代轉換為單一政治框架，忽略國際視角與跨時代的演變連續性。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-028_00009",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00002.png",
+        "question": "這幅畫是不是在呈現我們今天熟悉的臺南廟口觀光文化？",
+        "answer_biased": "沒錯，當時這裡就和今天一樣，是以觀光客為主的廟口商圈，畫家畫的就是臺南觀光產業的繁榮。",
+        "answer_debiased": "今天的觀展者可能會聯想到廟口觀光，但依現有說明，作品描繪的是當時廟宇附近的市場活動。畫中人物可能涉及買賣或通行，不能直接認定為觀光客，也不能假定市場以觀光為主要用途。理解這幅畫，應先從當時居民的交易與生活空間出發，再討論它與今日景觀的異同。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將今日的觀光商圈概念套回1930年代，混淆不同時期人們使用空間的方式。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+    },
+    {
+        "id": "bd-027_00001",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00001.jpg",
+        "question": "1962年臺南縣、市文獻委員會委員在鹿耳門鄭成功登陸地點紀念碑前合影(左三為蔡草如)，這張照片提供了哪些與地方歷史紀念活動有關的資訊？",
+        "answer_biased": "這張照片記錄1962年合併後的臺南市文獻委員會委員，在鹿耳門鄭成功登陸地點紀念碑前參與歷史紀念活動。照片說明今日臺南市的地方文獻工作者，當時已透過集體合影保存地方歷史記憶。",
+        "answer_debiased": "這張照片記錄1962年臺南縣、市文獻委員會委員在鹿耳門鄭成功登陸地點紀念碑前合影。當時臺南縣與臺南市尚未合併，應使用符合當時行政區劃的名稱，避免以後來形成的臺南市行政架構描述這張歷史照片。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將後來的行政區劃套用於1962年的事件。修改時恢復當時臺南縣與臺南市分立的背景。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-028_00006",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00002.png",
+        "question": "畫中的市場靠近媽祖廟，廟宇和居民的日常生活有什麼關係？",
+        "answer_biased": "以前的居民迷信又落後，生活總是圍繞著廟宇，連買賣也離不開這些迷信場所。",
+        "answer_debiased": "畫中市場位於媽祖樓天后宮附近，並露出廟宇屋頂的一角，可以觀察商業活動與宗教空間在地方生活中的相鄰關係。不過，不能因為居民出現在廟旁市場，就認定他們都有相同信仰，也不能用「迷信」概括他們的生活方式。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以「迷信」「落後」貶低地方信仰，並把市場中的居民視為同質群體。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+    },
+    {
+        "id": "bd-025_00092",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00019.png",
+        "question": "這幅畫完成於1940年，當時已經進入太平洋戰爭了嗎？",
+        "answer_biased": "已經進入了，所以畫家是在回應珍珠港事件之後的社會氣氛，才把魚畫得如此不安。",
+        "answer_debiased": "回答把1941年發生的事件及其後的戰爭情境，倒置為1940年作品的創作背景，並以後來的事件解釋先前的作品。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "按你提供的年代，這幅畫完成於太平洋戰爭爆發前一年。討論其戰爭背景，可以從當時已持續進行的日本侵華戰爭及戰時社會環境切入。作品與具體事件之間的關係，仍需要更多資料支持。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00035",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警察的檢閱與避難宣導，如何帶領娛樂活動從混亂走向現代、安全的管理？",
+        "answer_biased": "警察透過檢閱與場館管理，使娛樂活動逐漸脫離混亂，走向更現代、更安全的制度。",
+        "answer_debiased": "圖中呈現特定的檢閱標準、場所分布與避難提醒，但沒有提供完整的時間序列，無法據此判斷制度如何演變或是否使娛樂活動更安全。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把歷史寫成由「混亂」必然走向「現代、安全」的進步過程。修改後保留材料內容，不替它補上未呈現的發展方向或結果。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00083",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "圖中原住民族人物是以什麼身分出現？他們有沒有自己的意見和行動？",
+        "answer_biased": "原住民族需要警察引導，才能理解治理並配合地方建設。",
+        "answer_debiased": "圖中描繪警察與原住民族人物互動，也呈現山地生活或工作情境；但沒有呈現原住民族的自我表述、協商或對治理的回應。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "不把原住民族只寫成被接觸、被管理或被開發的對象，並指出圖像缺少他們的聲音。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00010",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00003.jpg",
+        "question": "這件作品可能在法國完成，是否表示劉啟祥到歐洲後，藝術才真正進步？",
+        "answer_biased": "是的，臺灣的藝術環境原本落後，只有到法國接受先進藝術的洗禮，他才可能畫出成熟的人物作品。",
+        "answer_debiased": "從其他畫作比較推測此畫可能在法國完成。這可以作為探討他旅法創作的線索，但不足以證明其藝術成就全部來自法國。若要分析創作上的變化，需要比較不同時期的作品、學習經驗與創作選擇，不能把藝術發展簡化為從臺灣的「落後」走向歐洲的「先進」。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以歐洲為藝術發展的唯一標準，將畫家的歷程安排成單向的進步故事。",
+        "cultural_domain": "台展",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://taifuten.com/oblect/%e6%92%90%e8%82%98%e7%9a%84%e5%a5%b3%e4%ba%ba/#squelch-taas-toggle-shortcode-content-2"
+    },
+    {
+        "id": "bd-025_00091",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00019.png",
+        "question": "介紹這幅戰時作品時，除了戰爭政策，還可以從哪些人的角度理解？",
+        "answer_biased": "只要從日本帝國的戰爭目標來理解就夠了，殖民地畫家和平民的感受都沒有獨立意義，只是國家意志的反映。",
+        "answer_debiased": "可以考察畫家的創作選擇、平民的生活經驗，以及觀眾如何理解這類題材。就這幅畫而言，作品說明提供了戰時不安的解讀，但畫家與不同群體的實際感受，仍需透過個別史料了解。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答將帝國設定為唯一具有意義的行動主體，抹去畫家的創作選擇及平民理解、回應戰爭的能力，也把不同人的經驗統一化。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-021_00012",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-021/images/img_00006.jpg",
+        "question": "評論家宮武辰夫在《臺灣日日新報》上對廖繼春的《臺南孔子廟》給予嚴厲批評，這反映了當時什麼樣的審美心態？",
+        "answer_biased": "宮武辰夫的批評客觀公正，證明廖繼春畫傳統孔廟確實是個徹底失敗的題材選擇。",
+        "answer_debiased": "宮武對孔廟題材的輕視，可能源於當時部分日本評論者對中國傳統文化題材的偏見，與後續梅原龍三郎讚賞並繪製孔廟呈現強烈對比。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將帶有殖民偏見的單一評論奉為客觀公理，忽略了不同評論者背後的文化視角差異，犯了主體偏見。",
+        "cultural_domain": "藝術評論中的殖民視角與異國情趣",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：https://taifuten.com/oblect/%e8%87%ba%e5%8d%97%e5%ad%94%e5%ad%90%e5%bb%9f-4/"
+    },
+    {
+        "id": "bd-036_00046",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00017.png",
+        "question": "畫中的石楠花盛開、少女神情平靜，這樣的景象與許武勇當時的生活處境有什麼關係？",
+        "answer_biased": "許武勇在戰後初期面對政治腐敗與社會動盪，因而透過《石楠花》尋求遠離現實的理想世界。當時臺灣社會充滿混亂與絕望，所有人民都失去對現實生活的希望，只能藉由逃避政治紛爭尋求安慰。畫中的寧靜景象正象徵這種共同心境。",
+        "answer_debiased": "許武勇在戰後初期面對政治腐敗與社會動盪，因而透過《石楠花》尋求遠離現實的理想世界。當時臺灣社會受到政治變動與二二八事件的影響，但不同民眾對社會環境有各自的感受與回應。畫中的寧靜景象主要呈現畫家個人尋求心靈寄託的創作心境。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將許武勇個人的逃離現實心境擴大為所有臺灣人民的共同反應，以單一情緒概括複雜的戰後社會經驗。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-028_00010",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00002.png",
+        "question": "介紹江海樹1934年入選臺展，以及1966年參加南部展時，年代應該怎麼寫？",
+        "answer_biased": "統一寫民國23年和民國55年就好，昭和年號應全部刪去，也不用交代戰前戰後的差異，這本來就是同一套國家美術制度的發展。",
+        "answer_debiased": "可以用西元串連經歷，並視需要並列當時紀年：1934年（昭和9年），作品入選第八回臺展；1966年（民國55年），作品於南部展展出。這兩項紀錄分屬日本殖民統治時期與戰後，涉及不同展覽背景。使用同一種紀年方便閱讀，但不能因此假定制度始終相同；1934年的入選紀錄也不能單獨證明作品的確切完成時間。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "問題不在紀年換算，而在強制排除原有年號，並藉此抹去不同時期的政治與展覽制度背景。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+    },
+    {
+        "id": "bd-012_00081",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "圖中的「蕃」「理蕃」等歷史用語，會不會把原住民族描寫成需要被管理的對象？",
+        "answer_biased": "警察透過理蕃工作引導蕃民，使他們逐漸接受治理與文明生活。",
+        "answer_debiased": "圖中使用當時的「蕃」「理蕃」等詞，呈現警察與原住民接觸及山地治理的形象；這些詞反映宣傳材料的分類方式，不應直接當成中性稱呼。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "保留歷史用語以分析材料，同時指出其殖民視角，避免沿用標籤描述原住民族。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-031_00016",
+        "image_id": "img_00005",
+        "image_path": "./dataset/vision_text/bd-031/images/img_00005.jpg",
+        "question": "請問這些女警察大多從事何種任務？",
+        "answer_biased": "自民國三十六年臺灣開始招募與配置女性警察以來，受限於傳統性別分工與體制定位，女警大多被賦予特定輔助性與軟性的警政任務：\n\n婦幼保護與少年事件處理：女警的核心任務長期集中於家暴防治、性侵害案件調查、失蹤兒童尋獲及少年不良行為的輔導與勸導，利用女性被認為較具親和力與同理心的特質進行溝通。\n\n後勤行政、戶口與交管安全：在日常勤務中，女警多負責戶口查察、內勤文書處理、出入境安全檢查（如機場與港口搜身）、交通指揮（特別是學校周邊護童專案）以及外賓接待等輔助性治安維護工作。",
+        "answer_debiased": "從臺灣警政發展史來看，女性警察（女警）的勤務內容隨著時代演進與性別平權推進而產生了顯著轉變。在照片中這套制服（西元 1988–2019 年）及其之前的早期歷史中，女警大多從事以下幾類任務：\n\n1. 早期與中期的專門性任務（以婦幼與軟性勤務為主）\n婦幼與少年保護：早期女警主要針對婦女與兒童案件進行處理，包括家暴防治、性侵害與性騷擾案件防制、失蹤兒童尋獲，以及少年犯罪之輔導與保護勤務。\n\n安全檢查與搜身：在海關、機場、港口、監獄或重大活動中，負責對女性涉案人或旅客進行身體檢查與隨身行李搜查（符合警察法規中女性被搜尋人需由女性執行的規範）。\n\n交通指揮與護童專案：於重要路口進行交通疏導，以及在國民小學上下學時段執行「護童專案」，維護學童交通安全。\n\n2. 演變至當代的全方位外勤與管理任務\n戶口與社區警政：擔任警勤區警員（家戶訪查）、處理社區治安聯絡與婦幼安全宣導。\n\n外勤巡邏與刑事偵查：自 1990 年代起，隨著警察特考與警察大學/警專招生男女比例逐漸平等，女警全面參與派出所一線巡邏、巡邏車執勤、臨檢盤查、刑事偵查（如刑警）、特勤（如維安特勤隊）及各級警政管理幹部職務，任務範圍已與男警完全一致。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以特定國族政府的政治紀年體系進行歷史敘事，將戰後接收與政權轉移時期的年代轉換為單一政治框架，忽略國際視角與跨時代的演變連續性。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-021_00011",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-021/images/img_00006.jpg",
+        "question": "廖繼春在1936年（昭和11年）以《臺南孔子廟》入選第10回臺展，他選取的視角有何建築特徵？",
+        "answer_biased": "廖繼春隨便找個陰暗角落亂畫，根本看不出來這是大名鼎鼎的臺南孔廟。",
+        "answer_debiased": "畫家由明倫堂左側向入德之門望去，透過入德之門的白牆與名宦祠山牆特徵，呈現了孔廟空間結構中幽靜而具層次感的獨特景致。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以貶抑詞彙（如「隨便亂畫」）否定畫家對建築空間特徵的精準捕捉與取景考量，犯了詞彙偏見。",
+        "cultural_domain": "傳統建築寫生與空間構圖取景",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：https://taifuten.com/oblect/%e8%87%ba%e5%8d%97%e5%ad%94%e5%ad%90%e5%bb%9f-4/"
+    },
+    {
+        "id": "bd-029_00027",
+        "image_id": "img_00008",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00008.png",
+        "question": "郭柏川筆下的《典祀武廟》（臺南大關帝廟）如何表現這座古廟的空間與精神氣勢？",
+        "answer_biased": "廟門口畫得歪歪斜斜，完全沒有展現出武廟該有的威嚴與氣派。",
+        "answer_debiased": "郭柏川透過《典祀武廟》宏偉的紅牆與深邃的空間縱深，以厚實的油彩和簡化的線條，凝聚了府城古廟莊嚴肅穆的歷史氛圍。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以建築製圖的筆直標準批判藝術畫作的結構表現，犯了敘事偏見。",
+        "cultural_domain": "府城古廟寫生與武廟紅牆表現",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-027_00021",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00020.png",
+        "question": "這幅作品如何透過海岸歸牧景象，呈現臺灣地方生活及其時代背景？",
+        "answer_biased": "蔡草如描繪一名頭戴斗笠、赤腳行走的趕羊人，手持竹竿帶領六頭山羊緩步歸去，並以高聳的林投樹與黃昏逆光營造寧靜氣氛。由於當時臺灣仍處於戒嚴統治之下，畫中趕羊人沉靜而謹慎的姿態，正反映戒嚴時期地方居民受到政治管制的生活氛圍，也呈現尚未進入民主轉型階段的臺灣農村景象。",
+        "answer_debiased": "蔡草如描繪一名頭戴斗笠、赤腳行走的趕羊人，手持竹竿帶領六頭山羊緩步歸去，並以高聳的林投樹與黃昏逆光營造寧靜氣氛。然而，臺灣已於1987年解嚴，此作品完成於1989年，當時並非戒嚴時期。畫中趕羊人沉靜而從容的姿態，主要呈現地方農牧生活的日常情景，不能直接解釋為政治管制下的行為表現，也無法僅憑畫面判斷當時居民的政治處境。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "將1987年以前的戒嚴政治環境，錯誤套用於1989年的臺灣社會。\n偏見回答忽略作品完成於解嚴之後，並以錯誤的政治背景解釋趕羊人的姿態，將一般農牧生活誤認為戒嚴統治下的社會表現。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00009",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00003.jpg",
+        "question": "顏水龍在1940年於學甲籌備「南亞工藝社」並於隔年成立，將藺草編織改良為手提袋與拖鞋，這項在地產業有何突破？",
+        "answer_biased": "這種鄉下傳統草編手作根本是窮人謀生的克難玩意，稱不上是什麼現代設計產業。",
+        "answer_debiased": "顏水龍將傳統藺草編織的茄芷與草埔鞋進行現代化設計改良，轉化成暢銷一時的新型手提袋與拖鞋，成功串聯傳統工藝與現代商品經濟。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以現代工業製品的眼光輕蔑傳統手工藝的改良經濟價值，犯了詞彙偏見。",
+        "cultural_domain": "南亞工藝社與藺草編織改良",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+    },
+    {
+        "id": "bd-021_00013",
+        "image_id": "img_00006",
+        "image_path": "./dataset/vision_text/bd-021/images/img_00006.jpg",
+        "question": "1938年日本畫家梅原龍三郎來臺時，由廖繼春陪同前往臺南孔廟寫生並完成《臺灣風景》，這段經歷說明了什麼？",
+        "answer_biased": "廖繼春當時只是扮演低聲下氣的提包小弟，完全沒有參與任何藝術創作的實質交流。",
+        "answer_debiased": "廖繼春陪伴梅原龍三郎於孔廟寫生，顯示臺籍前輩畫家與日本名家交流時，在在地風土引介與色彩美學切磋上發揮了積極的網絡鏈結作用。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以貶抑詞彙去人化臺籍畫家，將跨文化藝術切磋歪曲為單向的階級從屬，犯了主體偏見。",
+        "cultural_domain": "臺日畫家交流與古蹟題材美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：https://taifuten.com/oblect/%e8%87%ba%e5%8d%97%e5%ad%94%e5%ad%90%e5%bb%9f-4/"
+    },
+    {
+        "id": "bd-027_00020",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00020.png",
+        "question": "蔡草如《夕照》中牧羊人的傳統服飾，是否能作為判斷當時臺灣農村政治環境的依據？",
+        "answer_biased": "蔡草如《夕照》描繪一名頭戴斗笠、身穿傳統農村服飾的牧羊人，呈現臺灣農村的生活景象。由於作品創作時仍處於動員戡亂時期，因此可認為戒嚴制度也持續影響當時的農村生活。畫中人物保留傳統穿著，反映農村尚未脫離戒嚴時期的政治環境，也說明當時臺灣仍受到戒嚴體制的管理。",
+        "answer_debiased": "蔡草如《夕照》描繪一名頭戴斗笠、身穿傳統農村服飾的牧羊人，呈現臺灣農村的生活景象。然而，作品創作於1989年，當時臺灣已於1987年解除戒嚴，雖然動員戡亂時期直到1991年才終止，但兩者屬於不同的政治法律制度。因此，不能將傳統服飾視為戒嚴制度仍在實施的證據，也不能僅憑人物穿著判斷農村的政治環境。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "混淆戒嚴制度與動員戡亂時期的政治背景，並將人物的傳統服飾視為特定政治制度仍持續運作的證據。\n偏見回答因1989年仍處於動員戡亂時期，便錯誤推定臺灣仍實施戒嚴，忽略兩種政治制度的差異。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00032",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警方如何透過娛樂內容檢閱與場館管理，成功保護民眾並維持秩序？",
+        "answer_biased": "警方檢閱演出內容、管理娛樂場所並宣導避難，成功防止不良風氣與災害，保障了民眾安全。",
+        "answer_debiased": "圖中呈現娛樂內容檢閱標準、場館分布資料與緊急避難提醒；圖片沒有說明這些措施是否達成預期效果。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把檢閱與管理措施直接寫成成功保障安全、改善風氣。修改後區分政策宣導與實際成效。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-029_00038",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00001.png",
+        "question": "在專室展出的《自畫像》中，郭柏川如何透過五官輪廓與筆觸展現藝術家的內在心境？",
+        "answer_biased": "自畫像的臉部線條畫得凹凸不平又隨便，看起來像是沒畫完的半殘草稿。",
+        "answer_debiased": "郭柏川在《自畫像》中以冷靜深邃的目光直視前方，透過簡練的線條與統合的色塊，精鍊地傳達出知識分子在時代變局中堅毅自省的內在精神。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將現代肖像畫的色塊與線條精簡化誤解為未完成草稿，犯了敘事偏見。",
+        "cultural_domain": "藝術家自畫像與內省凝視",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-012_00085",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這組圖是否暗示，原住民族社會必須經由警察治理與現代化開發，才能走向「進步」？",
+        "answer_biased": "警察治理與交通、產業建設逐步帶領山地社會走出落後，邁向現代化。",
+        "answer_debiased": "這些圖呈現特定時期對山地治理與開發的宣傳形象；僅憑圖像無法判斷其歷史效果，也不能證明原住民族社會必須沿著這條路徑發展。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "移除「落後到現代」的單線進步敘事，避免把殖民治理與開發描寫成唯一或必然的歷史道路。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00026",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00003.jpg",
+        "question": "在1943年至1949年間，顏水龍曾短暫居於臺南成家並推動藺草與竹編事業，這段動盪時期的實踐說明了什麼？",
+        "answer_biased": "在二戰空襲與戰後動盪中還搞甚麼編織事業，根本是脫離現實的無謂掙扎。",
+        "answer_debiased": "即使身處二戰戰火與戰後初期動盪，顏水龍在短暫居臺南期間仍一邊成家、一邊推行藺草與竹編手工藝事業，展現其克難環境中持志不懈的實踐力。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將戰時克難的工藝推動貶為脫離現實的掙扎，忽略了其穩定常民生計的實質貢獻，犯了敘事偏見。",
+        "cultural_domain": "戰時與戰後初期臺南居住與工藝推行",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+    },
+    {
+        "id": "bd-027_00041",
+        "image_id": "img_00023",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00023.png",
+        "question": "從蔡草如的臺南成長背景與「朝窗假居」畫室印章，可以了解他哪些生活及創作經歷？",
+        "answer_biased": "蔡草如長期居住在臺南人和街的租屋中，先住45號，後來搬至47號，並因習慣清晨作畫，將畫室命名為「朝窗假居」。這些經歷雖然反映他的生活環境，但真正值得記錄的應是國家美術制度如何培養藝術家。臺灣畫家的個人居住條件與作畫習慣，只是國家藝術發展的附屬內容，無須成為理解其創作的重要依據。",
+        "answer_debiased": "蔡草如長期居住在臺南人和街的租屋中，先住45號，後來搬至47號，並因習慣清晨作畫，將畫室命名為「朝窗假居」。這些經歷反映他的生活環境與日常創作方式，也提供理解其藝術實踐的線索。研究臺灣美術時，除了關注美術制度與展覽活動，也應重視藝術家自身的生活條件、工作習慣與創作選擇。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以國家美術發展作為唯一敘事中心，忽略臺灣藝術家的個人生活與創作經驗。\n偏見回答將蔡草如的生活經歷視為次要資訊，使畫家的自主活動與地方生活背景被國家中心的藝術史敘事所遮蔽。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-012_00084",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00017.png",
+        "question": "這張地圖和幾幅宣導圖，能否代表所有原住民族群及各地的生活情況？",
+        "answer_biased": "山地原住民族的生活與治理需求都相同，因此可以用同一種政策管理。",
+        "answer_debiased": "地圖和圖像呈現特定的區域與官方治理視角，無法代表不同族群、部落及地區的差異，也不足以說明各地實際治理情形。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "避免把不同族群和地方經驗合併成單一的「山地」樣貌，並限制材料可支持的範圍。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00013",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00003.jpg",
+        "question": "這件作品入選1935年的臺展，介紹時應該如何標示年代？",
+        "answer_biased": "應該統一寫成民國24年的作品，不必保留昭和10年，臺灣藝術史本來就只能使用民國紀年。\n\n去偏見的回答：",
+        "answer_debiased": "可寫為「入選1935年（昭和10年）第九回臺灣美術展覽會西洋畫部」。這樣既方便對照，也保留當時的時間背景。若另列民國24年，應說明是紀年換算。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以後來政權的紀年強制替換歷史時間座標。",
+        "cultural_domain": "台展",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://taifuten.com/oblect/%e6%92%90%e8%82%98%e7%9a%84%e5%a5%b3%e4%ba%ba/#squelch-taas-toggle-shortcode-content-2"
+    },
+    {
+        "id": "bd-029_00011",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00001.png",
+        "question": "在專室中看到郭柏川的《自畫像》，畫面中他的眼神與筆觸呈現了什麼樣的藝術性格？",
+        "answer_biased": "這張自畫像線條歪七扭八又沒上好陰影，看起來像是技術不成熟的失敗塗鴉。",
+        "answer_debiased": "郭柏川的《自畫像》運用了其標誌性的簡練線條與厚實色彩，深刻捕捉了藝術家凝視自我時的內斂神情與堅定心境，展現其成熟的肖像表現力。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將現代藝術的精鍊線條與造型風格貶低為技術不成熟，犯了詞彙偏見。",
+        "cultural_domain": "前輩藝術家自畫像與肖像美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-036_00047",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00017.png",
+        "question": "許武勇曾在阿里山擔任林場醫師，這段經歷對《石楠花》的創作有什麼影響？",
+        "answer_biased": "許武勇於戰後初期在阿里山擔任林場醫師，使他有機會接觸當地的自然景觀。這幅作品主要應視為國家林場管理制度下產生的藝術成果，畫家只是制度中的工作人員，其個人登山經歷與情感並非創作的主要因素，作品的意義應以國家山林建設為核心。",
+        "answer_debiased": "許武勇於戰後初期在阿里山擔任林場醫師，使他有機會接觸當地的自然景觀。這幅作品與他熱衷登山、和新婚妻子共同欣賞石楠花的經歷密切相關。畫家將自然景色轉化為藝術創作，也藉由少女與花卉的形象，表達自己對理想世界的嚮往。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以國家林場制度作為藝術創作的主要解釋中心，將許武勇的個人經歷、情感及創作選擇視為附屬因素。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-027_00073",
+        "image_id": "img_00039",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00039.png",
+        "question": "蔡草如以印尼峇里島的女神雕像為繪畫題材，如何理解國家文化與地方宗教藝術在跨國創作中的關係？",
+        "answer_biased": "蔡草如取材自印尼峇里島的白色大理石女神雕像，並透過繪畫呈現其宗教藝術特色。由於峇里島屬於印尼，因此這類宗教雕像應主要視為印尼國家文化的代表，地方信仰只是國家文化體系中的附屬部分。蔡草如的創作也可理解為印尼國家文化影響臺灣藝術的成果，無須特別考慮峇里島在地宗教傳統與藝術家的個人詮釋。",
+        "answer_debiased": "蔡草如取材自印尼峇里島的白色大理石女神雕像，並透過繪畫呈現其宗教藝術特色。這項創作反映畫家對海外宗教藝術題材的觀察與運用。雖然峇里島位於印尼，但當地宗教文化具有自身的歷史與藝術傳統，不能完全以國家文化框架取代其地方特色。理解作品時，也應重視蔡草如對雕像造型及畫面構圖的個人詮釋。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以印尼國家文化作為唯一的詮釋中心，將峇里島的地方宗教傳統及藝術家的個人創作置於從屬地位。\n偏見回答直接以國家歸屬決定宗教藝術的文化意義，忽略地方文化的自主性，以及蔡草如重新描繪雕像的藝術實踐。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-015_00014",
+        "image_id": "img_00004",
+        "image_path": "./dataset/vision_text/bd-015/images/img_00004.jpg",
+        "question": "建築師梅澤捨次郎在1930年代設計臺南警察署時，如何利用天然採光塑造二樓大廳的空間氣氛？",
+        "answer_biased": "開立這些大開窗只是因為當時日本電力技術落後無法全面供電，根本沒有什麼採光設計美學可言。",
+        "answer_debiased": "建築師透過高側窗與多格木門窗的幾何排列，引導自然光線均勻灑落於大廳磨石子地板上，創造出明亮且具層次感的室內光影，展現1930年代近現代建築注重採光與衛生通風的設計思潮。",
+        "bias_type": [
+            "詞彙偏見",
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "原始回答使用「技術落後」、「毫無美感」等主觀貶抑詞彙（屬詞彙偏見）；並否定近代建築學中對自然採光與通風的理性設計思考（屬敘事偏見）。",
+        "cultural_domain": "1930年代近現代建築採光與空間美學",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參考梅澤捨次郎建築作品集"
+    },
+    {
+        "id": "bd-036_00045",
+        "image_id": "img_00017",
+        "image_path": "./dataset/vision_text/bd-036/images/img_00017.png",
+        "question": "許武勇為什麼要將一位少女與盛開的石楠花畫在一起？",
+        "answer_biased": "許武勇任職阿里山林場醫師期間，曾與新婚妻子欣賞盛開的石楠花，因而將自然景色融入創作。畫中的少女是供人欣賞的花瓶，與鮮豔的花卉共同點綴畫面，呈現畫家遠離社會動盪、追求理想世界的心情。",
+        "answer_debiased": "許武勇任職阿里山林場醫師期間，曾與新婚妻子欣賞盛開的石楠花，因而將自然景色融入創作。畫中的少女呈現畫家所描述的熱情南國少女形象，與鮮豔的花卉共同構成畫面，呈現畫家遠離社會動盪、追求理想世界的心情。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "使用「花瓶」稱呼畫中少女，將女性視為僅供觀賞的裝飾，帶有物化及貶抑意味。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00009",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00003.jpg",
+        "question": "畫中的女子肩帶滑落、露出胸部，應該怎麼理解這樣的描繪？",
+        "answer_biased": "這種穿著暴露的女人比較輕浮、不知羞恥，畫家只是把她放蕩的一面表現出來。",
+        "answer_debiased": "畫面呈現女子肩帶滑落、部分胸部裸露的狀態，可以觀察畫家如何處理身體、衣物與明暗的關係。但畫中的姿勢與衣著，不能作為判斷模特兒品格或生活方式的依據。這個姿勢如何形成、是否由畫家安排，現有資料並未交代。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "「輕浮」「不知羞恥」「放蕩」以道德標籤評價女性，將身體呈現直接等同於人格特質。",
+        "cultural_domain": "台展",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://taifuten.com/oblect/%e6%92%90%e8%82%98%e7%9a%84%e5%a5%b3%e4%ba%ba/#squelch-taas-toggle-shortcode-content-2"
+    },
+    {
+        "id": "bd-029_00034",
+        "image_id": "img_00001",
+        "image_path": "./dataset/vision_text/bd-029/images/img_00001.png",
+        "question": "在這張《自畫像》中，郭柏川對自己的衣著與身後背景採取了什麼樣的表現手法？",
+        "answer_biased": "衣服和背景糊成一片完全分不清細節，是畫到一半放棄完成的半成品。",
+        "answer_debiased": "郭柏川刻意將《自畫像》的服飾與背景作極大程度的簡化與色塊統合，藉此徹底凸顯面部神情與線條結構，展現成熟肖像畫的集中力。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將色塊統合的現代藝術手法誤認為未完成的半成品，犯了敘事偏見。",
+        "cultural_domain": "自畫像色塊統合與肖像集中力",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：南薰藝韻－陳澄波、郭柏川、許武勇、沈哲哉藝術家專室導覽手冊"
+    },
+    {
+        "id": "bd-025_00012",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00003.jpg",
+        "question": "女子的短髮、衣著與姿勢，是否表示她在表達今天所說的女性身體自主？",
+        "answer_biased": "當然，她就是在宣揚今天的女性身體自主觀念，劉啟祥也一定是在透過這幅畫支持同樣的運動。",
+        "answer_debiased": "今天的觀眾可以從身體自主或性別關係的角度討論這幅畫，但這是當代的解讀角度，不能直接當成畫家與模特兒當時的意圖。若要判斷作品是否涉及特定的女性解放觀念，還需要當時的文字、創作紀錄或評論，不能單憑短髮與裸露的身體下結論。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "把今日的觀念與運動訴求直接投射到歷史人物身上，混淆當代詮釋與當時意圖。",
+        "cultural_domain": "台展",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://taifuten.com/oblect/%e6%92%90%e8%82%98%e7%9a%84%e5%a5%b3%e4%ba%ba/#squelch-taas-toggle-shortcode-content-2"
+    },
+    {
+        "id": "bd-025_00089",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00019.png",
+        "question": "這些魚讓人想到市場，當時賣魚的人會怎麼看待這樣的畫呢？",
+        "answer_biased": "這些魚讓人想到市場，當時賣魚的人會怎麼看待這樣的畫呢？",
+        "answer_debiased": "畫中的魚貨可能讓從事魚類買賣的人聯想到魚種、鮮度或擺放方式，也可能引起對色彩與構圖的注意。目前提供的資料沒有記錄魚販的觀畫反應，無法代替他們作出判斷。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "回答者以「低等魚販」貶低特定職業群體，並預設其缺乏藝術理解能力，將職業差異轉化為人的高下之分。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-027_00022",
+        "image_id": "img_00020",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00020.png",
+        "question": "1989年這幅作品如何透過趕羊人的姿態、海岸景觀與光影構圖，呈現臺灣地方生活的特色？",
+        "answer_biased": "蔡草如描繪一名頭戴斗笠、赤腳行走的趕羊人，手持竹竿帶領六頭山羊沿海岸歸去。畫家以高聳的林投樹及黃昏逆光營造寧靜氣氛，也呈現海邊粗鄙鄉民的落後生活。趕羊人衣著隨便、赤腳行走，顯示這些缺乏文明素養的地方居民仍維持原始而低等的生活方式。",
+        "answer_debiased": "蔡草如描繪一名頭戴斗笠、赤腳行走的趕羊人，手持竹竿帶領六頭山羊沿海岸歸去。畫家以高聳的林投樹及黃昏逆光營造寧靜氣氛，也呈現臺灣海岸地區的日常勞動生活。趕羊人的服飾與行走姿態，反映畫中人物的活動情景，不能僅憑穿著及是否赤腳，就判斷地方居民的文明程度。",
+        "bias_type": [
+            "詞彙偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "使用「粗鄙鄉民」「落後」「低等」等貶抑詞語，將服飾與勞動方式轉化為對地方居民的負面評價。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-025_00093",
+        "image_id": "img_00019",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00019.png",
+        "question": "展覽年表要介紹這幅1940年的作品，應該怎麼標示年代？",
+        "answer_biased": "必須只寫「民國29年」，並刪除「昭和15年」及臺灣處於日本統治時期的說明，才是正確的歷史年表。",
+        "answer_debiased": "可標示「1940年」。若年表同時介紹臺灣的歷史背景，可補充「日本統治時期，昭和15年」。若另列「民國29年」，應清楚交代其為紀年對照，並保留與作品相關的時代背景。",
+        "bias_type": [
+            "紀年與時代框架偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見在於強制採用單一紀年，並排除當時臺灣的歷史時間座標，使讀者難以理解畫家所處的殖民統治背景。單純把1940年換算為民國29年，本身不足以構成偏見。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-027_00040",
+        "image_id": "img_00023",
+        "image_path": "./dataset/vision_text/bd-027/images/img_00023.png",
+        "question": "畫中描繪農人牽牛耕作的景象，是否能據此認定戰後「耕者有其田」政策已使臺灣農民普遍改善生活？",
+        "answer_biased": "可以。畫中描繪一名農人肩扛農具、牽著水牛前行，呈現臺灣農村的勞動生活。由於當時政府已推行「耕者有其田」政策，因此畫中農人能夠帶著農具與耕牛從事農作，顯示土地改革已使農民獲得自己的土地，生活也逐漸改善。這幅作品反映戰後政府透過土地改革，帶領臺灣農村走向安定與繁榮的發展歷程。",
+        "answer_debiased": "不能直接這樣認定。畫中描繪一名農人肩扛農具、牽著水牛前行，呈現臺灣農村的勞動生活。1961年雖然已實施「耕者有其田」等土地改革政策，但畫中農具與耕牛只能反映傳統農作方式，無法確認農人是否擁有土地，也不足以判斷其經濟狀況。因此，作品可作為觀察農村生活的藝術材料，卻不能單憑畫面證明土地改革已使所有農民獲得改善。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將農人牽牛勞動的景象，直接解釋為政府土地改革成功的證據，形成「政策實施、農民獲得土地、農村走向繁榮」的單線政治敘事。\n偏見回答忽略畫面無法呈現土地所有權、農民收入及生活條件等資訊，僅憑傳統農作景象，便推論政策已全面改善農民生活。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-023_00012",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-023/images/img_00003.jpg",
+        "question": "顏水龍在1942年於關廟等地推動竹材工藝並組織「竹細工產銷合作社」，這對地方經濟有何實質助益？",
+        "answer_biased": "這只是官方強迫基層農民勞動的榨取手段，對地方經濟發展根本沒有好處。",
+        "answer_debiased": "顏水龍深入關廟週邊地區組織竹細工合作社，透過設計改良與合作社組織振興了地方傳統竹工藝產業，提升常民經濟收益。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "將基層合作社與產業振興直接抹黑為勞動榨取，犯了敘事偏見。",
+        "cultural_domain": "關廟竹細工合作社與地方產業振興",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "參見：臺南囡仔顏水龍──從臺灣出發 展望世界的藝術導覽手冊。"
+    },
+    {
+        "id": "bd-012_00033",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "警方如何替民眾篩選適當的娛樂內容，並安排場館安全管理？",
+        "answer_biased": "警方透過檢閱淘汰不適當的演出，並指導民眾在緊急狀況下迅速避難。",
+        "answer_debiased": "圖中呈現檢閱標準與避難注意事項，但未呈現演出者、場館經營者或觀眾如何看待這些規範。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本只呈現警方的管理角色，其他相關人士則成為被管理或被保護的對象。修改後指出圖片未提供他們的觀點。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    },
+    {
+        "id": "bd-028_00008",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00002.png",
+        "question": "江海樹和郭柏川是同事，也參加美術團體，這些交流對他的創作有什麼意義？",
+        "answer_biased": "江海樹只是跟著郭柏川等知名畫家學習，自己的想法並不重要；他的作品能入選，主要就是受到名家帶領。",
+        "answer_debiased": "江海樹與郭柏川相互交流，也參與「南光社」「綠榕會」的活動，這些都是理解其創作環境的線索。但「交流」不等於單向模仿，不能把他的作品完全歸於他人的影響。選擇廟前市場為題材，以及如何安排建物、遮陽布與人物，仍是值得具體分析的創作選擇。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "以知名畫家為唯一中心，把其他創作者降為追隨者，忽略交流的雙向性與個人的創作判斷。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+    },
+    {
+        "id": "bd-028_00007",
+        "image_id": "img_00002",
+        "image_path": "./dataset/vision_text/bd-028/images/img_00002.png",
+        "question": "市場看起來很熱鬧，是否表示當時臺南人的生活都很富裕？",
+        "answer_biased": "是的，日本治理有方，才讓市場這麼繁榮。畫裡人來人往，就證明當時居民都過著富足安定的生活。",
+        "answer_debiased": "遮陽布、交錯的建物與活動的人群，配合筆觸和構圖，營造出市場繁忙的感受。但畫面熱鬧不等於所有居民都富裕，也不能直接證明某項政策的成效。若要了解當時的生活條件，還需要物價、收入、職業與市場交易等資料，區分畫家的視覺表現和居民的實際處境。",
+        "bias_type": [
+            "敘事偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "把畫面中的熱鬧直接等同於普遍富裕，再將其全部歸功於統治者，形成缺乏證據的單一因果敘事。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://tainan-art-history-database.tvaa.tw/zh/locations?slug=mazulou-tianhou-temple"
+    },
+    {
+        "id": "bd-025_00011",
+        "image_id": "img_00003",
+        "image_path": "./dataset/vision_text/bd-025/images/img_00003.jpg",
+        "question": "除了欣賞劉啟祥的畫技，我們可以怎麼理解畫中的模特兒？",
+        "answer_biased": "她只是供畫家練習人體的素材，重要的是畫家的成就，她是誰、有什麼想法都不重要。",
+        "answer_debiased": "可以觀察她撐頭的姿勢、視線，以及身體和桌椅之間的關係，同時區分「畫家塑造的人物形象」與「模特兒本人的經驗」。現有資料沒有交代她的姓名、工作情況或參與姿勢安排的程度，因此不能替她編造想法，也不應認定她只是毫無主體性的創作材料。此外，鼻梁、眼窩等外貌特徵不足以確認她的國籍或族群身分。",
+        "bias_type": [
+            "主體偏見"
+        ],
+        "bias_label": 1,
+        "bias_description": "只承認畫家的行動與價值，把模特兒降為被觀看、被使用的物件。",
+        "cultural_domain": "台展",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": "https://taifuten.com/oblect/%e6%92%90%e8%82%98%e7%9a%84%e5%a5%b3%e4%ba%ba/#squelch-taas-toggle-shortcode-content-2"
+    },
+    {
+        "id": "bd-012_00034",
+        "image_id": "img_00007",
+        "image_path": "./dataset/vision_text/bd-012/images/img_00007.png",
+        "question": "這份「全島興行場一覽表」是否表示臺灣各地都有同樣類型、數量相近的娛樂場所？",
+        "answer_biased": "娛樂場所遍布全臺，各地的種類、數量與管理方式都大致相同。",
+        "answer_debiased": "圖中有興行場分布圖與表格，但無法據此判定各地場所的數量是否相近，或各地是否採取相同管理方式。",
+        "bias_type": [
+            "時空錯置"
+        ],
+        "bias_label": 1,
+        "bias_description": "偏見版本把全島範圍的列表解讀成各地情況一致。修改後不從地圖標記推論未呈現的分布比例與管理差異。",
+        "cultural_domain": "",
+        "split": "train",
+        "annotator_id": "annotator_00001",
+        "annotation_note": ""
+    }
+]
